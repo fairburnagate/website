@@ -1,0 +1,324 @@
+/* If you see this I'm sorry. I have no clue what I'm doing */
+/* ! Main Site*/
+
+.listening {
+	display: flex;
+	width: 176px;
+	height: 80px;
+	font-size: 0.8em;
+	gap: 7px;
+	align-items: center;
+	text-align: left;
+}
+
+#statuscafe {
+	padding-top: 1em;
+	background-color: #ffffff;
+	width: 177px;
+}
+#statuscafe-username {
+	margin-bottom: 0.5em;
+	font-size: 1em;
+}
+#statuscafe-content {
+	margin: 0 1em 0.5em 1px;
+	font-size: 1em;
+}
+* {
+	/* box-sizing: border-box; */
+	scrollbar-width: thin;
+	font-family: "Times New Roman", Times, serif;
+}
+body {
+	background-color: white;
+	color: black;
+}
+.right-column {
+	float: left;
+	width: 177px;
+}
+details {
+	margin-top: 20px;
+	width: 60ch;
+	float: left;
+	margin-bottom: 20px;
+}
+.credits p {
+	font-size: 1em;
+	margin: 0;
+}
+.credits a {
+	font-size: 1.1em;
+}
+.updates {
+	overflow-x: scroll;
+	height: 150px;
+	border-top: 1px dotted rgb(129, 129, 129);
+}
+.updates h4 {
+	padding-left: 20px;
+}
+summary {
+	margin-bottom: 10px;
+}
+@media screen and (max-width: 966px) {
+	.updates {
+		width: 350px;
+	}
+	details {
+		width: 350px;
+	}
+}
+textarea {
+	white-space: wrap;
+	width: 150px;
+	max-width: 150px;
+	height: 50px;
+}
+.updates ul {
+	line-height: 1.5em;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 20px;
+	border-bottom: 1px dotted rgb(129, 129, 129);
+}
+.updates li {
+	margin-bottom: 5px;
+}
+.webring {
+	margin: 0 auto;
+}
+.about {
+	float: left;
+	margin-right: 50px;
+}
+
+/* ! Buttons */
+.buttons {
+	gap: 4px;
+	min-width: 180px;
+	max-width: 180px;
+	height: 285px;
+	max-height: calc(100% - 62px);
+	overflow-y: scroll;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	scrollbar-width: none;
+}
+.buttons img {
+	image-rendering: pixelated;
+}
+.mybuttons {
+	width: 176px;
+	margin-bottom: 10px;
+	column-count: 2;
+}
+@media screen and (max-width: 890px) {
+	.about {
+		width: 50%;
+	}
+	.tab section {
+		top: 1.9em;
+	}
+}
+@media screen and (max-width: 931px) {
+	textarea {
+		width: 130px;
+		max-width: 130px;
+	}
+}
+
+::selection {
+	color: white;
+	background-color: rgb(122, 122, 122);
+}
+a:hover {
+	text-decoration: none;
+}
+a:visited {
+	color: rgb(138, 138, 138);
+}
+a {
+	color: rgb(85, 85, 85);
+}
+p {
+	font-size: 1.2em;
+	max-width: 60ch;
+}
+.button {
+	display: block;
+	align-self: center;
+	width: 88px;
+	height: 31px;
+	image-rendering: pixelated;
+}
+/* ! Header */
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	padding-right: 3vw;
+	z-index: 2;
+	padding-top: 10px;
+	align-items: center;
+}
+header .button {
+	margin-top: 0;
+	padding: 0 2vw 0 2vw;
+}
+nav a:not(:last-of-type) {
+	margin-right: 1vw;
+}
+nav a {
+	color: rgb(85, 85, 85);
+	font-size: 20px;
+	text-decoration: none;
+}
+nav a:visited {
+	color: rgb(85, 85, 85);
+}
+nav {
+	height: fit-content;
+	padding-top: 4px;
+}
+@media screen and (max-width: 668px) {
+	header {
+		flex-wrap: wrap;
+	}
+	nav {
+		padding-left: 2vw;
+		line-height: 1.6em;
+		padding-top: 10px;
+	}
+}
+/* ! Sections */
+.tab section {
+	padding: calc(3em + 1vw) 5vw 8vw 5vw;
+	position: absolute;
+	/* top: 0; */
+	min-height: 100%;
+	width: 100%;
+	background-color: white;
+}
+.tab section:not(:target) {
+	display: none;
+}
+.webrings {
+	max-width: 300px;
+	width: 50%;
+	float: left;
+	margin-right: 50px;
+	margin-left: 10px;
+}
+.webringcontainer {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+.fanlistings {
+	width: 50%;
+	float: left;
+}
+.fanlistingcontainer {
+	image-rendering: pixelated;
+	max-width: 300px;
+}
+.mylinks {
+	line-height: 1.6em;
+}
+.mylinks a {
+	font-size: 18px;
+}
+
+.guest {
+	position: relative;
+	top: 3em;
+}
+@media screen and (max-width: 550px) {
+	.about {
+		width: 90%;
+	}
+	nav {
+		padding: 0 1em 0 1em;
+	}
+}
+@media screen and (max-width: 630px) {
+	section#interests {
+		padding-left: 11px;
+	}
+	section#interests td {
+		padding: 0 1px;
+	}
+}
+@media screen and (max-width: 530px) {
+	section#interests {
+		padding-left: 9px;
+	}
+}
+@media screen and (max-width: 550px) {
+	.tab section {
+		top: 3.5em;
+	}
+	.button {
+		margin-bottom: 2vw;
+	}
+}
+/* ! Table */
+.nested_table {
+	border: none;
+	width: 85%;
+}
+.listboxcontainer {
+	margin: 1rem 0;
+	color: #333;
+}
+.listboxcontent {
+	border-radius: 0px;
+	border: 3px ridge;
+	border-color: #000;
+	background-color: white;
+	padding-bottom: 1em;
+	line-height: 1.4em;
+}
+.listboxcontent ul {
+	padding-right: 1em;
+	font-size: 17px;
+}
+@media screen and (max-width: 500px) {
+	#interests {
+		width: 600px;
+	}
+}
+.listboxheader {
+	position: relative;
+	padding: 10px 10px;
+	border-bottom: 2px solid #999999;
+	z-index: 1;
+}
+.listboxheader span {
+	top: 3px;
+	font-size: 120%;
+	font-weight: bold;
+}
+td {
+	vertical-align: top;
+	width: 19%;
+	padding: 0 10px;
+}
+/* ! Guestbook */
+.guest iframe {
+	display: block;
+	border: none;
+	width: 70%;
+	height: 800px;
+	overflow-x: auto;
+}
+@media screen and (max-width: 500px) {
+	.guest iframe {
+		width: 300px;
+		margin: 0 auto;
+	}
+}
