@@ -147,8 +147,9 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta
 			name="description"
-			content="A website containing info about me and links."
+			content="The home of Saif 7vtia Lastname. A website containing info about me, art, and my directory."
 		/>
+		<meta name="author" content="Saif" />
 		<title>7vtia</title>
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 		<link rel="stylesheet" href="styles.css" />
@@ -176,17 +177,6 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 			href="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring.css"
 		/>
 
-		<style>
-			.tab section {
-				display: none;
-			}
-			.tab section:target {
-				display: block;
-			}
-			#webmasteringbtn {
-				margin: 0;
-			}
-		</style>
 		<script>
 			if (!location.hash) history.replaceState(null, "", "#home");
 			addEventListener("hashchange", () => scrollTo(0, 0));
@@ -290,6 +280,62 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
                   </ul> -->
 
 								<div class="updates">
+									<h4><time datetime="2026-02-18">18/02/2026</time></h4>
+                  <ul>
+                    <li>New last.fm widget.</li>
+                  </ul>
+									<h4>
+										<time datetime="2026-02-16"
+											>16/02/2026</time
+										>
+									</h4>
+									<ul>
+										<li>
+											All neighbours' buttons are now
+											hosted on site.
+										</li>
+									</ul>
+									<h4>
+										<time datetime="2026-02-13"
+											>13/02/2026</time
+										>
+									</h4>
+									<ul>
+										<li>Updated interests</li>
+										<li>New art</li>
+									</ul>
+									<h4>
+										<time datetime="2026-01-30"
+											>30/01/2026</time
+										>
+									</h4>
+									<ul>
+										<li>
+											Updated Graphics section of
+											directory
+										</li>
+										<li>Updated links.txt</li>
+									</ul>
+									<h4>
+										<time datetime="2026-01-24"
+											>24/01/2026</time
+										>
+									</h4>
+									<ul>
+										<li>Updated off-site links</li>
+									</ul>
+									<h4>
+										<time datetime="2026-01-22"
+											>22/01/2026</time
+										>
+									</h4>
+									<ul>
+										<li>
+											Removed dead links from directory
+										</li>
+										<li>Updated links.txt</li>
+										<li>New post!</li>
+									</ul>
 									<h4>
 										<time datetime="2026-01-21"
 											>21/01/2026</time
@@ -879,41 +925,10 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								defer
 							></script>
 
-							<div class="listening" id="listening"></div>
-							<script>
-								const USERNAME = "madieracitrine"; // Put your LastFM username here
-								const BASE_URL = `https://lastfm-last-played.biancarosa.com.br/${USERNAME}/latest-song`;
-
-								const getTrack = async () => {
-									const request = await fetch(BASE_URL);
-									const json = await request.json();
-									let status;
-
-									let isPlaying =
-										json.track["@attr"]?.nowplaying ||
-										false;
-
-									// Values:
-									// COVER IMAGE: json.track.image[1]['#text']
-									// TITLE: json.track.name
-									// ARTIST: json.track.artist['#text']
-
-									document.getElementById(
-										"listening",
-									).innerHTML = `
-    <img src="${json.track.image[1]["#text"]}" style="height: 58px; image-rendering: smooth;">
-    <div id="trackInfo">
-    <marquee id="trackName" scrollamount="3.4" style="font-weight: bold; font-size: 1.1em">&#34;${json.track.name}&#34;</marquee>
-    <p id="artistName" style="color: black; margin-top: 8px; margin-bottom: 8px">${json.track.artist["#text"]}</p>
-    </div>
-    `;
-								};
-
-								getTrack();
-								setInterval(() => {
-									getTrack();
-								}, 10000);
-							</script>
+						<div id="player">
+    <iframe id="player-frame" src="lastfm/lastfm.html" frameborder="0" scrolling="no" style="width: 176px; height: 80px;">
+    </iframe>
+</div>
 
 							<div class="mybuttons">
 								<iframe
@@ -945,15 +960,16 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									href="https://luziekennel.nekoweb.org/"
 									target="_blank"
 									><img
-										src="https://luziekennel.nekoweb.org/graphics/static.png"
+										src="images/static.png"
 										title="Luzie's Kennel (has autoplay)"
+										alt="Luzie's Kennel"
 								/></a>
 
 								<a
 									href="https://hal.nekoweb.org/"
 									target="_blank"
 									><img
-										src="https://hal.nekoweb.org/sitebutton.png"
+										src="images/sitebuttonv1.png"
 										alt="HAL"
 										title="HAL"
 								/></a>
@@ -961,7 +977,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									target="_blank"
 									href="https://littleabyss.nekoweb.org/"
 									><img
-										src="https://littleabyss.nekoweb.org/assets/littleabyss.gif"
+										src="images/littleabyss.gif"
 										alt="littleabyss.nekoweb.org"
 										title="Little Abyss"
 								/></a>
@@ -969,9 +985,10 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									href="https://delzeetoons.nekoweb.org/"
 									target="_blank"
 									><img
-										src="https://delzeetoons.nekoweb.org/newbutton.png"
+										src="images/newbutton.png"
 										style="width: 88px; height: 31px"
 										title="delzeetoons"
+										alt="delzeetoons"
 								/></a>
 								<a
 									href="https://yatagarasu.nekoweb.org"
@@ -985,7 +1002,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									href="https://ellenthekat.nekoweb.org"
 									target="_blank"
 									><img
-										src="https://ellenthekat.nekoweb.org/Images/oc%20headshot%20style.png"
+										src="images/oc-headshot-style.png"
 										alt="ellenthekat"
 										title="Ellen's Den (has autoplay)"
 								/></a>
@@ -993,7 +1010,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									href="https://defkeats.nekoweb.org/"
 									target="_blank"
 									><img
-										src="https://defkeats.nekoweb.org/assets/buttons/button.jpg"
+										src="images/defkeatsbutton.jpg"
 										alt="Defkeats Online"
 										title="Defkeats Online"
 								/></a>
@@ -1003,32 +1020,37 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									><img
 										src="images/bd-bk-bt1.png"
 										title="BD_Bandkanon"
+										alt="BD_Bandkanon"
 								/></a>
 								<a
 									href="https://cult-of-wisdom.nekoweb.org"
 									target="_blank"
 									><img
-										src="https://cult-of-wisdom.nekoweb.org/img/UI/button.png"
+										src="images/cowbutton.png"
 										title="Cult Of Wisdom (18+)"
+										alt="Cult Of Wisdom (18+)"
 								/></a>
 								<a href="https://nondmo.online" target="_blank"
 									><img
-										src="http://nondmo.online/assets/button.png"
+										src="images/nondmo.png"
 										title="nondmo.online"
+										alt="nondmo.online"
 								/></a>
 								<a
 									href="https://julian.nekoweb.org"
 									target="_blank"
 									><img
-										src="https://julian.nekoweb.org/button.png"
+										src="images/julianbutton.png"
 										title="julian"
+										alt="julian"
 								/></a>
 								<a
 									href="https://teos.nekoweb.org/"
 									target="_blank"
 									><img
-										src="https://the-end-of-science.com/Images/requie_button.gif"
+										src="images/requie_button.gif"
 										title="The End of Science (18+)"
+										alt="The End of Science (18+)"
 								/></a>
 								<a
 									href="https://mitadpunketo.nekoweb.org/"
@@ -1036,6 +1058,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									><img
 										src="images/mitadpunketobanner.png"
 										title="mitad punketo"
+										alt="mitad punketo"
 								/></a>
 								<a
 									href="https://calijori.nekoweb.org/"
@@ -1043,14 +1066,16 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									><img
 										src="images/calibutton.jpg"
 										title="calijori"
+										alt="calijori"
 								/></a>
 
 								<a
 									href="https://elite784.neocities.org"
 									target="_blank"
 									><img
-										src="https://i.imgur.com/ROx1jBm.gif"
+										src="images/ROx1jBm.gif"
 										title="ELITE784"
+										alt="ELITE784"
 								/></a>
 								<a
 									href="https://taigabeetle.nekoweb.org/index.html"
@@ -1058,7 +1083,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									><img
 										src="images/taigabeetle.png"
 										alt="taiga beetle in bracelet bead letters"
-										title="taiga and the beetles"
+										title="taiga beetle"
 										width="88"
 										height="31"
 								/></a>
@@ -1069,6 +1094,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									><img
 										src="images/cwtch_button.png"
 										title="Cwtch"
+										alt="Cwtch"
 										width="88"
 										height="31"
 								/></a>
@@ -1076,7 +1102,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									href="https://ryqrtz.nekoweb.org/"
 									target="_blank"
 									><img
-										src="https://ryqrtz.nekoweb.org/ryqrtzbutton.png"
+										src="images/ryqrtzbutton.png"
 										alt="ryqrtz"
 										title="ryqrtz"
 								/></a>
@@ -1085,7 +1111,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									href="https://moonflower.nekoweb.org/"
 									target="_blank"
 									><img
-										src="https://moonflower.nekoweb.org/button.gif"
+										src="images/moonflowerbutton.gif"
 										alt="moonflower"
 										title="moonflower"
 								/></a>
@@ -1094,9 +1120,41 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									href="https://mars.nekoweb.org/?button"
 									target="_blank"
 									><img
-										src="https://mars.nekoweb.org/assets/buttons/button0.gif"
+										src="images/marsbutton0.gif"
 										title="mar's site (has autoplay)"
 										alt="mars' site"
+										width="88"
+										height="31"
+								/></a>
+
+								<a
+									href="https://trout.nekoweb.org/"
+									target="_blank"
+									><img
+										src="images/trout8831.PNG"
+										title="troutzone"
+										alt="troutzone"
+										width="88"
+										height="31"
+								/></a>
+
+								<a
+									href="https://jenett.nekoweb.org/"
+									target="_blank"
+									><img
+										src="images/jjbutt.png"
+										title="jenett.neko"
+										alt="jenett.neko"
+										width="88"
+										height="31"
+								/></a>
+								<a
+									href="https://mycolorfultwistedwebsite.nekoweb.org/"
+									target="_blank"
+									><img
+										src="images/spr_button.png"
+										title="my colorful twisted website"
+										alt="my colorful twisted website"
 										width="88"
 										height="31"
 								/></a>
@@ -1119,7 +1177,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								/>
 
 								<textarea readonly="">
-<a href="https://7vtia.nekoweb.org/" target="_blank"><img src="https://7vtia.nekoweb.org/images/7vtia.png" style="image-rendering: pixelated;"" title="7vtia"></a></textarea
+<a href="https://7vtia.nekoweb.org/" target="_blank"><img src="https://7vtia.nekoweb.org/images/7vtia.png" style="image-rendering: pixelated;" alt="7vtia" title="7vtia"></a></textarea
 								>
 							</div>
 							<span style="font-size: 1.2em"
@@ -1153,11 +1211,11 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								</a>
 								<br />
 								<a
-									href="https://www.musictaste.xyz/agate"
+									href="https://forum.melonland.net/index.php?action=profile;u=3451"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									MusicTaste
+									MelonLand Forum
 								</a>
 							</div>
 						</div>
@@ -1183,9 +1241,10 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 													<li><b>Twin Peaks</b></li>
 													<li>Succession</li>
 													<li>Mr. Robot</li>
-													<li>PLUR1BUS</li>
+													<li>Pluribus</li>
 													<li>Murderbot</li>
 													<li>The Good Place</li>
+													<li>Ted Lasso</li>
 													<li>The Bear</li>
 													<li>Breaking Bad</li>
 													<li>Better Call Saul</li>
@@ -1300,6 +1359,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 													<li>
 														American Head Charge
 													</li>
+													<li>Depeche Mode</li>
 													<li>
 														King Gizzard & The
 														Lizard Wizard
@@ -1341,6 +1401,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 													<li>
 														<b>Piracy</b>
 													</li>
+													<li>DC</li>
 													<li>Teas</li>
 													<li>Coffee</li>
 													<li>Astronomy</li>
@@ -1374,7 +1435,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 						</table>
 						<!-- ! Table End------------------------------------------------>
 					</section>
-					<!--!  Links ----------------------------------------------------->
+					<!--!  Credits ----------------------------------------------------->
 					<section id="credits">
 						<h2>Credits</h2>
 						<div class="credits">
@@ -1422,12 +1483,18 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 
 							<p>
 								Last.fm Widget:
-								<a
+								<strike><a
 									href="https://maxpixels.moe/resources/lastfm-widget/"
 									target="_blank"
 									rel="noopener noreferrer"
 									>maxpixels.moe</a
+								></strike> <a
+									href="https://github.com/vojislav/lastfm-now-playing/tree/main"
+									target="_blank"
+									rel="noopener noreferrer"
+									>vojislav</a
 								>
+
 							</p>
 						</div>
 					</section>
@@ -1496,6 +1563,23 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 												src="https://brooklynights.nekoweb.org/we_bring/onionring-widget.js"
 											></script>
 										</div>
+									</div>
+									<!-- ! RING END -->
+									<br />
+									<!-- ! RING START -->
+									<div class="roboring">
+										<a
+											href="https://stellophiliac.github.io/roboring/7vtia/previous"
+											>←</a
+										>
+										<a
+											href="https://stellophiliac.github.io/roboring"
+											>roboring</a
+										>
+										<a
+											href="https://stellophiliac.github.io/roboring/7vtia/next"
+											>→</a
+										>
 									</div>
 									<!-- ! RING END -->
 									<br />
@@ -1581,7 +1665,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									<!-- ! RING END -->
 									<br />
 									<!-- ! RING START -->
-									<div style="width: 200px">
+									<div>
 										<a
 											href="https://www.virtuagirl.net/webring.htm#{tia}0"
 											style="color: red"
@@ -1643,46 +1727,106 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 												>Aperture Webring</a
 											>!
 										</noscript>
-										<!-- ! RING END -->
-										<br />
-										<!-- ! RING START -->
-										<journal-ring
-											icon="green"
-										></journal-ring>
-										<script
-											async
-											src="https://cdn.jsdelivr.net/gh/js044/nenrikido@main/static/js/misc/journalring.js"
-										></script>
-										<!-- ! RING END -->
-										<br />
-										<!-- ! RING START -->
-										<script
-											defer
-											src="https://unixwebring.neocities.org/webring.js"
-										></script>
-										<!-- ! RING END -->
-										<br />
-										<!-- ! RING START -->
-										<div id="bitring">
-											<script
-												type="text/javascript"
-												src="https://bitring.neocities.org/onionring/onionring-variables.js"
-											></script>
-											<script
-												type="text/javascript"
-												src="https://bitring.neocities.org/onionring/onionring-widget.js"
-											></script>
-											<!-- ! RING END -->
-											<br />
-											<!-- ! RING START -->
-										</div>
 									</div>
+									<!-- ! RING END -->
+									<br />
+									<!-- ! RING START -->
+									<journal-ring icon="green"></journal-ring>
+									<script
+										async
+										src="https://cdn.jsdelivr.net/gh/js044/nenrikido@main/static/js/misc/journalring.js"
+									></script>
+									<!-- ! RING END -->
+									<br />
+									<!-- ! RING START -->
+									<script
+										defer
+										src="https://unixwebring.neocities.org/webring.js"
+									></script>
+									<!-- ! RING END -->
+									<br />
+									<!-- ! RING START -->
+									<div id="bitring">
+										<script
+											type="text/javascript"
+											src="https://bitring.neocities.org/onionring/onionring-variables.js"
+										></script>
+										<script
+											type="text/javascript"
+											src="https://bitring.neocities.org/onionring/onionring-widget.js"
+										></script>
+									</div>
+
+									<!-- ! RING END -->
+									<br />
+									<!-- ! RING START -->
+									<map name="onlinewidget">
+										<area
+											href="https://webring.ghostk.id/online/"
+											target="_blank"
+											shape="rect"
+											coords="20,14,167,24"
+											alt="The online webring"
+											title="The online webring"
+										/>
+										<area
+											href="https://webring.ghostk.id/online/vtia/previous"
+											target="_top"
+											shape="rect"
+											coords="7,27,60,36"
+											alt="Previous"
+											title="Previous"
+										/>
+										<area
+											href="https://webring.ghostk.id/online/random"
+											target="_top"
+											shape="rect"
+											coords="74,27,126,36"
+											alt="Random"
+											title="Random"
+										/>
+										<area
+											href="https://webring.ghostk.id/online/vtia/next"
+											target="_top"
+											shape="rect"
+											coords="139,27,192,36"
+											alt="Next"
+											title="Next"
+										/>
+									</map>
+									<img
+										usemap="#onlinewidget"
+										src="https://ghostk.id/i/onlinegray.gif"
+										width="200"
+										height="40"
+										style="
+											width: 200px;
+											height: 40px;
+											max-width: none;
+											image-rendering: pixelated;
+										"
+										alt="A Windows style dialog box titled 'THE ONLINE WEBRING' with three clickable buttons labeled Previous, Random, and Next"
+									/>
+
+									<!-- ! RING END -->
+									<br />
+
+									<!-- ! RING START -->
+									<object
+										id="melonland-surf-club"
+										data="https://melonland.net/surf-badge.svg?fill=#203e86"
+										type="image/svg+xml"
+										style="width: 100px; height: 100px"
+									></object>
+									<!-- ! RING END -->
+									<br />
+									<!-- ! RING START -->
 								</div>
 							</div>
 
 							<div class="fanlistings">
 								<div class="fanlistingcontainer">
-									<h3>Fanlistings (TBA)</h3>
+									<h3>Fanlistings</h3>
 									<a
 										href="http://in-blue-rain.org/hotel/"
 										target="_blank"
@@ -1797,6 +1941,44 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 							<iframe src="https://agate.atabook.org"></iframe>
 						</div>
 					</section>
+
+					<!--! Still thinking about whether or not to add this-->
+
+					<!-- <section id="uses">
+						<h2>Uses</h2>
+						<p>
+							This is a list of all of the stuff I use! I saw a
+							bunch of these on
+							<a
+								href="https://uses.tech"
+								target="_blank"
+								rel="noopener noreferrer"
+								>uses.tech,</a
+							>
+							so I decided to make my own.
+						</p>
+						<h3>Smartphone</h3>
+						<ul>
+							<li>Samsung Galaxy A36 5G (I know, it sucks.)</li>
+							<li>Operating System: Android 16</li>
+						</ul>
+
+						<h3>Tablet</h3>
+						<ul>
+							<li>iPad Pro (9.7 inch)</li>
+							<li>Operating System: iOS 16.7.7</li>
+						</ul>
+
+						<h3>Laptop</h3>
+						<ul>
+							<li>ThinkPad X395</li>
+							<li>CPU: AMD Ryzen 7 PRO 3700U (8) @ 2.30 GHz</li>
+							<li>GPU: AMD Radeon Vega 10 Graphics</li>
+							<li>SSD: 502 GB</li>
+							<li>RAM: 16 GB</li>
+							<li>Operating System: Linux Mint 22.2</li>
+						</ul>
+					</section> -->
 					<div
 						id="disclaimer"
 						style="
@@ -1814,6 +1996,10 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 							If you have Javascript disabled, please enable it.
 							Don't want to? That's also fine, just click on
 							"Home" on the navigation!
+						</p>
+						<p>
+							If this doesn't apply, then refreshing will probably
+							fix the issue.
 						</p>
 					</div>
 				</div>

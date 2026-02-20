@@ -1,5 +1,5 @@
 /* If you see this I'm sorry. I have no clue what I'm doing */
-/* ! Main Site*/
+/* ! External */
 
 .listening {
 	display: flex;
@@ -13,7 +13,7 @@
 
 #statuscafe {
 	padding-top: 1em;
-	background-color: #ffffff;
+	background-color: #fff;
 	width: 177px;
 }
 #statuscafe-username {
@@ -23,15 +23,16 @@
 #statuscafe-content {
 	margin: 0 1em 0.5em 1px;
 	font-size: 1em;
+	max-height: 55px;
+	overflow-x: scroll;
 }
 * {
-	/* box-sizing: border-box; */
 	scrollbar-width: thin;
 	font-family: "Times New Roman", Times, serif;
 }
 body {
-	background-color: white;
-	color: black;
+	background-color: #fff;
+	color: #000;
 }
 .right-column {
 	float: left;
@@ -117,6 +118,9 @@ textarea {
 	.about {
 		width: 50%;
 	}
+	#statuscafe-content {
+		max-height: 100%;
+	}
 	.tab section {
 		top: 1.9em;
 	}
@@ -127,9 +131,8 @@ textarea {
 		max-width: 130px;
 	}
 }
-
 ::selection {
-	color: white;
+	color: #fff;
 	background-color: rgb(122, 122, 122);
 }
 a:hover {
@@ -152,6 +155,7 @@ p {
 	height: 31px;
 	image-rendering: pixelated;
 }
+
 /* ! Header */
 header {
 	display: flex;
@@ -193,14 +197,14 @@ nav {
 		padding-top: 10px;
 	}
 }
+
 /* ! Sections */
 .tab section {
 	padding: calc(3em + 1vw) 5vw 8vw 5vw;
 	position: absolute;
-	/* top: 0; */
 	min-height: 100%;
 	width: 100%;
-	background-color: white;
+	background-color: #fff;
 }
 .tab section:not(:target) {
 	display: none;
@@ -215,8 +219,10 @@ nav {
 .webringcontainer {
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 	flex-wrap: wrap;
-	gap: 15px;
+	gap: 9px;
 }
 .fanlistings {
 	width: 50%;
@@ -232,7 +238,6 @@ nav {
 .mylinks a {
 	font-size: 18px;
 }
-
 .guest {
 	position: relative;
 	top: 3em;
@@ -266,20 +271,21 @@ nav {
 		margin-bottom: 2vw;
 	}
 }
+
 /* ! Table */
 .nested_table {
 	border: none;
-	width: 85%;
+	width: 60%;
 }
 .listboxcontainer {
 	margin: 1rem 0;
 	color: #333;
 }
 .listboxcontent {
-	border-radius: 0px;
+	border-radius: 0;
 	border: 3px ridge;
 	border-color: #000;
-	background-color: white;
+	background-color: #fff;
 	padding-bottom: 1em;
 	line-height: 1.4em;
 }
@@ -295,13 +301,13 @@ nav {
 .listboxheader {
 	position: relative;
 	padding: 10px 10px;
-	border-bottom: 2px solid #999999;
+	border-bottom: 2px solid #999;
 	z-index: 1;
 }
 .listboxheader span {
 	top: 3px;
 	font-size: 120%;
-	font-weight: bold;
+	font-weight: 700;
 }
 td {
 	vertical-align: top;

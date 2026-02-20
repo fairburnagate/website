@@ -1,0 +1,61 @@
+
+
+html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    color: black;
+}
+body {
+    margin: 0;
+    
+}
+tbody {
+    margin: 0;
+    padding: 0;
+}
+table {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    vertical-align: middle;
+    gap: 7px;
+    width: 176px;
+    height: 80px;
+}
+
+.refresh {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+td {
+    vertical-align: middle;
+}
+
+td#cover {
+	padding-right: 5px;
+}
+
+td#date {
+	font-style: italic;
+    font-size: smaller;
+    width: fit-content;
+}
+td#artist {
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a#track {
+    font-weight: bold;
+font-size: 13px;
+}
+
+a:hover {
+    color: rgb(48, 48, 48);
+}

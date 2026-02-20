@@ -3,7 +3,7 @@ Made with love by Saif.
 All links are ordered according to the Directory: 
 https://7vtia.nekoweb.org/directory.html
 
-Last updated: January 20th, 2026
+Last updated: January 30th, 2026
 
 WEBTOOLS ----
 
@@ -28,6 +28,8 @@ https://ipleak.net/
 https://validator.w3.org/feed/
 
 https://validator.w3.org/checklink
+
+https://www.deadlinkchecker.com/website-dead-link-checker.asp
 
 https://fast.com/
 
@@ -396,7 +398,9 @@ http://www.bio.umass.edu/biology/kunkel/cockroach.html
 
 https://www.insectimages.org/
 
-https://bookcoverarchive.com/
+https://www.internationalposter.com/
+
+https://goldenrecord.org/
 
 https://www.webdesignmuseum.org/
 
@@ -422,9 +426,13 @@ https://archive.org/details/Atari_Dealer_Demo_1980_-
 
 https://dollchan.net/bytebeat/
 
+https://onlinesequencer.net/
+
 https://ascii.co.uk/art
 
 https://www.ascii-art-generator.org/
+
+https://16colo.rs/
 
 
 WEB DEVELOPMENT ----
@@ -456,6 +464,8 @@ https://www.11ty.dev/
 https://carrd.co/
 
 https://straw.page/
+
+https://mmm.page/
 
 https://zonelets.net/
 
@@ -506,9 +516,13 @@ https://www.favicon.cc/
 
 https://gifcities.org/
 
+https://www.gifs-paradise.com/
+
 https://blinkies.cafe/
 
 https://www.internetbumperstickers.com/
+
+https://web.badges.world/
 
 https://textures.neocities.org/
 
@@ -517,5 +531,7 @@ https://acme.com/labelmaker/
 https://makesweet.com/
 
 https://www.toptal.com/designers/subtlepatterns/
+
+https://www.transparenttextures.com/
 
 https://cyber.dabamos.de/88x31/index.html
