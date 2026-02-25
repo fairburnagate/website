@@ -440,6 +440,8 @@ WEB DEVELOPMENT ----
 
 Static Webpage Hosts --
 
+https://surge.sh/
+
 https://pages.cloudflare.com/
 
 https://firebase.google.com/products/hosting
@@ -450,7 +452,7 @@ https://neocities.org/
 
 https://nekoweb.org/
 
-https://surge.sh/
+https://web1.0hosting.net/
 
 
 Webpage Builders --

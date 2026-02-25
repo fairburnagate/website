@@ -250,19 +250,6 @@ nav {
 		padding: 0 1em 0 1em;
 	}
 }
-@media screen and (max-width: 630px) {
-	section#interests {
-		padding-left: 11px;
-	}
-	section#interests td {
-		padding: 0 1px;
-	}
-}
-@media screen and (max-width: 530px) {
-	section#interests {
-		padding-left: 9px;
-	}
-}
 @media screen and (max-width: 550px) {
 	.tab section {
 		top: 3.5em;
@@ -273,47 +260,45 @@ nav {
 }
 
 /* ! Table */
-.nested_table {
-	border: none;
-	width: 60%;
+.row-column {
+	display: flex;
+	flex-direction: row;
+	padding-right: 20px;
 }
+
 .listboxcontainer {
-	margin: 1rem 0;
-	color: #333;
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	flex-wrap: nowrap;
+	max-width: 350px;
 }
-.listboxcontent {
-	border-radius: 0;
-	border: 3px ridge;
-	border-color: #000;
-	background-color: #fff;
-	padding-bottom: 1em;
-	line-height: 1.4em;
+
+.listbox {
+	padding: 0.5em;
+	line-height: 22px;
+	margin-right: 3%;
+	font-size: 1.1em;
+	text-align: left;
 }
-.listboxcontent ul {
-	padding-right: 1em;
-	font-size: 17px;
+
+.listbox h3 {
+	margin-top: 0;
 }
-@media screen and (max-width: 500px) {
-	#interests {
-		width: 600px;
+
+@media screen and (max-width: 530px) {
+	.listboxcontainer {
+		flex-wrap: wrap;
+		width: 100%;
 	}
+	.row-column {
+		flex-direction: column;
+	}
+	/* .listbox {
+					width: 100%;
+				} */
 }
-.listboxheader {
-	position: relative;
-	padding: 10px 10px;
-	border-bottom: 2px solid #999;
-	z-index: 1;
-}
-.listboxheader span {
-	top: 3px;
-	font-size: 120%;
-	font-weight: 700;
-}
-td {
-	vertical-align: top;
-	width: 19%;
-	padding: 0 10px;
-}
+
 /* ! Guestbook */
 .guest iframe {
 	display: block;
