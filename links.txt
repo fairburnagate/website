@@ -3,7 +3,7 @@ Made with love by Saif.
 All links are ordered according to the Directory: 
 https://7vtia.nekoweb.org/directory.html
 
-Last updated: January 30th, 2026
+Last updated: February 25th, 2026
 
 WEBTOOLS ----
 
@@ -39,6 +39,7 @@ https://gist.github.com/ave9858/c3451d9f452389ac7607c99d45edecc6
 
 https://mf2fm.com/rv/
 
+https://vert.sh/
 
 Art Tools --
 
@@ -160,11 +161,17 @@ FILE TOOLS ----
 
 https://www.softwareok.com/?seite=Freeware/Q-Dir
 
+https://www.advancedrenamer.com/
+
+https://www.bcuninstaller.com/
+
 https://www.voidtools.com/
 
 https://www.7-zip.org/
 
 https://syncthing.net/
+
+https://diskanalyzer.com/
 
 https://windirstat.net/
 
@@ -181,6 +188,7 @@ https://mega.io/
 https://pixeldrain.com/home#
 
 https://buzzheavier.com/
+
 
 SOFTWARE ----
 
@@ -213,6 +221,7 @@ https://winaero.com/
 
 https://espanso.org/
 
+
 IRC Clients -- 
 
 https://github.com/squidowl/halloy
@@ -222,6 +231,7 @@ https://konversation.kde.org/
 https://weechat.org/
 
 https://irssi.org/
+
 
 Torrent Clients --
 
@@ -238,6 +248,17 @@ https://www.qbittorrent.org/
 https://transmissionbt.com/
 
 https://www.biglybt.com/
+
+
+RSS Readers --
+
+https://github.com/martinrotter/rssguard
+
+https://apps.kde.org/akregator/
+
+https://github.com/spacecowboy/Feeder
+
+https://nodetics.com/feedbro/
 
 
 Bootable USB --

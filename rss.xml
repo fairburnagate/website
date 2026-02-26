@@ -7,56 +7,42 @@
         <atom:link href="https://7vtia.nekoweb.org/rss.xml" rel="self" type="application/rss+xml" />
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
 
-        <!--
-
-        
-	<item>
-		<title>title</title>
-        <description>description</description>
-		<link>https://7vtia.nekoweb.org/posts/post.html</link>
-		<guid isPermaLink="false">guid-here</guid>
-		<pubDate>day, 00 mon 2026 00:00:00 +0300</pubDate>
-        <author>7vtia@tuta.io (Saif)</author>
-	</item>
-	
--->
-
-<item>
+        <item>
 		<title>Pictures of Floppy Disks</title>
         <description>Exactly as the title says.</description>
 		<link>https://7vtia.nekoweb.org/posts/floppydisk.html</link>
 		<guid isPermaLink="false">pictures-of-floppy-disks</guid>
-		<pubDate>Thu, 22 Jan 2026 18:02:36 +0300</pubDate>
+		<pubDate>Thu, 22 Jan 2026 18:02:36 +0200</pubDate>
         <author>7vtia@tuta.io (Saif)</author>
-	</item>
+	    </item>
 
-	<item>
+	    <item>
 		<title>tilde.club</title>
         <description>I'm on tilde.club now!</description>
 		<link>https://7vtia.nekoweb.org/posts/tilde.html</link>
 		<guid isPermaLink="false">tilde-club</guid>
-		<pubDate>Wed, 21 Jan 2026 17:18:41 +0300</pubDate>
+		<pubDate>Wed, 21 Jan 2026 17:18:41 +0200</pubDate>
         <author>7vtia@tuta.io (Saif)</author>
-	</item>
+	    </item>
 
-<item>
+        <item>
 		<title>Cold Brew (Tea)</title>
         <description>Let's all love cold brew.</description>
 		<link>https://7vtia.nekoweb.org/posts/coldbrewtea.html</link>
 		<guid isPermaLink="false">cold-brew-tea</guid>
-		<pubDate>Fri, 16 Jan 2026 7:53:00 +0300</pubDate>
+		<pubDate>Fri, 16 Jan 2026 07:53:00 +0200</pubDate>
         <author>7vtia@tuta.io (Saif)</author>
-	</item>
+	    </item>
 	
 
-<item>
+        <item>
 		<title>Windows 11 Out of the Box</title>
         <description>I tried out a fresh install of Windows 11 and hated it.</description>
 		<link>https://7vtia.nekoweb.org/posts/windows11.html</link>
 		<guid isPermaLink="false">windows-oobe</guid>
 		<pubDate>Fri, 05 Dec 2025 22:56:00 +0300</pubDate>
         <author>7vtia@tuta.io (Saif)</author>
-	</item>
+	    </item>
 
         	<item>
 		<title>Misogyny in Metal Gear Solid</title>
@@ -65,7 +51,7 @@
 		<guid isPermaLink="false">misogyny-mgs</guid>
 		<pubDate>Fri, 14 Nov 2025 00:41:51 +0300</pubDate>
         <author>7vtia@tuta.io (Saif)</author>
-	</item>
+	    </item>
 
         <item>
 		<title>100 Webmaster Questions</title>
@@ -74,25 +60,25 @@
 		<guid isPermaLink="false">100-questions</guid>
 		<pubDate>Sat, 08 Nov 2025 09:16:00 +0300</pubDate>
         <author>7vtia@tuta.io (Saif)</author>
-	</item>
+	    </item>
 
-<item>
-<title>MusicTaste</title>
+        <item>
+        <title>MusicTaste</title>
         <description>I made a MusicTaste account and have been on a contributing spree.</description>
 		<link>https://7vtia.nekoweb.org/posts/musictaste.html</link>
 		<guid isPermaLink="false">musictaste</guid>
 		<pubDate>Fri, 24 Oct 2025 19:29:00 +0300</pubDate>
         <author>7vtia@tuta.io (Saif)</author>
-</item>
+        </item>
 
-<item>
+        <item>
 		<title>English</title>
         <description>A little incoherent.</description>
 		<link>https://7vtia.nekoweb.org/posts/english.html</link>
 		<guid isPermaLink="false">english</guid>
 		<pubDate>Tue, 14 Oct 2025 16:48:00 +0300</pubDate>
         <author>7vtia@tuta.io (Saif)</author>
-	</item>
+	    </item>
 
         <item>
             <title>Homosexuality, Religion, and Egypt</title>
