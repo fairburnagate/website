@@ -72,9 +72,10 @@ summary {
 }
 textarea {
 	white-space: wrap;
-	width: 179px;
-	max-width: 179px;
+	min-width: 170px;
+	max-width: 170px;
 	height: 50px;
+	max-height: 170px;
 }
 .updates ul {
 	line-height: 1.5em;
@@ -125,12 +126,7 @@ textarea {
 		top: 1.9em;
 	}
 }
-@media screen and (max-width: 931px) {
-	textarea {
-		width: 130px;
-		max-width: 130px;
-	}
-}
+
 ::selection {
 	color: #fff;
 	background-color: rgb(122, 122, 122);

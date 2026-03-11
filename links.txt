@@ -9,14 +9,6 @@ WEBTOOLS ----
 
 General --
 
-https://fmhy.net/
-
-https://www.reddit.com/r/Piracy/
-
-https://archive.org/
-
-https://torrents-csv.com/
-
 https://www.virustotal.com/
 
 https://haveibeenpwned.com/
@@ -31,15 +23,25 @@ https://validator.w3.org/checklink
 
 https://www.deadlinkchecker.com/website-dead-link-checker.asp
 
-https://fast.com/
+https://speed.cloudflare.com/
 
 https://simplelogin.io/
 
-https://gist.github.com/ave9858/c3451d9f452389ac7607c99d45edecc6
-
 https://mf2fm.com/rv/
 
-https://vert.sh/
+
+
+Directories --
+
+https://hal.nekoweb.org/bookmarks.html
+
+https://fmhy.net/
+
+https://www.reddit.com/r/Piracy/
+
+https://archive.org/
+
+https://directory.joejenett.com/
 
 Art Tools --
 
@@ -159,6 +161,8 @@ https://mpv.io/
 
 FILE TOOLS ----
 
+https://vert.sh/
+
 https://www.softwareok.com/?seite=Freeware/Q-Dir
 
 https://www.advancedrenamer.com/
@@ -174,6 +178,25 @@ https://syncthing.net/
 https://diskanalyzer.com/
 
 https://windirstat.net/
+
+
+Torrenting --
+
+https://torrents-csv.com/
+
+https://gitlab.com/proninyaroslav/libretorrent
+
+https://play.google.com/store/apps/details?id=com.delphicoder.flud
+
+https://wiztorrent.com/en
+
+https://deluge-torrent.org/
+
+https://www.qbittorrent.org/
+
+https://transmissionbt.com/
+
+https://www.biglybt.com/
 
 File Hosts --
 
@@ -231,23 +254,6 @@ https://konversation.kde.org/
 https://weechat.org/
 
 https://irssi.org/
-
-
-Torrent Clients --
-
-https://gitlab.com/proninyaroslav/libretorrent
-
-https://play.google.com/store/apps/details?id=com.delphicoder.flud
-
-https://wiztorrent.com/en
-
-https://deluge-torrent.org/
-
-https://www.qbittorrent.org/
-
-https://transmissionbt.com/
-
-https://www.biglybt.com/
 
 
 RSS Readers --
