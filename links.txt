@@ -3,7 +3,7 @@ Made with love by Saif.
 All links are ordered according to the Directory: 
 https://7vtia.nekoweb.org/directory.html
 
-Last updated: February 25th, 2026
+Last updated: April 9th, 2026
 
 WEBTOOLS ----
 
@@ -17,8 +17,6 @@ https://haveibeenpwned.com/Passwords
 
 https://ipleak.net/
 
-https://validator.w3.org/feed/
-
 https://validator.w3.org/checklink
 
 https://www.deadlinkchecker.com/website-dead-link-checker.asp
@@ -27,7 +25,7 @@ https://speed.cloudflare.com/
 
 https://simplelogin.io/
 
-https://mf2fm.com/rv/
+https://www.mf2fm.com/rv/
 
 
 
@@ -213,6 +211,31 @@ https://pixeldrain.com/home#
 https://buzzheavier.com/
 
 
+RSS TOOLS ----
+
+https://validator.w3.org/feed/
+
+https://chaiaeran.github.io/RuSShdown/
+
+https://topazcomics.com/one-shots/a-mini-guide-to-rss-feeds-1/
+
+https://wiki.melonland.net/rss_guide
+
+RSS Readers --
+
+https://github.com/martinrotter/rssguard
+
+https://apps.kde.org/akregator/
+
+https://github.com/spacecowboy/Feeder
+
+https://nodetics.com/feedbro/
+
+https://mire.meadow.cafe/
+
+https://rss.fmhy.bid/
+
+
 SOFTWARE ----
 
 https://archive.org/details/software
@@ -256,17 +279,6 @@ https://weechat.org/
 https://irssi.org/
 
 
-RSS Readers --
-
-https://github.com/martinrotter/rssguard
-
-https://apps.kde.org/akregator/
-
-https://github.com/spacecowboy/Feeder
-
-https://nodetics.com/feedbro/
-
-
 Bootable USB --
 
 https://www.ventoy.net/en/index.html
@@ -287,6 +299,8 @@ https://neovim.io/
 https://www.gnu.org/software/emacs/
 
 https://lite-xl.com/
+
+https://www.geany.org/
 
 
 Abandonware --
@@ -323,9 +337,14 @@ https://f-droid.org/en/
 
 https://droidify.eu.org/
 
-https://revanced.app/
+https://morphe.software/
+https://www.reddit.com/r/MorpheApp/comments/1recqxc/morphe_manager_patch_index/
 
 https://github.com/AbdurazaaqMohammed/AntiSplit-M
+
+https://github.com/rikkaapps/shizuku
+
+https://github.com/JunkFood02/Seal
 
 
 iOS Sideloading --
@@ -333,6 +352,8 @@ iOS Sideloading --
 https://ios.cfw.guide/sideloading-apps/#required-reading
 
 https://sideloadly.io/
+
+https://github.com/CLARATION/Impactor
 
 https://github.com/opa334/TrollStore
 
@@ -555,7 +576,7 @@ https://web.badges.world/
 
 https://textures.neocities.org/
 
-https://acme.com/labelmaker/
+http://acme.com/labelmaker/
 
 https://makesweet.com/
 
