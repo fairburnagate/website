@@ -1,190 +1,201 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Torrenting & Download Managers</title>
-    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
-    <link rel="stylesheet" href="poststyle.css" />
-    <link rel="stylesheet" href="../styles.css" />
-    <style>
-      li {
-        font-size: 1.2em;
-        max-width: 60ch;
-      }
-      details {
-        width: 100%;
-      }
-      summary {
-        font-size: 1.2rem;
-        margin-bottom: 5px;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <div class="button">
-        <img src="../images/7vtia.png" />
-      </div>
-      <nav>
-        <a href="https://7vtia.nekoweb.org/posts.html">Posts</a>
-        <a href="https://7vtia.nekoweb.org">Main Site</a>
-      </nav>
-    </header>
-    <main>
-      <div class="col post">
-        <h2>Torrenting & Download Managers</h2>
-        <p class="postdate">
-          Posted <time datetime="17-03-2026">March 17th, 2026</time>
-        </p>
-        <p>
-          As you may know, I&#39;m really into downloading random things on the
-          internet and wasting my storage. I also like wasting my storage more
-          efficiently, which has introduced me to the world of torrents and
-          download managers, and I think it would be great if more people knew
-          of them!
-        </p>
-        <p>Let&#39;s start with my favourite: <strong>Torrenting.</strong></p>
-        <h3 id="what-is-torrenting-">What is torrenting?</h3>
-        <p>
-          When you download a file, you send a request to a central server, and
-          that server sends you said file. Every download of that file goes
-          through that server, and only that server, which puts strain on the
-          connection.
-        </p>
-        <p>
-          What torrenting does instead, is that it downloads chunks of the file
-          from other users&#39; computers on the network and pieces them
-          together. Imagine it as cutting your food into bite-sized pieces
-          instead of downing the whole thing at once.
-        </p>
-        <p>
-          For torrenting, I recommend using
-          <a
-            href="https://www.qbittorrent.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >qBittorrent</a
-          >. Please don&#39;t use uTorrent.
-        </p>
-        <p>Main benefits of torrenting:</p>
-        <ol>
-          <li>
-            Downloads are resumable. I find torrenting much more reliable at
-            this, as resuming downloads on my browser results in the download
-            failing 99% of the time.
-          </li>
-          <li>
-            Faster download speeds! Torrents are very great for downloading
-            large files which would otherwise take me several hours to download
-            normally.
-          </li>
-          <li>
-            It&#39;s decentralized. If your download gets stuck, you can
-            continue downloading using another source.
-          </li>
-          <li>
-            Files are very easy to find using search extensions or resources
-            like
-            <a
-              href="https://torrents-csv.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Torrents-CSV</a
-            >
-            or
-            <a
-              href="https://fmhy.net"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              FMHY</a
-            >.
-          </li>
-        </ol>
-        <p>There are some downsides to all of this, though:</p>
-        <ol>
-          <li>
-            People who are downloading/sharing the same file as you can see your
-            IP.
-          </li>
-          <li>
-            If you&#39;re torrenting something like a movie and you&#39;re
-            living in a country that cares about copyright laws, like the US,
-            you might also get a letter from your ISP telling you to stop.
-          </li>
-        </ol>
-        <p>
-          Both of these issues can be avoided by using a VPN and binding your
-          torrent client to it. I recommend Mullvad VPN, which costs 5
-          euros/month, and Cloudflare WARP, which is free.
-        </p>
-        <h3>Download Managers</h3>
-        <p>
-          If you don&#39;t want to go through all of that hassle just to get
-          faster downloads, you can also use
-          <strong>download managers.</strong> A download manager is a software
-          made for, well, downloading files.
-        </p>
-        <p>Main benefits of using a download manager:</p>
-        <ol>
-          <li>
-            Download managers establish multiple connections to a server to
-            achieve faster download speeds, and circumvent bandwidth limits.
-          </li>
-          <li>
-            Like torrenting, download managers are more reliable at resuming
-            downloads than browsers.
-          </li>
-          <li>
-            Instead of being forced to go on a file host and having to go
-            through a bunch of pages to download your files, your download
-            manager will get the link for you using a Link Grabber.
-          </li>
-          <li>
-            They give you the ability to do automatic actions upon completion,
-            such as auto-unzipping bundles, putting your computer to sleep, etc.
-          </li>
-          <li>
-            Download managers like IDM (paid) or JDownloader (free) have browser
-            integrations that let you download files more easily.
-          </li>
-        </ol>
-        <p>
-          Do keep in mind that the JDownloader website has downloads that
-          contain adware on the frontpage.
-          <a
-            href="https://jdownloader.org/jdownloader2"
-            target="_blank"
-            rel="noopener noreferrer"
-            >This link</a
-          >
-          has the downloads that do not contain adware. I&#39;ll also add a
-          debloating guide below if you&#39;ve downloaded it.
-        </p>
-        <details>
-          <summary>Debloating JDownloader</summary>
-          <p>
-            Go to Settings (Ctrl+P) &gt; Advanced Settings. In &quot;Filter
-            Settings&quot;, look up these phrases and click on the checkboxes in
-            each result to disable it.
-          </p>
-          <ol>
-            <li>oboom</li>
-            <li>premium alert</li>
-            <li>Donate</li>
-            <li>Banner</li>
-            <li>Special Deals</li>
-          </ol>
-        </details>
-        <p>
-          I hope this knowledge helps you as it has helped me. Keep in mind that
-          this isn't *everything* about torrents and file managers, and I advise
-          you to do your own research. Make sure to use an adblocker and to scan
-          your files for viruses, too!
-        </p>
-      </div>
-    </main>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Torrenting & Download Managers</title>
+		<link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+		<link rel="stylesheet" href="poststyle.css" />
+		<link rel="stylesheet" href="../styles.css" />
+		<style>
+			li {
+				font-size: 1.2em;
+				max-width: 60ch;
+			}
+			details {
+				width: 100%;
+			}
+			summary {
+				font-size: 1.2rem;
+				margin-bottom: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="button">
+				<img src="../images/7vtia.png" />
+			</div>
+			<nav>
+				<a href="https://7vtia.nekoweb.org/posts.html">Posts</a>
+				<a href="https://7vtia.nekoweb.org">Main Site</a>
+			</nav>
+		</header>
+		<main>
+			<div class="col post">
+				<h2>Torrenting & Download Managers</h2>
+				<p class="postdate">
+					Posted <time datetime="17-03-2026">March 17th, 2026</time>
+				</p>
+				<p>
+					As you may know, I&#39;m really into downloading random
+					things on the internet and wasting my storage. I also like
+					wasting my storage more efficiently, which has introduced me
+					to the world of torrents and download managers, and I think
+					it would be great if more people knew of them!
+				</p>
+				<p>
+					Let&#39;s start with my favourite:
+					<strong>Torrenting.</strong>
+				</p>
+				<h3 id="what-is-torrenting-">What is torrenting?</h3>
+				<p>
+					When you download a file, you send a request to a central
+					server, and that server sends you said file. Every download
+					of that file goes through that server, and only that server,
+					which puts strain on the connection.
+				</p>
+				<p>
+					What torrenting does instead, is that it downloads chunks of
+					the file from other users&#39; computers on the network and
+					pieces them together. Imagine it as cutting your food into
+					bite-sized pieces instead of downing the whole thing at
+					once.
+				</p>
+				<p>
+					For torrenting, I recommend using
+					<a
+						href="https://www.qbittorrent.org/"
+						target="_blank"
+						rel="noopener noreferrer"
+						>qBittorrent</a
+					>. Please don&#39;t use uTorrent.
+				</p>
+				<p>Main benefits of torrenting:</p>
+				<ol>
+					<li>
+						Downloads are resumable. I find torrenting much more
+						reliable at this, as resuming downloads on my browser
+						results in the download failing 99% of the time.
+					</li>
+					<li>
+						Faster download speeds! Torrents are very great for
+						downloading large files which would otherwise take me
+						several hours to download normally.
+					</li>
+					<li>
+						It&#39;s decentralized. If your download gets stuck, you
+						can continue downloading using another source.
+					</li>
+					<li>
+						Files are very easy to find using search extensions or
+						resources like
+						<a
+							href="https://torrents-csv.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Torrents-CSV</a
+						>
+						or
+						<a
+							href="https://fmhy.net"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							FMHY</a
+						>.
+					</li>
+				</ol>
+				<p>There are some downsides to all of this, though:</p>
+				<ol>
+					<li>
+						People who are downloading/sharing the same file as you
+						can see your IP.
+					</li>
+					<li>
+						If you&#39;re torrenting something like a movie and
+						you&#39;re living in a country that cares about
+						copyright laws, like the US, you might also get a letter
+						from your ISP telling you to stop.
+					</li>
+				</ol>
+				<p>
+					Both of these issues can be avoided by using a VPN and
+					binding your torrent client to it. I recommend Mullvad VPN,
+					which costs 5 euros/month, and Cloudflare WARP, which is
+					free.
+				</p>
+				<h3>Download Managers</h3>
+				<p>
+					If you don&#39;t want to go through all of that hassle just
+					to get faster downloads, you can also use
+					<strong>download managers.</strong> A download manager is a
+					software made for, well, downloading files.
+				</p>
+				<p>Main benefits of using a download manager:</p>
+				<ol>
+					<li>
+						Download managers establish multiple connections to a
+						server to achieve faster download speeds, and circumvent
+						bandwidth limits.
+					</li>
+					<li>
+						Like torrenting, download managers are more reliable at
+						resuming downloads than browsers.
+					</li>
+					<li>
+						Instead of being forced to go on a file host and having
+						to go through a bunch of pages to download your files,
+						your download manager will get the link for you using a
+						Link Grabber.
+					</li>
+					<li>
+						They give you the ability to do automatic actions upon
+						completion, such as auto-unzipping bundles, putting your
+						computer to sleep, etc.
+					</li>
+					<li>
+						Download managers like IDM (paid) or JDownloader (free)
+						have browser integrations that let you download files
+						more easily.
+					</li>
+				</ol>
+				<p>
+					Do keep in mind that the JDownloader website has downloads
+					that contain adware on the frontpage.
+					<a
+						href="https://jdownloader.org/jdownloader2"
+						target="_blank"
+						rel="noopener noreferrer"
+						>This link</a
+					>
+					has the downloads that do not contain adware. I&#39;ll also
+					add a debloating guide below if you&#39;ve downloaded it.
+				</p>
+				<details>
+					<summary>Debloating JDownloader</summary>
+					<p>
+						Go to Settings (Ctrl+P) &gt; Advanced Settings. In
+						&quot;Filter Settings&quot;, look up these phrases and
+						click on the checkboxes in each result to disable it.
+					</p>
+					<ol>
+						<li>oboom</li>
+						<li>premium alert</li>
+						<li>Donate</li>
+						<li>Banner</li>
+						<li>Special Deals</li>
+					</ol>
+				</details>
+				<p>
+					I hope this knowledge helps you as it has helped me. Keep in
+					mind that this isn't *everything* about torrents and file
+					managers, and I advise you to do your own research. Make
+					sure to use an adblocker and to scan your files for viruses,
+					too!
+				</p>
+			</div>
+		</main>
+	</body>
 </html>

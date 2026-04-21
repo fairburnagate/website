@@ -1,17 +1,17 @@
 /* style-my-tootltips plugin, tooltip styling */
 #s-m-t-tooltip {
-  /* basic */
-  max-width: 300px;
-  z-index: 10;
-  margin: 20px 14px 7px 12px;
-  /* style and design */
-  padding: 8px;
-  background: #fff; /* fallback if rgba not supported */
-  background: rgba(255, 255, 255);
-  border: 1px solid #000;
-  /* font */
-  font-family: "Times New Roman", Times, serif;
-  font-size: 14px;
-  line-height: 16px;
-  color: #000;
+	/* basic */
+	max-width: 300px;
+	z-index: 10;
+	margin: 20px 14px 7px 12px;
+	/* style and design */
+	padding: 8px;
+	background: #fff; /* fallback if rgba not supported */
+	background: rgba(255, 255, 255);
+	border: 1px solid #000;
+	/* font */
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000;
 }
