@@ -1,6 +1,11 @@
 /* If you see this I'm sorry. I have no clue what I'm doing */
 /* ! External */
 
+.melonLink img {
+	width: 300px;
+	height: 30px;
+}
+
 .listening {
 	display: flex;
 	width: 176px;
@@ -123,7 +128,7 @@ textarea {
 		max-height: 100%;
 	}
 	.tab section {
-		top: 1.9em;
+		top: 3em;
 	}
 }
 
@@ -166,7 +171,10 @@ header {
 }
 header .button {
 	margin-top: 0;
-	padding: 0 2vw 0 2vw;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 2vw;
+	padding-right: 2vw;
 }
 nav a:not(:last-of-type) {
 	margin-right: 1vw;
@@ -238,6 +246,20 @@ nav {
 	position: relative;
 	top: 3em;
 }
+
+.uses li {
+	font-size: 1.2em;
+}
+
+.uses {
+	width: 90%;
+}
+
+#useslist {
+	font-size: 1.2em;
+	line-height: 1.6em;
+}
+
 @media screen and (max-width: 550px) {
 	.about {
 		width: 90%;
@@ -246,12 +268,14 @@ nav {
 		padding: 0 1em 0 1em;
 	}
 }
+
 @media screen and (max-width: 550px) {
 	.tab section {
 		top: 3.5em;
 	}
 	.button {
 		margin-bottom: 2vw;
+		padding-left: 4vw;
 	}
 }
 

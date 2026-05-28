@@ -7,9 +7,243 @@
         <atom:link href="https://7vtia.nekoweb.org/rss.xml" rel="self" type="application/rss+xml" />
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
 
+        
+        <item>
+		<title>Nothing</title>
+		<link>https://7vtia.nekoweb.org/posts.html/#nothing</link>
+		<guid isPermaLink="false">nothing</guid>
+        <description>
+        <![CDATA[
+       <p>
+Short posts are here! I'm finally done being swarmed by exams all
+of the time, and I'm stuck doing the same thing I do whenever I
+have free time, which is nothing. I feel like I can only achieve
+things whenever I have a completely unrelated deadline close by.
+</p>
+<p>
+I'm hoping to get to drawing actual full pieces again, though I'd
+be perfectly fine with unfinished pieces though. Better something
+than nothing, right?
+</p>
+        ]]>
+        </description>
+		<pubDate>Thu, 28 May 2026 18:46:40 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+        </item>
+
+         <item>
+		<title>This Page</title>
+        <description>"Or more specifically, the Posts page."
+        <![CDATA[<p>
+					This is something I&#39;ve thought about, and then put off, just to
+					think about it even more. It&#39;s the way I have my posts stored on
+					my website.
+				</p>
+				<p>
+					I want to have my posts all on the same page, whether they be put
+					under a details element or just all laid out there for you to scroll
+					endlessly, but I would have to sacrifice a lot of the accessibility on
+					mobile to do so.
+				</p>
+				<p>
+					My brain is weird. The way I have my posts laid out currently—with you
+					having to go to a separate page for each post—makes me feel like I
+					*have* to make each post long enough to be deserving of a whole entire
+					page. Like it&#39;s some grand gesture. I want to be able to make
+					shorter posts without my brain being weird about it, and this is a way
+					that makes sense to me.
+				</p>
+				<p>
+					Sometimes, I just want to write about something mundane, like how I
+					went to the grocery store and xyz happened, but I&#39;m not going to
+					write up a storm about it. Maybe it&#39;ll just be 3 or so sentences,
+					and I&#39;ll say to myself &quot;Come on, I&#39;m not gonna dedicate a
+					whole entire page to three sentences!&quot; and then leave my journal
+					to collect dust.
+				</p>
+				<p>
+					I could have separate pages dedicated to certain weeks, but what if I
+					want to make longer posts back-to-back? That would be <em>so</em> much
+					to scroll through! The same goes with if I were to just lay it out
+					there.
+				</p>
+				<p>
+					But if I were to have every post be collapsible, I feel like it
+					wouldn&#39;t work for a shorter post. You see &quot;New post!&quot; in
+					the changelog just for it to be a single paragraph. Ugh. Or am I
+					overthinking this?
+				</p>
+				<p>Let me know your thoughts. I really have no idea on what to do.</p>
+        ]]>
+        </description>
+		<link>https://7vtia.nekoweb.org/posts/thispage.html</link>
+		<guid isPermaLink="false">this-page</guid>
+		<pubDate>Tue, 26 May 2026 12:05:15 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+        </item>
+
         <item>
 		<title>Torrenting and Download Managers</title>
-        <description>Mandated "Why you should use this thing I use" post.</description>
+        <description> <![CDATA[
+        <p>
+					As you may know, I&#39;m really into downloading random
+					things on the internet and wasting my storage. I also like
+					wasting my storage more efficiently, which has introduced me
+					to the world of torrents and download managers, and I think
+					it would be great if more people knew of them!
+				</p>
+				<p>
+					Let&#39;s start with my favourite:
+					<strong>Torrenting.</strong>
+				</p>
+				<h3 id="what-is-torrenting-">What is torrenting?</h3>
+				<p>
+					When you download a file, you send a request to a central
+					server, and that server sends you said file. Every download
+					of that file goes through that server, and only that server,
+					which puts strain on the connection.
+				</p>
+				<p>
+					What torrenting does instead, is that it downloads chunks of
+					the file from other users&#39; computers on the network and
+					pieces them together. Imagine it as cutting your food into
+					bite-sized pieces instead of downing the whole thing at
+					once.
+				</p>
+				<p>
+					For torrenting, I recommend using
+					<a
+						href="https://www.qbittorrent.org/"
+						target="_blank"
+						rel="noopener noreferrer"
+						>qBittorrent</a
+					>. Please don&#39;t use uTorrent.
+				</p>
+				<p>Main benefits of torrenting:</p>
+				<ol>
+					<li>
+						Downloads are resumable. I find torrenting much more
+						reliable at this, as resuming downloads on my browser
+						results in the download failing 99% of the time.
+					</li>
+					<li>
+						Faster download speeds! Torrents are very great for
+						downloading large files which would otherwise take me
+						several hours to download normally.
+					</li>
+					<li>
+						It&#39;s decentralized. If your download gets stuck, you
+						can continue downloading using another source.
+					</li>
+					<li>
+						Files are very easy to find using search extensions or
+						resources like
+						<a
+							href="https://torrents-csv.com/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Torrents-CSV</a
+						>
+						or
+						<a
+							href="https://fmhy.net"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							FMHY</a
+						>.
+					</li>
+				</ol>
+				<p>There are some downsides to all of this, though:</p>
+				<ol>
+					<li>
+						People who are downloading/sharing the same file as you
+						can see your IP.
+					</li>
+					<li>
+						If you&#39;re torrenting something like a movie and
+						you&#39;re living in a country that cares about
+						copyright laws, like the US, you might also get a letter
+						from your ISP telling you to stop.
+					</li>
+				</ol>
+				<p>
+					Both of these issues can be avoided by using a VPN and
+					binding your torrent client to it. I recommend Mullvad VPN,
+					which costs 5 euros/month, and Cloudflare WARP, which is
+					free.
+				</p>
+				<h3>Download Managers</h3>
+				<p>
+					If you don&#39;t want to go through all of that hassle just
+					to get faster downloads, you can also use
+					<strong>download managers.</strong> A download manager is a
+					software made for, well, downloading files.
+				</p>
+				<p>Main benefits of using a download manager:</p>
+				<ol>
+					<li>
+						Download managers establish multiple connections to a
+						server to achieve faster download speeds, and circumvent
+						bandwidth limits.
+					</li>
+					<li>
+						Like torrenting, download managers are more reliable at
+						resuming downloads than browsers.
+					</li>
+					<li>
+						Instead of being forced to go on a file host and having
+						to go through a bunch of pages to download your files,
+						your download manager will get the link for you using a
+						Link Grabber.
+					</li>
+					<li>
+						They give you the ability to do automatic actions upon
+						completion, such as auto-unzipping bundles, putting your
+						computer to sleep, etc.
+					</li>
+					<li>
+						Download managers like IDM (paid) or JDownloader (free)
+						have browser integrations that let you download files
+						more easily.
+					</li>
+				</ol>
+				<p>
+					Do keep in mind that the JDownloader website has downloads
+					that contain adware on the frontpage.
+					<a
+						href="https://jdownloader.org/jdownloader2"
+						target="_blank"
+						rel="noopener noreferrer"
+						>This link</a
+					>
+					has the downloads that do not contain adware. I&#39;ll also
+					add a debloating guide below if you&#39;ve downloaded it.
+				</p>
+				<details>
+					<summary>Debloating JDownloader</summary>
+					<p>
+						Go to Settings (Ctrl+P) &gt; Advanced Settings. In
+						&quot;Filter Settings&quot;, look up these phrases and
+						click on the checkboxes in each result to disable it.
+					</p>
+					<ol>
+						<li>oboom</li>
+						<li>premium alert</li>
+						<li>Donate</li>
+						<li>Banner</li>
+						<li>Special Deals</li>
+					</ol>
+				</details>
+				<p>
+					I hope this knowledge helps you as it has helped me. Keep in
+					mind that this isn't *everything* about torrents and file
+					managers, and I advise you to do your own research. Make
+					sure to use an adblocker and to scan your files for viruses,
+					too!
+				</p>
+]]></description>
 		<link>https://7vtia.nekoweb.org/posts/tadm.html</link>
 		<guid isPermaLink="false">torrenting-download-managers</guid>
 		<pubDate>Tue, 17 Mar 2026 01:59:52 +0300</pubDate>
@@ -18,7 +252,56 @@
 
         <item>
 		<title>Pictures of Floppy Disks</title>
-        <description>Exactly as the title says.</description>
+        <description>"Exactly as the title says."    
+ <![CDATA[
+ <p>
+					Today, I found some floppy disks belonging to my late
+					grandparents. I thought it would be nice to immortalise them
+					here on my website. Enjoy.
+				</p>
+				<details open="">
+					<summary style="display: none">Images</summary>
+					<div class="gallery">
+						<a href="https://7vtia.nekoweb.org/posts/img/floppydisks/001.jpg">
+							<img src="https://7vtia.nekoweb.org/posts/img/floppydisks/001.jpg" />
+						</a>
+						<a href="https://7vtia.nekoweb.org/posts/img/floppydisks/002.jpg">
+							<img src="https://7vtia.nekoweb.org/posts/img/floppydisks/002.jpg" />
+						</a>
+						<a href="https://7vtia.nekoweb.org/posts/img/floppydisks/003.jpg">
+							<img src="https://7vtia.nekoweb.org/posts/img/floppydisks/003.jpg" />
+						</a>
+						<a href="https://7vtia.nekoweb.org/posts/img/floppydisks/005.jpg">
+							<img src="https://7vtia.nekoweb.org/posts/img/floppydisks/005.jpg" />
+						</a>
+						<a href="https://7vtia.nekoweb.org/posts/img/floppydisks/006.jpg">
+							<img src="https://7vtia.nekoweb.org/posts/img/floppydisks/006.jpg" />
+						</a>
+						<a href="https://7vtia.nekoweb.org/posts/img/floppydisks/007.jpg">
+							<img src="https://7vtia.nekoweb.org/posts/img/floppydisks/007.jpg" />
+						</a>
+						<a href="https://7vtia.nekoweb.org/posts/img/floppydisks/008.jpg">
+							<img src="https://7vtia.nekoweb.org/posts/img/floppydisks/008.jpg" />
+						</a>
+						<a href="https://7vtia.nekoweb.org/posts/img/floppydisks/009.jpg">
+							<img src="https://7vtia.nekoweb.org/posts/img/floppydisks/009.jpg" />
+						</a>
+						<a href="https://7vtia.nekoweb.org/posts/img/floppydisks/010.jpg">
+							<img src="https://7vtia.nekoweb.org/posts/img/floppydisks/010.jpg" />
+						</a>
+						<a href="https://7vtia.nekoweb.org/posts/img/floppydisks/011.jpg">
+							<img src="https://7vtia.nekoweb.org/posts/img/floppydisks/011.jpg" />
+						</a>
+						<a href="https://7vtia.nekoweb.org/posts/img/floppydisks/012.jpg">
+							<img src="https://7vtia.nekoweb.org/posts/img/floppydisks/012.jpg" />
+						</a>
+						<a href="https://7vtia.nekoweb.org/posts/img/floppydisks/013.jpg">
+							<img src="https://7vtia.nekoweb.org/posts/img/floppydisks/013.jpg" />
+						</a>
+					</div>
+				</details>
+]]>
+</description>
 		<link>https://7vtia.nekoweb.org/posts/floppydisk.html</link>
 		<guid isPermaLink="false">pictures-of-floppy-disks</guid>
 		<pubDate>Thu, 22 Jan 2026 18:02:36 +0200</pubDate>
@@ -27,7 +310,56 @@
 
 	    <item>
 		<title>tilde.club</title>
-        <description>I'm on tilde.club now!</description>
+        <description> <![CDATA[
+        <p>
+					As you might have guessed by the title, I'm on
+					<a
+						href="https://tilde.club"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						tilde.club</a
+					>
+					now! And, as I might've guessed, you're probably asking what
+					the hell tilde.club is.
+				</p>
+				<p>
+					Basically, tilde.club gives you access to a shared unix
+					computer that you could then use to host a website, send an
+					e-mail (an account is made for you when you join), or talk
+					to the nice people on there using IRC.
+				</p>
+				<p>
+					This is all done using SSH, so I found this to be a great
+					opportunity to get more used to doing things on the terminal
+					like editing my files using vim and (finally) learning how
+					to use Git.
+				</p>
+				<p>
+					Sadly, my website on tilde.club is very barebones at the
+					moment, since SSHing into tilde.club hasn't been very kind
+					on my laptop, but I hope to port my directory onto there
+					once I get better at using Git, instead of having it sit in
+					an iframe.
+				</p>
+				<p>
+					Seriously though, this stuff is amazing. If you're reading
+					this, I really hope you check out tilde.club, and if you
+					like what you see, maybe sign up! You even get to be in a
+					cool webring!
+				</p>
+				<p>
+					Here's
+					<a
+						href="https://tilde.club/~sevenvtia/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						my page</a
+					>
+					on there, if you're curious.
+				</p>
+]]></description>
 		<link>https://7vtia.nekoweb.org/posts/tilde.html</link>
 		<guid isPermaLink="false">tilde-club</guid>
 		<pubDate>Wed, 21 Jan 2026 17:18:41 +0200</pubDate>
@@ -36,7 +368,64 @@
 
         <item>
 		<title>Cold Brew (Tea)</title>
-        <description>Let's all love cold brew.</description>
+        <description>"Let's all love cold brew."
+        <![CDATA[
+        <p>
+					Today, I made some green tea. It tasted absolutely horrible,
+					because I took too long to take the tea bag out before it
+					started getting bitter. I thought to myself, &quot;Why did I
+					even make this if I could&#39;ve just cold brewed it and
+					saved myself the embarrassment?&quot; In fact, I was so
+					angry that I started writing a post about why you should
+					cold brew your tea.
+				</p>
+				<p>
+					So, first things first, what is cold brewing? Cold brewing
+					is when you brew your tea (or coffee) in cold water.
+					It&#39;s much gentler than brewing it hot, because it
+					extracts the flavour from the tea over the course of several
+					hours. This greatly reduces the risk of your tea turning out
+					bitter, and I find it has a better taste than making it with
+					hot water.
+				</p>
+				<p>
+					Okay, I know that most people aren&#39;t going to wait 8 or
+					24 or however many hours *just* so they can drink some tea,
+					but hear me out. I have a list of benefits of cold brewing
+					your tea instead of just brewing it regularly:
+				</p>
+				<ol>
+					<li>
+						It&#39;s incredibly easy. Just put your tea and water in
+						a bottle and leave it overnight, and the next day
+						you&#39;ll have some tea ready to go!
+					</li>
+					<li>
+						It&#39;s a very good method for making large batches of
+						tea. I usually do a liter of it, but you can do much,
+						much more.
+					</li>
+					<li>
+						As I&#39;ve said before, it&#39;s much less bitter, and
+						even tastes sweeter. Sometimes you don&#39;t even have
+						to add sweetener!
+					</li>
+					<li>
+						I find it&#39;s much better than brewing it regularly
+						when it comes to adding fruits to your tea, as it also
+						extracts the flavours of the fruit more gently.
+					</li>
+				</ol>
+				<p>
+					I really do encourage that you try cold brewing your tea if
+					you&#39;ve never tried it before. You can even just put a
+					tea bag in a cup of water, leave it on the counter
+					overnight, add a sweetener of choice, and try it out! If you
+					like it, that&#39;s great! If you don&#39;t, that&#39;s fine
+					too! I hope this helps somebody find out the magic of cold
+					brewing, haha.
+				</p>
+]]></description>
 		<link>https://7vtia.nekoweb.org/posts/coldbrewtea.html</link>
 		<guid isPermaLink="false">cold-brew-tea</guid>
 		<pubDate>Fri, 16 Jan 2026 07:53:00 +0200</pubDate>
@@ -46,7 +435,95 @@
 
         <item>
 		<title>Windows 11 Out of the Box</title>
-        <description>I tried out a fresh install of Windows 11 and hated it.</description>
+        <description>"I tried out a fresh install of Windows 11 and hated it."
+         <![CDATA[
+        <p>
+					I'm among one of the many people who moved to Linux because,
+					well, Windows 11 just sucks. The forced updates, the entire
+					Recall thing, Copilot being forced onto you every single
+					second of your life, and many other things.
+				</p>
+				<p>
+					I must say that my Windows 11 experience wasn't *that*
+					awful. Why? Because I had to cake on 50 system tweaks just
+					so my system could be usable, and I don't think I have to
+					say that you shouldn't have to do that.
+				</p>
+				<p>
+					I really enjoy playing around with virtual machines, so I
+					figured, why not try a fresh install of Windows 11? It'd be
+					interesting to see just how different it is from my previous
+					setup.
+				</p>
+				<p>
+					I'm not going to comment on the speed, since I allocated
+					only 5 GB of RAM to my VM, which Windows eats for breakfast,
+					but I can safely say everything else was awful.
+				</p>
+				<p>
+					First things first, it tried to force me to connect a
+					Microsoft account, and when I managed to bypass that, I was
+					IMMEDIATELY bombarded with ads on the Start menu. Who the
+					fuck puts ads in a paid operating software? And the taskbar
+					has these "widgets" that I do not care about in any way,
+					and, of course, Copilot is shoved in my face.
+				</p>
+				<p>
+					I geniunely can't recommend Chris Titus'
+					<a
+						href="https://github.com/ChrisTitusTech/winutil"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Winutil</a
+					>
+					enough. I would've gone crazy trying to disable all of the
+					junk on the taskbar without this utility. Though, I must
+					tell you to please not run any command you see on the
+					internet if you don't know what it does.
+				</p>
+				<p>
+					Something else I noticed is that Notepad has Copilot, and
+					it's locked behind a subscription? I don't understand who
+					exactly would need AI inside of Notepad, and who would need
+					it so badly that they'd pay for it. It also requires you to
+					sign into a Microsoft account, which is nice.
+				</p>
+				<p>
+					That aside, it does what you expect an operating software to
+					do. That's until the newest update breaks something you're
+					using, like Localhost, or Windows Recovery.
+				</p>
+
+				<p>
+					By the way, and this is just my opinion, I think File
+					Explorer sucks. Check out something like Q-Dir or Directory
+					Opus obtained through (cough) legal methods if you'd like an
+					alternative.
+				</p>
+
+				<p>
+					I'm not going to be insufferable and call you a moron for
+					using Windows and that you must switch to Linux immediately,
+					but if you've never used Linux before, please give it a
+					chance. Try out a distribution on something like VirtualBox
+					(make sure to have virtualization enabled virst) and see if
+					you like it!
+				</p>
+
+				<p>
+					If you don't know which of the many distributions to choose,
+					check out Linux Mint or Pop!_OS. (Please don't let anybody
+					convince you to use Arch as your first distro.) Even better,
+					go on
+					<a
+						href="https://distrochooser.de/"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Distro Chooser</a
+					>
+					and see which of the results interests you the most.
+				</p>
+]]></description>
 		<link>https://7vtia.nekoweb.org/posts/windows11.html</link>
 		<guid isPermaLink="false">windows-oobe</guid>
 		<pubDate>Fri, 05 Dec 2025 22:56:00 +0300</pubDate>
@@ -55,7 +532,62 @@
 
         	<item>
 		<title>Misogyny in Metal Gear Solid</title>
-        <description>"When I got into Metal Gear Solid, I saw a very glaring issue, which was the misogyny that hits you in the face in every game..."</description>
+        <description> <![CDATA[
+        <p>
+					Let me preface: I love Metal Gear Solid. I feel like I have
+					to say this given how Metal Gear Solid fans are.
+				</p>
+
+				<p>
+					When I got into Metal Gear Solid, I saw a very glaring
+					issue, which was the misogyny that hits you in the face in
+					every game. Whether it be every female character being
+					sexualized to hell and back (like with Quiet) or being
+					sidelined or just straight up killed (EVA, Naomi,
+					Strangelove, etc.)
+				</p>
+
+				<p>
+					It started with MGS1, with the camera zooming onto Meryl's
+					ass, and Solid Snake harassing her, and whatever else that I
+					blocked out of my memory, and then MGS2, with the "easter
+					eggs" featuring Japanese adult actresses, which made me
+					question if it was worth it to continue onto the next games,
+					and I think I reached my breaking point when I saw Quiet.
+				</p>
+
+				<p>
+					She has to breathe through her skin, which forces her to
+					wear basically nothing.. and she doesn't talk (Yes, I know
+					why she doesn't talk, but still.) And there have been more
+					scenes where they zoom onto her chest than I could count.
+				</p>
+
+				<p>
+					You could say the constant sexualisation was just MGS being
+					a product of its time, but it still makes my skin crawl. It
+					also doesn't help that (most of) the people in the fanbase
+					will chalk up what you say to pure stupidity or try to
+					invalidate your take by mentioning The Boss, and while I
+					admit that she's a solid character, but that doesn't take
+					away from the misogynistic writing in the games.
+				</p>
+
+				<p>
+					I've seen people be called slurs, be sent death threats, and
+					get the most vicious hate I've witnessed at the hands of MGS
+					fans just for having the same takes as I. I don't think I
+					should be told "This is why females should've never joined
+					the gaming community" just for saying a franchise has
+					misogynistic writing.
+				</p>
+
+				<p>
+					These are only a few examples. I haven't touched MGS in
+					months so I don't remember much else. If anybody reading
+					this has some thoughts on this, feel free to reach out.
+				</p>
+]]></description>
 		<link>https://7vtia.nekoweb.org/posts/post.html</link>
 		<guid isPermaLink="false">misogyny-mgs</guid>
 		<pubDate>Fri, 14 Nov 2025 00:41:51 +0300</pubDate>
@@ -64,7 +596,655 @@
 
         <item>
 		<title>100 Webmaster Questions</title>
-        <description>I was bored, so I joined in on the fun.</description>
+        <description>"I was bored, so I joined in on the fun."
+         <![CDATA[
+         <p>
+					Find the blank
+					<a href="https://mouseling.net/100webmaster" target="_blank"
+						>here.</a
+					>
+				</p>
+				<dl>
+					<dt>1. Please introduce yourself.</dt>
+					<dd>
+						I'm Saif, I really like pages with a lot of links. I
+						like collecting pamphlets from tech stores.
+					</dd>
+
+					<dt>2. How long have you been making websites?</dt>
+					<dd>I've been making websites since 2023.</dd>
+
+					<dt>3. And what got you into the hobby?</dt>
+					<dd>
+						An ex-friend of mine had a really nice Neocities page.
+					</dd>
+
+					<dt>4. What kind of website are you most interested in?</dt>
+					<dd>Personal websites and wikis.</dd>
+
+					<dt>
+						5. What's your workflow? Do you plan your websites out
+						thoroughly or do you come up with the design as you go
+						along?
+					</dt>
+					<dd>I make things up as I go. I'm not one for planning.</dd>
+
+					<dt>6. Please link to your biggest inspirations.</dt>
+					<dd>
+						<a
+							href="https://en.wikipedia.org/wiki/Main_Page"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Wikipedia</a
+						>
+						and the belated txti.
+					</dd>
+
+					<dt>
+						7. What's your favourite part about making websites?
+					</dt>
+					<dd>Getting it to look how I want it to.</dd>
+
+					<dt>8. And the thing you struggle with the most?</dt>
+					<dd>Coming up with new ideas.</dd>
+
+					<dt>
+						9. Do you keep the same layout on all of your pages? Or
+						do you use different ones?
+					</dt>
+					<dd>
+						I keep the same layout across all pages. I don't really
+						have any layout ideas either way.
+					</dd>
+
+					<dt>10. How confident are you with CSS?</dt>
+					<dd>Is "ehhhhhhh" a valid answer?</dd>
+
+					<dt>11. Do you know how to correctly use &lt;dl&gt;?</dt>
+					<dd>Yes.</dd>
+
+					<dt>12. What is your favourite HTML element?</dt>
+					<dd>I'm a huge fan of ul.</dd>
+
+					<dt>
+						13. If you're making a new web page from scratch, what
+						is the first thing you do?
+					</dt>
+					<dd>
+						Hide ASCII art of a random character inside of a
+						comment.
+					</dd>
+
+					<dt>14. Do you know JavaScript?</dt>
+					<dd>Not as much as I'd like to.</dd>
+
+					<dt>15. How about PHP?</dt>
+					<dd>Nope.</dd>
+
+					<dt>
+						16. Does your website have a theme that you stick to?
+					</dt>
+					<dd>
+						You could say I'm a fan of black text on a white
+						background.
+					</dd>
+
+					<dt>17. Are you more focused on content or design?</dt>
+					<dd>Content matters more to me.</dd>
+
+					<dt>
+						18. Do you own a domain name? If not, would you ever
+						want to?
+					</dt>
+					<dd>Sadly, I don't have domain money, so no.</dd>
+
+					<dt>
+						19. What do you think of nostalgia-focused or "retro"
+						websites?
+					</dt>
+					<dd>
+						I think they're nice, though I've noticed that 99% of
+						them are Windows XP themed.
+					</dd>
+
+					<dt>20. Is your HTML valid? Do you even check?</dt>
+					<dd>No....</dd>
+
+					<dt>21. What are your opinion on buttons and banners?</dt>
+					<dd>
+						I really like buttons, especially on personal websites.
+						I don't think I've seen many banners, though.
+					</dd>
+
+					<dt>
+						22. What do you think of button walls in particular?
+					</dt>
+					<dd>
+						They're nice, but those with a bunch of flashing buttons
+						next to each other really suck. Sucks even harder when
+						there's no warning.
+					</dd>
+
+					<dt>
+						23. If you started over again, would you make something
+						similar or completely different?
+					</dt>
+					<dd>I'd probably make the same thing.</dd>
+
+					<dt>24. Are you envious of other people's websites?</dt>
+					<dd>No, but there are some that I get inspired by.</dd>
+
+					<dt>25. What text editor do you use?</dt>
+					<dd>I use Kate.</dd>
+
+					<dt>26. Why do you use that one?</dt>
+					<dd>
+						I got tired of VSCode pushing me to use Copilot, and I
+						lke free and open source software.
+					</dd>
+
+					<dt>
+						27. Do you host your image files on your web server, or
+						on another host?
+					</dt>
+					<dd>I host my image files directly on Nekoweb.</dd>
+
+					<dt>
+						28. This might not be relevant to you, but what's your
+						opinion on the Neocities vs. Nekoweb debate?
+					</dt>
+					<dd>I don't care for it.</dd>
+
+					<dt>
+						29. How much server space would you estimate your main
+						website takes up?
+					</dt>
+					<dd>Around 8 MB.</dd>
+
+					<dt>30. Do you keep local backups of your files?</dt>
+					<dd>
+						I code my website locally and then upload it to Nekoweb.
+						When I want to make a huge change I'll make a copy of
+						whatever I'm editing.
+					</dd>
+
+					<dt>31. Do you prefer simple or highly visual websites?</dt>
+					<dd>
+						I like both, but I have a specific kind of hatred for
+						websites with 500 floating images that cover up the main
+						content.
+					</dd>
+
+					<dt>
+						32. Do you stick to certain colours? Do you do that on
+						purpose, or is it your subconscious?
+					</dt>
+					<dd>
+						I enjoy grayscale with pops of colour. I don't really
+						pay attention to it.
+					</dd>
+
+					<dt>33. Have you ever thought about quitting? Why?</dt>
+					<dd>No, making my website brings me joy.</dd>
+
+					<dt>
+						34. Do you have many webmaster friends, or is it a
+						solitary hobby?
+					</dt>
+					<dd>
+						Depends on your definition of "friend." I'd say I've
+						made quite a few.
+					</dd>
+
+					<dt>
+						35. Do people in your real life know about your website?
+					</dt>
+					<dd>I think, like, 4 people know?</dd>
+
+					<dt>
+						36. Do you update your website very often? How often is
+						"very often"?
+					</dt>
+					<dd>
+						I used to update my website daily after my move to
+						Nekoweb, but I've calmed down in recent times.
+					</dd>
+
+					<dt>
+						37. And the overall design, do you change that much? Why
+						or why not?
+					</dt>
+					<dd>
+						No. Again, I don't have any reason to change my design.
+					</dd>
+
+					<dt>
+						38. Is your website more you-focused, hobby-focused, or
+						outside world-focused?
+					</dt>
+					<dd>I'd say it's me-focused and a little hobby-focused.</dd>
+
+					<dt>39. Do you do web design professionally?</dt>
+					<dd>God, no.</dd>
+
+					<dt>
+						40. If not, would you like to? And if you're comfortable
+						answering, what do you do for work?
+					</dt>
+					<dd>
+						I can't say I'm into the idea of turning my hobby into a
+						profession, it sounds like a surefire way to start
+						hating it. Unfortunately, I am unemployed.
+					</dd>
+
+					<dt>
+						41. Do you communicate with people by email very much?
+					</dt>
+					<dd>
+						Yes! I love emails more than anything. Please email me.
+					</dd>
+
+					<dt>
+						42. Some people reject social media and use websites as
+						a replacement. Do you keep social media outside of your
+						website?
+					</dt>
+					<dd>Yes. I mostly just lurk on social media either way.</dd>
+
+					<dt>
+						43. How about instant messengers? Do you use a
+						mainstream one like Discord or Telegram? Or something
+						like Matrix? Do you avoid them?
+					</dt>
+					<dd>
+						I use telegram mostly for downloading paid procreate
+						brushes because, like, who do you think you are? I also
+						use Discord and I hate it.
+					</dd>
+
+					<dt>
+						44. Do you listen to music while you work on websites?
+						If so, what kinds of artists?
+					</dt>
+					<dd>
+						According to the Music Statistics Site, I've listened to
+						Ecstatic Vibrations, Totally Transcendent by Sea Power
+						340 times while making and editing this website.
+					</dd>
+
+					<dt>
+						45. Do you keep everything you make on one website, or
+						do you have more than one?
+					</dt>
+					<dd>I keep everything on one website.</dd>
+
+					<dt>
+						46. On a similar note, do you keep to one topic on your
+						site, or many?
+					</dt>
+					<dd>
+						I don't think I could ever focus on only one single
+						topic.
+					</dd>
+
+					<dt>
+						47. Do you present your real self, or at least try? Or
+						do you construct a persona on purpose?
+					</dt>
+					<dd>I try to be as open as I can.</dd>
+
+					<dt>
+						48. Have you ever made a good friend thanks to your
+						website?
+					</dt>
+					<dd>Yes.</dd>
+
+					<dt>
+						49. Are you happy with the way HTML and CSS currently
+						work?
+					</dt>
+					<dd>I have a few grievances, but I'm satisfied.</dd>
+
+					<dt>
+						50. What are practices that you think people should
+						avoid?
+					</dt>
+					<dd>
+						MEDIA AUTOPLAY. And comments in the source code giving
+						me shit for snooping around.
+					</dd>
+
+					<dt>
+						51. What about under-utilised practices, or things you
+						think people should do more?
+					</dt>
+					<dd>
+						People should use the details element more. I love it.
+					</dd>
+
+					<dt>
+						52. Do you use a lot of semantic HTML? Or are you guilty
+						of generic structure?
+					</dt>
+					<dd>I try to use semantic HTML as much as I can.</dd>
+
+					<dt>53. Do you consider different browsers?</dt>
+					<dd>
+						I tried using Helium (chromium browser) once. It was
+						nice save for the fact there's no vertical tabs.
+					</dd>
+
+					<dt>
+						54. Speaking of, what's your preferred browser? Convince
+						your readers why they should use it.
+					</dt>
+					<dd>
+						Librewolf. It has vertical tabs and none of the AI
+						bullshit that Firefox has. Who doesn't like that?
+					</dd>
+
+					<dt>55. And what OS are you on?</dt>
+					<dd>I use Linux Mint.</dd>
+
+					<dt>
+						56. Do you have a strong opinion on that, or do you just
+						happen to use it?
+					</dt>
+					<dd>
+						I got tired of Microsoft and auto updates as one does
+						and made the switch. It also doesn't make my laptop heat
+						up to 99 degrees Celsius.
+					</dd>
+
+					<dt>57. Are your websites mobile-friendly?</dt>
+					<dd>Yes.</dd>
+
+					<dt>58. What are your thoughts on autoplay?</dt>
+					<dd>I hate it with every cell in my body.</dd>
+
+					<dt>
+						59. What are your thoughts on webrings? Are you in any?
+					</dt>
+					<dd>
+						I'm in a few webrings. Haven't found more to join
+						though...
+					</dd>
+
+					<dt>
+						60. Do you have any web shrines? What do you like to see
+						in that sort of page?
+					</dt>
+					<dd>
+						I wish I could make one, but I lack the brainpower to do
+						so. I love the web shrines I come across while surfing
+						the web, though. I like the makesweet gifs some of them
+						have.
+					</dd>
+
+					<dt>61. Are your websites "cliche", in your opinion?</dt>
+					<dd>I don't think so?'</dd>
+
+					<dt>
+						62. What is your ideal website? Are you striving for
+						that, or for something else?
+					</dt>
+					<dd>
+						A massive resources page. Art galleries are cool too.
+					</dd>
+
+					<dt>
+						63. Are you an artist? Do you draw or design your own
+						assets?
+					</dt>
+					<dd>
+						I'd consider myself an artist, though I haven't been
+						drawing much lately. I drew my own button and favicon.
+					</dd>
+
+					<dt>64. What are your favourite resource sites?</dt>
+					<dd>
+						<a
+							href="https://fmhy.net"
+							target="_blank"
+							rel="noopener noreferer"
+							>FMHY</a
+						>
+						and
+						<a
+							href="https://archive.org/"
+							target="_blank"
+							rel="noopener noreferer"
+							>The Internet Archive.</a
+						>
+					</dd>
+
+					<dt>
+						65. Is there a habit you just can't get away from no
+						matter how hard you try?
+					</dt>
+					<dd>Inline CSS...</dd>
+
+					<dt>66. What's your biggest advice for a new webmaster?</dt>
+					<dd>
+						Learn CSS selectors and Flexbox. Use Inspect Element on
+						sites you like the look of.
+					</dd>
+
+					<dt>
+						67. Do you keep all your styling in CSS? Or do you
+						hard-code some?
+					</dt>
+					<dd>I do a bit of both.</dd>
+
+					<dt>68. What do you think of frameset layouts?</dt>
+					<dd>
+						Huh, I thought framesets were deprecated... I do enjoy
+						iframes, though.
+					</dd>
+
+					<dt>69. How about table-based layouts?</dt>
+					<dd>Those are nice.</dd>
+
+					<dt>
+						70. Do you subscribe to the ideas of "one-column",
+						"two-column" and "three-column" layouts? Do you use any
+						of these?
+					</dt>
+					<dd>
+						I don't really care for them. I suppose I like
+						one-column layouts?
+					</dd>
+
+					<dt>71. Do you spend longer on the HTML or the CSS?</dt>
+					<dd>Definitely the CSS.</dd>
+
+					<dt>
+						72. Have you ever made a page with no CSS? It's useful
+						for your thoughts.
+					</dt>
+					<dd>Yeah.</dd>
+
+					<dt>
+						73. Do you ever find yourself making layouts with
+						nothing to put on them? Or do you only make layouts when
+						the need arises?
+					</dt>
+					<dd>I make layouts when the need arises.</dd>
+
+					<dt>
+						74. Would you consider yourself a beginner? Or advanced?
+						Somewhere in the middle?
+					</dt>
+					<dd>I'd say I'm a beginner.</dd>
+
+					<dt>
+						75. Do you have a habit of looking at the source code of
+						websites you visit?
+					</dt>
+					<dd>Of course.</dd>
+
+					<dt>76. How did YOU learn how to make websites?</dt>
+					<dd>
+						Looking things up when something goes wrong and looking
+						at other websites' source code.
+					</dd>
+
+					<dt>
+						77. Do you ever force elements to do things they're not
+						supposed to?
+					</dt>
+					<dd>I'm an upstanding member of society, so no.</dd>
+
+					<dt>78. Thoughts on floating elements?</dt>
+					<dd>They're useful.</dd>
+
+					<dt>
+						79. When you're sizing stuff, what do you use first? Do
+						you use px, em, %, or something else?
+					</dt>
+					<dd>em or px depending on the weather.</dd>
+
+					<dt>80. Do you have a favourite font?</dt>
+					<dd>Times New Roman all the way.</dd>
+
+					<dt>
+						81. Would you run a website with another person? How
+						would that work?
+					</dt>
+					<dd>Sure! It sounds fun.</dd>
+
+					<dt>
+						82. Do you surf the Web to find new personal websites
+						very often?
+					</dt>
+					<dd>Yes.</dd>
+
+					<dt>
+						83. Do you bookmark other people's websites? How would
+						you feel knowing someone else bookmarked yours?
+					</dt>
+					<dd>
+						No, I don't really bookmark websites in general. Though,
+						I'd be honored if someone bookmarked mine.
+					</dd>
+
+					<dt>
+						84. What do you want people to be most impressed with
+						when they see your website?
+					</dt>
+					<dd>My super awesome directory. What else?</dd>
+
+					<dt>
+						85. Are you interested in technology outside of
+						websites? Do you collect?
+					</dt>
+					<dd>
+						You could say that. I have a CD game collection
+						somewhere.
+					</dd>
+
+					<dt>86. How often and for how long are you online?</dt>
+					<dd>You'll have to consult my screen time app for that.</dd>
+
+					<dt>
+						87. When it comes to your website, who is your target
+						audience?
+					</dt>
+					<dd>
+						People who will enjoy my super awesome directory.
+						Obviously.
+					</dd>
+
+					<dt>88. Have you ever been interested in XHTML?</dt>
+					<dd>Not really.</dd>
+
+					<dt>
+						89. Do you program in general? Have you ever written a
+						program for use with or on your website, not counting
+						simple JavaScript?
+					</dt>
+					<dd>Nope.</dd>
+
+					<dt>
+						90. Speaking of programs that help you make websites,
+						what do you think of static site generators (SSGs)? Have
+						you ever used one?
+					</dt>
+					<dd>
+						They seem really useful, I'd like to try using one
+						someday.
+					</dd>
+
+					<dt>91. Do you keep a hitcounter? Why or why not?</dt>
+					<dd>Nope. I don't really care for things like that.</dd>
+
+					<dt>92. Do you frequent forums? Which ones?</dt>
+					<dd>I like to lurk on the status.cafe forum.</dd>
+
+					<dt>
+						93. Do you write your page content directly into the
+						editor, or do you prepare it elsewhere, like a text
+						document or a Word document?
+					</dt>
+					<dd>I write everything directly on the editor.</dd>
+
+					<dt>
+						94. Do you think you appear cool to others? A more
+						accurate answer now: do other people ever say you're
+						cool?
+					</dt>
+					<dd>
+						I've had a few people tell me I'm cool, which is
+						extremely flattering.
+					</dd>
+
+					<dt>
+						95. Are you embarrassed of your old work? Have you ever
+						deleted everything out of shame?
+					</dt>
+					<dd>Nope! No need to be ashamed of learning things.</dd>
+
+					<dt>
+						96. Would you close down your website if you couldn't
+						update it, or would you leave an archive?
+					</dt>
+					<dd>
+						Strangely enough, my website is already on the Internet
+						Archive. If I couldn't update my website anymore I'd
+						just leave it be.
+					</dd>
+
+					<dt>
+						97. Do you reveal a lot about yourself on your website?
+						Or are you more secretive?
+					</dt>
+					<dd>
+						There are some things I keep out of my website, but
+						aside from that I'm pretty open.
+					</dd>
+
+					<dt>
+						98. Are you willing to reveal who your best online
+						friend is, and/or if they have a website?
+					</dt>
+					<dd>
+						My buddy
+						<a href="https://julian.nekoweb.org/" target="_blank"
+							>Julian</a
+						>
+						has a website. Check it out.
+					</dd>
+
+					<dt>99. And do you optimise the images on your website?</dt>
+					<dd>Of course.</dd>
+
+					<dt>
+						100. We're out of time! How do you feel after answering
+						100 questions? ....other than exhausted.
+					</dt>
+					<dd>I feel pretty good!</dd>
+				</dl>
+]]></description>
 		<link>https://7vtia.nekoweb.org/posts/100questions.html</link>
 		<guid isPermaLink="false">100-questions</guid>
 		<pubDate>Sat, 08 Nov 2025 09:16:00 +0300</pubDate>
@@ -73,7 +1253,37 @@
 
         <item>
         <title>MusicTaste</title>
-        <description>I made a MusicTaste account and have been on a contributing spree.</description>
+        <description> "I made a MusicTaste account and have been on a contributing spree."  <![CDATA[
+        	<p>
+					I wouldn't say I'm one for things like RYM, given how the
+					community is, and because I struggle to assign a number to
+					the music I listen to.
+				</p>
+				<p>
+					I saw this MusicTaste website, though, and I thought it was
+					interesting! it's a small(er) community, which I like, and
+					you can also contribute releases to the website! To me it
+					feels like sharing the music I love with others.
+				</p>
+				<p>
+					I also find sites like these better at showing my music
+					taste (haha get it) than Last.fm, because I kind of just
+					loop the Song Of The Month that I like over and over until I
+					get tired of it, which isn't great for showing off the music
+					I like.
+				</p>
+				<p>
+					If anybody reading this also has a MusicTaste account,
+					<a
+						href="https://www.musictaste.xyz/agate"
+						target="_blank"
+						rel="noopener noreferrer"
+						>lets be buds!</a
+					>
+					:-) You can also find me lurking in the Discord if you look
+					hard enough.
+				</p>
+]]></description>
 		<link>https://7vtia.nekoweb.org/posts/musictaste.html</link>
 		<guid isPermaLink="false">musictaste</guid>
 		<pubDate>Fri, 24 Oct 2025 19:29:00 +0300</pubDate>
@@ -82,7 +1292,41 @@
 
         <item>
 		<title>English</title>
-        <description>A little incoherent.</description>
+        <description>"A little incoherent." 
+        <![CDATA[
+        <p>
+					I'm sure you know that English is not my first language,
+					Arabic is, and that's why my english is not that good. You'd
+					expect that I would be better at speaking Arabic, but no. My
+					Arabic is *much* poorer than my English.
+				</p>
+				<p>
+					I had to teach myself English because, well, how would I
+					hope to make friends on the internet if I don't know how to
+					speak English? One of the consequences is that I get worse
+					and worse at speaking Arabic every day. Hell, even my
+					friends think I'm a foreigner.
+				</p>
+				<p>
+					It makes me a little sad. It's as if I've been disconnected
+					from who I am, and where I come from. I could tell you right
+					now that I speak Arabic, and I'd be right, but sometimes it
+					feels like I'm lying. That it's not *actually* my mother
+					tongue.
+				</p>
+				<p>
+					I learned English through watching YouTube videos. I know
+					that it's great that I learned an entire language by myself,
+					but I still feel like I regret it. I feel like I'm being
+					stripped of something inherent to me, day by day. Maybe one
+					day it'll be completely gone? I hope not.
+				</p>
+				<p>
+					Though, if I never learned English, what friends would I
+					have?
+				</p>
+]]>
+</description>
 		<link>https://7vtia.nekoweb.org/posts/english.html</link>
 		<guid isPermaLink="false">english</guid>
 		<pubDate>Tue, 14 Oct 2025 16:48:00 +0300</pubDate>
@@ -91,7 +1335,64 @@
 
         <item>
             <title>Homosexuality, Religion, and Egypt</title>
-            <description>As you can tell, I am quite the patriot. Warning for homophobia and religious talk. </description>
+            <description> "As you can tell, I am quite the patriot. Warning for homophobia and religious talk."
+            <![CDATA[
+            <p>
+					Since the first grade, I've known that I'm in some way
+					queer. I thought that it was quite the normal thing, that
+					how could anybody possibly be upset at you for realising who
+					you truly are?
+				</p>
+				<p>
+					Obviously, I was wrong. I *attempted* to come out to my
+					mother shortly after, and was only told that it's wrong to
+					think like that. That I'm misguided and that people like
+					that will go to hell.
+				</p>
+				<p>
+					I was nothing short of devastated. I had always been the
+					good religious girl my family wanted me to be, and now my
+					own religion rejects me? Why must I be sentenced to eternal
+					damnation just for knowing who I am? Why does the whole
+					world hate me for it?
+				</p>
+				<p>
+					Since then, whenever I ask my mother for anything, she
+					always makes sure to tell me that "those people" are wrong
+					and will go to hell if they don't repent. Like she knows
+					something. I always smile and nod because I don't have the
+					luxury of being my true self. I will never be able to move
+					out and transition and live the life I want, it's just not
+					what my future holds.
+				</p>
+				<p>
+					I've seen how we are treated by the Egyptian government.
+					They think we're animals that don't deserve to live. They'll
+					throw you in a cell and leave you to rot. There's not one
+					day where I don't mourn
+					<a href="https://en.wikipedia.org/wiki/Sarah_Hegazi"
+						>Sarah Hegazi.</a
+					>
+				</p>
+				<p>
+					Needless to say, that severed the connection I had felt with
+					my religion. Why should I have to follow a religion that
+					wants me dead? Why did God create me just to tell me that
+					I'm going to hell no matter what? Is it even worth it to do
+					anything, knowing I'll never be who I want to be? That I'll
+					actively be punished for it?
+				</p>
+				<p>
+					Why should I have to love the country that hates me? That
+					persecutes people like me without batting an eye? That views
+					me as a "national security threat"?
+				</p>
+				<p>
+					I still want to have hope for what the future holds. Who
+					knows how long everything will keep being like this? I'd
+					like to think everything will get better despite it all.
+				</p>
+]]></description>
             <link>https://7vtia.nekoweb.org/posts/homosexuality.html</link>
             <guid isPermaLink="false">homosexuality-religion-egypt</guid>
             <pubDate>Sat, 11 Oct 2025 15:17:00 +0300</pubDate>
@@ -100,8 +1401,46 @@
 
         <item>
             <title>Journaling and This Website</title>
-            <description>This one is quite personal. Warning: I talk about my experiences
-            with paranoia here.</description>
+            <description>"This one is quite personal. Warning: I talk about my experiences with paranoia here."
+             <![CDATA[
+            <p>
+					Earlier I was thinking about my website, and my journal, and
+					I asked myself: Why did I even make a journal? I came to the
+					conclusion that it was because I wanted to be seen, but I
+					also realised that's the reason I made this whole website in
+					the first place. Yeah, the first paragraph *does* say that I
+					made this website because I got tired of linktrees and
+					strawpages and whatever other websites are out there, but
+					this is more the overall reason why I made this website.
+				</p>
+				<p>
+					Obviously I'm not going to write out my whole life story
+					here, but to put it simply I had a few events during my
+					childhood that ended up with me becoming quite the asocial
+					(and paranoid) person. I still am, but I've been trying hard
+					to remedy it.
+				</p>
+				<p>
+					I couldn't talk to people without thinking to myself, "What
+					if they're friends with me as some kind of sick inside
+					joke?" or, "What if, someday, I'm going to wake up and all
+					of my friends will just be gone? What's the point of having
+					friends, then?" I was afraid to even be *perceived* by
+					people I didn't know. That's how bad it was!
+				</p>
+				<p>
+					I don't want to be stuck in a friendless limbo, nobody does.
+					That's why I made this website in the first place, why I
+					started talking to other people more. Hell, it's the reason
+					why I even started to e-mail people and tell them how much I
+					love their website, or their art, or really anything!
+				</p>
+				<p>
+					It's also why I'm here writing this post for whoever might
+					read it... I just want to better myself.
+				</p>
+]]>
+</description>
             <link>https://7vtia.nekoweb.org/posts/journaling.html</link>
             <guid isPermaLink="false">journaling-and-this-website</guid>
             <pubDate>Sun, 05 Oct 2025 19:38:00 +0300</pubDate>
@@ -110,7 +1449,54 @@
 
           <item>
             <title>AI</title>
-            <description>About time I posted an AI rant! I really do hate it.</description>
+            <description>
+            "About time I posted an AI rant! I really do hate it."
+             <![CDATA[
+            <p>
+					I know it's been said many times by many different people,
+					but I truly do hate how AI has been taking over the
+					internet. Everywhere I go I see something about a "new AI
+					feature" or I get a notification begging me to go try XYZ
+					websites AI chatbot. Hell, even W3schools has an "AI helper"
+					now.
+				</p>
+				<p>
+					Every new device has AI built-in nowadays. I can't even take
+					a screenshot on my phone without being told to edit it using
+					AI! I have to go out of my way to disable Copilot every time
+					I open my laptop.
+				</p>
+				<p>
+					Remember Windows Recall? The thing that screenshots
+					EVERYTHING on your desktop, even your passwords and personal
+					info? You could tell me: Saif, we've been surveilled before
+					the AI boom ever happened, don't be naive. Yes, but it still
+					scares me. Privacy is like a fever dream now.
+				</p>
+				<p>
+					Every day I see more and more people use AI to think for
+					them. It's even happening to my family! My classmates! I've
+					seen my own mother use Gemini to look things up instead of
+					just using a search engine. I've seen my classmates use
+					ChatGPT to look up the simplest questions ever. And for
+					what? So we can ruin the environment faster? So we can make
+					ourselves dumber day by day? It's just so horrifying to
+					watch.
+				</p>
+				<p>
+					I've used Firefox ever since I've known how to use a
+					computer. Can you imagine how I felt when I saw "try our new
+					AI chatbot" pop up after I updated it? I feel like I'm going
+					crazy.
+				</p>
+				<p>
+					I could bring up a billion more reasons as to why I hate AI.
+					AI being used for warfare, xAI taking water and clean air
+					away from black families in Memphis, AI being used to bully
+					artists and to steal and deface their work... Can you tell I
+					don't like AI?
+				</p>
+]]></description>
             <link>https://7vtia.nekoweb.org/posts/ai.html</link>
             <guid isPermaLink="false">ai</guid>
             <pubDate>Sat, 04 Oct 2025 16:11:00 +0300</pubDate>
@@ -119,7 +1505,46 @@
 
           <item>
             <title>Autoplay</title>
-            <description>Media autoplay (and why I hate it with my entire being.) Happy October!</description>
+            <description> "Media autoplay (and why I hate it with my entire being.) Happy October!"
+<![CDATA[
+            <p>
+					There are many things I love about making and looking at
+					websites. I love having something that is uniquely mine, and
+					I love seeing websites where you can feel every bit of soul
+					the author(s) put into them. I love the freedom that it
+					gives you. You can basically do anything!
+				</p>
+				<p>
+					But there's one thing I absolutely cannot get myself to like
+					no matter how hard I try. Autoplay. First of all, it's not
+					accessible. Second of all, why are you trying to jump scare
+					me via audio file? I understand wanting people to listen to
+					songs you like. I really do. But there HAS to be another way
+					to do that, no?
+				</p>
+				<p>
+					Something that's even worse is when there's autoplay but no
+					way to make it stop playing. I sometimes use a screen reader
+					while I browse, and having an audio on autoplay and not
+					being able to pause it is terrible. I imagine it must be
+					terrible for others too.
+				</p>
+				<p>
+					And don't get me started on video autoplay. If I didn't know
+					of the existence of pop-up blockers I probably would've lost
+					my mind a long time ago. I could write an entire book about
+					how much I hate video autoplay. (Also, who in their right
+					mind thought it was a good idea to have video autoplay
+					automatically enabled on YouTube?)
+				</p>
+				<p>
+					At the end of the day, you can do whatever you want with
+					your website. I'm not going to hover over people and tell
+					them not to put autoplay on their websites. Who am I to do
+					that? But PLEASE at least put a warning that your website
+					has autoplay on it... Thanks.
+				</p>
+]]></description>
             <link>https://7vtia.nekoweb.org/posts/autoplay.html</link>
             <guid isPermaLink="false">autoplay</guid>
             <pubDate>Wed, 01 Oct 2025 14:07:00 +0300</pubDate>
@@ -128,7 +1553,51 @@
 
         <item>
             <title>First Post</title>
-            <description>Exactly what it says. I also talk about soulseek.</description>
+            <description> "Exactly what it says. I also talk about soulseek."
+            <![CDATA[
+            <p>
+					So, for whatever reason I thought it would be a good idea to
+					make a kind of journal. I seriously doubt anyone will read
+					this, so that's a plus.
+				</p>
+				<p>
+					Recently, my iPhone 11 killed itself in classic apple device
+					fashion, so I decided to get an Android because a. iPhones
+					cost an arm and a leg and b. Who doesn't like sideloading
+					support? (though that feature will be euthanized in 2027.
+					Damn.) and I was met with a nice surprise:
+					<a
+						href="https://github.com/jackBonadies/SeekerAndroid"
+						target="_blank"
+					>
+						there's an android fork of Soulseek!
+					</a>
+					This is huge for me because I use soulseek a lot to download
+					my music and sometimes I'm just too lazy to get on my laptop
+					to do things. I use Soulseek alongside
+					<a href="https://syncthing.net/" target="_blank"
+						>Syncthing</a
+					>
+					so I'm able to sync my music with my laptop and phone daily.
+					Who needs Spotify?
+				</p>
+				<p>
+					Another recent discovery of mine is
+					<a href="https://somafm.com/" target="_blank">SomaFM</a>
+					. I've always beem semi-aware of internet radio but I never
+					<i>really</i>
+					thought about it. I decided to give it a try when i found
+					out that
+					<a href="https://www.foobar2000.org/" target="_blank"
+						>foobar2000</a
+					>
+					had internet radio support and it blew my mind. I was
+					introduced to so many great songs and it's like... how did I
+					ever go this long without listening to this? I really hope
+					that more people discover the greatness of SomaFM like I
+					have.
+				</p>
+]]></description>
             <link>https://7vtia.nekoweb.org/posts/first_post.html</link>
             <guid isPermaLink="false">first-post</guid>
             <pubDate>Mon, 29 Sep 2025 20:35:00 +0300</pubDate>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>7vtia</title>
+        <description>Posts from 7vtia.nekoweb.org</description>
+        <link>https://7vtia.nekoweb.org/</link>
+        <atom:link href="https://7vtia.nekoweb.org/rss.xml" rel="self" type="application/rss+xml" />
+        <webMaster>7vtia@tuta.io (Saif)</webMaster>
+
+        
+        <item>
+		<title>Nothing</title>
+		<link>https://7vtia.nekoweb.org/posts.html</link>
+		<guid isPermaLink="false">nothing</guid>
+        <description>
+        Doing nothing with your free time.
+        </description>
+		<pubDate>Thu, 28 May 2026 18:46:40 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+        </item>
+
+         <item>
+		<title>This Page</title>
+        <description>Or more specifically, the Posts page.
+        </description>
+		<link>https://7vtia.nekoweb.org/posts/thispage.html</link>
+		<guid isPermaLink="false">this-page</guid>
+		<pubDate>Tue, 26 May 2026 12:05:15 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+        </item>
+
+        <item>
+		<title>Torrenting and Download Managers</title>
+        <description>Mandated "Why you should use this thing I use" post.</description>
+		<link>https://7vtia.nekoweb.org/posts/tadm.html</link>
+		<guid isPermaLink="false">torrenting-download-managers</guid>
+		<pubDate>Tue, 17 Mar 2026 01:59:52 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+        </item>
+
+        <item>
+		<title>Pictures of Floppy Disks</title>
+        <description>Exactly as the title says.</description>
+		<link>https://7vtia.nekoweb.org/posts/floppydisk.html</link>
+		<guid isPermaLink="false">pictures-of-floppy-disks</guid>
+		<pubDate>Thu, 22 Jan 2026 18:02:36 +0200</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	    </item>
+
+	    <item>
+		<title>tilde.club</title>
+        <description>I'm on tilde.club now!</description>
+		<link>https://7vtia.nekoweb.org/posts/tilde.html</link>
+		<guid isPermaLink="false">tilde-club</guid>
+		<pubDate>Wed, 21 Jan 2026 17:18:41 +0200</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	    </item>
+
+        <item>
+		<title>Cold Brew (Tea)</title>
+        <description>Let's all love cold brew.</description>
+		<link>https://7vtia.nekoweb.org/posts/coldbrewtea.html</link>
+		<guid isPermaLink="false">cold-brew-tea</guid>
+		<pubDate>Fri, 16 Jan 2026 07:53:00 +0200</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	    </item>
+	
+
+        <item>
+		<title>Windows 11 Out of the Box</title>
+        <description>I tried out a fresh install of Windows 11 and hated it.</description>
+		<link>https://7vtia.nekoweb.org/posts/windows11.html</link>
+		<guid isPermaLink="false">windows-oobe</guid>
+		<pubDate>Fri, 05 Dec 2025 22:56:00 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	    </item>
+
+        	<item>
+		<title>Misogyny in Metal Gear Solid</title>
+        <description>"When I got into Metal Gear Solid, I saw a very glaring issue, which was the misogyny that hits you in the face in every game..."</description>
+		<link>https://7vtia.nekoweb.org/posts/post.html</link>
+		<guid isPermaLink="false">misogyny-mgs</guid>
+		<pubDate>Fri, 14 Nov 2025 00:41:51 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	    </item>
+
+        <item>
+		<title>100 Webmaster Questions</title>
+        <description>I was bored, so I joined in on the fun.</description>
+		<link>https://7vtia.nekoweb.org/posts/100questions.html</link>
+		<guid isPermaLink="false">100-questions</guid>
+		<pubDate>Sat, 08 Nov 2025 09:16:00 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	    </item>
+
+        <item>
+        <title>MusicTaste</title>
+        <description>I made a MusicTaste account and have been on a contributing spree.</description>
+		<link>https://7vtia.nekoweb.org/posts/musictaste.html</link>
+		<guid isPermaLink="false">musictaste</guid>
+		<pubDate>Fri, 24 Oct 2025 19:29:00 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+        </item>
+
+        <item>
+		<title>English</title>
+        <description>A little incoherent.</description>
+		<link>https://7vtia.nekoweb.org/posts/english.html</link>
+		<guid isPermaLink="false">english</guid>
+		<pubDate>Tue, 14 Oct 2025 16:48:00 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	    </item>
+
+        <item>
+            <title>Homosexuality, Religion, and Egypt</title>
+            <description>As you can tell, I am quite the patriot. Warning for homophobia and religious talk. </description>
+            <link>https://7vtia.nekoweb.org/posts/homosexuality.html</link>
+            <guid isPermaLink="false">homosexuality-religion-egypt</guid>
+            <pubDate>Sat, 11 Oct 2025 15:17:00 +0300</pubDate>
+            <author>7vtia@tuta.io (Saif)</author>
+        </item>
+
+        <item>
+            <title>Journaling and This Website</title>
+            <description>This one is quite personal. Warning: I talk about my experiences
+            with paranoia here.</description>
+            <link>https://7vtia.nekoweb.org/posts/journaling.html</link>
+            <guid isPermaLink="false">journaling-and-this-website</guid>
+            <pubDate>Sun, 05 Oct 2025 19:38:00 +0300</pubDate>
+            <author>7vtia@tuta.io (Saif)</author>
+        </item>
+
+          <item>
+            <title>AI</title>
+            <description>About time I posted an AI rant! I really do hate it.</description>
+            <link>https://7vtia.nekoweb.org/posts/ai.html</link>
+            <guid isPermaLink="false">ai</guid>
+            <pubDate>Sat, 04 Oct 2025 16:11:00 +0300</pubDate>
+            <author>7vtia@tuta.io (Saif)</author>
+        </item>
+
+          <item>
+            <title>Autoplay</title>
+            <description>Media autoplay (and why I hate it with my entire being.) Happy October!</description>
+            <link>https://7vtia.nekoweb.org/posts/autoplay.html</link>
+            <guid isPermaLink="false">autoplay</guid>
+            <pubDate>Wed, 01 Oct 2025 14:07:00 +0300</pubDate>
+            <author>7vtia@tuta.io (Saif)</author>
+        </item>
+
+        <item>
+            <title>First Post</title>
+            <description>Exactly what it says. I also talk about soulseek.</description>
+            <link>https://7vtia.nekoweb.org/posts/first_post.html</link>
+            <guid isPermaLink="false">first-post</guid>
+            <pubDate>Mon, 29 Sep 2025 20:35:00 +0300</pubDate>
+            <author>7vtia@tuta.io (Saif)</author>
+        </item>
+
+        <item>
+            <title>Test</title>
+            <description>Hello.... Testing my RSS feed here...</description>
+            <link>https://7vtia.nekoweb.org/</link>
+            <guid isPermaLink="false">test</guid>
+            <pubDate>Sun, 28 Sep 2025 18:00:00 +0300</pubDate>
+            <author>7vtia@tuta.io (Saif)</author>
+        </item>
+    </channel>
+</rss>

@@ -149,6 +149,17 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 		<link rel="stylesheet" href="posts/poststyle.css" />
 		<link rel="stylesheet" href="styles.css" />
+		<style>
+			.shortform {
+				max-width: 80ch;
+				max-height: 100px;
+				overflow-x: scroll;
+				scroll-behavior: smooth;
+			}
+			.shortform p:not(:last-of-type) {
+				margin-bottom: 20px;
+			}
+		</style>
 	</head>
 	<body>
 		<main>
@@ -168,9 +179,10 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 					Posts
 				</h2>
 				<p>
-					Hey, who doesn't like a journal? This will mostly just be
-					ramblings of mine. Will be updated whenever I remember to.
+					Hey, who doesn't like a journal? This will mostly just be ramblings of
+					mine. Will be updated whenever I remember to.
 				</p>
+				<p>Long-form posts have a URL next to the date.</p>
 				<iframe
 					src="https://nekoweb.org/frame/follow"
 					frameborder="0"
@@ -187,7 +199,27 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 				/></a>
 				<!-- ! Posts------------------------->
 
+				<!-- ! SHORTFORM -->
+
 				<!--
+
+				<div class="preview">
+					<h3>Title</h3>
+					<p class="postdate">
+						Posted
+						<time datetime="yyyy-mm-dd">Mon Day, Year</time>
+					</p>
+					<div class="shortform">
+						<p>Post Here</p>
+					</div>
+					<br />
+				</div>
+-->
+
+				<!-- ! LONGFORM -->
+
+				<!--
+
 
  <div class="preview">
           <h3>Name</h3>
@@ -207,6 +239,42 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
         </div>
 
         -->
+
+				<div class="preview">
+					<h3>Nothing</h3>
+					<p class="postdate">
+						Posted
+						<time datetime="2026-05-28">May 28th. 2026</time>
+					</p>
+					<div class="shortform" id="nothing">
+						<p>
+							Short posts are here! I'm finally done being swarmed by exams all
+							of the time, and I'm stuck doing the same thing I do whenever I
+							have free time, which is nothing. I feel like I can only achieve
+							things whenever I have a completely unrelated deadline close by.
+						</p>
+						<p>
+							I'm hoping to get to drawing actual full pieces again, though I'd
+							be perfectly fine with unfinished pieces though. Better something
+							than nothing, right?
+						</p>
+					</div>
+					<br />
+				</div>
+
+				<div class="preview">
+					<h3>This Page</h3>
+					<p class="postdate">
+						Posted
+						<time datetime="2026-05-26">May 26th, 2026</time>
+
+						/
+						<a href="https://7vtia.nekoweb.org/posts/thispage.html"> URL </a>
+					</p>
+					<p>Or more specifically, the Posts page.</p>
+					<br />
+				</div>
+
 				<div class="preview">
 					<h3>Torrenting & Download Managers</h3>
 					<p class="postdate">
@@ -214,9 +282,7 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2026-03-17">March 17th, 2026</time>
 
 						/
-						<a href="https://7vtia.nekoweb.org/posts/tadm.html">
-							URL
-						</a>
+						<a href="https://7vtia.nekoweb.org/posts/tadm.html"> URL </a>
 					</p>
 				</div>
 
@@ -227,11 +293,7 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2026-01-22">January 22nd, 2026</time>
 
 						/
-						<a
-							href="https://7vtia.nekoweb.org/posts/floppydisk.html"
-						>
-							URL
-						</a>
+						<a href="https://7vtia.nekoweb.org/posts/floppydisk.html"> URL </a>
 					</p>
 					<p>Exactly as the title says.</p>
 					<br />
@@ -244,9 +306,7 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2026-01-21">January 21st, 2026</time>
 
 						/
-						<a href="https://7vtia.nekoweb.org/posts/tilde.html">
-							URL
-						</a>
+						<a href="https://7vtia.nekoweb.org/posts/tilde.html"> URL </a>
 					</p>
 					<p>I'm on tilde.club now!</p>
 					<br />
@@ -259,11 +319,7 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2026-01-16">January 16th, 2026</time>
 
 						/
-						<a
-							href="https://7vtia.nekoweb.org/posts/coldbrewtea.html"
-						>
-							URL
-						</a>
+						<a href="https://7vtia.nekoweb.org/posts/coldbrewtea.html"> URL </a>
 					</p>
 					<p>Let's all love cold brew.</p>
 					<br />
@@ -276,15 +332,9 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2025-12-05">December 5th, 2025</time>
 
 						/
-						<a
-							href="https://7vtia.nekoweb.org/posts/windows11.html"
-						>
-							URL
-						</a>
+						<a href="https://7vtia.nekoweb.org/posts/windows11.html"> URL </a>
 					</p>
-					<p>
-						I tried out a fresh install of Windows 11 and hated it.
-					</p>
+					<p>I tried out a fresh install of Windows 11 and hated it.</p>
 					<br />
 				</div>
 
@@ -295,9 +345,7 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2025-11-14">November 14th, 2025</time>
 
 						/
-						<a href="https://7vtia.nekoweb.org/posts/mgs.html">
-							URL
-						</a>
+						<a href="https://7vtia.nekoweb.org/posts/mgs.html"> URL </a>
 					</p>
 				</div>
 
@@ -308,9 +356,7 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2025-11-08">November 8th, 2025</time>
 
 						/
-						<a
-							href="https://7vtia.nekoweb.org/posts/100questions.html"
-						>
+						<a href="https://7vtia.nekoweb.org/posts/100questions.html">
 							URL
 						</a>
 					</p>
@@ -325,15 +371,10 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2025-10-24">October 24th, 2025</time>
 
 						/
-						<a
-							href="https://7vtia.nekoweb.org/posts/musictaste.html"
-						>
-							URL
-						</a>
+						<a href="https://7vtia.nekoweb.org/posts/musictaste.html"> URL </a>
 					</p>
 					<p>
-						I made a MusicTaste account and have been on a
-						contributing spree.
+						I made a MusicTaste account and have been on a contributing spree.
 					</p>
 					<br />
 				</div>
@@ -345,9 +386,7 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2025-10-14">October 14th, 2025</time>
 
 						/
-						<a href="https://7vtia.nekoweb.org/posts/english.html">
-							URL
-						</a>
+						<a href="https://7vtia.nekoweb.org/posts/english.html"> URL </a>
 					</p>
 					<p>A little incoherent.</p>
 					<br />
@@ -360,15 +399,13 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2025-10-11">October 11th, 2025</time>
 
 						/
-						<a
-							href="https://7vtia.nekoweb.org/posts/homosexuality.html"
-						>
+						<a href="https://7vtia.nekoweb.org/posts/homosexuality.html">
 							URL
 						</a>
 					</p>
 					<p>
-						As you can tell, I am quite the patriot. Warning for
-						homophobia and religious talk.
+						As you can tell, I am quite the patriot. Warning for homophobia and
+						religious talk.
 					</p>
 					<br />
 				</div>
@@ -380,15 +417,11 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2025-10-05">October 5th, 2025</time>
 
 						/
-						<a
-							href="https://7vtia.nekoweb.org/posts/journaling.html"
-						>
-							URL
-						</a>
+						<a href="https://7vtia.nekoweb.org/posts/journaling.html"> URL </a>
 					</p>
 					<p>
-						This one is quite personal. Warning: I talk about my
-						experiences with paranoia here.
+						This one is quite personal. Warning: I talk about my experiences
+						with paranoia here.
 					</p>
 					<br />
 				</div>
@@ -400,9 +433,7 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2025-10-04">October 4th, 2025</time>
 
 						/
-						<a href="https://7vtia.nekoweb.org/posts/ai.html">
-							URL
-						</a>
+						<a href="https://7vtia.nekoweb.org/posts/ai.html"> URL </a>
 					</p>
 					<p>About time I posted an AI rant! I really do hate it.</p>
 					<br />
@@ -415,13 +446,11 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2025-10-01">October 1st, 2025</time>
 
 						/
-						<a href="https://7vtia.nekoweb.org/posts/autoplay.html">
-							URL
-						</a>
+						<a href="https://7vtia.nekoweb.org/posts/autoplay.html"> URL </a>
 					</p>
 					<p>
-						Media autoplay (and why I hate it with my entire being.)
-						Happy October!
+						Media autoplay (and why I hate it with my entire being.) Happy
+						October!
 					</p>
 					<br />
 				</div>
@@ -433,11 +462,7 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 						<time datetime="2025-09-29">September 29th, 2025</time>
 
 						/
-						<a
-							href="https://7vtia.nekoweb.org/posts/first_post.html"
-						>
-							URL
-						</a>
+						<a href="https://7vtia.nekoweb.org/posts/first_post.html"> URL </a>
 					</p>
 					<p>Exactly what it says. I also talk about soulseek.</p>
 					<br />
