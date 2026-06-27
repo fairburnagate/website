@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>TITLE HERE</title>
+        <description>posts from your-website.com</description>
+        <link>https://your-website.com</link>
+        <atom:link href="https://link-to-your-feed" rel="self" type="application/rss+xml" />
+        <webMaster>email@domain.com (name)</webMaster>
+
+        <!--Example Post-->
+        <item>
+		<title>post title</title>
+		<link>https://your-website.com/yourpost.html</link>
+		<guid isPermaLink="false">guid-here</guid>
+        <description>
+        Description Here
+        </description>
+		<pubDate>Day, dd Mon yyyy 00:00:00 +0000</pubDate>  <!--Example Date: Thu, 29 Jun 2027 19:30:10 -0500-->
+        <author>email@domain.com (name)</author>
+        </item>
+
+        <!--CDATA Example Post-->
+        <item>
+		<title>post title</title>
+		<link>https://your-website.com/yourpost.html</link>
+		<guid isPermaLink="false">guid-here</guid>
+        <description>
+        <![CDATA[
+        <p>This is a paragraph.</p>
+        <p>This is another paragraph.</p>
+        <p>You can put HTML markup inside of <strong>CDATA.</strong></p>
+        ]]>
+        You can also include a regular description.
+        </description>
+		<pubDate>Day, dd Mon yyyy 00:00:00 +0000</pubDate>  <!--Example Date: Thu, 29 Jun 2027 19:30:10 +0300-->
+        <author>email@domain.com (name)</author>
+        </item>
+        
+    </channel>
+</rss>
+

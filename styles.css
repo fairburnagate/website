@@ -39,6 +39,10 @@ body {
 	background-color: #fff;
 	color: #000;
 }
+html,
+body {
+	overflow-x: hidden;
+}
 .right-column {
 	float: left;
 	width: 180px;
@@ -258,6 +262,16 @@ nav {
 #useslist {
 	font-size: 1.2em;
 	line-height: 1.6em;
+}
+#useslist a {
+	margin-bottom: 10px;
+}
+#useslist p {
+	font-size: 0.9em;
+	line-height: 1.6em;
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-indent: 7px;
 }
 
 @media screen and (max-width: 550px) {

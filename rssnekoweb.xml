@@ -7,10 +7,20 @@
         <atom:link href="https://7vtia.nekoweb.org/rss.xml" rel="self" type="application/rss+xml" />
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
 
+        <item>
+		<title>RSS</title>
+		<link>https://7vtia.nekoweb.org/rssfeed.html</link>
+		<guid isPermaLink="false">rssfeed</guid>
+        <description>
+        Do you like RSS feeds? Do you want to make one for your website? No? Too bad.
+        </description>
+		<pubDate>Sun, 31 May 2026 18:54:40 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+        </item>
         
         <item>
 		<title>Nothing</title>
-		<link>https://7vtia.nekoweb.org/posts.html</link>
+		<link>https://7vtia.nekoweb.org/posts.html/#nothing</link>
 		<guid isPermaLink="false">nothing</guid>
         <description>
         Doing nothing with your free time.
