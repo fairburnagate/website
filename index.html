@@ -174,11 +174,29 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 			rel="stylesheet"
 			href="https://jack-dawlia.neocities.org/page/shrines/portal/aperturewebring/onionring.css"
 		/>
-
+		<link
+			rel="stylesheet"
+			href="https://jack-dawlia.neocities.org/page/shrines/discoelysium/boogiestreetwebring/onionring.css"
+		/>
 		<script>
 			if (!location.hash) history.replaceState(null, "", "#home");
 			addEventListener("hashchange", () => scrollTo(0, 0));
 		</script>
+
+		<script>
+			document.addEventListener("DOMContentLoaded", function getCurrentTime() {
+				let currentTime = new Date().toLocaleTimeString("en-GB", {
+					hour: "2-digit",
+					minute: "2-digit",
+					timeZone: "Africa/Cairo",
+					timeZoneName: "short",
+				});
+				document.getElementById("time").innerHTML = currentTime;
+				setTimeout(getCurrentTime, 1000);
+			});
+		</script>
+
+		<script src="https://u.widget.st/ar.js"></script>
 	</head>
 	<body>
 		<header>
@@ -193,6 +211,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 				<a href="#links">Joined</a>
 				<a href="#uses">Uses</a>
 				<a href="#guestbook"> Guestbook </a>
+				<a href="#contact">Contact </a>
 				<a href="#credits">Credits</a>
 				<a
 					href="https://7vtia.nekoweb.org/directory.html"
@@ -230,9 +249,11 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								website might look a little rough.
 							</p>
 							<p>
-								I am a transmasculine lesbian who likes coffee, tea, drawing,
-								and rocks. My favourite rock is Botswana Agate, and my favourite
-								type of tea is English Breakfast.
+								I am a
+								<!--transmasculine lesbian-->
+								guy-adjacent being who likes coffee, tea, drawing, and rocks. My
+								favourite rock is Botswana Agate, and my favourite type of tea
+								is Earl Grey.
 							</p>
 							<p>
 								My favourite characters are Pascal (NieR:Automata) and Kim
@@ -248,7 +269,8 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 							</p>
 							<p>
 								Please send me an e-mail if you experience any issues with the
-								website.
+								website. <br />Unfortunately, the website doesn't look all that
+								great on mobile.
 							</p>
 							<p>
 								If you haven't visited in a while, please hard refresh using
@@ -266,6 +288,15 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								(Originally on Neocities, Dated
 								<time datetime="2025-07-29">29/07/2025</time>)
 							</p>
+							<p class="footer">
+								Hand-coded with love by Saif - 2023-2026 -
+								<a
+									href="https://creativecommons.org/publicdomain/zero/1.0/"
+									target="_blank"
+									rel="noreferrer noopener"
+									>CC0 1.0</a
+								>
+							</p>
 
 							<!-- ! Updates ------------------------------------------------------->
 
@@ -281,6 +312,75 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 					 -->
 
 								<div class="updates">
+									<h4><time datetime="2026-08-20">20/08/2026</time></h4>
+									<ul>
+										<li>
+											I somehow deleted the interests section. It's back now
+										</li>
+									</ul>
+
+									<h4><time datetime="2026-08-18">18/08/2026</time></h4>
+									<ul>
+										<li>Fixed directory contents table not being sticky</li>
+										<li>Updated Art Tools section</li>
+										<li>Updated links.txt</li>
+									</ul>
+
+									<h4><time datetime="2026-08-11">11/08/2026</time></h4>
+									<ul>
+										<li>Added Contact page</li>
+									</ul>
+
+									<h4><time datetime="2026-08-09">09/08/2026</time></h4>
+									<ul>
+										<li>Rearranged interests</li>
+									</ul>
+
+									<h4><time datetime="2026-08-04">04/08/2026</time></h4>
+									<ul>
+										<li>Updated Joined page</li>
+									</ul>
+									<h4><time datetime="2026-07-29">29/07/2026</time></h4>
+									<ul>
+										<li>New post!</li>
+										<li>Fixed how the index looks on mobile</li>
+									</ul>
+									<h4><time datetime="2026-07-27">27/07/2026</time></h4>
+									<ul>
+										<li>Updated uses page</li>
+									</ul>
+									<h4><time datetime="2026-07-17">17/07/2026</time></h4>
+									<ul>
+										<li>Removed unnecessary padding from sections</li>
+										<li>Added footer</li>
+									</ul>
+									<h4><time datetime="2026-07-15">15/07/2026</time></h4>
+									<ul>
+										<li>Added neighbours without buttons</li>
+									</ul>
+									<h4><time datetime="2026-07-13">13/07/2026</time></h4>
+									<ul>
+										<li>English Breakfast is no longer my favourite tea</li>
+									</ul>
+									<h4><time datetime="2026-07-04">04/07/2026</time></h4>
+									<ul>
+										<li>Fixed old link to last.fm widget in Credits</li>
+									</ul>
+									<h4><time datetime="2026-06-28">28/06/2026</time></h4>
+									<ul>
+										<li>
+											Like the genius I am, I forgot to upload the css for the
+											Uses page
+										</li>
+									</ul>
+									<h4><time datetime="2026-06-27">27/06/2026</time></h4>
+									<ul>
+										<li>Added more rambling to Uses page</li>
+										<li>Removed Reference Angle from directory</li>
+										<li>Temporarily removed Winaero from directory</li>
+										<li>Updated links.txt</li>
+									</ul>
+
 									<h4><time datetime="2026-06-25">25/06/2026</time></h4>
 									<ul>
 										<li>Updated Joined page.</li>
@@ -897,11 +997,11 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 							<span style="font-size: 1.2em"><b>Neighbours</b></span>
 							<span style="font-size: 1em">(scroll)</span>
 							<div class="buttons">
-								<a href="https://luziekennel.nekoweb.org/" target="_blank"
+								<a href="https://julian.nekoweb.org" target="_blank"
 									><img
-										src="images/neighbours/static.png"
-										title="Luzie's Kennel (has autoplay)"
-										alt="Luzie's Kennel"
+										src="images/neighbours/julianbutton.png"
+										title="julian"
+										alt="julian"
 								/></a>
 
 								<a href="https://hal.nekoweb.org/" target="_blank"
@@ -910,37 +1010,89 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										alt="HAL"
 										title="HAL"
 								/></a>
-								<a href="https://julian.nekoweb.org" target="_blank"
+
+								<a href="https://spaghetti.nekoweb.org/" target="_blank"
 									><img
-										src="images/neighbours/julianbutton.png"
-										title="julian"
-										alt="julian"
+										src="images/neighbours/spaghettibutton.png"
+										alt="spagwhetti"
+										title="spagwhetti"
 								/></a>
-								<a href="https://interupsi.nekoweb.org/" target="_blank">
+
+								<a href="https://nev.nya.je/" target="_blank">
 									<img
-										src="images/neighbours/Interupsi_Button_v2.png"
-										title="INTERUPSI"
-										alt="INTERUPSI"
+										src="images/neighbours/nevbutton.png"
+										title="Nev.nya.je"
+										alt="Nev.nya.je"
 								/></a>
-								<a target="_blank" href="https://littleabyss.nekoweb.org/"
-									><img
-										src="images/neighbours/littleabyss.gif"
-										alt="littleabyss.nekoweb.org"
-										title="Little Abyss"
-								/></a>
-								<a href="https://delzeetoons.nekoweb.org/" target="_blank"
-									><img
-										src="images/neighbours/newbutton.png"
-										style="width: 88px; height: 31px"
-										title="delzeetoons"
-										alt="delzeetoons"
-								/></a>
+
 								<a href="https://yatagarasu.nekoweb.org" target="_blank"
 									><img
 										src="images/neighbours/yatagarasu.gif"
 										alt="Yatagarasu site button"
 										title="Yatagarasu"
 								/></a>
+
+								<a href="https://bachelor.nekoweb.org" target="_blank"
+									><img
+										src="images/neighbours/bachelorbutton.png"
+										alt="Bachelor"
+										title="Bachelor"
+								/></a>
+
+								<a href="https://luziekennel.nekoweb.org/" target="_blank"
+									><img
+										src="images/neighbours/static.png"
+										title="Luzie's Kennel (has autoplay)"
+										alt="Luzie's Kennel"
+								/></a>
+
+								<a href="https://interupsi.nekoweb.org/" target="_blank">
+									<img
+										src="images/neighbours/Interupsi_Button_v2.png"
+										title="INTERUPSI"
+										alt="INTERUPSI"
+								/></a>
+
+								<a href="https://chunkofwax.com/" target="_blank">
+									<img
+										src="images/neighbours/waxbutton_1.gif"
+										title="chunkofwax.com"
+										alt="chunkofwax.com"
+								/></a>
+
+								<a href="https://pinkbasement.nekoweb.org" target="_blank">
+									<img
+										src="images/neighbours/buttonpink.gif"
+										title="Pink basement"
+										alt="Pink basement"
+								/></a>
+
+								<a
+									href="https://pacificisland3364.nekoweb.org/"
+									target="_blank"
+								>
+									<img
+										src="images/neighbours/pacificisland3364-button.gif"
+										title="PacificIsland3364"
+										alt="PacificIsland3364"
+								/></a>
+
+								<a target="_blank" href="https://littleabyss.nekoweb.org/"
+									><img
+										src="images/neighbours/littleabyss.gif"
+										alt="littleabyss.nekoweb.org"
+										title="Little Abyss"
+								/></a>
+
+								<a href="https://jenett.nekoweb.org/" target="_blank"
+									><img
+										src="images/neighbours/jjbutt.png"
+										title="jenett.neko"
+										alt="jenett.neko"
+										width="88"
+										height="31"
+								/></a>
+
 								<a href="https://ellen.nekoweb.org" target="_blank"
 									><img
 										src="images/neighbours/oc-headshot-style.png"
@@ -949,7 +1101,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								/></a>
 								<a href="https://defkeats.nekoweb.org/" target="_blank"
 									><img
-										src="images/neighbours/defkeatsbutton.jpg"
+										src="images/neighbours/defkeats-button.gif"
 										alt="Defkeats Online"
 										title="Defkeats Online"
 								/></a>
@@ -984,12 +1136,22 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										title="The End of Science (18+)"
 										alt="The End of Science (18+)"
 								/></a>
+
 								<a href="https://mitadpunketo.nekoweb.org/" target="_blank"
 									><img
 										src="images/neighbours/mitadpunketobanner.png"
 										title="mitad punketo (18+)"
 										alt="mitad punketo"
 								/></a>
+
+								<a href="https://delzeetoons.nekoweb.org/" target="_blank"
+									><img
+										src="images/neighbours/newbutton.png"
+										style="width: 88px; height: 31px"
+										title="delzeetoons"
+										alt="delzeetoons"
+								/></a>
+
 								<a href="https://calijori.nekoweb.org/" target="_blank"
 									><img
 										src="images/neighbours/calibutton.jpg"
@@ -1003,6 +1165,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										title="ELITE784"
 										alt="ELITE784"
 								/></a>
+
 								<a
 									href="https://taigabeetle.nekoweb.org/index.html"
 									target="_blank"
@@ -1022,6 +1185,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										width="88"
 										height="31"
 								/></a>
+
 								<a href="https://ryqrtz.nekoweb.org/" target="_blank"
 									><img
 										src="images/neighbours/ryqrtzbutton.png"
@@ -1034,6 +1198,13 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										src="images/neighbours/moonflowerbutton.gif"
 										alt="moonflower"
 										title="moonflower"
+								/></a>
+
+								<a href="https://purgatorium.nekoweb.org/" target="_blank"
+									><img
+										src="images/neighbours/myotherbutton.png"
+										alt="purgatorium"
+										title="purgatorium"
 								/></a>
 
 								<a href="https://mars.nekoweb.org/?button" target="_blank"
@@ -1054,14 +1225,6 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										height="31"
 								/></a>
 
-								<a href="https://jenett.nekoweb.org/" target="_blank"
-									><img
-										src="images/neighbours/jjbutt.png"
-										title="jenett.neko"
-										alt="jenett.neko"
-										width="88"
-										height="31"
-								/></a>
 								<a
 									href="https://mycolorfultwistedwebsite.nekoweb.org/"
 									target="_blank"
@@ -1114,13 +1277,6 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										alt="lochi.jpeg"
 								/></a>
 
-								<a href="https://nev.nya.je/" target="_blank">
-									<img
-										src="images/neighbours/nevbutton.gif"
-										title="Nev.nya.je"
-										alt="Nev.nya.je"
-								/></a>
-
 								<a href="https://robgarage.online/" target="_blank">
 									<img
 										src="images/neighbours/robgarage.gif"
@@ -1133,6 +1289,43 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										title="callus"
 										alt="callus"
 								/></a>
+
+								<a href="https://flonkie.nekoweb.org/" target="_blank">
+									<img
+										src="images/neighbours/flonkiecafe.png"
+										title="Flonkie's library"
+										alt="Flonkie's library"
+								/></a>
+
+								<!-- ? NO BUTTONS --------------------------------------->
+								<a
+									class="nobutton"
+									href="https://glitchwolf47.nekoweb.org/"
+									target="_blank"
+									title="glitchwolf47"
+									>glitchwolf47</a
+								>
+								<a
+									class="nobutton"
+									href="https://nicky.nekoweb.org/"
+									target="_blank"
+									title="NickNashRises (has autoplay)"
+									>NickNashRises</a
+								>
+								<a
+									class="nobutton"
+									href="https://dann.nekoweb.org/"
+									target="_blank"
+									title="Dannarchy Portal"
+									>Dannarchy</a
+								>
+								<a
+									class="nobutton"
+									href="https://pjstayshappy.fyi/"
+									target="_blank"
+									title="Paige's Site"
+									>Paige's Site</a
+								>
 							</div>
 
 							<!--? Button ------------------------------------------------------->
@@ -1149,16 +1342,17 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								>
 
 								<span style="font-size: 1em">(hotlinking OK)</span>
+								<div class="buttons" id="me">
+									<img
+										src="images/7vtia.png"
+										style="image-rendering: pixelated"
+									/>
 
-								<img
-									src="images/7vtia.png"
-									style="image-rendering: pixelated"
-								/>
-
-								<img
-									src="images/7vtia2.png"
-									style="image-rendering: pixelated"
-								/>
+									<img
+										src="images/7vtia2.png"
+										style="image-rendering: pixelated"
+									/>
+								</div>
 
 								<textarea
 									readonly=""
@@ -1168,63 +1362,9 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 <a href="https://7vtia.nekoweb.org/#home" target="_blank"><img src="https://7vtia.nekoweb.org/images/7vtia.png" style="image-rendering: pixelated;" alt="7vtia" title="7vtia"></a></textarea
 								>
 							</div>
-							<span style="font-size: 1.2em"><b>Off-site</b></span>
-							<br />
-							<div style="line-height: 1.4em; margin-top: 15px">
-								<a
-									href="mailto:7vtia@tuta.io"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									E-mail
-								</a>
-								<br />
-								<a
-									title="conversations.im link"
-									href="https://conversations.im/i/7vtia@disroot.org?omemo-sid-1511163191=2a1a12cb24cbafa5ef121b9692a413301d453a3c5bee43c1eecd44b89d0a0639"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									XMPP</a
-								>
-								/
-								<a
-									title="XMPP URI"
-									href="xmpp:7vtia@disroot.org?omemo-sid-1511163191=2a1a12cb24cbafa5ef121b9692a413301d453a3c5bee43c1eecd44b89d0a0639"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									URI
-								</a>
-								<br />
-								<a
-									href="https://www.instagram.com/madeiracitrine/"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Instagram
-								</a>
-
-								<br />
-								<a
-									href="https://x.com/pascalfan123"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Twitter
-								</a>
-								<br />
-								<!--	<a
-									href="https://forum.melonland.net/index.php?action=profile;u=3451"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									MelonLand Forum 
-								</a> -->
-							</div>
 						</div>
+						<!-- ! Table End------------------------------------------------>
 					</section>
-
 					<!-- ! Interests ----------------------------------------------------->
 
 					<section id="interests">
@@ -1234,51 +1374,48 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								<div class="listbox">
 									<h3>Shows</h3>
 
-									<b>Severance</b>, <b>Twin Peaks</b>, Succession, Mr. Robot,
-									Pluribus, Murderbot, The Good Place, Ted Lasso, The Bear,
-									Breaking Bad, Better Call Saul, Hannibal, YOU, Barry, Doctor
-									Who, A.P Bio, Broadchurch, Moral Orel
+									<b>Twin Peaks</b>, Severance, Succession, Mr. Robot, Pluribus,
+									Murderbot, The Good Place, Ted Lasso, The Bear, Breaking Bad,
+									Better Call Saul, Hannibal, YOU, Barry, Doctor Who, A.P Bio,
+									Broadchurch, Moral Orel
 								</div>
 
 								<div class="listbox">
 									<h3>Movies</h3>
 
-									Saw 1-10, The Lighthouse, Hereditary, Crash (1996), Ferris
-									Bueller's Day Off, Cocaine Bear, Chicago (2002), 2001: A Space
-									Odyssey, Blue Velvet, Twin Peaks: Fire Walk with Me,
-									Interstellar, Mickey 17, Tenet, Electric Dreams, Klaus, Daft
-									Punk's Electroma
+									<b>Daft Punk's Electroma</b>, <b>Synecdoche, New York</b>,
+									Ferris Bueller's Day Off, Klaus, 2001: A Space Odyssey,
+									Interstellar, Mickey 17, Alien, Blue Velvet, Twin Peaks: Fire
+									Walk with Me, The Lighthouse, Hereditary, Crash (1996),
+									Cocaine Bear, Chicago (2002), Tenet, Electric Dreams
 								</div>
 
 								<div class="listbox">
 									<h3>Games</h3>
 
-									<b>Disco Elysium</b>,
-
-									<b> The Stanley Parable</b>,
-
-									<b> FAITH: The Unholy Trinity</b>, NieR, Drakengard, Dispatch,
-									Iron Lung, Devil May Cry, Metal Gear Solid, Yume Nikki,
-									Project Moon (Lobotomy Corporation, Library of Ruina, Limbus
-									Company), 8:11, ULTRAKILL, Portal
+									<b>Disco Elysium</b>, NieR, Drakengard, Metal Gear Solid, Ace
+									Attorney, Portal, Project Moon (Lobotomy Corporation, Library
+									of Ruina, Limbus Company), The Stanley Parable, FAITH: The
+									Unholy Trinity, Iron Lung, Devil May Cry
 								</div>
 							</div>
 							<div class="listboxcontainer">
 								<div class="listbox">
 									<h3>Music</h3>
 
-									Graham Kartna, Snake River Conspiracy, NASTYONA, Portishead,
-									Beth Gibbons, System of a Down, Massive Attack, Nine Inch
-									Nails, Daft Punk, Simon Says, The Paper Chase, Genitorturers,
-									Mr. Bungle, Peeping Tom, Comus, American Head Charge, Depeche
-									Mode, King Gizzard & The Lizard Wizard, Aphex Twin, Punishment
-									Of Luxury, Placebo, Prick, Pigface, bôa, Björk
+									Daft Punk, Portishead, Beth Gibbons, Aphex Twin, Boards of
+									Canada, Autechre, Massive Attack, Comus, Peeping Tom,
+									NASTYONA, Genitorturers, Graham Kartna, Snake River
+									Conspiracy, Nine Inch Nails, The Paper Chase, Mr. Bungle,
+									American Head Charge, System of a Down, Punishment Of Luxury,
+									Placebo, Prick, Pigface, bôa, Björk
 								</div>
+
 								<div class="listbox">
 									<h3>Comics</h3>
-									<b>Martian Manhunter (+Absolute Series)</b>, Batman,
-									Daredevil, Watchmen, Spider-Man Noir, Invincible, Dungeon
-									Meshi, Orb: On the Movements of the Earth, Gachiakuta
+									<b>Martian Manhunter (+Absolute Series)</b>, Orb: On the
+									Movements of the Earth, Daredevil, Watchmen, Dungeon Meshi,
+									Spider-Man Noir, Invincible, Gachiakuta
 								</div>
 								<div class="listbox">
 									<h3>Genernal Interests</h3>
@@ -1287,10 +1424,9 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 
 									<b> Insects (especially cockroaches), </b>
 
-									<b>Piracy</b>, DC, Teas, Coffee, Astronomy, Vintage Computers,
-									Mechs, Robots Objectheads, Masks, Helmets, Faceless
-									Characters, The Murderbot Diaries, The Metamorphosis, I Have
-									No Mouth, and I Must Scream
+									<b>Piracy</b>, Tea, Coffee, Astronomy, Vintage Computers,
+									Mechs, Old Software, The Metamorphosis, I Have No Mouth, and I
+									Must Scream
 								</div>
 							</div>
 						</div>
@@ -1346,7 +1482,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								Last.fm Widget:
 								<strike
 									><a
-										href="https://maxpixels.moe/resources/lastfm-widget/"
+										href="https://web.archive.org/web/20260617101743/https://maxpixels.moe/resources/lastfm-widget/"
 										target="_blank"
 										rel="noopener noreferrer"
 										>maxpixels.moe</a
@@ -1436,9 +1572,37 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									<div id="nix-ring">
 										<script
 											defer
-											src="https://teethinvitro.neocities.org/webring/linuxring/ring.js"
+											src="https://softmachine.dev/webring/linuxring/ring.js"
 											data-icon="mint"
 										></script>
+									</div>
+									<!-- ! RING END -->
+									<br />
+									<!-- ! RING START -->
+
+									<div style="background-color: white; text-align: center">
+										<a
+											href="https://lime360.pythonanywhere.com/prev?url=https://7vtia.nekoweb.org/"
+										>
+											<img
+												src="https://lime360.nekoweb.org/img/webring/prev.png"
+												alt="Previous site"
+											/>
+										</a>
+										<a href="https://lime360.nekoweb.org/webring/">
+											<img
+												src="https://lime360.nekoweb.org/img/webring/button.png"
+												alt="//web"
+											/>
+										</a>
+										<a
+											href="https://lime360.pythonanywhere.com/next?url=https://7vtia.nekoweb.org/"
+										>
+											<img
+												src="https://lime360.nekoweb.org/img/webring/next.png"
+												alt="Next site"
+											/>
+										</a>
 									</div>
 									<!-- ! RING END -->
 									<br />
@@ -1601,6 +1765,14 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									<!-- ! RING END -->
 									<br />
 									<!-- ! RING START -->
+									<journal-ring icon="green"></journal-ring>
+									<script
+										async
+										src="https://cdn.jsdelivr.net/gh/js044/nenrikido@main/static/js/misc/journalring.js"
+									></script>
+									<!-- ! RING END -->
+									<br />
+									<!-- ! RING START -->
 
 									<map name="onlinewidget">
 										<area
@@ -1742,15 +1914,88 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									<!-- ! RING END -->
 									<br />
 									<!-- ! RING START -->
-
-									<!--? PENDING-->
-									<details style="max-width: 100px">
-										<summary>Pending</summary>
-										<journal-ring icon="green"></journal-ring>
+									<div id="boogiestreetwebring">
 										<script
-											async
-											src="https://cdn.jsdelivr.net/gh/js044/nenrikido@main/static/js/misc/journalring.js"
+											type="text/javascript"
+											src="https://jack-dawlia.neocities.org/page/shrines/discoelysium/boogiestreetwebring/onionring-variables.js"
 										></script>
+										<script
+											type="text/javascript"
+											src="https://jack-dawlia.neocities.org/page/shrines/discoelysium/boogiestreetwebring/onionring-widget-4.js"
+										></script>
+										<noscript>
+											This site is part of the
+											<a
+												href="https://jack-dawlia.neocities.org/page/shrines/discoelysium/boogiestreetwebring"
+												>Boogie Street Webring</a
+											>!
+										</noscript>
+									</div>
+									<!-- ! RING END -->
+									<br />
+									<!-- ! RING START -->
+									<link
+										rel="stylesheet"
+										href="https://lunarcorvus.com/webring/pmoonwidget.css"
+									/>
+									<script src="https://lunarcorvus.com/webring/pmoonwidget-lobocorp.js"></script>
+									<!-- ! RING END -->
+									<br />
+									<!-- ! RING START -->
+
+									<!--? PENDING------------------------------>
+									<details style="max-width: 100px">
+										<summary>Inactive</summary>
+										<!-- ! RING END -->
+										<br />
+										<!-- ! RING START -->
+										<div
+											id="gachiring"
+											style="
+												background-image: url(&quot;https://file.garden/afD_PEDycVrE2__g/rudobg.png&quot;);
+												background-size: 100% 100%;
+												height: 130px;
+												width: 200px;
+												margin: 7px auto;
+												border: 1px darkred solid;
+												border-radius: 5px;
+												box-shadow: inset 0px 5px 10px rgb(139, 0, 0, 0.7);
+											"
+										>
+											<div
+												style="
+													text-align: center;
+													padding: 5px;
+													white-space: nowrap;
+												"
+											>
+												<a href="https://p1x3lz.neocities.org/gachiring"
+													><img
+														src="https://file.garden/afD_PEDycVrE2__g/gachiring.png"
+														style="height: 30px" /></a
+												><br /><br />
+												<a
+													href="https://p1x3lz.neocities.org/gachiring?action=previous"
+													><img
+														src="https://file.garden/afD_PEDycVrE2__g/prev.png"
+														style="height: 50px"
+														class="arrow"
+												/></a>
+												<a
+													href="https://p1x3lz.neocities.org/gachiring?action=random"
+													><img
+														src="https://file.garden/afD_PEDycVrE2__g/watchman.png"
+														style="height: 50px"
+												/></a>
+												<a
+													href="https://p1x3lz.neocities.org/gachiring?action=next"
+													><img
+														src="https://file.garden/afD_PEDycVrE2__g/next.png"
+														style="height: 50px"
+														class="arrow"
+												/></a>
+											</div>
+										</div>
 										<!-- ! RING END -->
 										<br />
 										<!-- ! RING START -->
@@ -1779,9 +2024,11 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								</div>
 							</div>
 
+							<!--? Fanlistings ----------------->
+
 							<div class="fanlistings">
+								<h3>Fanlistings</h3>
 								<div class="fanlistingcontainer">
-									<h3>Fanlistings</h3>
 									<a href="http://in-blue-rain.org/hotel/" target="_blank"
 										><img
 											src="images/fanlistings/gbh4-1.png"
@@ -1802,10 +2049,42 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 											title="Doctor Who"
 									/></a>
 
+									<a href="https://www.marheavenj.net/charme/" target="_blank"
+										><img
+											src="images/fanlistings/miles041.jpg"
+											title="Miles Edgeworth"
+									/></a>
+
+									<a href="https://goneangels.neocities.org/" target="_blank"
+										><img
+											src="images/fanlistings/roland.png"
+											title="Project Moon"
+									/></a>
+
+									<a
+										href="https://fan.midnight-cloud.net/portal2/"
+										target="_blank"
+										><img
+											src="images/fanlistings/50x50_portal2.png"
+											title="Portal 2"
+									/></a>
+
+									<a
+										href="https://fan.wings.nu/polarbears/index.php"
+										target="_blank"
+										><img src="images/fanlistings/pb07.png" title="Polar Bears"
+									/></a>
+
 									<a href="https://glitterskies.org/steam" target="_blank"
 										><img
 											src="images/fanlistings/502.1446797838.png"
 											title="Steam"
+									/></a>
+
+									<a href="https://fan-a-tic.ca/notepad++/" target="_blank"
+										><img
+											src="images/fanlistings/notepad++50x50-11.jpg"
+											title="Notepad++"
 									/></a>
 
 									<a href="https://silent.am/playlists" target="_blank"
@@ -1855,6 +2134,19 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									<a href="https://hart.altervista.org/birds/" target="_blank"
 										><img src="images/fanlistings/50x50_5.png" title="Birds"
 									/></a>
+									<a href="https://fans.thislove.nu/mozilla" target="_blank">
+										<img
+											src="images/fanlistings/50x50_mozilla.png"
+											title="Mozilla Firefox"
+									/></a>
+									<a
+										href="https://gryffindors.com/jessica/bueller/"
+										target="_blank"
+									>
+										<img
+											src="images/fanlistings/50x50_bueller.png"
+											title="Ferris Bueller's Day Off"
+									/></a>
 								</div>
 							</div>
 						</div>
@@ -1864,6 +2156,124 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 					<section id="guestbook">
 						<div class="guest">
 							<iframe src="https://agate.atabook.org"></iframe>
+						</div>
+					</section>
+
+					<section id="thanks">
+						<h2>Message Sent</h2>
+						<p>Thanks!</p>
+					</section>
+
+					<!-- ! Contact ----------------------------------------------------->
+					<section id="contact">
+						<div class="contact">
+							<h2>Contact</h2>
+							<p>
+								I'm always up for a conversation, so please don't hesitate to
+								reach out to me! Here's where you can find me.
+							</p>
+
+							<h3>Contact Form</h3>
+							<p style="font-size: 1.1em">
+								Type a message in here and I'll reply via e-mail.
+							</p>
+							<div class="contactform">
+								<ws-widget type="contact" iid="4205">
+									<form>
+										<label for="name">Name*</label>
+										<input
+											id="name"
+											name="name"
+											placeholder="Your name"
+											required
+										/>
+										<label for="email">E-mail*</label>
+										<input
+											id="email"
+											type="email"
+											name="email"
+											placeholder="email@domain.com"
+											required
+										/>
+										<label for="message">Message*</label>
+										<textarea
+											name="message"
+											placeholder="I'm all ears..."
+											required
+										></textarea>
+										<button type="submit">Send</button>
+									</form>
+								</ws-widget>
+							</div>
+							<div id="useslist">
+								<a
+									href="mailto:7vtia@tuta.io"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									7vtia@tuta.io</a
+								>
+								- E-mail <br />
+								<p>
+									I check my e-mail every day, so you can expect a fast response
+									from me.
+								</p>
+
+								<a
+									title="XMPP URI"
+									href="xmpp:7vtia@disroot.org?omemo-sid-1511163191=2a1a12cb24cbafa5ef121b9692a413301d453a3c5bee43c1eecd44b89d0a0639"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									XMPP</a
+								>
+								- Instant Messaging <br />
+								<p>
+									Specifically, my URI for existing users. The link for new
+									users can be found
+									<a
+										title="conversations.im link"
+										href="https://conversations.im/i/7vtia@disroot.org?omemo-sid-1511163191=2a1a12cb24cbafa5ef121b9692a413301d453a3c5bee43c1eecd44b89d0a0639"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										here</a
+									>.
+								</p>
+
+								<a
+									href="https://www.instagram.com/madeiracitrine/"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									madeiracitrine</a
+								>
+								- Instagram
+								<br />
+								<p>
+									I'm not sure why I listed this on here, but you can message me
+									on Instagram if you don't mind me sending you reels
+									afterwards.
+								</p>
+
+								<a
+									href="https://x.com/pascalfan123"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									pascalfan123</a
+								>
+								- Twitter
+								<br />
+								<p>Really?</p>
+								<!--	<a
+									href="https://forum.melonland.net/index.php?action=profile;u=3451"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									MelonLand Forum 
+								</a> -->
+							</div>
 						</div>
 					</section>
 
@@ -1930,7 +2340,29 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								<li>Operating System: Android 6</li>
 							</ul>
 
-							<h3>iPad Pro (9.7 inch)</h3>
+							<h3>Samsung Galaxy Tab S10 FE</h3>
+							<p>
+								Sadly, my iPad Pro has seen the end of its life, and thankfully
+								I don't need to use lightning cables anymore! It feels so
+								refreshing to use something that can hold a charge for more than
+								30 minutes, and also be able to use Kirta for Android (and just
+								Android in general.) I didn't have any issues with AppCloud on
+								this device.
+							</p>
+
+							<p>
+								The tablet also came with a pen inside the box, unlike with
+								Apple's devices. I find the rubber tip that comes with it a bit
+								annoying when I'm drawing and/or writing, though…
+							</p>
+
+							<ul>
+								<li>Storage: 256GB</li>
+								<li>RAM: 12GB</li>
+								<li>Operating System: Android 16</li>
+							</ul>
+
+							<!--<h3>iPad Pro (9.7 inch)</h3>
 							<p>
 								This thing has lasted me 10 years! Unfortunately, it's nearing
 								its end of life, and has become really slow to navigate. I'm
@@ -1951,7 +2383,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 							<p>
 								This thing has had the charging adapter on ever since I got it.
 								I actually have no clue where the other attachment has gone...
-							</p>
+							</p>-->
 
 							<h3>soundcore H30i</h3>
 							<p>

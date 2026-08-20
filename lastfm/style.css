@@ -34,6 +34,10 @@ td#cover {
 	padding-right: 5px;
 }
 
+td#cover img {
+	image-rendering: pixelated;
+}
+
 td#date {
 	font-style: italic;
 	font-size: smaller;

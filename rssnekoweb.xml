@@ -7,6 +7,16 @@
         <atom:link href="https://7vtia.nekoweb.org/rss.xml" rel="self" type="application/rss+xml" />
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
 
+
+<item>
+		<title>One Year of 7vtia</title>
+        <description>Isn't that nice?</description>
+		<link>https://7vtia.nekoweb.org/posts/oneyear.html</link>
+		<guid isPermaLink="false">oneyear</guid>
+		<pubDate>Wed, 29 Jul 2026 06:11:10 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	</item>
+
         <item>
 		<title>RSS</title>
 		<link>https://7vtia.nekoweb.org/rssfeed.html</link>
