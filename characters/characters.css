@@ -2,6 +2,9 @@
 	color: white;
 	background-color: rgb(129, 129, 129);
 }
+* {
+	font-family: "Times New Roman", Times, serif;
+}
 h2 {
 	width: fit-content;
 	font-weight: lighter;

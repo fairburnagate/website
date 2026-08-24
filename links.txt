@@ -3,13 +3,15 @@ Made with love by Saif.
 All links are ordered according to the Directory: 
 https://7vtia.nekoweb.org/directory.html
 
-Last updated: August 18th, 2026
+Last updated: August 22nd, 2026
 
 WEBTOOLS ----
 
 General --
 
 https://www.virustotal.com/
+
+https://hybrid-analysis.com/
 
 https://haveibeenpwned.com/
 
@@ -35,6 +37,8 @@ https://hal.nekoweb.org/bookmarks.html
 
 https://arlecooch-ie.nekoweb.org/links
 
+https://brisray.com/web/webring-list.htm
+
 https://fmhy.net/
 
 https://www.reddit.com/r/Piracy/
@@ -43,7 +47,34 @@ https://archive.org/
 
 https://directory.joejenett.com/
 
-Art Tools --
+ART TOOLS ----
+
+
+Drawing Programs --
+
+https://krita.org/en/
+
+https://firealpaca.com/
+
+https://github.com/aseprite/aseprite
+https://github.com/aseprite/aseprite/blob/main/INSTALL.md
+
+https://libresprite.github.io
+
+https://inkscape.org/
+
+https://drawpile.net/download/
+
+https://beyondloom.com/tools/wigglypaint.html
+
+https://jspaint.app/
+
+https://kleki.com/
+
+https://magma.com/
+
+
+Art Resources --
 
 https://vads.ac.uk/digital/
 
@@ -78,14 +109,18 @@ https://film-grab.com/
 https://unsplash.com/
 https://www.pexels.com/
 
-https://jspaint.app/
-
-https://kleki.com/
-
-https://magma.com/
-
 
 IMAGES ----
+
+https://www.gimp.org/
+
+https://imagemagick.org/
+
+https://photodemon.org/
+
+https://flameshot.org/
+
+https://getsharex.com/
 
 https://bendodson.com/projects/itunes-artwork-finder/
 
@@ -106,16 +141,37 @@ https://www.irfanview.com/
 
 https://github.com/jurplel/qView
 
-https://www.gimp.org/
-
-https://imagemagick.org/
-
 https://css-ig.net/pinga
 
 https://trimage.org/
 
 
 AUDIO ----
+
+https://slsknet.org/
+https://nicotine-plus.org/
+https://github.com/jackBonadies/SeekerAndroid
+
+https://www.audacityteam.org/
+
+https://audacious-media-player.org/
+
+https://www.foobar2000.org/
+https://github.com/gix/foo_scrobble
+
+https://www.strawberrymusicplayer.org/
+
+https://getwacup.com/
+
+https://getmusicbee.com/
+
+https://cmus.github.io/#home
+
+https://listenbrainz.org/
+
+https://www.last.fm/
+
+https://libre.fm/
 
 https://archive.org/details/audio
 
@@ -126,27 +182,18 @@ https://www.nts.live/radio
 
 https://github.com/SpotX-Official/SpotX
 
+https://spicetify.app/
+
 https://www.sittingonclouds.net/
 
 https://everynoise.com/engenremap.html
 
-https://www.audacityteam.org/
-
-https://slsknet.org/
-https://nicotine-plus.org/
-https://github.com/jackBonadies/SeekerAndroid
-
-https://www.foobar2000.org/
-https://github.com/gix/foo_scrobble
-
-https://getwacup.com/
-
-https://getmusicbee.com/
-
-https://cmus.github.io/#home
-
 
 VIDEO ----
+
+https://compress-video-online.com/
+
+https://8mb.video/
 
 https://cobalt.tools/
 
@@ -160,8 +207,24 @@ https://obsproject.com/
 
 https://mpv.io/
 
+https://www.videolan.org/vlc/
+
+https://ffmpeg.org/
+
 
 FILE TOOLS ----
+
+https://jdownloader.org/jdownloader2
+https://clarasguide.valeena.workers.dev/Guides/jdownloader2/
+
+https://www.freedownloadmanager.org/
+
+https://www.7-zip.org/download.html
+
+https://syncthing.net/
+https://github.com/chenxiaolong/BasicSync
+
+https://www.gnu.org/software/wget/
 
 https://vert.sh/
 
@@ -173,9 +236,7 @@ https://www.bcuninstaller.com/
 
 https://www.voidtools.com/
 
-https://www.7-zip.org/
 
-https://syncthing.net/
 
 https://diskanalyzer.com/
 
@@ -186,19 +247,19 @@ Torrenting --
 
 https://torrents-csv.com/
 
-https://gitlab.com/proninyaroslav/libretorrent
-
-https://play.google.com/store/apps/details?id=com.delphicoder.flud
-
 https://wiztorrent.com/en
-
-https://deluge-torrent.org/
 
 https://www.qbittorrent.org/
 
 https://transmissionbt.com/
 
+https://deluge-torrent.org/
+
 https://www.biglybt.com/
+
+https://gitlab.com/proninyaroslav/libretorrent
+
+https://play.google.com/store/apps/details?id=com.delphicoder.flud
 
 File Hosts --
 
@@ -248,14 +309,6 @@ https://freetubeapp.io/
 
 https://www.malwarebytes.com/
 
-https://krita.org/en/
-
-https://firealpaca.com/
-
-https://www.videolan.org/vlc/
-
-https://ffmpeg.org/
-
 https://calibre-ebook.com/
 
 https://bitwarden.com/
@@ -263,7 +316,7 @@ https://keepassxc.org/
 
 https://notepad-plus-plus.org/
 
-https://getsharex.com/
+https://winaero.com/
 
 https://espanso.org/
 
@@ -338,7 +391,7 @@ https://f-droid.org/en/
 https://droidify.eu.org/
 
 https://morphe.software/
-https://www.reddit.com/r/MorpheApp/comments/1recqxc/morphe_manager_patch_index/
+https://morphe-patches.software/
 
 https://github.com/AbdurazaaqMohammed/AntiSplit-M
 
@@ -364,6 +417,9 @@ https://sidestore.io/
 https://altstore.io/
 https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows
 
+https://iloader.app/
+
+https://github.com/LiveContainer/LiveContainer
 
 BROWSING ----
 
@@ -466,8 +522,6 @@ https://www.404pagefound.com/
 
 https://jamesfriend.com.au/pce-js/
 
-https://brisray.com/web/webring-list.htm
-
 https://skins.webamp.org/
 
 https://archive.org/details/Atari_Dealer_Demo_1980_-
@@ -564,21 +618,25 @@ Graphics --
 
 https://www.favicon.cc/
 
+https://blinkies.cafe/
+
+https://stamp-studio.wasmer.app/
+
+https://meoqin.neocities.org/shinybuttons
+
+http://acme.com/labelmaker/
+
+https://makesweet.com/
+
 https://gifcities.org/
 
 https://www.gifs-paradise.com/
-
-https://blinkies.cafe/
 
 https://www.internetbumperstickers.com/
 
 https://web.badges.world/
 
 https://textures.neocities.org/
-
-http://acme.com/labelmaker/
-
-https://makesweet.com/
 
 https://www.toptal.com/designers/subtlepatterns/
 

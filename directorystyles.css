@@ -60,7 +60,10 @@ h3 {
 	margin-bottom: 0.6em;
 }
 main {
-	padding: calc(3em + 1vw) 5vw 8vw 5vw;
+	padding-top: calc(2.4em + 1vw);
+	padding-right: 0vw;
+	padding-bottom: 1vw;
+	padding-left: 5vw;
 }
 ol {
 	padding-left: 1vw;
