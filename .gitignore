@@ -8,3 +8,4 @@ website.code-workspace
 .prettierrc.json
 .prettierignore
 .nomedia
+node_modules/
