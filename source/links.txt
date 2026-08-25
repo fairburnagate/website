@@ -3,7 +3,7 @@ Made with love by Saif.
 All links are ordered according to the Directory: 
 https://7vtia.nekoweb.org/directory.html
 
-Last updated: August 22nd, 2026
+Last updated: August 25th, 2026
 
 WEBTOOLS ----
 
@@ -34,8 +34,6 @@ https://www.mf2fm.com/rv/
 Directories --
 
 https://hal.nekoweb.org/bookmarks.html
-
-https://arlecooch-ie.nekoweb.org/links
 
 https://brisray.com/web/webring-list.htm
 
@@ -331,6 +329,10 @@ https://weechat.org/
 
 https://irssi.org/
 
+https://goguma.im/
+
+https://github.com/irccloud/android
+
 
 Bootable USB --
 
@@ -607,6 +609,8 @@ https://github.com/jdan/98.css
 
 https://github.com/khang-nd/7.css
 
+https://sakofchit.github.io/system.css/
+
 https://github.com/vladocar/Basic.css
 
 https://alvarotrigo.com/shadow-gradients/
@@ -637,6 +641,8 @@ https://www.internetbumperstickers.com/
 https://web.badges.world/
 
 https://textures.neocities.org/
+
+https://paulsmith.github.io/classic-mac-patterns/
 
 https://www.toptal.com/designers/subtlepatterns/
 
