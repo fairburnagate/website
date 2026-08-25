@@ -17,4 +17,4 @@ jobs:
                   nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
                   nekoweb-domain: "7vtia.nekoweb.org"
                   nekoweb-username: "7vtia"
-                  directory: "/source"
+                  directory: "source"
