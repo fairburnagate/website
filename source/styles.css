@@ -127,7 +127,7 @@ summary {
 	float: left;
 	margin-right: 50px;
 }
-.footer {
+footer {
 	position: absolute;
 	bottom: 0px;
 	font-size: small;
@@ -184,7 +184,7 @@ summary {
 	.tab section {
 		top: 1em;
 	}
-	.footer {
+	footer {
 		display: none;
 	}
 }
