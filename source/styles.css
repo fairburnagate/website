@@ -128,9 +128,23 @@ summary {
 	margin-right: 50px;
 }
 footer {
+	display: flex;
+	flex-direction: row;
+	gap: 4px;
 	position: absolute;
 	bottom: 0px;
+}
+footer p {
 	font-size: small;
+}
+footer p:not(:first-child)::before {
+	display: inline-block;
+	margin: 0 3px;
+	content: "- ";
+}
+
+footer p:not(:last-of-type) {
+	margin-right: 0px;
 }
 
 /* ! Buttons */
