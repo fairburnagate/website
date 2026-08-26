@@ -1,16 +1,15 @@
-name: Deploy to nekoweb
-
-# only run on changes to everything
-on:
-    push:
-        branches:
-            - "**"
+on: [push]
 
 jobs:
-    deploy:
+    test:
         runs-on: ubuntu-latest
+        name: deploy2nekoweb
         steps:
-            - uses: actions/checkout@v4
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            # your build step here
+
             - name: deploy2nekoweb
               uses: indiefellas/deploy2nekoweb@main
               with:
