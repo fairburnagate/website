@@ -1,6 +1,6 @@
 name: Deploy to nekoweb
 
-# only run on changes to main
+# only run on changes to everything
 on:
     push:
         branches:
