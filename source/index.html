@@ -207,7 +207,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 	</head>
 	<body>
 		<header>
-			<div class="button">
+			<div class="button pixelate">
 				<img src="images/7vtia.png" />
 			</div>
 
@@ -338,6 +338,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										<time datetime="2026-08-27">27/08/2026</time>
 									</h4>
 									<ul>
+										<li>Fixed some issues with styling</li>
 										<li>Updated uses page</li>
 									</ul>
 
@@ -1069,7 +1070,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 						</div>
 
 						<!-- ! Start of Iframes------------------------------------------>
-						<div class="right-column">
+						<div class="right-column pixelate">
 							<div id="statuscafe">
 								<div id="statuscafe-username"></div>
 								<div id="statuscafe-content"></div>
@@ -1458,29 +1459,16 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 							</div>
 
 							<!--? Button ------------------------------------------------------->
-							<div
-								class="me"
-								style="
-									image-rendering: pixelated;
-									margin-bottom: 10px;
-									min-width: 180px;
-								"
-							>
+							<div class="me" style="margin-bottom: 10px; min-width: 180px">
 								<span style="font-size: 1.2em; margin-bottom: 4px"
 									><b>Button</b></span
 								>
 
 								<span style="font-size: 1em">(hotlinking OK)</span>
 								<div class="buttons" id="me">
-									<img
-										src="images/7vtia.png"
-										style="image-rendering: pixelated"
-									/>
+									<img src="images/7vtia.png" />
 
-									<img
-										src="images/7vtia2.png"
-										style="image-rendering: pixelated"
-									/>
+									<img src="images/7vtia2.png" />
 								</div>
 
 								<textarea
@@ -2215,7 +2203,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 
 							<!--? Fanlistings ----------------->
 
-							<div class="fanlistings">
+							<div class="fanlistings pixelate">
 								<h3>Fanlistings</h3>
 								<div class="fanlistingcontainer">
 									<a href="https://saikik.deathwhisper.com/" target="_blank"
@@ -2422,6 +2410,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										required
 									></textarea>
 									<button type="submit">Send</button>
+									<input type="hidden" name="_next" value="#thanks" />
 								</form>
 							</div>
 							<div id="useslist">
