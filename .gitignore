@@ -1,5 +1,5 @@
 .stfolder/
-.prettierrc.json
+.prettierrc
 .prettierignore
 .nomedia
 node_modules/
