@@ -7,6 +7,49 @@
         <atom:link href="https://7vtia.nekoweb.org/rss.xml" rel="self" type="application/rss+xml" />
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
 
+				<item>
+		<title>Listography</title>
+        <description>
+ <![CDATA[
+ <p>
+					Have you ever sighed wistfully to yourself, and said &quot;Man, I sure
+					wish I had a page that looked just like Listography&quot;? Me neither.
+				</p>
+				<p>
+					If you&#39;ve been here since the earlier days of my website, you
+					probably remember when I had a lapse in aesthetics, and my interests
+					page looked like a really ugly version of Listography.
+				</p>
+				<p>
+					Yesterday, I found the code for it on CodePen of all places..? and
+					told myself: Why not make it *actually* look like a Listography page?
+					I thought of it as a test to see how far my knowledge of HTML/CSS has
+					gone.
+				</p>
+				<p>
+					Obviously, it doesn&#39;t look 100% like the actual website, because
+					I&#39;ve suffered enough while making it, but maybe I&#39;ll finish it
+					one day. Maybe I&#39;ll even put the code on CodePen, LOL.
+				</p>
+
+				<p>
+					Anyway, enough rambling. The page can be found here:
+					<a
+						href="https://7vtia.nekoweb.org/list/listography.html"
+						target="_blank"
+						rel="noopener noreferrer"
+						>listography.html</a
+					>
+					<br />
+					Do note that this looks really, really bad on mobile.
+				</p>
+]]></description>
+		<link>https://7vtia.nekoweb.org/posts/listography.html</link>
+		<guid isPermaLink="false">listography</guid>
+		<pubDate>Sat, 29 Aug 2026 02:57:30 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	</item>
+
 <item>
 		<title>One Year of 7vtia</title>
         <description> <![CDATA[

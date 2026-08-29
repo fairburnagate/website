@@ -4,9 +4,17 @@
         <title>7vtia</title>
         <description>Posts from 7vtia.nekoweb.org</description>
         <link>https://7vtia.nekoweb.org/</link>
-        <atom:link href="https://7vtia.nekoweb.org/rss.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://7vtia.nekoweb.org/nekowebrss.xml" rel="self" type="application/rss+xml" />
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
 
+
+<item>
+		<title>Listography</title>
+        <description> Have you ever sighed wistfully to yourself, and said "Man, I sure wish I had a page that looked just like Listography"? Me neither. </description>
+		<link>https://7vtia.nekoweb.org/posts/listography.html</link>
+		<guid isPermaLink="false">listography</guid>
+	<pubDate>Sat, 29 Aug 2026 02:57:30 +0300</pubDate>        <author>7vtia@tuta.io (Saif)</author>
+	</item>
 
 <item>
 		<title>One Year of 7vtia</title>
