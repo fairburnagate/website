@@ -159,6 +159,10 @@ footer {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	scrollbar-width: none;
+	img {
+		width: 88px;
+		height: 31px;
+	}
 }
 #me {
 	max-height: 31px;
