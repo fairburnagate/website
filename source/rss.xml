@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>7vtia</title>
-        <description>Posts from 7vtia.nekoweb.org</description>
+        <description>Posts from 7vtia</description>
         <link>https://7vtia.nekoweb.org/</link>
         <atom:link href="https://7vtia.nekoweb.org/rss.xml" rel="self" type="application/rss+xml" />
         <webMaster>7vtia@tuta.io (Saif)</webMaster>

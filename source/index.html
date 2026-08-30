@@ -202,6 +202,27 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 				setTimeout(getCurrentTime, 1000);
 			});
 		</script>
+
+		<script>
+			fetch(
+				"https://api.github.com/repos/fairburnagate/website/commits?per_page=1",
+			)
+				.then((res) => res.json())
+				.then((res) => {
+					let sha = res[0].sha;
+					let authorDate = new Date(res[0].commit.author.date);
+					document.getElementById("shortHash").innerText =
+						sha.substring(0, 7) +
+						" on " +
+						authorDate.toLocaleDateString("en-GB", {
+							month: "2-digit",
+							day: "2-digit",
+							year: "2-digit",
+						});
+					document.getElementById("commitLink").href =
+						"https://github.com/fairburnagate/website/commit/" + sha;
+				});
+		</script>
 	</head>
 	<body>
 		<header>
@@ -290,6 +311,14 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								(Originally on Neocities, Dated
 								<time datetime="2025-07-29">29/07/2025</time>)
 							</p>
+
+							<p>
+								Latest commit:
+								<a id="commitLink" href="#" target="_blank">
+									<span id="shortHash"></span
+								></a>
+							</p>
+
 							<footer>
 								<p>Hand-coded with love by Saif</p>
 								<p>2023-2026</p>
@@ -332,6 +361,14 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 					 -->
 
 								<div class="updates">
+									<h4>
+										<time datetime="2026-08-29">29/08/2026</time>
+									</h4>
+									<ul>
+										<li>Added latest commit to about</li>
+										<li>Updated credits page</li>
+									</ul>
+
 									<h4>
 										<time datetime="2026-08-29">29/08/2026</time>
 									</h4>
@@ -1655,6 +1692,22 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									rel="noopener noreferrer"
 									>deploy2nekoweb</a
 								>
+								/
+								<a
+									href="https://deploy-to-neocities.neocities.org/"
+									target="_blank"
+									rel="noopener noreferrer"
+									>deploy-to-neocities</a
+								>
+							</p>
+							<p>
+								Latest Commit:
+								<a
+									href="https://moosyu.nekoweb.org/guides/latest_commit/"
+									target="_blank"
+									rel="noopener noreferrer"
+									>moosyu</a
+								>
 							</p>
 							<p>
 								Clock:
@@ -1666,7 +1719,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								>
 							</p>
 							<p>
-								Tooltips in directory:
+								Tooltips in Directory:
 								<a
 									href="https://codepen.io/sadness97/pen/bGoBGXE"
 									target="_blank"
