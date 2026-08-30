@@ -30,7 +30,9 @@
 	font-size: 1em;
 }
 #statuscafe-content {
-	margin: 0 1em 0.5em 1px;
+	min-width: 100%;
+
+	margin: 0 0 0.5em 1px;
 	font-size: 1em;
 	max-height: 55px;
 	overflow-x: scroll;
@@ -179,10 +181,6 @@ footer {
 	max-height: 31px;
 	text-decoration: underline dotted;
 	font-size: 0.9em;
-
-	a:visited {
-		color: rgb(85, 85, 85);
-	}
 }
 
 .mybuttons {
@@ -197,9 +195,6 @@ footer {
 }
 a:hover {
 	text-decoration: none;
-}
-a:visited {
-	color: rgb(138, 138, 138);
 }
 a {
 	color: rgb(85, 85, 85);
@@ -247,9 +242,6 @@ nav {
 		color: rgb(85, 85, 85);
 		font-size: 20px;
 		text-decoration: none;
-	}
-	a:visited {
-		color: rgb(85, 85, 85);
 	}
 }
 
