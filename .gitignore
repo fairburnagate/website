@@ -3,3 +3,5 @@
 .prettierignore
 .nomedia
 node_modules/
+.pragtical
+source/characters/**
