@@ -9,4 +9,4 @@ Assets on https://7vtia.nekoweb.org (and its mirror https://7vtia.neocities.org)
 - Add uBlock filterlists to directory
 - Add sitemap
 - Add atom feed?
-- Put shortform posts in dropdowns?
+- ~~Put shortform posts in dropdowns?~~
