@@ -1,6 +1,9 @@
 .post {
 	width: fit-content;
-	padding: calc(3em + 1vw) 5vw 8vw 5vw;
+	padding-top: calc(3em + 1vw);
+	padding-right: 0vw;
+	padding-bottom: 1vw;
+	padding-left: 5vw;
 	line-height: 1.5em;
 }
 .preview {
@@ -26,12 +29,4 @@
 	font-size: medium;
 	font-style: italic;
 	margin-top: 0px;
-}
-ul {
-	line-height: 2em;
-	padding-left: 0.5em;
-}
-
-ol {
-	line-height: 2em;
 }
