@@ -151,10 +151,18 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 		<link rel="stylesheet" href="styles.css" />
 		<style>
 			.shortform {
-				max-width: 80ch;
-				max-height: 100px;
 				overflow-x: scroll;
 				scroll-behavior: smooth;
+				details {
+					width: 100%;
+					margin: 0;
+				}
+				summary {
+					margin-bottom: 10px;
+				}
+			}
+			.textcontent p {
+				padding-left: 0.2em;
 			}
 			.shortform p:not(:last-of-type) {
 				margin-bottom: 20px;
@@ -178,7 +186,10 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 					Hey, who doesn't like a journal? This will mostly just be ramblings of
 					mine. Will be updated whenever I remember to.
 				</p>
-				<p>Long-form posts have a URL next to the date.</p>
+				<p>
+					Long-form posts have a URL next to the date, and short-form posts have
+					a dropdown below them.
+				</p>
 				<iframe
 					src="https://nekoweb.org/frame/follow"
 					frameborder="0"
@@ -199,14 +210,16 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 
 				<!--
 
-				<div class="preview">
-					<h3>Title</h3>
+				<div class="preview shortform">
+					<h3 id="post-id">Title</h3>
 					<p class="postdate">
 						Posted
 						<time datetime="yyyy-mm-dd">Mon Day, Year</time>
 					</p>
-					<div class="shortform">
-						<p>Post Here</p>
+					<div class="textcontent">
+					<details>
+						<summary>Show Post</summary>
+					</details>
 					</div>
 					
 				</div>
@@ -270,26 +283,29 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 					</p>
 				</div>
 
-				<div class="preview">
-					<h3>Nothing</h3>
-					<span style="font-size: 1em">(scroll)</span>
+				<div class="preview shortform">
+					<h3 id="nothing">Nothing</h3>
 					<p class="postdate">
 						Posted
 						<time datetime="2026-05-28">May 28th. 2026</time>
 					</p>
-					<div class="shortform" id="nothing">
-						<p>
-							Short posts are here! I'm finally done being swarmed by exams all
-							of the time, and I'm stuck doing the same thing I do whenever I
-							have free time, which is nothing. I feel like I can only achieve
-							things whenever I have a completely unrelated deadline close by.
-						</p>
-						<p>
-							I'm hoping to get to drawing actual full pieces again, though I'd
-							be perfectly fine with unfinished pieces though. Better something
-							than nothing, right?
-						</p>
-					</div>
+					<details>
+						<summary>Show Post</summary>
+						<div class="textcontent">
+							<p>
+								Short posts are here! I'm finally done being swarmed by exams
+								all of the time, and I'm stuck doing the same thing I do
+								whenever I have free time, which is nothing. I feel like I can
+								only achieve things whenever I have a completely unrelated
+								deadline close by.
+							</p>
+							<p>
+								I'm hoping to get to drawing actual full pieces again, though
+								I'd be perfectly fine with unfinished pieces though. Better
+								something than nothing, right?
+							</p>
+						</div>
+					</details>
 				</div>
 
 				<div class="preview">
