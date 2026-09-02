@@ -7,6 +7,36 @@
         <atom:link href="https://7vtia.nekoweb.org/rss.xml" rel="self" type="application/rss+xml" />
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
 
+
+<item>
+		<title>Please, Convert Your Files (properly)</title>
+        <description> <![CDATA[
+					<p>
+								A tragedy I've seen many times: Someone renames a .png file to a
+								.jpg file, and they think that their file was magically
+								converted. Suddenly, they get thrown an error because the file
+								isn't actually a JPG.
+							</p>
+							<p>
+								This is because you're only changing the <em>name</em> of the
+								file extension. Sure, it might say “.jpg” right there, but all
+								of the data in your image is still that of a PNG.
+							</p>
+							<p>
+								I'll admit that I've done the same thing tons of times when I
+								was still learning how to use a computer. This is why I implore
+								you to use something like <a href="https://vert.sh/">VERT</a> to
+								convert your files properly and save yourself the headache of
+								trying to figure out why your image isn't working as it should.
+							</p>
+]]></description>
+		<link>https://7vtia.nekoweb.org/posts.html#convert</link>
+		<guid isPermaLink="false">convert</guid>
+		<pubDate>Wed, 02 Sep 2026 20:43:00 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	</item>
+
+
 				<item>
 		<title>Listography</title>
         <description>

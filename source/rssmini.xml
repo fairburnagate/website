@@ -9,6 +9,15 @@
 
 
 <item>
+		<title>Please, Convert Your Files (properly)</title>
+        <description>A tragedy I've seen many times: Someone renames a .png file to a .jpg file, and they think that their file was magically converted...</description>
+		<link>https://7vtia.nekoweb.org/posts.html#convert</link>
+		<guid isPermaLink="false">convert</guid>
+		<pubDate>Wed, 02 Sep 2026 20:43:00 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	</item>
+
+<item>
 		<title>Listography</title>
         <description> Have you ever sighed wistfully to yourself and said, "Man, I sure wish I had a page that looked just like Listography"? Me neither.</description>
 		<link>https://7vtia.nekoweb.org/posts/listography.html</link>
@@ -38,7 +47,7 @@
         
         <item>
 		<title>Nothing</title>
-		<link>https://7vtia.nekoweb.org/posts.html/#nothing</link>
+		<link>https://7vtia.nekoweb.org/posts.html#nothing</link>
 		<guid isPermaLink="false">nothing</guid>
         <description>
         Doing nothing with your free time.
