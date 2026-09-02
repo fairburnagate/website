@@ -259,10 +259,15 @@ nav {
 	display: none;
 }
 
+.weblistcontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 .webrings {
 	max-width: 300px;
-	width: 50%;
-	float: left;
+	width: 51vw;
 	margin-right: 50px;
 	margin-left: 10px;
 }
@@ -276,7 +281,6 @@ nav {
 }
 .fanlistings {
 	width: 50%;
-	float: left;
 }
 .fanlistingcontainer {
 	width: 300px;
@@ -427,6 +431,13 @@ input#email {
 	}
 } */
 
+@media screen and (max-width: 360px) {
+	.tab section {
+		padding-top: calc(4.5em + 1vw);
+		padding-left: 1em;
+	}
+}
+
 @media screen and (max-width: 500px) {
 	.guest iframe {
 		width: 300px;
@@ -508,7 +519,7 @@ input#email {
 
 	.right-column {
 		display: flex;
-		margin-left: 30px;
+		margin-left: 1.2em;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
