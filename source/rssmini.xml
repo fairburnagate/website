@@ -4,7 +4,7 @@
         <title>7vtia</title>
         <description>Posts from 7vtia</description>
         <link>https://7vtia.nekoweb.org/</link>
-        <atom:link href="https://7vtia.nekoweb.org/rssnekoweb.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://7vtia.nekoweb.org/rssmini.xml" rel="self" type="application/rss+xml" />
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
 
 
