@@ -1,0 +1,165 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	width: 50%;
+	background-image: url("bird1.png");
+	background-repeat: repeat;
+}
+
+@media screen and (max-width: 1500px) {
+	body {
+		width: 80%;
+	}
+}
+@media screen and (max-width: 860px) {
+	.container {
+		flex-direction: column !important;
+	}
+}
+
+header {
+	margin: 0 auto;
+}
+
+header > span {
+	font-size: 0.8em;
+	color: white;
+	margin: 0 50%;
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	background-color: black;
+}
+
+footer > span {
+	font-size: 0.8em;
+	color: white;
+	margin: 0 50%;
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	background-color: black;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.left {
+	max-width: 10rem;
+	margin-right: 1rem;
+}
+
+nav {
+	background-color: white;
+	padding: 0 1em;
+	text-align: left;
+}
+
+.notice {
+	background-color: orange;
+	padding: 1em;
+	text-align: left;
+}
+
+ul.blank {
+	list-style: none;
+	padding: 1em;
+	li > a {
+		text-decoration: none;
+		color: black;
+	}
+	li > a:hover {
+		color: blue;
+		text-decoration: underline;
+	}
+}
+
+.gradient {
+	background-image: linear-gradient(to right, white, yellow);
+	margin: 1em;
+	height: 50%;
+	p {
+		max-width: 60ch;
+	}
+}
+
+.gradient-green {
+	background-image: linear-gradient(to right, white, #09ff09);
+	padding: 1em;
+	margin: 1em;
+	height: 50%;
+	p {
+		max-width: 60ch;
+	}
+}
+
+.middle {
+	height: 100vw;
+	color: rgb(255, 255, 0, 0.2);
+	z-index: -1;
+}
+
+.right {
+	background-color: rgb(255, 255, 0, 0.2);
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+	padding: 0;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+h1 > span {
+	background-color: yellow;
+	text-transform: uppercase;
+	font-size: 3.1rem;
+	line-height: 1;
+}
+
+h1 > span:not(:last-of-type) {
+	margin-right: 0.5em;
+}
+
+h2 > span {
+	background-color: white;
+	text-transform: uppercase;
+	font-size: 2rem;
+	line-height: 1;
+}
+
+h2 > span:not(:last-of-type) {
+	margin-right: 0.5em;
+}
+
+summary {
+	list-style: none;
+	padding: 1.5em;
+	position: relative;
+	border: 3px solid black;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 13em;
+}
+summary::after {
+	content: "+";
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 2em;
+}
+
+details[open] > summary::after {
+	content: "-";
+	right: 1.1rem;
+}
+
+summary:hover {
+	border: 3px solid yellow;
+}
