@@ -53,7 +53,7 @@ body {
 
 /*! Filters*/
 .grayscale {
-	filter: grayscale(1);
+	filter: grayscale(100%) contrast(1);
 }
 .grayscale:hover {
 	filter: none;
