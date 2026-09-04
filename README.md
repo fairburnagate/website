@@ -8,5 +8,5 @@ Assets on https://7vtia.nekoweb.org (and its mirrors https://7vtia.neocities.org
 - ~~Replace some elements that only work on Nekoweb (such as the follow button)~~
 - Add uBlock filterlists to directory
 - ~~Add sitemap~~
-- Add atom feed?
+- ~~Add atom feed~~
 - ~~Put shortform posts in dropdowns?~~
