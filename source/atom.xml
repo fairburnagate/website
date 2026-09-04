@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>7vtia</title>
+	<id>https://7vtia.nekoweb.org/</id>
+	<updated>2026-09-02T22:43:00+03:00</updated>
+	<author>
+		<name>Saif</name>
+     <email>7vtia@tuta.io</email>
+	</author>
+	<link href="https://7vtia.nekoweb.org/atom.xml/" rel="self" type="application/atom+xml"/>
+
+	<entry>
+		<id>https://7vtia.nekoweb.org/posts.html#convert</id>
+		<title>Please, Convert Your Files (properly)</title>
+		<updated>2026-09-02T22:43:00+03:00</updated>
+		<author>
+			<name>Saif</name>
+       <email>7vtia@tuta.io</email>
+		</author>
+		<link href="https://7vtia.nekoweb.org/posts.html#convert">https://7vtia.nekoweb.org/posts.html#convert</link>
+		<summary>
+		A tragedy I've seen many times: Someone renames a .png file to a
+	.jpg file, and they think that their file was magically
+converted...</summary>
+<content type="html">
+<![CDATA[
+					<p>
+								A tragedy I've seen many times: Someone renames a .png file to a
+								.jpg file, and they think that their file was magically
+								converted. Suddenly, they get thrown an error because the file
+								isn't actually a JPG.
+							</p>
+							<p>
+								This is because you're only changing the <em>name</em> of the
+								file extension. Sure, it might say “.jpg” right there, but all
+								of the data in your image is still that of a PNG.
+							</p>
+							<p>
+								I'll admit that I've done the same thing tons of times when I
+								was still learning how to use a computer. This is why I implore
+								you to use something like <a href="https://vert.sh/">VERT</a> to
+								convert your files properly and save yourself the headache of
+								trying to figure out why your image isn't working as it should.
+							</p>
+]]></content>
+	</entry>
+	</feed>
