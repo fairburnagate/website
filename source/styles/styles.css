@@ -135,7 +135,7 @@ footer {
 	bottom: 0px;
 
 	p {
-		font-size: small;
+		font-size: 0.8em;
 	}
 	p:not(:first-child)::before {
 		display: inline-block;
@@ -468,6 +468,9 @@ input#email {
 		width: 300px;
 		margin: 0 auto;
 	}
+	footer p {
+		font-size: 0.6em;
+	}
 }
 
 @media screen and (max-width: 530px) {
@@ -544,14 +547,5 @@ input#email {
 		line-height: 1.6em;
 		padding-top: 10px;
 		padding-right: 2vw;
-	}
-	footer {
-		bottom: 0;
-	}
-}
-
-@media screen and (max-width: 350px) {
-	footer {
-		display: none; /* ! Until I figure out how to fix it */
 	}
 }
