@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>7vtia</title>
-        <description>Posts from 7vtia</description>
+        <title>7vtia (RSS)</title>
+        <description>RSS feed for 7vtia</description>
         <link>https://7vtia.nekoweb.org/</link>
         <atom:link href="https://7vtia.nekoweb.org/rss.xml" rel="self" type="application/rss+xml" />
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
@@ -864,7 +864,7 @@ than nothing, right?
 					this has some thoughts on this, feel free to reach out.
 				</p>
 ]]></description>
-		<link>https://7vtia.nekoweb.org/posts/post.html</link>
+		<link>https://7vtia.nekoweb.org/posts/mgs.html</link>
 		<guid isPermaLink="false">misogyny-mgs</guid>
 		<pubDate>Fri, 14 Nov 2025 00:41:51 +0300</pubDate>
         <author>7vtia@tuta.io (Saif)</author>
