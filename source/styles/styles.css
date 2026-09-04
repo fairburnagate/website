@@ -102,7 +102,7 @@ details {
 .updates {
 	overflow-x: scroll;
 	overscroll-behavior: none;
-	height: 150px;
+	height: 10rem;
 	ul {
 		line-height: 1.5em;
 		padding-bottom: 15px;
@@ -232,7 +232,9 @@ header {
 
 nav {
 	height: fit-content;
-	padding-top: 4px;
+	padding-top: 0.5em;
+	padding-right: 3em;
+	line-height: 1.5em;
 
 	a:not(:last-of-type) {
 		margin-right: 1vw;
@@ -241,6 +243,43 @@ nav {
 		color: rgb(85, 85, 85);
 		font-size: 20px;
 		text-decoration: none;
+	}
+}
+
+#navmenu {
+	display: none;
+	margin-left: auto;
+	margin-right: 2em;
+	width: fit-content;
+	summary {
+		font-size: 3em;
+		cursor: pointer;
+	}
+	summary::marker {
+		content: "≡";
+	}
+	div {
+		position: absolute;
+		top: 1em;
+		right: 0.5em;
+		margin: 1em;
+		background-color: white;
+		border: 2px dotted rgb(85, 85, 85);
+		z-index: 2;
+		font-size: 1.5em;
+		padding: 0 1em;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0.5em 0;
+		line-height: 1.5em;
+	}
+	a {
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
 	}
 }
 
@@ -423,22 +462,6 @@ input#email {
 
 /* ! Responsiveness */
 
-/* @media screen and (max-width: 500px) {
-	.tab section {
-		top: 3.5em;
-	}
-	.button {
-		padding-left: 4vw;
-	}
-} */
-
-@media screen and (max-width: 360px) {
-	.tab section {
-		padding-top: calc(4.5em + 1vw);
-		padding-left: 1em;
-	}
-}
-
 @media screen and (max-width: 500px) {
 	.guest iframe {
 		width: 300px;
@@ -460,20 +483,14 @@ input#email {
 	.about {
 		width: 50%;
 	}
-	#statuscafe-content {
-		max-height: 100%;
-	}
-	.tab section {
-		top: 1em;
-	}
 }
 
-@media screen and (max-width: 966px) {
-	.updates {
-		width: 350px;
+@media screen and (max-width: 630px) {
+	nav {
+		display: none;
 	}
-	details {
-		width: 350px;
+	#navmenu {
+		display: block;
 	}
 }
 
@@ -483,21 +500,10 @@ input#email {
 	}
 
 	header {
-		margin-top: 1em;
-		flex-wrap: wrap;
-
 		.button {
 			padding-left: 5vw;
 		}
 	}
-
-	.tab section {
-		top: 4em;
-	}
-
-	/* #disclaimer {
-		display: none;
-	} */
 
 	#player,
 	.mybuttons,
@@ -515,7 +521,7 @@ input#email {
 	}
 	details,
 	.updates {
-		width: 450px;
+		width: 85vw;
 	}
 
 	.right-column {
@@ -540,5 +546,11 @@ input#email {
 	}
 	footer {
 		bottom: 0;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	footer {
+		display: none; /* ! Until I figure out how to fix it */
 	}
 }
