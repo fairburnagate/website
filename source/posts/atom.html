@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Atom</title>
+		<link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+		<link rel="stylesheet" href="poststyle.css" />
+		<link rel="stylesheet" href="../styles/styles.css" />
+		<style>
+			code {
+				font-family: monospace;
+				font-size: 1.1em;
+			}
+			pre {
+				padding: 0 10px;
+				overflow-x: auto;
+				margin-bottom: 0;
+			}
+			ol {
+				font-size: 1.2em;
+				line-height: 1.5em;
+				width: 60ch;
+			}
+			.post {
+				width: 90vw;
+			}
+			.post img {
+				cursor: zoom-in;
+			}
+			@media screen and (max-width: 500px) {
+				.post img {
+					width: 90vw;
+				}
+			}
+			.grey {
+				color: rgb(85, 85, 85);
+				font-family: monospace;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="button">
+				<img src="../images/7vtia.png" />
+			</div>
+			<nav>
+				<a href="../posts.html">Posts</a>
+				<a href="../index.html">Main Site</a>
+			</nav>
+		</header>
+		<main>
+			<div class="col post">
+				<h2>Atom</h2>
+				<p class="postdate">
+					Posted <time datetime="2026-09-06">September 6th, 2026</time>
+				</p>
+
+				<h2>Index</h2>
+				<ol>
+					<li><a href="#what-is-atom">What Is Atom?</a></li>
+					<li><a href="#okay-but-why-use-it">Okay, but why use it?</a></li>
+					<li><a href="#example-feed">Example Feed</a></li>
+					<li><a href="#dates">Dates</a></li>
+					<li><a href="#ids">IDs</a></li>
+					<li><a href="#feed-readers">Feed Readers</a></li>
+					<li><a href="#links">Links</a></li>
+				</ol>
+
+				<p>
+					Okay, we’re all done with RSS now (unless you haven’t read
+					<a href="rssfeed.html" target="_blank" rel="noopener noreferrer"
+						>my post</a
+					>
+					about it yet.) How about we move to Atom?
+				</p>
+				<h2 id="what-is-atom">What Is Atom?</h2>
+				<p>
+					Atom is, well, a web feed just like RSS. Almost every feed reader out
+					there supports both Atom and RSS. Atom is also based on XML, just like
+					RSS.
+				</p>
+				<p>
+					Some things are a little different though, like how Atom is able to
+					support relative links, and pubDates—or “updated” dates in this
+					case—are formatted differently.
+				</p>
+				<h2 id="okay-but-why-use-it">Okay, but why use it?</h2>
+				<p>
+					You don’t really have to. Atom vs. RSS is all a matter of personal
+					preference. I started out using RSS because it’s the first thing I saw
+					and also due to the lack of resources on how to make an Atom feed out
+					there.
+				</p>
+				<p>
+					I personally like Atom more because it separates summaries and full
+					content, it can handle multiple languages, and it can handle relative
+					links as I’ve said before.
+				</p>
+				<h2 id="example-feed">Example Feed</h2>
+				<pre><code style="background-color: white; 	font-size: 1.2em;">
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;feed xmlns=&quot;http://www.w3.org/2005/Atom&quot; xml:base=&quot;https://your-main-site.com/&quot;&gt;
+
+&lt;title&gt;feed title&lt;/title&gt;
+&lt;subtitle&gt;posts from your-website.com&lt;/subtitle&gt;
+&lt;updated&gt;2026-09-05T23:32:35Z&lt;/updated&gt;
+<span class="grey">
+&lt;author&gt;
+  &lt;name&gt;your name&lt;/name&gt;
+  &lt;email&gt;email@domain.com&lt;/email&gt;
+&lt;/author&gt;</span>
+	<span class="grey">
+  &lt;id&gt;tag:yourdomain,2026-09-05:/yourfeed.xml&lt;/id&gt;
+  &lt;link href=&quot;https://your-main-site.com/&quot; rel=&quot;alternate&quot;/&gt;
+    &lt;link href=&quot;link-to-your-feed.xml&quot; rel=&quot;self&quot; type=&quot;application/atom+xml&quot;/&gt;</span>
+
+
+&lt;entry&gt;
+   &lt;id&gt;tag:your-website.com,2026-09-05:/posts/yourpost.html&lt;/id&gt;
+   &lt;title&gt;Title&lt;/title&gt;
+   &lt;updated&gt;2026-09-05T02:57:00Z&lt;/updated&gt;
+				
+   &lt;author&gt;
+   &lt;name&gt;your name&lt;/name&gt;
+  <span class="grey"> &lt;email&gt;email@domain.com&lt;/email&gt;</span>
+   &lt;/author&gt;
+   &lt;link <span class="grey">rel=&quot;alternate&quot;</span> href=&quot;posts/yourpost.html&quot;/&gt;
+  <span class="grey"> &lt;summary&gt;Your post summary&lt;/summary&gt;
+   &lt;content type=&quot;html&quot;&gt;
+   &lt;![CDATA[
+   &lt;p&gt;The full content of your post, in the case an alternate link isn&#39;t included.&lt;/p&gt;
+   ]]&gt;
+   &lt;/content&gt;</span>
+&lt;/entry&gt;
+
+&lt;/feed&gt;</code></pre>
+
+				<p>
+					The example file can be found
+					<a href="atomexample.xml" target="_blank" rel="noopener noreferrer"
+						>here.</a
+					>
+				</p>
+				<p>
+					I’ve taken the liberty of greying out everything that you can remove
+					without getting your feed invalidated once again.
+				</p>
+				<p>
+					Okay, this seems a little difficult to navigate. Let’s explain
+					everything bit by bit.
+				</p>
+				<p>
+					You’ll notice that at the way top, there’s this
+					<code>xml:base</code> bit that links to your hypothetical website.
+					That’s what allows for you to use relative links inside of your feed.
+				</p>
+				<p>
+					If you look below, specifically at
+					<code>&lt;link rel="alternate" href="posts/yourpost.html"/&gt;</code>,
+					you’ll see said relative link. <br /><br />
+					In this example, the link will resolve to
+					<code>https://your-main-site.com/posts/yourpost.html</code>.
+				</p>
+				<p>
+					Something else you’ll notice are the <code>content</code> and
+					<code>summary</code> tags I mentioned earlier. Both of them are
+					optional*, but if you don’t include a link to your post in your entry,
+					you must add the content tag so people can still view your post.
+				</p>
+				<p style="font-size: 1em">
+					*I do recommend adding at least one of these. Nobody enjoys
+					<i>only</i>
+					looking at post titles on their reader.
+				</p>
+				<p>
+					The <code>content</code>, <code>summary</code>, and
+					<code>title</code> tags can include HTML, but you must include
+					<code>type="html"</code> in your opening tag like this:
+					<code>&amp;lt;title type=html"&amp;gt;</code>
+				</p>
+				<p>
+					Your HTML must also be escaped (i.e. replacing &lt; and &gt; with
+					their respective
+					<a
+						href="https://www.w3schools.com/html/html_entities.asp"
+						target="_blank"
+						rel="noopener noreferrer"
+						>entities</a
+					>.) This isn’t needed if you escape all of your HTML using
+					<a
+						href="https://www.w3.org/TR/REC-xml/#dt-cdsection"
+						target="_blank"
+						rel="noopener noreferrer"
+						>CDATA</a
+					>.
+				</p>
+				<p>
+					I know what you’re thinking. “Saif, what the hell is that date format?
+					And what’s that thing in the id tags?” I’ll start with the dates
+					first.
+				</p>
+				<h2 id="dates">Dates</h2>
+				<p>
+					Dates in Atom feeds must be in the
+					<a
+						href="http://www.faqs.org/rfcs/rfc3339.html"
+						target="_blank"
+						rel="noopener noreferrer"
+						>RFC 3339</a
+					>
+					format. I won’t bore you with the details. The first half is a regular
+					old date in the order of <code>yyyy-mm-dd</code>.
+				</p>
+				<p>
+					The second half is the time. It starts with <code>T</code> followed by
+					the 24-hour time including seconds, so if it’s 6PM it’d be something
+					like <code>T18:00:00</code>. At the end is your timezone which is
+					signified by the <code>Z</code>. The default timezone is UTC, but if
+					you’d like another timezone you can replace the <code>Z</code> with
+					the offset (such as -05:00).
+				</p>
+				<h2 id="ids">IDs</h2>
+				<p>
+					The <code>id</code> is a tag: URI, one of the many ways you can choose
+					an ID for your feed or entry. The example below is for entries
+					specifically, and is rephrased from
+					<a
+						href="https://web.archive.org/web/20110915110202/http://diveintomark.org/archives/2004/05/28/howto-atom-id"
+						target="_blank"
+						rel="noopener noreferrer"
+						>this page</a
+					>. I’ll use this very post as my permalink URL.
+				</p>
+				<ol type="1">
+					<li>“Discard everything before the domain name.”</li>
+				</ol>
+				<p><code>7vtia.nekoweb.org/posts/atom.html</code></p>
+				<ol start="2" type="1">
+					<li>“Change all # characters to /”</li>
+				</ol>
+				<p>No changes</p>
+				<ol start="3" type="1">
+					<li>
+						“Immediately after the domain name, insert a comma, then the
+						year-month-day that the article was published, then a colon. Be sure
+						to use a four-digit year, two-digit month, and two-digit day. Don’t
+						forget the colon.”
+					</li>
+				</ol>
+				<p><code>7vtia.nekoweb.org**,2026-06-09:**/posts/atom.html</code></p>
+				<ol start="4" type="1">
+					<li>
+						“Add <code>tag:</code> at the beginning. (Don’t add slashes; it’s
+						just “tag:“. That’s a common mistake.)”
+					</li>
+				</ol>
+				<p><code>tag:7vtia.nekoweb.org,2026-06-09:/posts/atom.html</code></p>
+				<p>
+					The article also talks about the reason why you shouldn’t use your
+					permalink as your ID.
+				</p>
+				<p>
+					I used the same process for my feed ID. I took my main domain, the
+					(approximate) date I started “owning” it, and added
+					<code>tag:</code> at the beginning.
+				</p>
+				<h2 id="feed-readers">Feed Readers</h2>
+				<p>
+					The process for adding an Atom feed to your feed reader is the exact
+					same as an RSS feed. You can view my
+					<a
+						href="rssfeed.html#feed-readers"
+						target="_blank"
+						rel="noopener noreferrer"
+						>post on RSS</a
+					>
+					for more information.
+				</p>
+				<h2 id="links">Links</h2>
+				<p>
+					Here are some links if you want to read more on Atom feeds (or
+					validate your feed.)
+				</p>
+				<ol type="1">
+					<li>
+						<a
+							href="https://validator.w3.org/feed/docs/atom.html"
+							target="_blank"
+							rel="noopener noreferrer"
+							>W3C’s Introduction to Atom</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://validator.w3.org/feed/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Feed Validator</a
+						>
+					</li>
+				</ol>
+			</div>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://your-main-site.com/">
+
+<title>feed title</title>
+<subtitle>posts from your-website.com</subtitle>
+<updated>2026-09-05T23:32:35-05:00</updated>
+<author>
+		<name>your name</name>
+    <email>email@domain.com</email>
+	</author>
+  <id>tag:yourdomain,2026-09-05:/yourfeed.xml</id>
+  <link href="https://your-main-site.com/" rel="alternate"/>
+	<link href="link-to-your-feed.xml" rel="self" type="application/atom+xml"/>
+
+
+<entry>
+		<id>tag:your-website.com,2026-09-05:/posts/yourpost.html</id>
+		<title>Title</title>
+		<updated>2026-09-05T02:57:00-05:00</updated>
+		<author>
+			<name>your name</name>
+       <email>email@domain.com</email>
+		</author>
+		<link rel="alternate" href="posts/yourpost.html"/>
+		<summary>Your post summary</summary>
+   <content type="html">
+   <![CDATA[
+   <p>The full content of your post, in the case an alternate link isn't included.</p>
+   ]]>
+   </content>
+</entry>
+
+</feed>

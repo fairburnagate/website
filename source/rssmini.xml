@@ -8,6 +8,16 @@
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
 
 
+        	<item>
+		<title>Atom</title>
+        <description>In which I show you how to make a valid Atom feed.</description>
+		<link>https://7vtia.nekoweb.org/posts/atom.html</link>
+		<guid isPermaLink="false">atom</guid>
+		<pubDate>Sun, 06 Sep 2026 02:00:30 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	</item>
+
+
 <item>
 		<title>Please, Convert Your Files (properly)</title>
         <description>A tragedy I've seen many times: Someone renames a .png file to a .jpg file, and they think that their file was magically converted...</description>
