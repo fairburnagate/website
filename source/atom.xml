@@ -5,7 +5,7 @@
 Atom feed for 7vtia
 </subtitle>
 	<id>tag:7vtia.nekoweb.org,2025-09-14:/atom.xml</id>
-	<updated>2026-09-04T05:38:40+03:00</updated>
+	<updated>2026-09-05T20:32:35+03:00</updated>
 	<author>
 		<name>Saif</name>
      <email>7vtia@tuta.io</email>
@@ -98,7 +98,282 @@ converted...</summary>
 </summary>
 <content type="html">
 <![CDATA[
- <p> Do you like RSS feeds? Do you want to make one for your website? No? Too bad. </p> <h3 id="what-is-rss">First, what even is RSS?</h3> <p> RSS stands for Really Simple Syndication and it is a web feed that allows anyone to receive updates to websites using something called a feed reader. </p> <p>This is an example of an RSS feed:</p> <pre> <code> &lt;?xml version="1.0" encoding="UTF-8" ?> &lt;rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"> &lt;channel> &lt;title>feed title&lt;/title> &lt;description>posts from your-website.com&lt;/description> &lt;link>https://your-website.com&lt;/link> &lt;atom:link href="https://link-to-your-feed" rel="self" type="application/rss+xml" /> &lt;webMaster>email@domain.com (name)&lt;/webMaster> &lt;!--Example Post--> &lt;item> &lt;title>post title&lt;/title> &lt;link>https://your-website.com/yourpost.html&lt;/link> &lt;guid isPermaLink="false">guid-here&lt;/guid> &lt;description> Description Here &lt;/description> &lt;pubDate>Day, dd Mon yyyy 00:00:00 +0000&lt;/pubDate> &lt;!--Example Date: Thu, 29 Jun 2027 19:30:10 -0500--> &lt;author>email@domain.com (name)&lt;/author> &lt;/item> &lt;/channel> &lt;/rss></code> </pre> <p> Everything is pretty self explanatory. You put the title in the &lt;title&gt; tags, the description in the &lt;description&gt; tags, and so on. </p> <p> This format is very nice for website updates that just need a simple summary, but what if you want to include your whole article in one item for something like, say, a blogpost? That's where CDATA comes in. </p> <h3 id="cdata">What is CDATA?</h3> <p> CDATA stands for <a href="https://www.w3.org/TR/REC-xml/#sec-cdata-sect" target="_blank" rel="noopener noreferrer" > Character Data</a >, and it allows you to include HTML markup inside of your items. Here's an example: </p> <pre> <code> &lt;item> &lt;title>post title&lt;/title> &lt;link>https://your-website.com/yourpost.html&lt;/link> &lt;guid isPermaLink="false">guid-here&lt;/guid> &lt;description> &lt;![CDATA[ &lt;p>This is a paragraph.&lt;/p> &lt;p>This is another paragraph.&lt;/p> &lt;p>You can put HTML markup inside of &lt;strong>CDATA.&lt;/strong>&lt;/p> ]]&gt; You can also include a regular description. &lt;/description> &lt;pubDate>Day, dd Mon yyyy 00:00:00 +0000&lt;/pubDate> &lt;!--Example Date: Thu, 29 Jun 2027 19:30:10 +0300--> &lt;author>email@domain.com (name)&lt;/author> &lt;!--This is optional.--> &lt;/item></code> </pre> <p> Here's a picture taken from <a href="https://apps.kde.org/akregator/" target="_blank" rel="noopener noreferrer" > Akregator</a > that shows how the description would look: </p> <a href="https://7vtia.nekoweb.org/images/akregatorimage.png"> <img src="https://7vtia.nekoweb.org/images/akregatorimage.png" alt="Akregator screenshot" /> </a> <p> You can also put images and links, but I'm too lazy to re-do the example. </p> <p> The example file can be viewed <a href="https://7vtia.nekoweb.org/rssexample.xml">here.</a> </p> <h3 id="feed-readers">Feed Readers</h3> <p> Obviously, when you first open an RSS feed link, you only see a bunch of code. How do you see everything in an actually readable format? That's where feed readers come in. </p> <p> A feed reader takes an RSS feed (usually in XML format) and turns it into something human-readable. I'll show you how to use one. </p> <p> For this demonstration, I'm going to use Feedbro. First, you have to <a href="https://nodetics.com/feedbro/" target="_blank" rel="noopener noreferrer" > download Feedbro</a > in your browser of choice. (I also recommend <a href="https://github.com/martinrotter/rssguard" target="_blank" rel="noopener noreferrer" > RSS Guard.</a >) </p> <a href="https://7vtia.nekoweb.org/images/feedbro-6.png"> <img src="https://7vtia.nekoweb.org/images/feedbro-6.png" title="Can you tell I have uBlock Origin installed?" /> </a> <p> Once you download Feedbro, click on its icon and then on the "Open Feed Reader" button at the top. </p> <br /> <a href="https://7vtia.nekoweb.org/images/feedbro-2.png"> <img src="https://7vtia.nekoweb.org/images/feedbro-2.png" /> </a> <p> You'll see these icons in the top-left corner. Click on the one with the RSS logo to add a feed. </p> <br /> <a href="https://7vtia.nekoweb.org/images/feedbro-3.png"> <img src="https://7vtia.nekoweb.org/images/feedbro-3.png" /> </a> <p> Once you click the "Add a New Feed" button, you will see this pop-up. Input the Feed URL and Title and then click Save. </p> <br /> <a href="https://7vtia.nekoweb.org/images/feedbro-5.png"> <img src="https://7vtia.nekoweb.org/images/feedbro-5.png" /> </a> <p> The feed you added will now appear on the left panel. Congratulations, you've now set up your feed reader! You can add as many RSS feeds as you'd like using the same steps. </p> <p> This post turned out a lot longer than I thought it would be. I hope this helps with your RSS needs! </p> 
+	<h2>RSS</h2>
+				<p class="postdate">
+					Posted <time datetime="2026-05-31">May 31st, 2026</time>
+				</p>
+				<p class="postdate">
+					Revised <time datetime="2026-09-05">September 5th, 2026</time>
+				</p>
+
+				<h2>Index</h2>
+				<ol>
+					<li><a href="#what-is-rss">What even is RSS?</a></li>
+					<li><a href="#cdata">What is CDATA?</a></li>
+					<li><a href="#feed-readers">Feed Readers</a></li>
+					<li><a href="#further-reading">Further Reading/Resources</a></li>
+				</ol>
+				<p>
+					Do you like RSS feeds? Do you want to make one for your website? No?
+					Too bad.
+				</p>
+				<h2 id="what-is-rss">First, what even is RSS?</h2>
+				<p>
+					RSS stands for Really Simple Syndication, and it is a web feed that
+					allows anyone to receive updates to websites using something called a
+					feed reader. <br />You'll usually see these on somebody elses website
+					under the name "rss.xml" or a file ending in ".rss".
+				</p>
+				<p>This is an example of a valid RSS feed:</p>
+				<pre>
+					<code style="background-color: white;">
+&lt;?xml version="1.0" encoding="UTF-8" ?>
+&lt;rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  &lt;channel>
+        &lt;title>feed title&lt;/title>
+        &lt;description>posts from your-website.com&lt;/description>
+        &lt;link>https://your-website.com&lt;/link>
+       <span class="grey">  &lt;atom:link href="https://link-to-your-feed" rel="self" type="application/rss+xml" /></span>
+       <span class="grey">  &lt;webMaster>email@domain.com (name)&lt;/webMaster></span>
+
+      <span class="grey"> &lt;!--Example Post--></span> 
+        &lt;item>
+		&lt;title>post title&lt;/title>
+		&lt;link>https://your-website.com/yourpost.html&lt;/link>
+		&lt;guid isPermaLink="false">guid-here&lt;/guid>
+      <span class="grey">   &lt;description>
+        Description Here
+        &lt;/description>
+		&lt;pubDate>Sat, 05 Sep 2026 20:30:10 -0500&lt;/pubDate> </span>
+       <span class="grey"> &lt;author>email@domain.com (name)&lt;/author>  </span>
+        &lt;/item>
+
+    &lt;/channel>
+&lt;/rss></code>
+				</pre>
+				<p>
+					I've taken the liberty of greying out the tags that you can remove
+					without risking having your feed invalidated. You do want to flex that
+					"Valid RSS" button on your website, don't you?
+				</p>
+				<p>
+					Everything is pretty self explanatory. You put the title in the
+					&lt;title&gt; tags, the description in the &lt;description&gt; tags,
+					and so on.
+				</p>
+
+				<p>
+					Do note that your RSS feed <b>must</b> have the <code>guid</code>,
+					<code>link</code>, <code>PubDate*</code>,
+					<code>description*</code> and <code>title</code> tags, or else your
+					feed won't work at all.
+				</p>
+				<p style="font-size: 1em">
+					* The feed will validate without <code>PubDate</code>, but it won't
+					work on places like Nekoweb.
+					<br />
+					<br />
+					* <code>description</code> is only required for the feed itself.
+				</p>
+				<p>
+					Keep in mind that GUIDs must be unique and in hexadecimal form (a-z,
+					0-9) and that items should be in descending order from newest to
+					oldest, for your own sake.
+				</p>
+				<p>
+					This format is very nice for website updates that just need a simple
+					summary, but what if you want to include your whole article in one
+					item for something like, say, a blogpost? That's where CDATA comes in.
+				</p>
+				<h2 id="cdata">What is CDATA?</h2>
+				<p>
+					CDATA stands for
+					<a
+						href="https://www.w3.org/TR/REC-xml/#sec-cdata-sect"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Character Data</a
+					>, and it allows you to include HTML markup inside of your items.
+					Here's an example:
+				</p>
+				<pre>
+					<code style="background-color: white;"> 
+		&lt;item>
+		&lt;title>post title&lt;/title>
+		&lt;link>https://your-website.com/yourpost.html&lt;/link>
+		&lt;guid isPermaLink="false">guid-here&lt;/guid>
+        &lt;description>
+        &lt;![CDATA[
+        &lt;p>This is a paragraph.&lt;/p>
+        &lt;p>This is another paragraph.&lt;/p>
+        &lt;p>You can put HTML markup inside of &lt;strong>CDATA.&lt;/strong>&lt;/p>
+        ]]&gt;
+        You can also include a regular description.
+        &lt;/description>
+	<span class="grey">  &lt;pubDate>Sat, 05 Sep 2026 20:30:10 -0500&lt;/pubDate>  
+       &lt;author>email@domain.com (name)&lt;/author> </span> 
+        &lt;/item></code>
+		</pre>
+				<p>
+					Here's a picture taken from
+					<a
+						href="https://apps.kde.org/akregator/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Akregator</a
+					>
+					that shows how the description would look:
+				</p>
+				<a href="https://7vtia.nekoweb.org/posts/https://7vtia.nekoweb.org/posts/img/rss/akregatorimage.png">
+					<img src="https://7vtia.nekoweb.org/posts/img/rss/akregatorimage.png" alt="Akregator screenshot" />
+				</a>
+				<p>
+					You can also put images and links, but I'm too lazy to re-do the
+					example.
+				</p>
+
+				<p>
+					The example file can be viewed
+					<a href="rssexample.xml" target="_blank" rel="noopener noreferrer"
+						>here.</a
+					>
+				</p>
+				<p>
+					Here's my
+					<a href="../rssmini.xml" target="_blank" rel="noopener noreferrer"
+						>RSS feed</a
+					>
+					for Nekoweb as an example of a feed specifically made for Nekoweb's
+					Global Feed.
+				</p>
+				<p>
+					And my
+					<a href="../rss.xml" target="_blank" rel="noopener noreferrer"
+						>actual feed</a
+					>
+					as an example of how to use CDATA.
+				</p>
+				<h2 id="feed-readers">Feed Readers</h2>
+				<p>
+					Obviously, when you first open an RSS feed link, you only see a bunch
+					of code. How do you see everything in an actually readable format?
+					That's where feed readers come in.
+				</p>
+				<p>
+					A feed reader takes an RSS feed and turns it into something
+					human-readable, and automatically fetches updates from there. I'll
+					show you how to use one.
+				</p>
+				<p>
+					For this demonstration, I'm going to use Feedbro. First, you have to
+					<a
+						href="https://nodetics.com/feedbro/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						download Feedbro</a
+					>
+					in your browser of choice. (I also recommend
+					<a
+						href="https://github.com/martinrotter/rssguard"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						RSS Guard.</a
+					>)
+				</p>
+				<a href="https://7vtia.nekoweb.org/posts/img/rss/feedbro-6.png">
+					<img
+						src="https://7vtia.nekoweb.org/posts/img/rss/feedbro-6.png"
+						title="Can you tell I have uBlock Origin installed?"
+					/>
+				</a>
+				<p>
+					Once you download Feedbro, click on its icon and then on the "Open
+					Feed Reader" button at the top.
+				</p>
+				<br />
+				<a href="https://7vtia.nekoweb.org/posts/img/rss/feedbro-2.png">
+					<img src="https://7vtia.nekoweb.org/posts/img/rss/feedbro-2.png" />
+				</a>
+
+				<p>
+					You'll see these icons in the top-left corner. Click on the one with
+					the RSS logo to add a feed.
+				</p>
+				<br />
+				<a href="https://7vtia.nekoweb.org/posts/img/rss/feedbro-3.png">
+					<img src="https://7vtia.nekoweb.org/posts/img/rss/feedbro-3.png" />
+				</a>
+
+				<p>
+					Once you click the "Add a New Feed" button, you will see this pop-up.
+					Input the Feed URL and Title and then click Save.
+				</p>
+				<br />
+				<a href="https://7vtia.nekoweb.org/posts/img/rss/feedbro-5.png">
+					<img src="https://7vtia.nekoweb.org/posts/img/rss/feedbro-5.png" />
+				</a>
+
+				<p>
+					The feed you added will now appear on the left panel. Congratulations,
+					you've now set up your feed reader! You can add as many RSS feeds as
+					you'd like using the same steps and get updates from them.
+				</p>
+				<p>
+					This post turned out a lot longer than I thought it would be. I hope
+					this helps with your RSS needs!
+				</p>
+
+				<h2 id="further-reading">Further Reading/Resources</h2>
+				<p>
+					Obviously, I don't know *everything* to do with RSS feeds, so why not
+					look at some other sites?
+				</p>
+				<ol>
+					<li>
+						<a
+							href="https://www.w3schools.com/XML/xml_rss.asp"
+							target="_blank"
+							rel="noopener noreferrer"
+							>W3Schools' Page on RSS</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://en.wikipedia.org/wiki/RSS"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Wikipedia's Article on RSS</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.rssboard.org/rss-specification"
+							target="_blank"
+							rel="noopener noreferrer"
+							>RSS 2.0 Specification</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://validator.w3.org/feed/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>RSS Feed Validator</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://chaiaeran.github.io/RuSShdown/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>RuSShdown Feed Generator</a
+						>
+					</li>
+				</ol> 
 ]]></content>
 	</entry>
 
