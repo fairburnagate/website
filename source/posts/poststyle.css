@@ -30,3 +30,9 @@
 	font-style: italic;
 	margin-top: 0px;
 }
+
+code {
+	background-color: #e7e6e6;
+	padding: 3px 5px;
+	font-size: 0.7em;
+}

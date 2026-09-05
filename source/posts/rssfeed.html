@@ -32,6 +32,10 @@
 					width: 90vw;
 				}
 			}
+			.grey {
+				color: rgb(85, 85, 85);
+				font-family: monospace;
+			}
 		</style>
 	</head>
 	<body>
@@ -51,69 +55,89 @@
 					Posted <time datetime="2026-05-31">May 31st, 2026</time>
 				</p>
 				<p class="postdate">
-					Modified <time datetime="2026-06-09">June 9th, 2026</time>
+					Revised <time datetime="2026-09-05">September 5th, 2026</time>
 				</p>
 
-				<h3>Index</h3>
+				<h2>Index</h2>
 				<ol>
 					<li><a href="#what-is-rss">What even is RSS?</a></li>
 					<li><a href="#cdata">What is CDATA?</a></li>
 					<li><a href="#feed-readers">Feed Readers</a></li>
+					<li><a href="#further-reading">Further Reading/Resources</a></li>
 				</ol>
 				<p>
 					Do you like RSS feeds? Do you want to make one for your website? No?
 					Too bad.
 				</p>
-				<h3 id="what-is-rss">First, what even is RSS?</h3>
+				<h2 id="what-is-rss">First, what even is RSS?</h2>
 				<p>
-					RSS stands for Really Simple Syndication and it is a web feed that
+					RSS stands for Really Simple Syndication, and it is a web feed that
 					allows anyone to receive updates to websites using something called a
 					feed reader. <br />You'll usually see these on somebody elses website
 					under the name "rss.xml" or a file ending in ".rss".
 				</p>
-				<p>This is an example of an RSS feed:</p>
+				<p>This is an example of a valid RSS feed:</p>
 				<pre>
-					<code>
+					<code style="background-color: white;">
 &lt;?xml version="1.0" encoding="UTF-8" ?>
 &lt;rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    &lt;channel>
+  &lt;channel>
         &lt;title>feed title&lt;/title>
         &lt;description>posts from your-website.com&lt;/description>
         &lt;link>https://your-website.com&lt;/link>
-        &lt;atom:link href="https://link-to-your-feed" rel="self" type="application/rss+xml" />
-        &lt;webMaster>email@domain.com (name)&lt;/webMaster>
+       <span class="grey">  &lt;atom:link href="https://link-to-your-feed" rel="self" type="application/rss+xml" /></span>
+       <span class="grey">  &lt;webMaster>email@domain.com (name)&lt;/webMaster></span>
 
-        &lt;!--Example Post-->
+      <span class="grey"> &lt;!--Example Post--></span> 
         &lt;item>
 		&lt;title>post title&lt;/title>
 		&lt;link>https://your-website.com/yourpost.html&lt;/link>
 		&lt;guid isPermaLink="false">guid-here&lt;/guid>
-        &lt;description>
+      <span class="grey">   &lt;description>
         Description Here
         &lt;/description>
-		&lt;pubDate>Day, dd Mon yyyy 00:00:00 +0000&lt;/pubDate>  &lt;!--Example Date: Thu, 29 Jun 2027 19:30:10 -0500-->
-        &lt;author>email@domain.com (name)&lt;/author>  
+		&lt;pubDate>Sat, 05 Sep 2026 20:30:10 -0500&lt;/pubDate> </span>
+       <span class="grey"> &lt;author>email@domain.com (name)&lt;/author>  </span>
         &lt;/item>
 
     &lt;/channel>
 &lt;/rss></code>
 				</pre>
-
+				<p>
+					I've taken the liberty of greying out the tags that you can remove
+					without risking having your feed invalidated. You do want to flex that
+					"Valid RSS" button on your website, don't you?
+				</p>
 				<p>
 					Everything is pretty self explanatory. You put the title in the
 					&lt;title&gt; tags, the description in the &lt;description&gt; tags,
 					and so on.
 				</p>
+
+				<p>
+					Do note that your RSS feed <b>must</b> have the <code>guid</code>,
+					<code>link</code>, <code>PubDate*</code>,
+					<code>description*</code> and <code>title</code> tags, or else your
+					feed won't work at all.
+				</p>
+				<p style="font-size: 1em">
+					* The feed will validate without <code>PubDate</code>, but it won't
+					work on places like Nekoweb.
+					<br />
+					<br />
+					* <code>description</code> is only required for the feed itself.
+				</p>
 				<p>
 					Keep in mind that GUIDs must be unique and in hexadecimal form (a-z,
-					0-9) and that items must be in descending order from newest to oldest.
+					0-9) and that items should be in descending order from newest to
+					oldest, for your own sake.
 				</p>
 				<p>
 					This format is very nice for website updates that just need a simple
 					summary, but what if you want to include your whole article in one
 					item for something like, say, a blogpost? That's where CDATA comes in.
 				</p>
-				<h3 id="cdata">What is CDATA?</h3>
+				<h2 id="cdata">What is CDATA?</h2>
 				<p>
 					CDATA stands for
 					<a
@@ -126,7 +150,7 @@
 					Here's an example:
 				</p>
 				<pre>
-					<code> 
+					<code style="background-color: white;"> 
 		&lt;item>
 		&lt;title>post title&lt;/title>
 		&lt;link>https://your-website.com/yourpost.html&lt;/link>
@@ -139,8 +163,8 @@
         ]]>
         You can also include a regular description.
         &lt;/description>
-		&lt;pubDate>Day, dd Mon yyyy 00:00:00 +0000&lt;/pubDate>  &lt;!--Example Date: Thu, 29 Jun 2027 19:30:10 +0300-->
-        &lt;author>email@domain.com (name)&lt;/author>  &lt;!--This is optional.-->
+	<span class="grey">  &lt;pubDate>Sat, 05 Sep 2026 20:30:10 -0500&lt;/pubDate>  
+       &lt;author>email@domain.com (name)&lt;/author> </span> 
         &lt;/item></code>
 		</pre>
 				<p>
@@ -154,8 +178,8 @@
 					>
 					that shows how the description would look:
 				</p>
-				<a href="../images/akregatorimage.png">
-					<img src="../images/akregatorimage.png" alt="Akregator screenshot" />
+				<a href="img/rss/akregatorimage.png">
+					<img src="img/rss/akregatorimage.png" alt="Akregator screenshot" />
 				</a>
 				<p>
 					You can also put images and links, but I'm too lazy to re-do the
@@ -164,13 +188,26 @@
 
 				<p>
 					The example file can be viewed
-					<a href="rssexample.xml">here.</a>
+					<a href="rssexample.xml" target="_blank" rel="noopener noreferrer"
+						>here.</a
+					>
 				</p>
 				<p>
 					Here's my
-					<a href="../rssmini.xml">RSS feed</a> for Nekoweb as another example.
+					<a href="../rssmini.xml" target="_blank" rel="noopener noreferrer"
+						>RSS feed</a
+					>
+					for Nekoweb as an example of a feed specifically made for Nekoweb's
+					Global Feed.
 				</p>
-				<h3 id="feed-readers">Feed Readers</h3>
+				<p>
+					And my
+					<a href="../rss.xml" target="_blank" rel="noopener noreferrer"
+						>actual feed</a
+					>
+					as an example of how to use CDATA.
+				</p>
+				<h2 id="feed-readers">Feed Readers</h2>
 				<p>
 					Obviously, when you first open an RSS feed link, you only see a bunch
 					of code. How do you see everything in an actually readable format?
@@ -199,9 +236,9 @@
 						RSS Guard.</a
 					>)
 				</p>
-				<a href="../images/feedbro-6.png">
+				<a href="img/rss/feedbro-6.png">
 					<img
-						src="../images/feedbro-6.png"
+						src="img/rss/feedbro-6.png"
 						title="Can you tell I have uBlock Origin installed?"
 					/>
 				</a>
@@ -210,8 +247,8 @@
 					Feed Reader" button at the top.
 				</p>
 				<br />
-				<a href="../images/feedbro-2.png">
-					<img src="../images/feedbro-2.png" />
+				<a href="img/rss/feedbro-2.png">
+					<img src="img/rss/feedbro-2.png" />
 				</a>
 
 				<p>
@@ -219,8 +256,8 @@
 					the RSS logo to add a feed.
 				</p>
 				<br />
-				<a href="../images/feedbro-3.png">
-					<img src="../images/feedbro-3.png" />
+				<a href="img/rss/feedbro-3.png">
+					<img src="img/rss/feedbro-3.png" />
 				</a>
 
 				<p>
@@ -228,8 +265,8 @@
 					Input the Feed URL and Title and then click Save.
 				</p>
 				<br />
-				<a href="../images/feedbro-5.png">
-					<img src="../images/feedbro-5.png" />
+				<a href="img/rss/feedbro-5.png">
+					<img src="img/rss/feedbro-5.png" />
 				</a>
 
 				<p>
@@ -241,6 +278,54 @@
 					This post turned out a lot longer than I thought it would be. I hope
 					this helps with your RSS needs!
 				</p>
+
+				<h2 id="further-reading">Further Reading/Resources</h2>
+				<p>
+					Obviously, I don't know *everything* to do with RSS feeds, so why not
+					look at some other sites?
+				</p>
+				<ol>
+					<li>
+						<a
+							href="https://www.w3schools.com/XML/xml_rss.asp"
+							target="_blank"
+							rel="noopener noreferrer"
+							>W3Schools' Page on RSS</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://en.wikipedia.org/wiki/RSS"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Wikipedia's Article on RSS</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.rssboard.org/rss-specification"
+							target="_blank"
+							rel="noopener noreferrer"
+							>RSS 2.0 Specification</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://validator.w3.org/feed/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>RSS Feed Validator</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://chaiaeran.github.io/RuSShdown/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>RuSShdown Feed Generator</a
+						>
+					</li>
+				</ol>
 			</div>
 		</main>
 	</body>
