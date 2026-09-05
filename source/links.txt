@@ -611,6 +611,10 @@ https://github.com/khang-nd/7.css
 
 https://sakofchit.github.io/system.css/
 
+https://nostalgic-css.github.io/NES.css/
+
+https://micah5.github.io/PSone.css/
+
 https://github.com/vladocar/Basic.css
 
 https://alvarotrigo.com/shadow-gradients/
