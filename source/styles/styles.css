@@ -65,8 +65,21 @@ body {
 }
 
 /* ! About */
+
+.ads {
+	align-self: center;
+}
+
+#about .row-column {
+	padding-right: 0;
+	flex-wrap: wrap;
+}
 .right-column {
-	float: left;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	flex-direction: column;
+	gap: 0px;
 	width: 180px;
 	max-width: 180px;
 }
@@ -78,7 +91,6 @@ body {
 details {
 	margin-top: 20px;
 	width: 60ch;
-	float: left;
 	margin-bottom: 20px;
 }
 .credits {
@@ -528,9 +540,11 @@ input#email {
 		width: 85vw;
 	}
 
+	.row-column {
+		flex-direction: column;
+	}
+
 	.right-column {
-		display: flex;
-		margin-left: 1.2em;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
@@ -547,5 +561,8 @@ input#email {
 		line-height: 1.6em;
 		padding-top: 10px;
 		padding-right: 2vw;
+	}
+	.ads {
+		display: none; /* TODO: Until I figure out how to fix it */
 	}
 }
