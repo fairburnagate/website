@@ -92,7 +92,7 @@ details {
 	}
 }
 
-#about textarea {
+.right-column textarea {
 	white-space: wrap;
 	min-width: 170px;
 	max-width: 170px;
