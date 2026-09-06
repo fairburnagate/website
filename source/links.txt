@@ -3,7 +3,7 @@ Made with love by Saif.
 All links are ordered according to the Directory: 
 https://7vtia.nekoweb.org/directory.html
 
-Last updated: August 25th, 2026
+Last updated: September 6th, 2026
 
 WEBTOOLS ----
 
@@ -620,6 +620,22 @@ https://github.com/vladocar/Basic.css
 https://alvarotrigo.com/shadow-gradients/
 
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+
+Fonts --
+
+https://cse.google.com/cse?cx=82154ebab193e493d
+
+https://int10h.org/oldschool-pc-fonts/
+
+https://www.dafont.com/
+
+https://fontsource.org
+
+https://www.nerdfonts.com/
+https://github.com/ryanoasis/nerd-fonts/blob/master/install.shadow
+
+https://github.com/subframe7536/Maple-font
 
 
 Graphics --
