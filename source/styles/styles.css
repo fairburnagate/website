@@ -96,8 +96,9 @@ details {
 	white-space: wrap;
 	min-width: 170px;
 	max-width: 170px;
-	height: 50px;
+	height: 60px;
 	max-height: 170px;
+	resize: vertical;
 }
 .updates {
 	overflow-x: scroll;
@@ -419,6 +420,17 @@ nav {
 		font-size: 0.9em;
 		margin-top: 0.5em;
 	}
+	.contactform input[type="text"],
+	select,
+	textarea {
+		padding-left: 5px;
+		padding-top: 5px;
+		box-sizing: border-box;
+		margin-top: 6px;
+		margin-bottom: 16px;
+		resize: vertical;
+		height: 100px;
+	}
 }
 
 form {
@@ -430,19 +442,7 @@ form {
 	margin: 1rem 0;
 }
 
-.contactform input[type="text"],
-select,
-textarea {
-	padding-left: 5px;
-	padding-top: 5px;
-	box-sizing: border-box;
-	margin-top: 6px;
-	margin-bottom: 16px;
-	resize: vertical;
-	height: 100px;
-}
-
-#contact {
+#contact > #contact {
 	label,
 	input {
 		margin-bottom: 5px;
