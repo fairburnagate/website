@@ -7,8 +7,17 @@
         <atom:link href="https://7vtia.nekoweb.org/rssmini.xml" rel="self" type="application/rss+xml" />
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
 
+        <item>
+		<title>Colour Palettes</title>
+        <description>My thoughts on a specific kind of colour palette.</description>
+		<link>https://7vtia.nekoweb.org/posts/palettes.html</link>
+		<guid isPermaLink="false">colourpalettes</guid>
+		<pubDate>Thu, 10 Sep 2026 00:40:10 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	</item>
 
-        	<item>
+
+    <item>
 		<title>Atom</title>
         <description>In which I show you how to make a valid Atom feed.</description>
 		<link>https://7vtia.nekoweb.org/posts/atom.html</link>
