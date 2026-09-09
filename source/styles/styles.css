@@ -32,7 +32,7 @@
 #statuscafe-content {
 	min-width: 100%;
 
-	margin: 0 0 0.5em 1px;
+	margin-left: 1px;
 	font-size: 1em;
 	max-height: 55px;
 	overflow-x: scroll;
@@ -79,7 +79,7 @@ body {
 	justify-content: left;
 	align-items: left;
 	flex-direction: column;
-	gap: 0px;
+	gap: 0.5em;
 	width: 180px;
 	max-width: 180px;
 }
@@ -172,7 +172,6 @@ footer {
 	max-height: calc(100% - 42px);
 	overflow-y: scroll;
 	overflow-x: hidden;
-	margin-top: 10px;
 	margin-bottom: 10px;
 	scrollbar-width: none;
 	img {
@@ -197,8 +196,10 @@ footer {
 
 .mybuttons {
 	width: 176px;
-	margin-bottom: 10px;
+	margin-bottom: 0 !important;
+	padding: 0 !important;
 	column-count: 2;
+	max-height: 35px;
 }
 
 ::selection {
@@ -306,9 +307,18 @@ nav {
 	position: absolute;
 	min-height: 90vh;
 	width: 100%;
-	background-color: #fff;
 }
-.tab section:not(:target) {
+
+.tab section.home {
+	display: block;
+}
+.tab section {
+	display: none;
+}
+.tab section:target {
+	display: block;
+}
+.tab section:target ~ section.home {
 	display: none;
 }
 
@@ -374,7 +384,7 @@ nav {
 }
 
 #disclaimer {
-	display: block;
+	display: none;
 	padding: calc(3em + 1vw) 5vw 8vw 5vw;
 }
 
