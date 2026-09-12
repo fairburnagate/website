@@ -149,6 +149,12 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 		<link rel="stylesheet" href="posts/poststyle.css" />
 		<link rel="stylesheet" href="styles/styles.css" />
+		<link
+			href="styles/style-my-tooltips.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 		<style>
 			.shortform {
 				overflow-x: scroll;
@@ -569,5 +575,13 @@ W#######WW#####################LjGGGGLLLLLGGLEDGGGDGGGGGGGGGGGGKDD#WWWWKWWWWWWWW
 				<!-- ? Post-->
 			</div>
 		</main>
+		<script src="jquery.style-my-tooltips.js"></script>
+		<script>
+			(function ($) {
+				$(document).ready(function () {
+					$("[title]").style_my_tooltips();
+				});
+			})(jQuery);
+		</script>
 	</body>
 </html>
