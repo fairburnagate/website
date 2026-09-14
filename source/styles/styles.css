@@ -1,4 +1,25 @@
 /* If you see this I'm sorry. I have no clue what I'm doing */
+
+:root {
+	--main-links: rgb(85, 85, 85);
+	--external-links: rgb(48, 48, 48);
+	--background-light: rgb(255, 255, 255);
+	--text-light: rgb(0, 0, 0);
+
+	/* Probably never happening */
+
+	--main-links-default: var(--main-links);
+	--external-links-default: var(--external-links);
+	--background-default: var(--background-light);
+	--text-default: var(--text-light);
+	--theme-color: var(--light-mode);
+
+	--main-links-dark: rgb(194, 194, 194);
+	--external-links-dark: rgb(85, 85, 85);
+	--background-dark: rgb(0, 0, 0);
+	--text-dark: rgb(255, 255, 255);
+}
+
 /* ! External */
 
 .melonLink img {
@@ -22,7 +43,6 @@
 
 #statuscafe {
 	padding-top: 1em;
-	background-color: #fff;
 	width: 177px;
 }
 #statuscafe-username {
@@ -205,7 +225,7 @@ a:hover {
 	text-decoration: none;
 }
 a {
-	color: rgb(85, 85, 85);
+	color: var(--main-links-default);
 }
 p {
 	font-size: 1.2em;
@@ -247,11 +267,19 @@ nav {
 	a:not(:last-of-type) {
 		margin-right: 1vw;
 	}
+
+	span.external a:last-of-type {
+		margin-right: 0.5em;
+	}
+
 	a {
-		color: rgb(85, 85, 85);
 		font-size: 20px;
 		text-decoration: none;
 	}
+}
+
+span.external a {
+	color: var(--external-links-default);
 }
 
 #navmenu {
@@ -271,8 +299,8 @@ nav {
 		top: 1em;
 		right: 0;
 		margin: 1em 0em 1em 1em;
-		background-color: white;
-		border: 2px dotted rgb(85, 85, 85);
+		background-color: var(--background-default);
+		border: 2px dotted var(--main-links-default);
 		z-index: 2;
 		font-size: 1.5em;
 		padding: 0 1em;
