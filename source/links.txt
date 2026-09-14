@@ -27,15 +27,11 @@ https://speed.cloudflare.com/
 
 https://simplelogin.io/
 
-https://www.mf2fm.com/rv/
-
 
 
 Directories --
 
 https://hal.nekoweb.org/bookmarks.html
-
-https://brisray.com/web/webring-list.htm
 
 https://fmhy.net/
 
@@ -66,6 +62,8 @@ https://drawpile.net/download/
 https://beyondloom.com/tools/wigglypaint.html
 
 https://jspaint.app/
+
+https://kidpix.app/
 
 https://kleki.com/
 
@@ -543,6 +541,16 @@ https://16colo.rs/
 
 WEB DEVELOPMENT ----
 
+https://www.mf2fm.com/rv/
+
+https://embedresponsively.com/
+
+https://screenfly.org/
+
+https://counter.fc2.com/en/index.html
+
+https://clap.fc2.com/en/
+
 
 Static Webpage Hosts --
 
@@ -553,6 +561,10 @@ https://pages.cloudflare.com/
 https://firebase.google.com/products/hosting
 
 https://docs.github.com/en/pages
+
+https://pages.gay/
+
+https://srht.site/
 
 https://neocities.org/
 
@@ -569,6 +581,8 @@ https://docusaurus.io/
 
 https://www.11ty.dev/
 
+https://old.net.eu.org/
+
 https://carrd.co/
 
 https://straw.page/
@@ -576,6 +590,27 @@ https://straw.page/
 https://mmm.page/
 
 https://zonelets.net/
+
+
+Webrings --
+
+https://brisray.com/web/webring-list.htm
+
+https://petrapixel.neocities.org/indiewebdb/webrings
+
+https://allium.house/garden/onionring/
+
+https://webri.ng/
+
+https://lambchapel.neocities.org/resources/webstring
+
+https://petrapixel.neocities.org/coding/webringu
+
+https://dabric.xyz/script/linkcircle/
+
+https://github.com/k3rs3d/ringfairy
+
+https://baccyflap.com/res/webring/
 
 
 HTML --
@@ -601,6 +636,10 @@ https://jigsaw.w3.org/css-validator/
 
 https://docs.emmet.io/cheat-sheet/
 
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://css-tricks.com/complete-guide-css-grid-layout/
+
 https://developer.mozilla.org/en-US/docs/Web/CSS
 
 https://www.w3schools.com/css/default.asp
@@ -621,7 +660,7 @@ https://github.com/vladocar/Basic.css
 
 https://alvarotrigo.com/shadow-gradients/
 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 
 
 Fonts --
