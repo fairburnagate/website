@@ -248,16 +248,16 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 				<span class="external">
 					<a href="directory.html" rel="noopener noreferrer">Directory </a>
 					<a href="posts.html" rel="noopener noreferrer">Posts </a>
-					<a href="gallery/art.html" rel="noopener noreferrer">Art </a></span
+					<a href="gallery/art.html" rel="noopener noreferrer">Art </a>
+					<a
+						href="https://nekoweb.org/follow/7vtia.nekoweb.org"
+						target="_blank"
+						title="Follow (Nekoweb only)"
+						rel="noopener noreferrer"
+						style="-size: 0.9em"
+						>[ + ]
+					</a></span
 				>
-				<a
-					href="https://nekoweb.org/follow/7vtia.nekoweb.org"
-					target="_blank"
-					title="Follow (Nekoweb only)"
-					rel="noopener noreferrer"
-					style="color: black; font-size: 0.9em"
-					>[ + ]
-				</a>
 			</nav>
 
 			<details id="navmenu">
@@ -284,17 +284,18 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 							<li>
 								<a href="gallery/art.html" rel="noopener noreferrer">Art </a>
 							</li>
+
+							<li>
+								<a
+									href="https://nekoweb.org/follow/7vtia.nekoweb.org"
+									target="_blank"
+									title="Follow (Nekoweb only)"
+									rel="noopener noreferrer"
+									style="-size: 0.9em"
+									>[ + ]
+								</a>
+							</li>
 						</span>
-						<li>
-							<a
-								href="https://nekoweb.org/follow/7vtia.nekoweb.org"
-								target="_blank"
-								title="Follow (Nekoweb only)"
-								rel="noopener noreferrer"
-								style="color: black; font-size: 0.9em"
-								>[ + ]
-							</a>
-						</li>
 					</ul>
 				</div>
 			</details>
@@ -483,6 +484,23 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									>sadgrl</a
 								>
 							</p>
+							<p>
+								A special thanks to
+								<a
+									href="https://rentry.co/angelregister"
+									target="_blank"
+									rel="noopener noreferrer"
+									>AngelRegister</a
+								>
+								/
+								<a
+									href="https://angelregister.neocities.org/"
+									target="_blank"
+									rel="noopener noreferrer"
+									>2</a
+								>
+								who is the very reason I made my own directory :-)
+							</p>
 						</div>
 					</section>
 					<section id="joined">
@@ -490,7 +508,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 						<h2>Joined</h2>
 						<p>These are all of the webrings and fanlistings I've joined!</p>
 
-						<div class="weblistcontainer">
+						<div class="weblistcontainer" aria-hidden="true">
 							<div class="webrings">
 								<h3>Webrings</h3>
 								<div class="webringcontainer">
@@ -2374,6 +2392,13 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 						<div class="row-column">
 							<div class="about">
 								<h2>About Me</h2>
+								<button
+									class="button"
+									id="darkModeButton"
+									style="display: none"
+								>
+									Dark Mode
+								</button>
 								<p>
 									Hello. I'm Saif. I use
 									<u title="xe/xem/xeir/xeirs/xemself">he/him/xe/xem/xeir</u>
@@ -2478,7 +2503,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 				  </ul>
 					 -->
 
-									<div class="updates">
+									<div class="updates" aria-hidden="true">
 										<h4>
 											<time datetime="2026-09-10">10/09/2026</time>
 										</h4>
@@ -3294,9 +3319,8 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									</div>
 								</details>
 							</div>
-
 							<!-- ! Start of Iframes------------------------------------------>
-							<div class="right-column pixelate">
+							<div class="right-column pixelate" aria-hidden="true">
 								<div id="statuscafe">
 									<div id="statuscafe-username"></div>
 									<div id="statuscafe-content"></div>
@@ -3808,6 +3832,24 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 					$("[title]").style_my_tooltips();
 				});
 			})(jQuery);
+		</script>
+		<script>
+			const darkModeSetting = localStorage.getItem("darkMode") || "off"; // read cookie, if cookie doesn't exist use "off"
+			if (darkModeSetting == "on") {
+				document.body.classList.add("dark-mode");
+			}
+
+			let darkModeButton = document.querySelector("#darkModeButton");
+			darkModeButton.addEventListener("click", () => {
+				const darkModeSetting = localStorage.getItem("darkMode") || "off";
+				if (darkModeSetting == "on") {
+					document.body.classList.remove("dark-mode");
+					localStorage.setItem("darkMode", "off");
+				} else {
+					document.body.classList.add("dark-mode");
+					localStorage.setItem("darkMode", "on");
+				}
+			});
 		</script>
 	</body>
 </html>

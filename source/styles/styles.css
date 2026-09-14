@@ -6,18 +6,27 @@
 	--background-light: rgb(255, 255, 255);
 	--text-light: rgb(0, 0, 0);
 
-	/* Probably never happening */
-
 	--main-links-default: var(--main-links);
 	--external-links-default: var(--external-links);
 	--background-default: var(--background-light);
 	--text-default: var(--text-light);
-	--theme-color: var(--light-mode);
+
+	/* Probably never happening */
 
 	--main-links-dark: rgb(194, 194, 194);
 	--external-links-dark: rgb(85, 85, 85);
 	--background-dark: rgb(0, 0, 0);
 	--text-dark: rgb(255, 255, 255);
+}
+
+body.dark-mode {
+	--main-links-default: var(--main-links-dark);
+	--external-links-default: var(--external-links-dark);
+	--background-default: var(--background-dark);
+	--text-default: var(--text-dark);
+	player {
+		display: none;
+	}
 }
 
 /* ! External */
@@ -64,6 +73,10 @@ body {
 	font-family: "Times New Roman", Times, serif;
 	overflow-x: hidden;
 	width: 100vw;
+}
+body {
+	color: var(--text-default);
+	background-color: var(--background-default);
 }
 
 /*! Filters*/
@@ -268,8 +281,8 @@ nav {
 		margin-right: 1vw;
 	}
 
-	span.external a:last-of-type {
-		margin-right: 0.5em;
+	span.external a:first-of-type {
+		margin-left: 1vw;
 	}
 
 	a {

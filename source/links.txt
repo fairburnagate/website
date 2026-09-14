@@ -512,7 +512,9 @@ https://www.webdesignmuseum.org/
 
 https://acmewidgets.neocities.org/#int
 
-http://www.windows93.net/#!arena93
+http://www.windows93.net/
+
+https://paveldogreat.github.io/WebGL-Fluid-Simulation/
 
 https://www.storybytes.com/index.html
 
