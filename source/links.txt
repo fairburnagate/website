@@ -3,7 +3,7 @@ Made with love by Saif.
 All links are ordered according to the Directory: 
 https://7vtia.nekoweb.org/directory.html
 
-Last updated: September 14th, 2026
+Last updated: September 15th, 2026
 
 WEBTOOLS ----
 
@@ -543,6 +543,10 @@ WEB DEVELOPMENT ----
 
 https://www.mf2fm.com/rv/
 
+https://scripted.neocities.org/
+
+https://baccyflap.com/res/robots/
+
 https://embedresponsively.com/
 
 https://screenfly.org/
@@ -629,6 +633,8 @@ https://htmlforpeople.com/
 
 https://markdowntohtml.com/
 
+https://wordhtml.com/
+
 
 CSS --
 
@@ -636,15 +642,23 @@ https://jigsaw.w3.org/css-validator/
 
 https://docs.emmet.io/cheat-sheet/
 
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-
-https://css-tricks.com/complete-guide-css-grid-layout/
-
 https://developer.mozilla.org/en-US/docs/Web/CSS
 
 https://www.w3schools.com/css/default.asp
 
 https://cssreference.io/
+
+https://www.30secondsofcode.org/css/p/1/
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+https://css-tricks.com/complete-guide-css-grid-layout/
+
+https://baccyflap.com/res/gifstop/
+
+https://alvarotrigo.com/shadow-gradients/
+
+https://ianlunn.github.io/Hover/
 
 https://github.com/jdan/98.css
 
@@ -657,9 +671,6 @@ https://nostalgic-css.github.io/NES.css/
 https://micah5.github.io/PSone.css/
 
 https://github.com/vladocar/Basic.css
-
-https://alvarotrigo.com/shadow-gradients/
-
 
 
 

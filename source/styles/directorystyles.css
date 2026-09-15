@@ -104,7 +104,8 @@ ol {
 	padding-left: 1vw;
 }
 ul {
-	padding-left: 2vw;
+	padding-left: 1vw;
+	list-style: none;
 }
 .container {
 	display: flex;
@@ -120,6 +121,7 @@ ul {
 	height: 100vh;
 	position: sticky;
 	align-self: flex-start;
+	scrollbar-width: thin;
 	/*
         left: 60%;
 */
