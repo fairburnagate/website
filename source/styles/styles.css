@@ -67,6 +67,8 @@ body.dark-mode {
 	overflow-x: scroll;
 }
 
+/* ! Main */
+
 html,
 body {
 	scrollbar-width: thin;
