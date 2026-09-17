@@ -25,9 +25,6 @@ https://www.deadlinkchecker.com/website-dead-link-checker.asp
 
 https://speed.cloudflare.com/
 
-https://simplelogin.io/
-
-
 
 Directories --
 
@@ -40,6 +37,7 @@ https://www.reddit.com/r/Piracy/
 https://archive.org/
 
 https://directory.joejenett.com/
+
 
 ART TOOLS ----
 
@@ -128,7 +126,7 @@ https://imgops.com/
 
 https://avatarcropper.com/
 
-https://ditherimage.online/
+https://app.dithermark.com/
 
 https://doodad.dev/dither-me-this/
 https://ditherit.com/
@@ -421,7 +419,22 @@ https://iloader.app/
 
 https://github.com/LiveContainer/LiveContainer
 
+
 BROWSING ----
+
+
+E-mail --
+
+https://tuta.com/secure-email
+
+https://mail.proton.me/
+https://proton.me/support/more-storage-proton-drive
+
+https://disroot.org/en/services/email
+
+https://duckduckgo.com/email/
+
+https://simplelogin.io/
 
 
 Browsers --
@@ -457,7 +470,7 @@ https://sponsor.ajay.app/
 https://vorapis.pages.dev/#/
 
 https://violentmonkey.github.io/
-https://www.tampermonkey.net/
+https://docs.scriptcat.org/en/
 
 https://darkreader.org/
 
