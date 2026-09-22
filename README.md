@@ -2,9 +2,10 @@
 
 Assets on https://7vtia.nekoweb.org
 
-mirrors
+Mirrors
 
 https://7vtia.neocities.org
+
 https://7vtia.w10.site
 
 ### TODO
