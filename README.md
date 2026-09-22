@@ -1,6 +1,11 @@
 ## 7vtia
 
-Assets on https://7vtia.nekoweb.org (and its mirrors https://7vtia.neocities.org and https://7vtia.w10.site)
+Assets on https://7vtia.nekoweb.org
+
+mirrors
+
+https://7vtia.neocities.org
+https://7vtia.w10.site
 
 ### TODO
 
