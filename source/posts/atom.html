@@ -156,6 +156,10 @@
 					That’s what allows for you to use relative links inside of your feed.
 				</p>
 				<p>
+					If you're not going to use relative links, you can remove
+					<code>xml:base</code> and just use hyperlinks instead for everything.
+				</p>
+				<p>
 					If you look below, specifically at
 					<code>&lt;link rel="alternate" href="posts/yourpost.html"/&gt;</code>,
 					you’ll see said relative link. <br /><br />
@@ -177,7 +181,7 @@
 					The <code>content</code>, <code>summary</code>, and
 					<code>title</code> tags can include HTML, but you must include
 					<code>type="html"</code> in your opening tag like this:
-					<code>&amp;lt;title type=html"&amp;gt;</code>
+					<code>&lt;title type="html"&gt;</code>
 				</p>
 				<p>
 					Your HTML must also be escaped (i.e. replacing &lt; and &gt; with
@@ -193,7 +197,7 @@
 						target="_blank"
 						rel="noopener noreferrer"
 						>CDATA</a
-					>.
+					>, like in the example.
 				</p>
 				<p>
 					I know what you’re thinking. “Saif, what the hell is that date format?
