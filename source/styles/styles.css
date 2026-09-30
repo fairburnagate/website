@@ -1,5 +1,10 @@
 /* If you see this I'm sorry. I have no clue what I'm doing */
 
+@font-face {
+	font-family: "Linux Libertine";
+	src: url(fonts/LinLibertine_R.otf);
+}
+
 :root {
 	--main-links: rgb(85, 85, 85);
 	--external-links: rgb(48, 48, 48);
@@ -138,7 +143,7 @@ details {
 	white-space: wrap;
 	min-width: 170px;
 	max-width: 170px;
-	height: 60px;
+	height: 40px;
 	max-height: 170px;
 	resize: vertical;
 }
@@ -198,7 +203,7 @@ footer {
 	gap: 4px;
 	min-width: 180px;
 	max-width: 180px;
-	height: 285px;
+	height: 265px;
 	max-height: calc(100% - 42px);
 	overflow-y: scroll;
 	overflow-x: hidden;
