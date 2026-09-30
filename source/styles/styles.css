@@ -125,7 +125,7 @@ body {
 }
 details {
 	margin-top: 20px;
-	width: 60ch;
+	width: 59ch;
 	margin-bottom: 20px;
 }
 .credits {
@@ -406,6 +406,9 @@ span.external a {
 	width: 90%;
 	li {
 		font-size: 1.2em;
+	}
+	h3 > span {
+		font-weight: 500;
 	}
 }
 
