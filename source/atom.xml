@@ -10,7 +10,6 @@ Atom feed for 7vtia
 		<name>Saif</name>
     <email>7vtia@tuta.io</email>
 	</author>
-	<link href="https://7vtia.nekoweb.org" rel="alternate"/>
 	<link href="atom.xml" rel="self" type="application/atom+xml"/>
 
 
