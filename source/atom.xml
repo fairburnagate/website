@@ -8,8 +8,9 @@ Atom feed for 7vtia
 	<updated>2026-09-29T23:40:00+03:00</updated>
 	<author>
 		<name>Saif</name>
-     <email>7vtia@tuta.io</email>
+    <email>7vtia@tuta.io</email>
 	</author>
+	<link href="https://7vtia.nekoweb.org" rel="alternate"/>
 	<link href="atom.xml" rel="self" type="application/atom+xml"/>
 
 
@@ -17,10 +18,7 @@ Atom feed for 7vtia
 		<id>tag:7vtia.nekoweb.org,2026-09-29:/posts/oneyearposts.html</id>
 		<title>One Year of Posting</title>
 		<updated>2026-09-29T23:40:00+03:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
+		
 		<link rel="alternate" href="posts/post.html"/>
 		<summary>
 		I've been posting for a whole year. Isn't that nice?
@@ -63,27 +61,22 @@ Atom feed for 7vtia
    <id>tag:7vtia.nekoweb.org,2026-09-10:/posts/palettes.html</id>
    <title>Colour Palettes</title>
    <updated>2026-09-10T00:40:10+03:00</updated>
-				
-   <author>
-   <name>Saif</name>
-   <email>7vtia@tuta.io</email>
-   </author>
    <link rel="alternate" href="posts/palettes.html"/>
    <summary>My thoughts on a specific kind of colour palette.</summary>
    <content type="html">
    <![CDATA[
   		<p>
-					If you look at my website, you’ll see that most of it is just black
-					text on a white background, with some grey links. It’s nice, but in my
-					opinion it’s not what makes the site <em>great</em>.
+					If you look at my website, you`ll see that most of it is just black
+					text on a white background, with some grey links. It`s nice, but in my
+					opinion it`s not what makes the site <em>great</em>.
 				</p>
 				<p>
 					What makes it great is the pops of colour. I have a greyscale class in
-					my CSS that adds a greyscale filter to the element as you might’ve
+					my CSS that adds a greyscale filter to the element as you might`ve
 					guessed.
 				</p>
 				<p>
-					But, I don’t put that on my entire website. Why? You can see for
+					But, I don`t put that on my entire website. Why? You can see for
 					yourself.
 				</p>
 				<figure>
@@ -104,31 +97,31 @@ Atom feed for 7vtia
 				</p>
 				<p>
 					First of all, I have a rule for my website that if I add someone
-					else’s button, I’m not going to slap some filter on that sucks all the
+					else`s button, I`m not going to slap some filter on that sucks all the
 					colour out. I want the original colours that the creator chose for
 					their button.
 				</p>
 				<p>
-					Sure, the filter disappears on hover, but why? My life isn’t in
+					Sure, the filter disappears on hover, but why? My life isn`t in
 					greyscale. I like when the sea of black and white is broken by some
-					vibrant colours. I’m not looking to make my website look like a
-					doctor’s office.
+					vibrant colours. I`m not looking to make my website look like a
+					doctor`s office.
 				</p>
 				<p>
-					The bigger issue to me is that I simply don’t enjoy it that much when
+					The bigger issue to me is that I simply don`t enjoy it that much when
 					everything must adhere to a specific colour palette. Before you say
-					“But Saif, you exclusively draw in blue…” That’s because I’m too lazy
+					“But Saif, you exclusively draw in blue…” That`s because I`m too lazy
 					to pick out a different colour, okay?
 				</p>
 				<p>
-					Don’t get me wrong, some people execute the whole limited colour
-					palette thing extremely well. Other times, I’m begging to see
+					Don`t get me wrong, some people execute the whole limited colour
+					palette thing extremely well. Other times, I`m begging to see
 					something other than pink, or green, or whatever filter is on.
 				</p>
 				<p>
 					At the end of the day, you can choose whatever colour palette you
 					want. Yellow text on a purple background, a website entirely made of
-					rainbow gradients, who the hell cares? It’s your website. In my case,
+					rainbow gradients, who the hell cares? It`s your website. In my case,
 					I find pops of colour much more enjoyable than your average
 					fully-monochrome palette.
 				</p>
@@ -140,10 +133,6 @@ Atom feed for 7vtia
 		<id>tag:7vtia.nekoweb.org,2026-06-09:/posts/atom.html</id>
 		<title>Atom</title>
 		<updated>2026-09-06T02:00:30+03:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/atom.html"/>
 		<summary>
 		In which I show you how to make a valid Atom feed.
@@ -162,7 +151,7 @@ Atom feed for 7vtia
 				</ol>
 
 				<p>
-					Okay, we’re all done with RSS now (unless you haven’t read
+					Okay, we`re all done with RSS now (unless you haven`t read
 					<a href="rssfeed.html" target="_blank" rel="noopener noreferrer"
 						>my post</a
 					>
@@ -181,15 +170,15 @@ Atom feed for 7vtia
 				</p>
 				<h2 id="okay-but-why-use-it">Okay, but why use it?</h2>
 				<p>
-					You don’t really have to. Atom vs. RSS is all a matter of personal
-					preference. I started out using RSS because it’s the first thing I saw
+					You don`t really have to. Atom vs. RSS is all a matter of personal
+					preference. I started out using RSS because it`s the first thing I saw
 					and also due to the lack of resources on how to make an Atom feed out
 					there.
 				</p>
 				<p>
 					I personally like Atom more because it separates summaries and full
 					content, it can handle multiple languages, and it can handle relative
-					links as I’ve said before.
+					links as I`ve said before.
 				</p>
 				<h2 id="example-feed">Example Feed</h2>
 				<pre><code style="background-color: white; 	font-size: 1.2em;">
@@ -237,29 +226,29 @@ Atom feed for 7vtia
 					>
 				</p>
 				<p>
-					I’ve taken the liberty of greying out everything that you can remove
+					I`ve taken the liberty of greying out everything that you can remove
 					without getting your feed invalidated once again.
 				</p>
 				<p>
-					Okay, this seems a little difficult to navigate. Let’s explain
+					Okay, this seems a little difficult to navigate. Let`s explain
 					everything bit by bit.
 				</p>
 				<p>
-					You’ll notice that at the way top, there’s this
+					You`ll notice that at the way top, there`s this
 					<code>xml:base</code> bit that links to your hypothetical website.
-					That’s what allows for you to use relative links inside of your feed.
+					That`s what allows for you to use relative links inside of your feed.
 				</p>
 				<p>
 					If you look below, specifically at
 					<code>&lt;link rel="alternate" href="posts/yourpost.html"/&gt;</code>,
-					you’ll see said relative link. <br /><br />
+					you`ll see said relative link. <br /><br />
 					In this example, the link will resolve to
 					<code>https://your-main-site.com/posts/yourpost.html</code>.
 				</p>
 				<p>
-					Something else you’ll notice are the <code>content</code> and
+					Something else you`ll notice are the <code>content</code> and
 					<code>summary</code> tags I mentioned earlier. Both of them are
-					optional*, but if you don’t include a link to your post in your entry,
+					optional*, but if you don`t include a link to your post in your entry,
 					you must add the content tag so people can still view your post.
 				</p>
 				<p style="font-size: 1em">
@@ -281,7 +270,7 @@ Atom feed for 7vtia
 						target="_blank"
 						rel="noopener noreferrer"
 						>entities</a
-					>.) This isn’t needed if you escape all of your HTML using
+					>.) This isn`t needed if you escape all of your HTML using
 					<a
 						href="https://www.w3.org/TR/REC-xml/#dt-cdsection"
 						target="_blank"
@@ -290,8 +279,8 @@ Atom feed for 7vtia
 					>.
 				</p>
 				<p>
-					I know what you’re thinking. “Saif, what the hell is that date format?
-					And what’s that thing in the id tags?” I’ll start with the dates
+					I know what you`re thinking. “Saif, what the hell is that date format?
+					And what`s that thing in the id tags?” I`ll start with the dates
 					first.
 				</p>
 				<h2 id="dates">Dates</h2>
@@ -303,15 +292,15 @@ Atom feed for 7vtia
 						rel="noopener noreferrer"
 						>RFC 3339</a
 					>
-					format. I won’t bore you with the details. The first half is a regular
+					format. I won`t bore you with the details. The first half is a regular
 					old date in the order of <code>yyyy-mm-dd</code>.
 				</p>
 				<p>
 					The second half is the time. It starts with <code>T</code> followed by
-					the 24-hour time including seconds, so if it’s 6PM it’d be something
+					the 24-hour time including seconds, so if it`s 6PM it`d be something
 					like <code>T18:00:00</code>. At the end is your timezone which is
 					signified by the <code>Z</code>. The default timezone is UTC, but if
-					you’d like another timezone you can replace the <code>Z</code> with
+					you`d like another timezone you can replace the <code>Z</code> with
 					the offset (such as -05:00).
 				</p>
 				<h2 id="ids">IDs</h2>
@@ -324,7 +313,7 @@ Atom feed for 7vtia
 						target="_blank"
 						rel="noopener noreferrer"
 						>this page</a
-					>. I’ll use this very post as my permalink URL.
+					>. I`ll use this very post as my permalink URL.
 				</p>
 				<ol type="1">
 					<li>“Discard everything before the domain name.”</li>
@@ -338,20 +327,20 @@ Atom feed for 7vtia
 					<li>
 						“Immediately after the domain name, insert a comma, then the
 						year-month-day that the article was published, then a colon. Be sure
-						to use a four-digit year, two-digit month, and two-digit day. Don’t
+						to use a four-digit year, two-digit month, and two-digit day. Don`t
 						forget the colon.”
 					</li>
 				</ol>
 				<p><code>7vtia.nekoweb.org**,2026-06-09:**/posts/atom.html</code></p>
 				<ol start="4" type="1">
 					<li>
-						“Add <code>tag:</code> at the beginning. (Don’t add slashes; it’s
-						just “tag:“. That’s a common mistake.)”
+						“Add <code>tag:</code> at the beginning. (Don`t add slashes; it`s
+						just “tag:“. That`s a common mistake.)”
 					</li>
 				</ol>
 				<p><code>tag:7vtia.nekoweb.org,2026-06-09:/posts/atom.html</code></p>
 				<p>
-					The article also talks about the reason why you shouldn’t use your
+					The article also talks about the reason why you shouldn`t use your
 					permalink as your ID.
 				</p>
 				<p>
@@ -382,7 +371,7 @@ Atom feed for 7vtia
 							href="https://validator.w3.org/feed/docs/atom.html"
 							target="_blank"
 							rel="noopener noreferrer"
-							>W3C’s Introduction to Atom</a
+							>W3C`s Introduction to Atom</a
 						>
 					</li>
 					<li>
@@ -402,10 +391,6 @@ Atom feed for 7vtia
 		<id>tag:7vtia.nekoweb.org,2026-09-02:/posts.html/convert</id>
 		<title>Please, Convert Your Files (properly)</title>
 		<updated>2026-09-02T22:43:00+03:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts.html#convert"/>
 		<summary>
 		A tragedy I've seen many times: Someone renames a .png file to a
@@ -438,10 +423,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-08-29:/posts/listography.html</id>
 		<title>Listography</title>
 		<updated>2026-08-29T02:57:00+03:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/listography.html"/>
 		<summary>
 		Have you ever sighed wistfully to yourself and said, "Man, I sure wish I had a page that looked just like Listography"? Me neither.</summary>
@@ -455,10 +436,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-07-29:/posts/oneyear.html</id>
 		<title>One Year of 7vtia</title>
 		<updated>2026-07-29T06:11:10+03:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/oneyear.html"/>
 		<summary>
 		Isn't that nice?
@@ -473,10 +450,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-05-31:/posts/rssfeed.html</id>
 		<title>RSS</title>
 		<updated>2026-05-31T18:05:40+03:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/rssfeed.html"/>
 		<summary>
 		 Do you like RSS feeds? Do you want to make one for your website? No? Too bad. 
@@ -611,8 +584,8 @@ converted...</summary>
 					>
 					that shows how the description would look:
 				</p>
-				<a href="https://7vtia.nekoweb.org/posts/https://7vtia.nekoweb.org/posts/img/rss/akregatorimage.png">
-					<img src="https://7vtia.nekoweb.org/posts/img/rss/akregatorimage.png" alt="Akregator screenshot" />
+				<a href="posts/posts/img/rss/akregatorimage.png">
+					<img src="posts/img/rss/akregatorimage.png" alt="Akregator screenshot" />
 				</a>
 				<p>
 					You can also put images and links, but I'm too lazy to re-do the
@@ -669,9 +642,9 @@ converted...</summary>
 						RSS Guard.</a
 					>)
 				</p>
-				<a href="https://7vtia.nekoweb.org/posts/img/rss/feedbro-6.png">
+				<a href="posts/img/rss/feedbro-6.png">
 					<img
-						src="https://7vtia.nekoweb.org/posts/img/rss/feedbro-6.png"
+						src="posts/img/rss/feedbro-6.png"
 						title="Can you tell I have uBlock Origin installed?"
 					/>
 				</a>
@@ -680,8 +653,8 @@ converted...</summary>
 					Feed Reader" button at the top.
 				</p>
 				<br />
-				<a href="https://7vtia.nekoweb.org/posts/img/rss/feedbro-2.png">
-					<img src="https://7vtia.nekoweb.org/posts/img/rss/feedbro-2.png" />
+				<a href="posts/img/rss/feedbro-2.png">
+					<img src="posts/img/rss/feedbro-2.png" />
 				</a>
 
 				<p>
@@ -689,8 +662,8 @@ converted...</summary>
 					the RSS logo to add a feed.
 				</p>
 				<br />
-				<a href="https://7vtia.nekoweb.org/posts/img/rss/feedbro-3.png">
-					<img src="https://7vtia.nekoweb.org/posts/img/rss/feedbro-3.png" />
+				<a href="posts/img/rss/feedbro-3.png">
+					<img src="img/rss/feedbro-3.png" />
 				</a>
 
 				<p>
@@ -698,8 +671,8 @@ converted...</summary>
 					Input the Feed URL and Title and then click Save.
 				</p>
 				<br />
-				<a href="https://7vtia.nekoweb.org/posts/img/rss/feedbro-5.png">
-					<img src="https://7vtia.nekoweb.org/posts/img/rss/feedbro-5.png" />
+				<a href="posts/img/rss/feedbro-5.png">
+					<img src="posts/img/rss/feedbro-5.png" />
 				</a>
 
 				<p>
@@ -766,10 +739,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-05-28:/posts.html/nothing</id>
 		<title>Nothing</title>
 		<updated>2026-05-28T18:46:40+03:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts.html#nothing"/>
 		<summary>
 		Doing nothing with your free time. 
@@ -784,10 +753,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-05-26:/posts/thispage.html</id>
 		<title>This Page</title>
 		<updated>2026-05-26T12:05:15+03:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
+	
 		<link rel="alternate" href="posts/thispage.html"/>
 		<summary>
 		Or more specifically, the Posts page.
@@ -802,10 +768,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-03-17:/posts/tadm.html</id>
 		<title>Torrenting and Download Managers</title>
 		<updated>2026-03-17T01:59:52+03:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/tadm.html"/>
 		<summary>
 		Mandated "Why you should use this thing I use" post.
@@ -820,17 +782,13 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-01-22:/posts/floppydisk.html</id>
 		<title>Pictures of Floppy Disks</title>
 		<updated>2026-01-22T18:02:36+02:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/floppydisk.html"/>
 		<summary>
 		Exactly as the title says.
 </summary>
 <content type="html">
 <![CDATA[
-  <p> Today, I found some floppy disks belonging to my late grandparents. I thought it would be nice to immortalise them here on my website. Enjoy. </p> <details open=""> <summary style="display: none">Images</summary> <div class="gallery"> <a href="https://7vtia.nekoweb.org/posts/img/floppydisks/001.jpg"> <img src="https://7vtia.nekoweb.org/posts/img/floppydisks/001.jpg" /> </a> <a href="https://7vtia.nekoweb.org/posts/img/floppydisks/002.jpg"> <img src="https://7vtia.nekoweb.org/posts/img/floppydisks/002.jpg" /> </a> <a href="https://7vtia.nekoweb.org/posts/img/floppydisks/003.jpg"> <img src="https://7vtia.nekoweb.org/posts/img/floppydisks/003.jpg" /> </a> <a href="https://7vtia.nekoweb.org/posts/img/floppydisks/005.jpg"> <img src="https://7vtia.nekoweb.org/posts/img/floppydisks/005.jpg" /> </a> <a href="https://7vtia.nekoweb.org/posts/img/floppydisks/006.jpg"> <img src="https://7vtia.nekoweb.org/posts/img/floppydisks/006.jpg" /> </a> <a href="https://7vtia.nekoweb.org/posts/img/floppydisks/007.jpg"> <img src="https://7vtia.nekoweb.org/posts/img/floppydisks/007.jpg" /> </a> <a href="https://7vtia.nekoweb.org/posts/img/floppydisks/008.jpg"> <img src="https://7vtia.nekoweb.org/posts/img/floppydisks/008.jpg" /> </a> <a href="https://7vtia.nekoweb.org/posts/img/floppydisks/009.jpg"> <img src="https://7vtia.nekoweb.org/posts/img/floppydisks/009.jpg" /> </a> <a href="https://7vtia.nekoweb.org/posts/img/floppydisks/010.jpg"> <img src="https://7vtia.nekoweb.org/posts/img/floppydisks/010.jpg" /> </a> <a href="https://7vtia.nekoweb.org/posts/img/floppydisks/011.jpg"> <img src="https://7vtia.nekoweb.org/posts/img/floppydisks/011.jpg" /> </a> <a href="https://7vtia.nekoweb.org/posts/img/floppydisks/012.jpg"> <img src="https://7vtia.nekoweb.org/posts/img/floppydisks/012.jpg" /> </a> <a href="https://7vtia.nekoweb.org/posts/img/floppydisks/013.jpg"> <img src="https://7vtia.nekoweb.org/posts/img/floppydisks/013.jpg" /> </a> </div> </details> 
+  <p> Today, I found some floppy disks belonging to my late grandparents. I thought it would be nice to immortalise them here on my website. Enjoy. </p> <details open=""> <summary style="display: none">Images</summary> <div class="gallery"> <a href="posts/img/floppydisks/001.jpg"> <img src="posts/img/floppydisks/001.jpg" /> </a> <a href="posts/img/floppydisks/002.jpg"> <img src="posts/img/floppydisks/002.jpg" /> </a> <a href="posts/img/floppydisks/003.jpg"> <img src="/posts/img/floppydisks/003.jpg" /> </a> <a href="posts/img/floppydisks/005.jpg"> <img src="posts/img/floppydisks/005.jpg" /> </a> <a href="posts/img/floppydisks/006.jpg"> <img src="posts/img/floppydisks/006.jpg" /> </a> <a href="posts/img/floppydisks/007.jpg"> <img src="posts/img/floppydisks/007.jpg" /> </a> <a href="posts/img/floppydisks/008.jpg"> <img src="posts/img/floppydisks/008.jpg" /> </a> <a href="posts/img/floppydisks/009.jpg"> <img src="posts/img/floppydisks/009.jpg" /> </a> <a href="posts/img/floppydisks/010.jpg"> <img src="posts/img/floppydisks/010.jpg" /> </a> <a href="posts/img/floppydisks/011.jpg"> <img src="posts/img/floppydisks/011.jpg" /> </a> <a href="posts/img/floppydisks/012.jpg"> <img src="posts/img/floppydisks/012.jpg" /> </a> <a href="posts/img/floppydisks/013.jpg"> <img src="posts/img/floppydisks/013.jpg" /> </a> </div> </details> 
 ]]></content>
 	</entry>
 
@@ -838,10 +796,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-01-21:/posts/tilde.html</id>
 		<title>Tilde</title>
 		<updated>2026-01-21T17:18:41+02:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/tilde.html"/>
 		<summary>
 		I'm on tilde.club now!
@@ -856,10 +810,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-01-16:/posts/coldbrewtea.html</id>
 		<title>Cold Brew (Tea)</title>
 		<updated>2026-01-16T07:53:00+02:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/coldbrewtea.html"/>
 		<summary>
 		Let's all love cold brew.
@@ -874,10 +824,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-12-05:/posts/windows11.html</id>
 		<title>Windows 11 Out of the Box</title>
 		<updated>2025-12-05T22:56:00+02:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/windows11.html"/>
 		<summary>
 		I tried out a fresh install of Windows 11 and hated it.
@@ -892,10 +838,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-12-05:/posts/mgs.html</id>
 		<title>Misogyny in Metal Gear Solid</title>
 		<updated>2025-12-05T00:41:51+02:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/mgs.html"/>
 		<summary>
 		"When I got into Metal Gear Solid, I saw a very glaring issue, which was that the misogyny that hits you in the face in every game..."
@@ -910,10 +852,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-11-08:/posts/100questions.html</id>
 		<title>100 Webmaster Questions</title>
 		<updated>2025-11-08T09:57:16+02:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/100questions.html"/>
 		<summary>
 		I was bored, so I joined in on the fun.
@@ -928,10 +866,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-10-24:/posts/musictaste.html</id>
 		<title>MusicTaste</title>
 		<updated>2025-10-24T19:29:00+02:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/musictaste.html"/>
 		<summary>
 		I made a MusicTaste account and have been on a contributing spree.
@@ -946,10 +880,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-10-14:/posts/english.html</id>
 		<title>English</title>
 		<updated>2025-10-14T16:48:00+03:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/english.html"/>
 		<summary>
 		A little incoherent
@@ -964,10 +894,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-10-11:/posts/homosexuality.html</id>
 		<title>Homosexuality, Religion, and Egypt</title>
 		<updated>2025-10-11T15:17:00+02:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/homosexuality.html"/>
 		<summary>
 		As you can tell, I am quite the patriot. Warning for homophobia and religious talk.
@@ -982,10 +908,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-10-05:/posts/journaling.html</id>
 		<title>Journaling and This Website</title>
 		<updated>2025-10-05T19:38:00+02:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/journaling.html"/>
 		<summary>
 		This one is quite personal. Warning: I talk about my experiences with paranoia here.
@@ -1000,10 +922,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-10-04:/posts/ai.html</id>
 		<title>AI</title>
 		<updated>2025-10-04T16:11:00+02:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/ai.html"/>
 		<summary>
 		About time I posted an AI rant! I really do hate it.
@@ -1018,10 +936,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-10-01:/posts/autoplay.html</id>
 		<title>Autoplay</title>
 		<updated>2025-10-01T14:07:00+02:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/autoplay.html"/>
 		<summary>
 		Media autoplay (and why I hate it with my entire being.) Happy October!
@@ -1036,10 +950,6 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-09-29:/posts/first_post.html</id>
 		<title>First Post</title>
 		<updated>2025-09-29T20:35:00+02:00</updated>
-		<author>
-			<name>Saif</name>
-       <email>7vtia@tuta.io</email>
-		</author>
 		<link rel="alternate" href="posts/first_post.html"/>
 		<summary>
 		Exactly what it says. I also talk about soulseek.

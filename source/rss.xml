@@ -8,6 +8,15 @@
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
 
 
+<item>
+		<title>No More RSS</title>
+        <description>I'm no longer maintaining this RSS feed in favour of my atom feed. Please subscribe to my atom feed, thank you!</description>
+		<link>https://7vtia.nekoweb.org/posts.html</link>
+		<guid isPermaLink="false">nomore</guid>
+		<pubDate>Thu, 01 Oct 2026 00:28:00 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	</item>
+
         <item>
 		<title>One Year of Posting</title>
         <description><![CDATA[
