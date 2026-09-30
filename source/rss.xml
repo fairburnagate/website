@@ -7,6 +7,47 @@
         <atom:link href="https://7vtia.nekoweb.org/rss.xml" rel="self" type="application/rss+xml" />
         <webMaster>7vtia@tuta.io (Saif)</webMaster>
 
+
+        <item>
+		<title>One Year of Posting</title>
+        <description><![CDATA[
+ <p>
+					Today marks one year since I've started putting out posts on this
+					website. I started out because I wanted to put my thoughts out
+					somewhere, and while it was definitely scary to have people see these
+					posts, I'm really glad I've come this far.
+				</p>
+				<p>
+					Since September 29th, 2025, I've made 22 posts here. Some I'm very
+					proud of, and some that I wish I didn't make in the first place. While
+					there'll probably be many more that I won't really enjoy looking at in
+					the future, I'm looking forward to making many more posts in the
+					coming months.
+				</p>
+				<p>
+					I'm also very proud to say that since I've written
+					<a href="https://7vtia.nekoweb.org/posts/journaling.html" target="_blank" rel="noopener noreferrer"
+						>Journaling and This Website</a
+					>
+					(which kind of makes my face shrivel up when I read it now,) I haven't
+					been as scared to put myself out there nowadays. I don't think that
+					all of my friendships are just some elaborate prank being done on me,
+					and I've found myself enjoying talking to people a lot more now since
+					I'm not stuck in this paranoia anymore.
+				</p>
+				<p>
+					Anyway, I hope to make more guides in the future, and I also still
+					want to talk about my love for cold brew tea. Be on the lookout for
+					that!
+				</p>
+]]></description>
+		<link>https://7vtia.nekoweb.org/posts/oneyearposts.html</link>
+		<guid isPermaLink="false">oneyearofposts</guid>
+		<pubDate>Tue, 29 Sep 2026 23:40:10 +0300</pubDate>
+        <author>7vtia@tuta.io (Saif)</author>
+	</item>
+
+
         <item>
 		<title>Colour Palettes</title>
         <description> <![CDATA[
