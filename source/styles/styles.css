@@ -222,7 +222,7 @@ footer {
 	gap: 4px;
 	min-width: 180px;
 	max-width: 180px;
-	height: 350px;
+	height: calc(39px * 7);
 	max-height: calc(100% - 42px);
 	overflow-y: scroll;
 	overflow-x: hidden;
