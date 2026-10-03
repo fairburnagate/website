@@ -55,22 +55,6 @@ body.dark-mode {
 	text-align: left;
 }
 
-.external-about {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	padding-top: 1vw;
-	max-height: 65px;
-
-	#statuscafe-content {
-		width: 50%;
-		margin-left: 1px;
-		font-size: 1em;
-		max-height: 55px;
-		overflow-x: scroll;
-	}
-}
-
 .listenbrainz p {
 	font-size: 1.1em;
 	line-height: 1.5em;
@@ -91,6 +75,7 @@ body.dark-mode {
 	max-height: 55px;
 	overflow-x: scroll;
 }
+
 /* ! Main */
 
 html,
@@ -119,10 +104,6 @@ body {
 }
 
 /* ! About */
-
-.ads {
-	align-self: center;
-}
 
 #about .row-column {
 	padding-right: 0;
@@ -236,6 +217,7 @@ footer {
 #me {
 	max-height: 31px;
 }
+
 .nobutton {
 	display: inline-block;
 	vertical-align: middle;
@@ -379,11 +361,12 @@ nav {
 }
 
 /* ! Sections */
+
 .tab section {
 	padding-top: calc(2.4em + 1vw);
 	padding-right: 0vw;
 	padding-bottom: 1vw;
-	padding-left: 3.7vw;
+	padding-left: 5vw;
 	position: absolute;
 	min-height: 90vh;
 	width: 100vw;
@@ -463,11 +446,6 @@ input.tab {
 		margin-bottom: 10px;
 		text-indent: 7px;
 	}
-}
-
-#disclaimer {
-	display: none;
-	padding: calc(3em + 1vw) 5vw 8vw 5vw;
 }
 
 #joined p {
@@ -646,6 +624,9 @@ input#email {
 		.buttons {
 			min-width: 85vw !important;
 			padding-left: 1.5em;
+		}
+		.photo {
+			align-self: baseline;
 			margin-bottom: 3em;
 		}
 	}
@@ -654,8 +635,5 @@ input#email {
 		line-height: 1.6em;
 		padding-top: 10px;
 		padding-right: 2vw;
-	}
-	.ads {
-		display: none; /* TODO: Until I figure out how to fix it */
 	}
 }
