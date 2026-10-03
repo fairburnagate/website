@@ -55,9 +55,8 @@ body.dark-mode {
 	text-align: left;
 }
 
-.listenbrainz p {
+.now-playing-container {
 	font-size: 1.1em;
-	line-height: 1.5em;
 }
 
 #statuscafe {

@@ -1881,45 +1881,15 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									for a reason, after all.
 								</p>
 
-								<div class="listenbrainz">
-									<p>
-										<a href="https://listenbrainz.org/user/madeiracitrine/">
-											<b>Last Played:</b></a
-										>
-										<i><span id="song">Loading..</span></i>
-									</p>
-									<script>
-										async function getSong() {
-											try {
-												const response = await fetch(
-													"https://api.listenbrainz.org/1/user/madeiracitrine/listens?count=1",
-												);
-												if (response.ok) {
-													const data = await response.json();
-													const recentTrack =
-														data?.payload?.listens?.[0]?.track_metadata;
+								<div class="now-playing-container">
+									<b> <a href="" id="play-status" data-username=""></a></b>
+									<i id="now-playing" data-username="">
+										Loading track info...
+									</i>
 
-													const text = document.getElementById("song");
-													const artist =
-														recentTrack?.artist_name || "Unknown Artist";
-													const title =
-														recentTrack?.track_name || "Unknown Track";
-													text.innerText = `${title} - ${artist}`;
-													return;
-												} else {
-													throw new Error("Failed to fetch data");
-												}
-											} catch (error) {
-												console.error("Error:", error);
-											}
-										}
-										getSong();
-
-										setInterval(function () {
-											getSong();
-										}, 60000);
-									</script>
+									<script src="scripts/now_playing.js"></script>
 								</div>
+
 								<h2>Interests</h2>
 								<div class="row-column">
 									<div class="listboxcontainer">
@@ -2061,13 +2031,25 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										>maxpixels.moe</a
 									></s
 								>
-								<a
-									href="https://github.com/vojislav/lastfm-now-playing/tree/main"
-									target="_blank"
-									rel="noopener noreferrer"
-									>vojislav</a
+								<s>
+									<a
+										href="https://github.com/vojislav/lastfm-now-playing/tree/main"
+										target="_blank"
+										rel="noopener noreferrer"
+										>vojislav</a
+									></s
 								>
 							</p>
+							<p>
+								Listenbrainz Widget:
+								<a
+									href="https://jasoncrevier.com/listenbrainz-widget/"
+									target="_blank"
+									rel="noopener noreferrer"
+									>Jason Crevier</a
+								>
+							</p>
+
 							<p>
 								Deploy:
 								<a
