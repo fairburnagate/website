@@ -11,3 +11,4 @@ Jail
 source/posts/drafts
 source/gallery/art/nier
 source/lastfm
+.github/workflows/deploy.yml
