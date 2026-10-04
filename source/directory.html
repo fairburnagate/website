@@ -143,2526 +143,1451 @@ LLLLLiiffLLLGGGGGjEGGLLLEDDLGLLGLLLLLLLGLLLGGLffGDKjjfKGLGLLLLLGLLLLGGLGLLGLLLLL
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>7vtia/Directory</title>
-		<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-		<link rel="stylesheet" href="styles/directorystyles.css" />
-	</head>
-	<body>
-		<header>
-			<div class="button">
-				<img src="images/7vtia.png" alt="7vtia" />
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>7vtia/Directory</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/directorystyles.css">
+</head>
+
+<body>
+	<header>
+		<div class="button">
+			<img src="images/7vtia.png" alt="7vtia">
+		</div>
+		<nav>
+			<a href="index.html#home">Main Site</a>
+		</nav>
+	</header>
+	<main>
+		<!-- ! Directory ----------------------------------------------------->
+		<h1>Directory</h1>
+		<p>Tools and cool websites i've found on the web.</p>
+		<p>
+			Some tools will have <code>platforms</code> listed next to them. <br>I
+			do not host anything listed here.
+		</p>
+		<p>
+			If you'd like to suggest a change to this directory, feel free to
+			<a href="mailto:7vtia@tuta.io" target="_blank" rel="noopener noreferrer">e-mail me</a>.
+		</p>
+		<p>
+			Some items will have
+			<span class="tooltip-container">
+				<a href="#" class="tooltip">tooltips</a>
+				<span class="tooltip-content">This is a tooltip.</span>
+			</span>
+			next to them. Click to show/close a tooltip.
+		</p>
+
+		<div class="container">
+			<div class="directoryindex" id="directoryindex">
+				<h2>Contents</h2>
+				<ol>
+					<li><a href="#webtools">Webtools</a></li>
+
+					<ul>
+						<li><a href="#general-tools">General</a></li>
+						<li>
+							<a href="#resource-directories">Directories</a>
+						</li>
+					</ul>
+					<li><a href="#art-tools">Art Tools</a></li>
+					<ul>
+						<li><a href="#drawing">Drawing</a></li>
+						<li><a href="#art-resources">Art Resources</a></li>
+					</ul>
+					<li><a href="#images">Images</a></li>
+					<li><a href="#audio">Audio</a></li>
+					<li><a href="#video">Video</a></li>
+
+					<li><a href="#file-tools">File Tools</a></li>
+					<ul>
+						<li><a href="#torrenting">Torrenting</a></li>
+						<li><a href="#file-hosts">File Hosts</a></li>
+					</ul>
+
+					<li><a href="#rss-tools">RSS</a></li>
+					<ul>
+						<li>
+							<a href="#rss-readers">RSS Readers</a>
+						</li>
+					</ul>
+					<li><a href="#software">Software</a></li>
+					<ul>
+						<li><a href="#irc-clients">IRC Clients</a></li>
+
+						<li><a href="#bootable-usb">Bootable USB</a></li>
+						<li><a href="#code-editors">Code Editors</a></li>
+						<li><a href="#abandonware">Abandonware</a></li>
+						<li>
+							<a href="#virtual-machines">Virtual Machines</a>
+						</li>
+						<li><a href="#android-apks">Android APKs</a></li>
+						<li>
+							<a href="#ios-sideloading">iOS Sideloading</a>
+						</li>
+					</ul>
+
+					<li><a href="#browsing">Browsing</a></li>
+
+					<ul>
+						<li><a href="#email">E-mail</a></li>
+						<li><a href="#browsers">Browsers</a></li>
+						<li>
+							<a href="#search-engines">Search Engines</a>
+						</li>
+						<li>
+							<a href="#general-extensions">General Extensions</a>
+						</li>
+						<li>
+							<a href="#firefox-extensions">Firefox Extensions</a>
+						</li>
+						<li>
+							<a href="#chrome-extensions">Chrome Extensions</a>
+						</li>
+						<li>
+							<a href="#miscellaneous">Miscellaneous Websites</a>
+						</li>
+					</ul>
+					<li><a href="#webdev">Web Development</a></li>
+
+					<ul>
+						<li>
+							<a href="#static-webpage-hosts">Static Webpage Hosts</a>
+						</li>
+						<li>
+							<a href="#webpage-builders">Webpage Builders</a>
+						</li>
+						<li><a href="#webrings">Webrings</a></li>
+						<li><a href="#html">HTML</a></li>
+						<li><a href="#css">CSS</a></li>
+						<li><a href="#fonts">Fonts</a></li>
+						<li><a href="#graphics">Graphics</a></li>
+					</ul>
+				</ol>
 			</div>
-			<nav>
-				<a href="index.html#home">Main Site</a>
-			</nav>
-		</header>
-		<main>
-			<!-- ! Directory ----------------------------------------------------->
-			<h1>Directory</h1>
-			<p>Tools and cool websites i've found on the web.</p>
-			<p>
-				Some tools will have <code>platforms</code> listed next to them. <br />I
-				do not host anything listed here.
-			</p>
-			<p>
-				If you'd like to suggest a change to this directory, feel free to
-				<a href="mailto:7vtia@tuta.io" target="_blank" rel="noopener noreferrer"
-					>e-mail me</a
-				>.
-			</p>
-			<p>
-				Some items will have
+
+			<div class="directory">
+				<!-- ! Tools----------------------------------------------------->
+
+				<h2 id="webtools">
+					Webtools
+					<a href="#">back to top</a>
+				</h2>
+				<p>
+					Tools that can be used directly on a website without needing to
+					download them.
+				</p>
+				<h3 id="general-tools">General</h3>
+
+				<a href="https://www.virustotal.com/" target="_blank" rel="noopener noreferrer">
+					VirusTotal</a>
+				- Online virus scanner
+				<br>
+
+				<a href="https://hybrid-analysis.com/" target="_blank" rel="noopener noreferrer">
+					Hybrid Analysis</a>
+				- Online virus scanner
+				<br>
+
+				<a href="https://haveibeenpwned.com/" target="_blank" rel="noopener noreferrer">
+					Have I Been Pwned?</a>
+				- Email breach check
+				<br>
+				<a href="https://haveibeenpwned.com/Passwords" target="_blank" rel="noopener noreferrer">
+					Have I Been Pwned Passwords</a>
+				- Password breach check
+				<br>
+
+				<a href="https://ipleak.net/" target="_blank" rel="noopener noreferrer">
+					IPLeak.net</a>
+				- IP Leak test
+				<br>
+
+				<a href="https://validator.w3.org/checklink" target="_blank" rel="noopener noreferrer">
+					W3C Link Checker</a>
+				/
+				<a href="https://www.deadlinkchecker.com/website-dead-link-checker.asp" target="_blank"
+					rel="noopener noreferrer">
+					dead link checker</a>
+				- Checks for broken links
+				<br>
+
+				<a href="https://downforeveryoneorjustme.com/" target="_blank" rel="noopener noreferrer">
+					Down for Everyone or Just Me</a>
+				<br>
+
+				<a href="https://speed.cloudflare.com/" target="_blank" rel="noopener noreferrer">
+					Cloudflare Speed Test</a>
+				- Network speed test
+				<br>
+
+				<!-- ? Directories----------------------------------------------------->
+
+				<h3 id="resource-directories">Directories</h3>
+
+				<a href="https://hal.wedjat.city/bookmarks.html" target="_blank" rel="noopener noreferrer">
+					HAL</a>
+				- The greatest bookmarks of all time
+				<br>
+
+				<a href="https://fmhy.net/" target="_blank" rel="noopener noreferrer">
+					FMHY</a>
+				- Massive collection of free stuff. My favourite website ever.
+				<br>
+
+				<a href="https://www.reddit.com/r/Piracy/" target="_blank" rel="noopener noreferrer">
+					r/Piracy</a>
+				- Piracy focused subreddit
+				<br>
+
+				<a href="https://archive.org/" target="_blank" rel="noopener noreferrer">
+					Internet Archive
+				</a>
+				<br>
+
+				<a href="https://directory.joejenett.com/" target="_blank" rel="noopener noreferrer">
+					i.webthings directory</a>
+				<br>
+
+				<!-- ! Art Tools----------------------------------------------------->
+
+				<h2 id="art-tools">Art Tools</h2>
+
+				<p>Art tutorials, Anatomy references, Online drawing platforms</p>
+
+				<!-- ? Drawing ----------------------------------------------------->
+
+				<h3 id="drawing">Drawing <a href="#">back to top</a></h3>
+
+				<a href="https://krita.org/en/" target="_blank" rel="noopener noreferrer">
+					Krita</a>
+				- Free and open source digital painting program
+				<code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code> <code>Android</code>
+				<br>
+
+				<a href="https://firealpaca.com/" target="_blank" rel="noopener noreferrer">
+					FireAlpaca</a>
+				- Free digital painting program <code>Windows</code>
+				<code>MacOS</code>
+				<br>
+
+				<a href="https://github.com/aseprite/aseprite" target="_blank" rel="noopener noreferrer">
+					Aseprite</a>
+				- Pixel art program /
+				<a href="https://github.com/aseprite/aseprite/blob/main/INSTALL.md" target="_blank" rel="noopener noreferrer">
+					Build Guide</a>
+				<code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://libresprite.github.io/" target="_blank" rel="noopener noreferrer">
+					LibreSprite</a>
+				- Pixel art program <code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://inkscape.org/" target="_blank" rel="noopener noreferrer">
+					Inkscape</a>
+				- Vector graphics editor <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://drawpile.net/download/" target="_blank" rel="noopener noreferrer">
+					DrawPile</a>
+				- Collaborative drawing <code>Windows</code> <code>macOS</code>
+				<code>Linux</code> <code>Android</code>
+				<code>Web</code>
+				<br>
+
+				<a href="https://beyondloom.com/tools/wigglypaint.html" target="_blank" rel="noopener noreferrer">
+					WigglyPaint</a>
+				- Online painting tool with wiggly lines <code>Web</code>
+				<br>
+
+				<a href="https://jspaint.app/" target="_blank" rel="noopener noreferrer">
+					JS Paint</a>
+				- Online classic MS Paint <code>Web</code>
+				<br>
+
+				<a href="https://kidpix.app/" target="_blank" rel="noopener noreferrer">
+					JS Kidpix</a>
+				- Online Kidpix <code>Web</code>
+				<br>
+
+				<a href="https://kleki.com/" target="_blank" rel="noopener noreferrer">
+					Kleki</a>
+				- Online painting tool <code>Web</code>
+				<br>
+
+				<a href="https://magma.com/" target="_blank" rel="noopener noreferrer">
+					Magma</a>
+				- Collaborative drawing <code>Web</code>
+				<br>
+
+				<!-- ? Art Resources----------------------------------------------------->
+
+				<h3 id="art-resources">Art Resources <a href="#">back to top</a></h3>
+
+				<a href="https://vads.ac.uk/digital/" target="_blank" rel="noopener noreferrer">
+					VADS</a>
+				- Massive digital art collection.
+				<br>
+
+				<a href="https://drawabox.com/" target="_blank" rel="noopener noreferrer">
+					Drawabox</a>
+				- Free art lessons, from basic to advanced.
+				<br>
+
+				<a href="https://www.ctrlpaint.com/library/" target="_blank" rel="noopener noreferrer">
+					Ctrl+Paint</a>
+				- Free tutorials on digital painting.
+				<br>
+
+				<a href="https://www.youtube.com/user/ProkoTV/videos" target="_blank" rel="noopener noreferrer">
+					Proko</a>
+				- Art insrtuction videos
+				<br>
+
+				<a href="https://www.youtube.com/@marcobucci" target="_blank" rel="noopener noreferrer">
+					Marco Bucci</a>
+				- YouTube painting videos
+				<br>
+
+				<a href="https://www.posemaniacs.com/" target="_blank" rel="noopener noreferrer">
+					POSEMANIACS</a>
+				- 3D models and tutorials on how to draw anatomy.
+				<br>
+
+				<a href="https://line-of-action.com/practice-tools" target="_blank" rel="noopener noreferrer">
+					Line of Action</a>
+				- Timed practice tools on figure drawing, basic shapes, etc.
+				<br>
+
+				<a href="https://x6ud.github.io/#/" target="_blank" rel="noopener noreferrer">
+					Animal Anatomy Search</a>
+				- Animal head skeleton pose engine that matches reference to pose.
+				<br>
+
+				<a href="https://x6ud.github.io/human-anatomy-for-artist-search-helper/#/" target="_blank"
+					rel="noopener noreferrer">
+					Human Anatomy Search</a>
+				- Human skeleton pose engine that matches reference to pose.
+				<br>
+
+				<a href="https://reubenlara.com/anatomy/" target="_blank" rel="noopener noreferrer">
+					Anatomy - Reuben Lara</a>
+				- Tutorial on how to draw anatomy. This helped me a lot!
+				<br>
+
+				<a href="https://characterdesignreferences.com/" target="_blank" rel="noopener noreferrer">
+					Character Design References</a>
+				- Huge library of character anatomy and design boards
+				<br>
+
+				<a href="https://setteidreams.net/" target="_blank" rel="noopener noreferrer">
+					Settei Dreams</a>
+				- Animation production material archive
+				<br>
+
+				<a href="https://drawingbooks.org/" target="_blank" rel="noopener noreferrer">
+					Drawing Books</a>
+				- Free art books
+				<br>
+
+				<a href="https://dn790002.ca.archive.org/0/items/PerspectiveMadeEasy/Norling%20-%20Perspective%20Made%20Easy.pdf 
+" target="_blank" rel="noopener noreferrer">
+					Perspective Made Easy</a>
+				- Book on learning how to draw perspective
+				<br>
+
+				<a href="https://film-grab.com/" target="_blank" rel="noopener noreferrer">
+					[FILMGRAB]</a>
+				- Huge collection of film screencaps
+				<br>
+
+				<a href="https://unsplash.com/" target="_blank" rel="noopener noreferrer">
+					Unsplash</a>
+				/
+				<a href="https://www.pexels.com/" target="_blank" rel="noopener noreferrer">
+					Pexels</a>
+
+				- Stock photos
+				<br>
+
+				<!-- ! Images----------------------------------------------------->
+
+				<h2 id="images">
+					Images
+					<a href="#">back to top</a>
+				</h2>
+				<p>Image editing tools, image viewers</p>
+
+				<a href="https://www.gimp.org/" target="_blank" rel="noopener noreferrer">
+					GIMP</a>
+				- Photo editor <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://imagemagick.org/" target="_blank" rel="noopener noreferrer">
+					ImageMagick</a>
+				- Photo editor <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code> <code>iOS</code>
+				<br>
+
+				<a href="https://photodemon.org/" target="_blank" rel="noopener noreferrer">
+					PhotoDemon</a>
+				- Portable photo editor <code>Windows</code>
+				<br>
+
+				<a href="https://flameshot.org/" target="_blank" rel="noopener noreferrer">
+					Flameshot</a>
+				- Screen capture tool <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://getsharex.com/" target="_blank" rel="noopener noreferrer">
+					ShareX</a>
+				- Screen capture tool
+				<code>Windows</code>
+				<br>
+
+				<a href="https://bendodson.com/projects/itunes-artwork-finder/" target="_blank" rel="noopener noreferrer">
+					iTunes Artwork Finder</a>
+				<code>Web</code>
+				<br>
+
+				<a href="https://www.photopea.com/" target="_blank" rel="noopener noreferrer">
+					Photopea</a>
+				- Photoshop alternative on your browser
+				<br>
+
+				<a href="https://ezgif.com/" target="_blank" rel="noopener noreferrer">
+					Ezgif</a>
+				- GIF editor <code>Web</code>
+				<br>
+
+				<a href="https://imgops.com/" target="_blank" rel="noopener noreferrer">
+					ImgOps</a>
+				- Image operations tool <code>Web</code>
+				<br>
+
+				<a href="https://avatarcropper.com/" target="_blank" rel="noopener noreferrer">
+					Avatar Cropper</a>
+				<code>Web</code>
+				<br>
+
+				<a href="https://app.dithermark.com/" target="_blank" rel="noopener noreferrer">
+					Dithermark</a>
+				- Real-time image dithering tool <code>Web</code>
+				<br>
+
+				<a href="https://doodad.dev/dither-me-this/" target="_blank" rel="noopener noreferrer">DitherMeThis</a>
+				/
+				<a href="https://ditherit.com/" target="_blank" rel="noopener noreferrer">Dither it!</a>
+				- Image Dither <code>Web</code>
+				<br>
+
+				<a href="https://github.com/makew0rld/didder" target="_blank" rel="noopener noreferrer">
+					didder</a>
+				- Command-line image dithering tool <code>Windows</code>
+				<code>macOS</code> <code>Linux</code>
+				<br>
+
+				<a href="https://www.irfanview.com/" target="_blank" rel="noopener noreferrer">
+					IrfanView</a>
+				- Image viewer <code>Windows</code>
+				<br>
+				<a href="https://github.com/jurplel/qView" target="_blank" rel="noopener noreferrer">
+					qView</a>
+				- Image viewer <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://css-ig.net/pinga" target="_blank" rel="noopener noreferrer">
+					pinga</a>
+				- Image optimizer for web <code>Windows</code>
+				<br>
+
+				<a href="https://trimage.org/" target="_blank" rel="noopener noreferrer">
+					Trimage</a>
+				- Image compressor <code>Linux</code> <code>macOS</code>
+				<br>
+
+				<!-- ! Audio----------------------------------------------------->
+				<h2 id="audio">Audio <a href="#">back to top</a></h2>
+				<p>Audio downloads, Online radio, Music players</p>
+
+				<a href="https://slsknet.org/" target="_blank" rel="noopener noreferrer">
+					Soulseek</a>
+				or
+				<a href="https://nicotine-plus.org/" target="_blank" rel="noopener noreferrer">
+					Nicotine+</a>
+				/
+				<a href="https://github.com/jackBonadies/SeekerAndroid" target="_blank" rel="noopener noreferrer">
+					Seeker</a>
+				(Android) - Peer-to-peer audio sharing app.
+				<code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://www.audacityteam.org/" target="_blank" rel="noopener noreferrer">
+					Audacity</a>
+				- Audio recorder/editor <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://audacious-media-player.org/" target="_blank" rel="noopener noreferrer">
+					Audacious</a>
+				- Audio Player <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://www.foobar2000.org/" target="_blank" rel="noopener noreferrer">
+					Foobar2000</a>
+				- Audio Player /
+				<a href="https://github.com/gix/foo_scrobble" target="_blank" rel="noopener noreferrer">
+					Last.fm</a>
+				<code>Windows</code> <code>macOS</code>
+				<code>Android/iOS</code>
+				<br>
+
+				<a href="https://www.strawberrymusicplayer.org/" target="_blank" rel="noopener noreferrer">
+					Strawberry</a>
+				- Audio Player <code>Linux</code>
+				<br>
+
+				<a href="https://getwacup.com/" target="_blank" rel="noopener noreferrer">
+					WACUP</a>
+				- Audio Player <code>Windows</code>
+				<br>
+
+				<a href="https://getmusicbee.com/" target="_blank" rel="noopener noreferrer">
+					MusicBee</a>
+				- Audio Player <code>Windows</code>
+				<br>
+
+				<a href="https://cmus.github.io/#home" target="_blank" rel="noopener noreferrer">
+					cmus</a>
+				- Command-line audio player <code>Linux</code>
+				<code>macOS</code>
+				<br>
+
+				<a href="https://listenbrainz.org/" target="_blank" rel="noopener noreferrer">
+					Listenbrainz</a>
+				- Music tracking. I prefer this to last.fm
+				<br>
+
+				<a href="https://www.last.fm/" target="_blank" rel="noopener noreferrer">
+					Last.fm</a>
+				- Music tracking
+				<br>
+
+				<a href="https://libre.fm/" target="_blank" rel="noopener noreferrer">
+					Libre.fm</a>
+				- Music tracking
+				<br>
+
+				<a href="https://archive.org/details/audio" target="_blank" rel="noopener noreferrer">
+					Internet Archive Audio</a>
+				<br>
+
+				<a href="https://somafm.com/" target="_blank" rel="noopener noreferrer">
+					SomaFM</a>
+				/
+				<a href="https://somafm.com/playlist/" target="_blank" rel="noopener noreferrer">
+					Playlists</a>
+
+				- Online radio
+				<br>
+
+				<a href="https://www.nts.live/radio" target="_blank" rel="noopener noreferrer">
+					NTS Radio</a>
+				- Online radio
+				<br>
+
+				<a href="https://github.com/SpotX-Official/SpotX" target="_blank" rel="noopener noreferrer">
+					SpotX</a>
+				- Spotify Desktop Client ad-free patcher
+				<br>
+
+				<a href="https://spicetify.app/" target="_blank" rel="noopener noreferrer">
+					Spicetify</a>
+				- Spotify client customisation
+				<br>
+
+				<a href="https://www.sittingonclouds.net/" target="_blank" rel="noopener noreferrer">
+					Sitting on Clouds</a>
+				- Video game / Anime soundtracks
+				<br>
+
+				<a href="https://everynoise.com/engenremap.html" target="_blank" rel="noopener noreferrer">
+					Every Noise At Once</a>
+				- A map of basically every music genre.
+				<br>
+
+				<!-- ! Video----------------------------------------------------->
+				<h2 id="video">Video <a href="#">back to top</a></h2>
+				<p>Video downloaders, Video editors, Video players</p>
+
+				<a href="https://compress-video-online.com/" target="_blank" rel="noopener noreferrer">
+					Compress Video Online</a>
+				- Video compressor
+				<br>
+
+				<a href="https://8mb.video/" target="_blank" rel="noopener noreferrer">
+					8mb.video</a>
+				- Video compressor for Discord
+				<br>
+				<a href="https://cobalt.tools/" target="_blank" rel="noopener noreferrer">
+					cobalt</a>
+				- Video downloader. <code>Web</code>
+				<br>
+
+				<a href="https://github.com/yt-dlp/yt-dlp" target="_blank" rel="noopener noreferrer">
+					yt-dlp</a>
+				- Command-line video/audio downloader
+				<code>Windows</code>
+				<code>macOS</code>
+				<code>Linux/BSD</code>
+				<br>
+
+				<a href="https://kdenlive.org/" target="_blank" rel="noopener noreferrer">
+					Kdenlive</a>
+				- Video editor. <code>Windows</code> <code>macOS</code>
+				<code>Linux/BSD</code>
+				<br>
+
+				<a href="https://www.blackmagicdesign.com/products/davinciresolve/" target="_blank" rel="noopener noreferrer">
+					DaVinci Resolve</a>
+				- Video editor / Sign-in required <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://obsproject.com/" target="_blank" rel="noopener noreferrer">
+					OBS</a>
+				- Video recording and live streaming app.
+				<code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://mpv.io/" target="_blank" rel="noopener noreferrer">
+					mpv</a>
+				- Video player. <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux/BSD</code> <code>Android</code>
+				<br>
+
+				<a href="https://www.videolan.org/vlc/" target="_blank" rel="noopener noreferrer">VLC</a>
+				- Video player <code>Windows</code> <code>MacOS</code>
+				<code>Linux</code> <code>Android/iOS</code>
+				<br>
+
+				<a href="https://ffmpeg.org/" target="_blank" rel="noopener noreferrer">
+					FFmpeg</a>
+				- Command-line video/audio converter.
+				<code>All Platforms</code>
+				<br>
+
+				<!-- ! File Tools----------------------------------------------------->
+				<h2 id="file-tools">File Tools <a href="#">back to top</a></h2>
+				<p>File managers, File archivers</p>
+
+				<a href="https://jdownloader.org/jdownloader2" target="_blank" rel="noopener noreferrer">
+					JDownloader</a>
+				- Download manager /
+				<a href="https://clarasguide.valeena.workers.dev/Guides/jdownloader2/" target="_blank"
+					rel="noopener noreferrer">
+					Debloat Guide</a>
+				<code>Windows</code> <code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://www.freedownloadmanager.org/" target="_blank" rel="noopener noreferrer">
+					FDM</a>
+				- Download manager <code>Windows</code> <code>macOS</code>
+				<code>Linux</code>
+				<code>Android</code>
+				<br>
+
+				<a href="https://www.7-zip.org/download.html" target="_blank" rel="noopener noreferrer">
+					7zip</a>
+				- File archiver <code>Windows</code> <code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://syncthing.net/" target="_blank" rel="noopener noreferrer">
+					Syncthing</a>
+				- File Sync /
+				<a href="https://github.com/chenxiaolong/BasicSync" target="_blank" rel="noopener noreferrer">
+					Android</a>
+				<code>All Platforms</code>
+				<br>
+
+				<a href="https://localsend.org/" target="_blank" rel="noopener noreferrer">
+					LocalSend</a>
+				- Local file sharing <code>All Platforms</code>
+				<br>
+
+				<a href="https://www.gnu.org/software/wget/" target="_blank" rel="noopener noreferrer">
+					GNU Wget</a>
+				- Command-line file retriever <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://vert.sh/" target="_blank" rel="noopener noreferrer">
+					VERT.sh</a>
+				- File Converter <code>Web</code>
+				<br>
+
+				<a href="https://www.softwareok.com/?seite=Freeware/Q-Dir" target="_blank" rel="noopener noreferrer">
+					Q-Dir</a>
+				- File Manager <code>Windows</code>
+				<br>
+
+				<a href="https://www.advancedrenamer.com/download" target="_blank" rel="noopener noreferrer">
+					Advanced Renamer</a>
+				- Bulk file renamer <code>Windows</code> <code>macOS</code>
+				<br>
+
+				<a href="https://www.bcuninstaller.com/" target="_blank" rel="noopener noreferrer">
+					Bulk Crap Uninstaller</a>
+				- Bulk program uninstaller <code>Windows</code>
+				<br>
+
+				<a href="https://www.voidtools.com/" target="_blank" rel="noopener noreferrer">
+					Everything</a>
+				- File search <code>Windows</code>
+				<br>
+
+				<a href="https://diskanalyzer.com/" target="_blank" rel="noopener noreferrer">
+					WizTree</a>
+				- Disk usage statistics viewer <code>Windows</code>
+				<br>
+
+				<a href="https://windirstat.net/" target="_blank" rel="noopener noreferrer">
+					WinDirStat</a>
+				- Disk usage statistics viewer <code>Windows</code>
+
+				<!-- ? Torrenting----------------------------------------------------->
+
+				<h3 id="torrenting">Torrenting <a href="#">back to top</a></h3>
+
+				<a href="https://torrents-csv.com/" target="_blank" rel="noopener noreferrer">
+					Torrents-CSV</a>
+				- Collaborative git repository of torrents
+				<br>
+
+				<a href="https://wiztorrent.com/en" target="_blank" rel="noopener noreferrer">
+					WizTorrent</a>
+				- Stream torrents as they download in real time
+				<code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://www.qbittorrent.org/" target="_blank" rel="noopener noreferrer">
+					qBittorrent</a>
+				- Torrent client <code>Windows</code> <code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://transmissionbt.com/" target="_blank" rel="noopener noreferrer">
+					Transmission</a>
+				- Torrent client <code>Windows</code> <code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://deluge-torrent.org/" target="_blank" rel="noopener noreferrer">
+					Deluge</a>
+				- Torrent client <code>Windows</code> <code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://www.biglybt.com/" target="_blank" rel="noopener noreferrer">
+					BiglyBT</a>
+				- Torrent client <code>Windows</code> <code>MacOS</code>
+				<code>Linux</code>
+				<code>Android</code>
+				<br>
+
+				<a href="https://gitlab.com/proninyaroslav/libretorrent" target="_blank" rel="noopener noreferrer">
+					LibreTorrent</a>
+				- Torrent client
+				<code>Android</code>
+				<br>
+
+				<a href="https://play.google.com/store/apps/details?id=com.delphicoder.flud" target="_blank"
+					rel="noopener noreferrer">
+					Flud</a>
+				- Torrent client
+				<code>Android</code>
+				<br>
+
+				<!-- ? File Hosts----------------------------------------------------->
+
+				<h3 id="file-hosts">File Hosts</h3>
+
+				<p style="font-size: medium">Tag order is expiry / file size limit</p>
+				<a href="https://catbox.moe/" target="_blank" rel="noopener noreferrer">
+					Catbox</a>
+				- Files stay forever. / 200MB limit
+				<br>
+
+				<a href="https://filegarden.com/" target="_blank" rel="noopener noreferrer">
+					File Garden</a>
+				- Files stay forever. / Unknown limit
+				<br>
+
+				<a href="https://1fichier.com/" target="_blank" rel="noopener noreferrer">
+					1fichier</a>
+				- Files stay for 15 days, 30 days if registered. / 300GB limit
+				<br>
+
+				<a href="https://mega.io/" target="_blank" rel="noopener noreferrer">
+					MEGA</a>
+				- Files stay for 3 months after last login. / 20GB limit
+				<br>
+
+				<a href="https://pixeldrain.com/home#" target="_blank" rel="noopener noreferrer">
+					Pixeldrain</a>
+				- Files stay for 120 days. / 20GB limit
+				<br>
+
+				<a href="https://buzzheavier.com/" target="_blank" rel="noopener noreferrer">
+					Buzzheavier</a>
+				- Files stay for 15 days (up to 45 days/forever). / Unlimited /
 				<span class="tooltip-container">
-					<a href="#" class="tooltip">tooltips</a>
-					<span class="tooltip-content">This is a tooltip.</span>
+					<a href="#" class="tooltip">Expiry</a>
+					<span class="tooltip-content">Files will be kept forever as long as they've been downloaded 30
+						times within the last 60 days.</span>
 				</span>
-				next to them. Click to show/close a tooltip.
-			</p>
-
-			<div class="container">
-				<div class="directoryindex" id="directoryindex">
-					<h2>Contents</h2>
-					<ol>
-						<li><a href="#webtools">Webtools</a></li>
-
-						<ul>
-							<li><a href="#general-tools">General</a></li>
-							<li>
-								<a href="#resource-directories">Directories</a>
-							</li>
-						</ul>
-						<li><a href="#art-tools">Art Tools</a></li>
-						<ul>
-							<li><a href="#drawing">Drawing</a></li>
-							<li><a href="#art-resources">Art Resources</a></li>
-						</ul>
-						<li><a href="#images">Images</a></li>
-						<li><a href="#audio">Audio</a></li>
-						<li><a href="#video">Video</a></li>
-
-						<li><a href="#file-tools">File Tools</a></li>
-						<ul>
-							<li><a href="#torrenting">Torrenting</a></li>
-							<li><a href="#file-hosts">File Hosts</a></li>
-						</ul>
-
-						<li><a href="#rss-tools">RSS</a></li>
-						<ul>
-							<li>
-								<a href="#rss-readers">RSS Readers</a>
-							</li>
-						</ul>
-						<li><a href="#software">Software</a></li>
-						<ul>
-							<li><a href="#irc-clients">IRC Clients</a></li>
-
-							<li><a href="#bootable-usb">Bootable USB</a></li>
-							<li><a href="#code-editors">Code Editors</a></li>
-							<li><a href="#abandonware">Abandonware</a></li>
-							<li>
-								<a href="#virtual-machines">Virtual Machines</a>
-							</li>
-							<li><a href="#android-apks">Android APKs</a></li>
-							<li>
-								<a href="#ios-sideloading">iOS Sideloading</a>
-							</li>
-						</ul>
-
-						<li><a href="#browsing">Browsing</a></li>
-
-						<ul>
-							<li><a href="#email">E-mail</a></li>
-							<li><a href="#browsers">Browsers</a></li>
-							<li>
-								<a href="#search-engines">Search Engines</a>
-							</li>
-							<li>
-								<a href="#general-extensions">General Extensions</a>
-							</li>
-							<li>
-								<a href="#firefox-extensions">Firefox Extensions</a>
-							</li>
-							<li>
-								<a href="#chrome-extensions">Chrome Extensions</a>
-							</li>
-							<li>
-								<a href="#miscellaneous">Miscellaneous Websites</a>
-							</li>
-						</ul>
-						<li><a href="#webdev">Web Development</a></li>
-
-						<ul>
-							<li>
-								<a href="#static-webpage-hosts">Static Webpage Hosts</a>
-							</li>
-							<li>
-								<a href="#webpage-builders">Webpage Builders</a>
-							</li>
-							<li><a href="#webrings">Webrings</a></li>
-							<li><a href="#html">HTML</a></li>
-							<li><a href="#css">CSS</a></li>
-							<li><a href="#fonts">Fonts</a></li>
-							<li><a href="#graphics">Graphics</a></li>
-						</ul>
-					</ol>
-				</div>
-
-				<div class="directory">
-					<!-- ! Tools----------------------------------------------------->
-
-					<h2 id="webtools">
-						Webtools
-						<a href="#">back to top</a>
-					</h2>
-					<p>
-						Tools that can be used directly on a website without needing to
-						download them.
-					</p>
-					<h3 id="general-tools">General</h3>
-
-					<a
-						href="https://www.virustotal.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						VirusTotal</a
-					>
-					- Online virus scanner
-					<br />
-
-					<a
-						href="https://hybrid-analysis.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Hybrid Analysis</a
-					>
-					- Online virus scanner
-					<br />
-
-					<a
-						href="https://haveibeenpwned.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Have I Been Pwned?</a
-					>
-					- Email breach check
-					<br />
-					<a
-						href="https://haveibeenpwned.com/Passwords"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Have I Been Pwned Passwords</a
-					>
-					- Password breach check
-					<br />
-
-					<a
-						href="https://ipleak.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						IPLeak.net</a
-					>
-					- IP Leak test
-					<br />
-
-					<a
-						href="https://validator.w3.org/checklink"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						W3C Link Checker</a
-					>
-					/
-					<a
-						href="https://www.deadlinkchecker.com/website-dead-link-checker.asp"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						dead link checker</a
-					>
-					- Checks for broken links
-					<br />
-
-					<a
-						href="https://downforeveryoneorjustme.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Down for Everyone or Just Me</a
-					>
-					<br />
-
-					<a
-						href="https://speed.cloudflare.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Cloudflare Speed Test</a
-					>
-					- Network speed test
-					<br />
-
-					<!-- ? Directories----------------------------------------------------->
-
-					<h3 id="resource-directories">Directories</h3>
-
-					<a
-						href="https://hal.wedjat.city/bookmarks.html"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						HAL</a
-					>
-					- The greatest bookmarks of all time
-					<br />
-
-					<a href="https://fmhy.net/" target="_blank" rel="noopener noreferrer">
-						FMHY</a
-					>
-					- Massive collection of free stuff. My favourite website ever.
-					<br />
-
-					<a
-						href="https://www.reddit.com/r/Piracy/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						r/Piracy</a
-					>
-					- Piracy focused subreddit
-					<br />
-
-					<a
-						href="https://archive.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Internet Archive
-					</a>
-					<br />
-
-					<a
-						href="https://directory.joejenett.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						i.webthings directory</a
-					>
-					<br />
-
-					<!-- ! Art Tools----------------------------------------------------->
-
-					<h2 id="art-tools">Art Tools</h2>
-
-					<p>Art tutorials, Anatomy references, Online drawing platforms</p>
-
-					<!-- ? Drawing ----------------------------------------------------->
-
-					<h3 id="drawing">Drawing <a href="#">back to top</a></h3>
-
-					<a
-						href="https://krita.org/en/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Krita</a
-					>
-					- Free and open source digital painting program
-					<code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code> <code>Android</code>
-					<br />
-
-					<a
-						href="https://firealpaca.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						FireAlpaca</a
-					>
-					- Free digital painting program <code>Windows</code>
-					<code>MacOS</code>
-					<br />
-
-					<a
-						href="https://github.com/aseprite/aseprite"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Aseprite</a
-					>
-					- Pixel art program /
-					<a
-						href="https://github.com/aseprite/aseprite/blob/main/INSTALL.md"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Build Guide</a
-					>
-					<code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://libresprite.github.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						LibreSprite</a
-					>
-					- Pixel art program <code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://inkscape.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Inkscape</a
-					>
-					- Vector graphics editor <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://drawpile.net/download/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						DrawPile</a
-					>
-					- Collaborative drawing <code>Windows</code> <code>macOS</code>
-					<code>Linux</code> <code>Android</code>
-					<code>Web</code>
-					<br />
-
-					<a
-						href="https://beyondloom.com/tools/wigglypaint.html"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						WigglyPaint</a
-					>
-					- Online painting tool with wiggly lines <code>Web</code>
-					<br />
-
-					<a
-						href="https://jspaint.app/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						JS Paint</a
-					>
-					- Online classic MS Paint <code>Web</code>
-					<br />
-
-					<a
-						href="https://kidpix.app/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						JS Kidpix</a
-					>
-					- Online Kidpix <code>Web</code>
-					<br />
-
-					<a
-						href="https://kleki.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Kleki</a
-					>
-					- Online painting tool <code>Web</code>
-					<br />
-
-					<a
-						href="https://magma.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Magma</a
-					>
-					- Collaborative drawing <code>Web</code>
-					<br />
-
-					<!-- ? Art Resources----------------------------------------------------->
-
-					<h3 id="art-resources">Art Resources <a href="#">back to top</a></h3>
-
-					<a
-						href="https://vads.ac.uk/digital/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						VADS</a
-					>
-					- Massive digital art collection.
-					<br />
-
-					<a
-						href="https://drawabox.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Drawabox</a
-					>
-					- Free art lessons, from basic to advanced.
-					<br />
-
-					<a
-						href="https://www.ctrlpaint.com/library/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Ctrl+Paint</a
-					>
-					- Free tutorials on digital painting.
-					<br />
-
-					<a
-						href="https://www.youtube.com/user/ProkoTV/videos"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Proko</a
-					>
-					- Art insrtuction videos
-					<br />
-
-					<a
-						href="https://www.youtube.com/@marcobucci"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Marco Bucci</a
-					>
-					- YouTube painting videos
-					<br />
-
-					<a
-						href="https://www.posemaniacs.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						POSEMANIACS</a
-					>
-					- 3D models and tutorials on how to draw anatomy.
-					<br />
-
-					<a
-						href="https://line-of-action.com/practice-tools"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Line of Action</a
-					>
-					- Timed practice tools on figure drawing, basic shapes, etc.
-					<br />
-
-					<a
-						href="https://x6ud.github.io/#/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Animal Anatomy Search</a
-					>
-					- Animal head skeleton pose engine that matches reference to pose.
-					<br />
-
-					<a
-						href="https://x6ud.github.io/human-anatomy-for-artist-search-helper/#/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Human Anatomy Search</a
-					>
-					- Human skeleton pose engine that matches reference to pose.
-					<br />
-
-					<a
-						href="https://reubenlara.com/anatomy/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Anatomy - Reuben Lara</a
-					>
-					- Tutorial on how to draw anatomy. This helped me a lot!
-					<br />
-
-					<a
-						href="https://characterdesignreferences.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Character Design References</a
-					>
-					- Huge library of character anatomy and design boards
-					<br />
-
-					<a
-						href="https://setteidreams.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Settei Dreams</a
-					>
-					- Animation production material archive
-					<br />
-
-					<a
-						href="https://drawingbooks.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Drawing Books</a
-					>
-					- Free art books
-					<br />
-
-					<a
-						href="https://dn790002.ca.archive.org/0/items/PerspectiveMadeEasy/Norling%20-%20Perspective%20Made%20Easy.pdf 
-"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Perspective Made Easy</a
-					>
-					- Book on learning how to draw perspective
-					<br />
-
-					<a
-						href="https://film-grab.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						[FILMGRAB]</a
-					>
-					- Huge collection of film screencaps
-					<br />
-
-					<a
-						href="https://unsplash.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Unsplash</a
-					>
-					/
-					<a
-						href="https://www.pexels.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Pexels</a
-					>
-
-					- Stock photos
-					<br />
-
-					<!-- ! Images----------------------------------------------------->
-
-					<h2 id="images">
-						Images
-						<a href="#">back to top</a>
-					</h2>
-					<p>Image editing tools, image viewers</p>
-
-					<a
-						href="https://www.gimp.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						GIMP</a
-					>
-					- Photo editor <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://imagemagick.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						ImageMagick</a
-					>
-					- Photo editor <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code> <code>iOS</code>
-					<br />
-
-					<a
-						href="https://photodemon.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						PhotoDemon</a
-					>
-					- Portable photo editor <code>Windows</code>
-					<br />
-
-					<a
-						href="https://flameshot.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Flameshot</a
-					>
-					- Screen capture tool <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://getsharex.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						ShareX</a
-					>
-					- Screen capture tool
-					<code>Windows</code>
-					<br />
-
-					<a
-						href="https://bendodson.com/projects/itunes-artwork-finder/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						iTunes Artwork Finder</a
-					>
-					<code>Web</code>
-					<br />
-
-					<a
-						href="https://www.photopea.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Photopea</a
-					>
-					- Photoshop alternative on your browser
-					<br />
-
-					<a
-						href="https://ezgif.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Ezgif</a
-					>
-					- GIF editor <code>Web</code>
-					<br />
-
-					<a
-						href="https://imgops.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						ImgOps</a
-					>
-					- Image operations tool <code>Web</code>
-					<br />
-
-					<a
-						href="https://avatarcropper.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Avatar Cropper</a
-					>
-					<code>Web</code>
-					<br />
-
-					<a
-						href="https://app.dithermark.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Dithermark</a
-					>
-					- Real-time image dithering tool <code>Web</code>
-					<br />
-
-					<a
-						href="https://doodad.dev/dither-me-this/"
-						target="_blank"
-						rel="noopener noreferrer"
-						>DitherMeThis</a
-					>
-					/
-					<a
-						href="https://ditherit.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-						>Dither it!</a
-					>
-					- Image Dither <code>Web</code>
-					<br />
-
-					<a
-						href="https://github.com/makew0rld/didder"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						didder</a
-					>
-					- Command-line image dithering tool <code>Windows</code>
-					<code>macOS</code> <code>Linux</code>
-					<br />
-
-					<a
-						href="https://www.irfanview.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						IrfanView</a
-					>
-					- Image viewer <code>Windows</code>
-					<br />
-					<a
-						href="https://github.com/jurplel/qView"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						qView</a
-					>
-					- Image viewer <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://css-ig.net/pinga"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						pinga</a
-					>
-					- Image optimizer for web <code>Windows</code>
-					<br />
-
-					<a
-						href="https://trimage.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Trimage</a
-					>
-					- Image compressor <code>Linux</code> <code>macOS</code>
-					<br />
-
-					<!-- ! Audio----------------------------------------------------->
-					<h2 id="audio">Audio <a href="#">back to top</a></h2>
-					<p>Audio downloads, Online radio, Music players</p>
-
-					<a
-						href="https://slsknet.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Soulseek</a
-					>
-					or
-					<a
-						href="https://nicotine-plus.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Nicotine+</a
-					>
-					/
-					<a
-						href="https://github.com/jackBonadies/SeekerAndroid"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Seeker</a
-					>
-					(Android) - Peer-to-peer audio sharing app.
-					<code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://www.audacityteam.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Audacity</a
-					>
-					- Audio recorder/editor <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://audacious-media-player.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Audacious</a
-					>
-					- Audio Player <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://www.foobar2000.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Foobar2000</a
-					>
-					- Audio Player /
-					<a
-						href="https://github.com/gix/foo_scrobble"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Last.fm</a
-					>
-					<code>Windows</code> <code>macOS</code>
-					<code>Android/iOS</code>
-					<br />
-
-					<a
-						href="https://www.strawberrymusicplayer.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Strawberry</a
-					>
-					- Audio Player <code>Linux</code>
-					<br />
-
-					<a
-						href="https://getwacup.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						WACUP</a
-					>
-					- Audio Player <code>Windows</code>
-					<br />
-
-					<a
-						href="https://getmusicbee.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						MusicBee</a
-					>
-					- Audio Player <code>Windows</code>
-					<br />
-
-					<a
-						href="https://cmus.github.io/#home"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						cmus</a
-					>
-					- Command-line audio player <code>Linux</code>
-					<code>macOS</code>
-					<br />
-
-					<a
-						href="https://listenbrainz.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Listenbrainz</a
-					>
-					- Music tracking. I prefer this to last.fm
-					<br />
-
-					<a
-						href="https://www.last.fm/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Last.fm</a
-					>
-					- Music tracking
-					<br />
-
-					<a href="https://libre.fm/" target="_blank" rel="noopener noreferrer">
-						Libre.fm</a
-					>
-					- Music tracking
-					<br />
-
-					<a
-						href="https://archive.org/details/audio"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Internet Archive Audio</a
-					>
-					<br />
-
-					<a
-						href="https://somafm.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						SomaFM</a
-					>
-					/
-					<a
-						href="https://somafm.com/playlist/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Playlists</a
-					>
-
-					- Online radio
-					<br />
-
-					<a
-						href="https://www.nts.live/radio"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						NTS Radio</a
-					>
-					- Online radio
-					<br />
-
-					<a
-						href="https://github.com/SpotX-Official/SpotX"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						SpotX</a
-					>
-					- Spotify Desktop Client ad-free patcher
-					<br />
-
-					<a
-						href="https://spicetify.app/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Spicetify</a
-					>
-					- Spotify client customisation
-					<br />
-
-					<a
-						href="https://www.sittingonclouds.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Sitting on Clouds</a
-					>
-					- Video game / Anime soundtracks
-					<br />
-
-					<a
-						href="https://everynoise.com/engenremap.html"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Every Noise At Once</a
-					>
-					- A map of basically every music genre.
-					<br />
-
-					<!-- ! Video----------------------------------------------------->
-					<h2 id="video">Video <a href="#">back to top</a></h2>
-					<p>Video downloaders, Video editors, Video players</p>
-
-					<a
-						href="https://compress-video-online.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Compress Video Online</a
-					>
-					- Video compressor
-					<br />
-
-					<a
-						href="https://8mb.video/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						8mb.video</a
-					>
-					- Video compressor for Discord
-					<br />
-					<a
-						href="https://cobalt.tools/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						cobalt</a
-					>
-					- Video downloader. <code>Web</code>
-					<br />
-
-					<a
-						href="https://github.com/yt-dlp/yt-dlp"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						yt-dlp</a
-					>
-					- Command-line video/audio downloader
-					<code>Windows</code>
-					<code>macOS</code>
-					<code>Linux/BSD</code>
-					<br />
-
-					<a
-						href="https://kdenlive.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Kdenlive</a
-					>
-					- Video editor. <code>Windows</code> <code>macOS</code>
-					<code>Linux/BSD</code>
-					<br />
-
-					<a
-						href="https://www.blackmagicdesign.com/products/davinciresolve/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						DaVinci Resolve</a
-					>
-					- Video editor / Sign-in required <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://obsproject.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						OBS</a
-					>
-					- Video recording and live streaming app.
-					<code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a href="https://mpv.io/" target="_blank" rel="noopener noreferrer">
-						mpv</a
-					>
-					- Video player. <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux/BSD</code> <code>Android</code>
-					<br />
-
-					<a
-						href="https://www.videolan.org/vlc/"
-						target="_blank"
-						rel="noopener noreferrer"
-						>VLC</a
-					>
-					- Video player <code>Windows</code> <code>MacOS</code>
-					<code>Linux</code> <code>Android/iOS</code>
-					<br />
-
-					<a
-						href="https://ffmpeg.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						FFmpeg</a
-					>
-					- Command-line video/audio converter.
-					<code>All Platforms</code>
-					<br />
-
-					<!-- ! File Tools----------------------------------------------------->
-					<h2 id="file-tools">File Tools <a href="#">back to top</a></h2>
-					<p>File managers, File archivers</p>
-
-					<a
-						href="https://jdownloader.org/jdownloader2"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						JDownloader</a
-					>
-					- Download manager /
-					<a
-						href="https://clarasguide.valeena.workers.dev/Guides/jdownloader2/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Debloat Guide</a
-					>
-					<code>Windows</code> <code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://www.freedownloadmanager.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						FDM</a
-					>
-					- Download manager <code>Windows</code> <code>macOS</code>
-					<code>Linux</code>
-					<code>Android</code>
-					<br />
-
-					<a
-						href="https://www.7-zip.org/download.html"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						7zip</a
-					>
-					- File archiver <code>Windows</code> <code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://syncthing.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Syncthing</a
-					>
-					- File Sync /
-					<a
-						href="https://github.com/chenxiaolong/BasicSync"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Android</a
-					>
-					<code>All Platforms</code>
-					<br />
-
-					<a
-						href="https://localsend.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						LocalSend</a
-					>
-					- Local file sharing <code>All Platforms</code>
-					<br />
-
-					<a
-						href="https://www.gnu.org/software/wget/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						GNU Wget</a
-					>
-					- Command-line file retriever <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a href="https://vert.sh/" target="_blank" rel="noopener noreferrer">
-						VERT.sh</a
-					>
-					- File Converter <code>Web</code>
-					<br />
-
-					<a
-						href="https://www.softwareok.com/?seite=Freeware/Q-Dir"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Q-Dir</a
-					>
-					- File Manager <code>Windows</code>
-					<br />
-
-					<a
-						href="https://www.advancedrenamer.com/download"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Advanced Renamer</a
-					>
-					- Bulk file renamer <code>Windows</code> <code>macOS</code>
-					<br />
-
-					<a
-						href="https://www.bcuninstaller.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Bulk Crap Uninstaller</a
-					>
-					- Bulk program uninstaller <code>Windows</code>
-					<br />
-
-					<a
-						href="https://www.voidtools.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Everything</a
-					>
-					- File search <code>Windows</code>
-					<br />
-
-					<a
-						href="https://diskanalyzer.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						WizTree</a
-					>
-					- Disk usage statistics viewer <code>Windows</code>
-					<br />
-
-					<a
-						href="https://windirstat.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						WinDirStat</a
-					>
-					- Disk usage statistics viewer <code>Windows</code>
-
-					<!-- ? Torrenting----------------------------------------------------->
-
-					<h3 id="torrenting">Torrenting <a href="#">back to top</a></h3>
-
-					<a
-						href="https://torrents-csv.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Torrents-CSV</a
-					>
-					- Collaborative git repository of torrents
-					<br />
-
-					<a
-						href="https://wiztorrent.com/en"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						WizTorrent</a
-					>
-					- Stream torrents as they download in real time
-					<code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://www.qbittorrent.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						qBittorrent</a
-					>
-					- Torrent client <code>Windows</code> <code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://transmissionbt.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Transmission</a
-					>
-					- Torrent client <code>Windows</code> <code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://deluge-torrent.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Deluge</a
-					>
-					- Torrent client <code>Windows</code> <code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://www.biglybt.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						BiglyBT</a
-					>
-					- Torrent client <code>Windows</code> <code>MacOS</code>
-					<code>Linux</code>
-					<code>Android</code>
-					<br />
-
-					<a
-						href="https://gitlab.com/proninyaroslav/libretorrent"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						LibreTorrent</a
-					>
-					- Torrent client
-					<code>Android</code>
-					<br />
-
-					<a
-						href="https://play.google.com/store/apps/details?id=com.delphicoder.flud"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Flud</a
-					>
-					- Torrent client
-					<code>Android</code>
-					<br />
-
-					<!-- ? File Hosts----------------------------------------------------->
-
-					<h3 id="file-hosts">File Hosts</h3>
-
-					<p style="font-size: medium">Tag order is expiry / file size limit</p>
-					<a
-						href="https://catbox.moe/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Catbox</a
-					>
-					- Files stay forever. / 200MB limit
-					<br />
-
-					<a
-						href="https://filegarden.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						File Garden</a
-					>
-					- Files stay forever. / Unknown limit
-					<br />
-
-					<a
-						href="https://1fichier.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						1fichier</a
-					>
-					- Files stay for 15 days, 30 days if registered. / 300GB limit
-					<br />
-
-					<a href="https://mega.io/" target="_blank" rel="noopener noreferrer">
-						MEGA</a
-					>
-					- Files stay for 3 months after last login. / 20GB limit
-					<br />
-
-					<a
-						href="https://pixeldrain.com/home#"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Pixeldrain</a
-					>
-					- Files stay for 120 days. / 20GB limit
-					<br />
-
-					<a
-						href="https://buzzheavier.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Buzzheavier</a
-					>
-					- Files stay for 15 days (up to 45 days/forever). / Unlimited /
-					<span class="tooltip-container">
-						<a href="#" class="tooltip">Expiry</a>
-						<span class="tooltip-content"
-							>Files will be kept forever as long as they've been downloaded 30
-							times within the last 60 days.</span
-						>
-					</span>
-
-					<br />
-
-					<h2 id="rss-tools">RSS <a href="#">back to top</a></h2>
-
-					<a
-						href="https://validator.w3.org/feed/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						W3C Feed Validation Service</a
-					>
-					- RSS/Atom feed validator <code>Web</code>
-					<br />
-
-					<a
-						href="https://chaiaeran.github.io/RuSShdown/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						RuSShdown</a
-					>
-					- RSS feed generator <code>Web</code>
-					<br />
-
-					<a
-						href="https://topazcomics.com/one-shots/a-mini-guide-to-rss-feeds-1/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						A Mini Guide To RSS Feeds</a
-					>
-					<br />
-
-					<a
-						href="https://wiki.melonland.net/rss_guide"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						MelonLand RSS Guide</a
-					>
-					<br />
-
-					<!-- ? RSS  Readers----------------------------------------------------->
-
-					<h3 id="rss-readers">RSS Readers</h3>
-
-					<a
-						href="https://github.com/martinrotter/rssguard"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						RSS Guard</a
-					>
-					<code>Windows</code> <code>macOS</code> <code>Linux</code>
-					<br />
-					<a
-						href="https://apps.kde.org/akregator/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Akregator</a
-					>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://github.com/spacecowboy/Feeder"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Feeder</a
-					>
-					<code>Android</code>
-					<br />
-
-					<a
-						href="https://nodetics.com/feedbro/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Feedbro</a
-					>
-					- Browser Extension
-					<br />
-
-					<a
-						href="https://mire.meadow.cafe/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Mire</a
-					>
-					<code>Web</code>
-					<br />
-
-					<!-- ! Software----------------------------------------------------->
-
-					<h2 id="software">Software <a href="#">back to top</a></h2>
-
-					<a
-						href="https://archive.org/details/software"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Internet Archive Softwares</a
-					>
-					<br />
-
-					<a
-						href="https://invidious.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Invidious</a
-					>
-					/
-					<a
-						href="https://docs.invidious.io/instances/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Instances </a
-					>- YouTube frontend <code>Windows</code> <code>MacOS</code>
-					<code>Linux</code>
-					<br />
-					<a
-						href="https://freetubeapp.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						FreeTube</a
-					>
-					- YouTube frontend <code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://www.malwarebytes.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Malwarebytes</a
-					>
-					- Antivirus <code>Windows</code> <code>MacOS</code>
-					<code>Android/iOS</code>
-					<br />
-
-					<a
-						href="https://calibre-ebook.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Calibre
-					</a>
-					- E-book reader <code>Windows</code> <code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://bitwarden.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Bitwarden</a
-					>
-					/
-					<a
-						href="https://keepassxc.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						KeePassXC</a
-					>
-					- Open source password managers <code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://notepad-plus-plus.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Notepad++</a
-					>
-					- Text editor <code>Windows</code>
-					<br />
-
-					<a
-						href="https://winaero.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Winaero</a
-					>
-					- System tweaks. Use with caution. <code>Windows</code>
-					<br />
-
-					<a
-						href="https://espanso.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						espanso</a
-					>
-					- Text replacement tool <code>Windows</code>
-					<br />
-
-					<!-- ? IRC Clients----------------------------------------------------->
-
-					<h3 id="irc-clients">IRC Clients <a href="#">back to top</a></h3>
-
-					<a
-						href="https://github.com/squidowl/halloy"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Halloy</a
-					>
-					<code>macOS</code> <code>Windows</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://konversation.kde.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Konversation</a
-					>
-					<code>Linux</code> <code>Windows</code>
-					<br />
-
-					<a
-						href="https://weechat.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						WeeChat</a
-					>
-					<code>macOS</code> <code>Windows</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://irssi.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Irssi</a
-					>
-					<code>macOS</code> <code>Windows</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://goguma.im/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Goguma</a
-					>
-					<code>Android</code>
-					<br />
-
-					<a
-						href="https://github.com/irccloud/android"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						IRCCloud</a
-					>
-					<code>Android</code>
-					<br />
-
-					<!-- ? Bootable USB----------------------------------------------------->
-
-					<h3 id="bootable-usb">Bootable USB <a href="#">back to top</a></h3>
-
-					<a
-						href="https://www.ventoy.net/en/index.html"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Ventoy</a
-					>
-					- Boot multiple ISOs from one USB drive.
-					<code>Windows</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://rufus.ie/en/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Rufus</a
-					>
-					- Create bootable USB drives. <code>Windows</code>
-					<br />
-
-					<a
-						href="https://etcher.balena.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						balenaEtcher</a
-					>
-					- Create bootable USB drives. <code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<!-- ? Code Editors----------------------------------------------------->
-
-					<h3 id="code-editors">Code Editors <a href="#">back to top</a></h3>
-
-					<a
-						href="https://vscodium.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						VSCodium</a
-					>
-					- Open source VSCode with telemetry disabled
-					<code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://kate-editor.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Kate</a
-					>
-					- Code Editor <code>Windows</code> <code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://neovim.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Neovim</a
-					>
-					- Code editor <code>Windows</code> <code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://www.gnu.org/software/emacs/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						GNU Emacs</a
-					>
-					- Code editor <code>Windows</code> <code>MacOS</code>
-					<code>Linux/BSD</code> <code>Android</code>
-					<br />
-
-					<a
-						href="https://lite-xl.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Lite XL</a
-					>
-					- Code editor <code>Windows</code> <code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://www.geany.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Geany</a
-					>
-					- Code Editor <code>Windows</code> <code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<!-- ? Abandonware----------------------------------------------------->
-
-					<h3 id="abandonware">Abandonware <a href="#">back to top</a></h3>
-
-					<a
-						href="https://win7games.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Windows 7 Games</a
-					>
-					- Classic Windows apps
-					<br />
-
-					<a
-						href="https://www.myabandonware.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						MyAbandonware</a
-					>
-					- Abandonware games from 1965 to 2014.
-					<br />
-
-					<a
-						href="https://abandonwaregames.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						AbandonwareGames</a
-					>
-					<br />
-
-					<a
-						href="https://collectionchamber.blogspot.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						The Collection Chamber</a
-					>
-					<br />
-
-					<!-- ? Virtual Machines----------------------------------------------------->
-
-					<h3 id="virtual-machines">
-						Virtual Machines <a href="#">back to top</a>
-					</h3>
-
-					<a
-						href="https://www.virtualbox.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						VirtualBox</a
-					>
-					- Virtual Machine Software <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://www.qemu.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						QEMU</a
-					>
-					- Virtual Machine Software <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://looking-glass.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Looking Glass</a
-					>
-					- Kernel-based Virtual Machine Software configured for VGA PCI
-					Pass-through
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://mac.getutm.app/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						UTM</a
-					>
-					- Virtual Machine Software <code>macOS</code>
-					<br />
-
-					<a
-						href="https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Hyper-V</a
-					>
-					- Virtual Machine Software <code>Windows</code>
-					<br />
-
-					<a
-						href="https://virt-manager.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						virt-manager</a
-					>
-					- Virtual Machine Manager <code>Linux</code>
-					<br />
-
-					<!-- ? Android APKs----------------------------------------------------->
-
-					<h3 id="android-apks">Android APKs <a href="#">back to top</a></h3>
-
-					<a
-						href="https://android.izzysoft.de/applists.php"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						IzzyOnDroid</a
-					>
-					- FOSS App list
-					<br />
-
-					<a
-						href="https://f-droid.org/en/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						F-Droid</a
-					>
-					- FOSS App installer <code>Android</code>
-					<br />
-
-					<a
-						href="https://droidify.eu.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Droid-ify</a
-					>
-					- F-Droid client <code>Android</code>
-					<br />
-
-					<a
-						href="https://morphe.software/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Morphe</a
-					>
-					/
-					<a
-						href="https://morphe-patches.software/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Patch Index</a
-					>
-					- APK Patcher <code>Android</code>
-					<br />
-
-					<a
-						href="https://github.com/AbdurazaaqMohammed/AntiSplit-M"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						AntiSplit-M</a
-					>
-					- Merge split APKs <code>Android</code>
-					<br />
-
-					<a
-						href="https://github.com/rikkaapps/shizuku"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Shizuku</a
-					>
-					- Lets apps use system API <code>Android</code>
-					<br />
-
-					<a
-						href="https://github.com/JunkFood02/Seal"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Seal</a
-					>
-					- Multi-platform video downloader <code>Android</code>
-					<br />
-
-					<!-- ? iOS Sideloading----------------------------------------------------->
-
-					<h3 id="ios-sideloading">
-						iOS Sideloading <a href="#">back to top</a>
-					</h3>
-					<a
-						href="https://ios.cfw.guide/sideloading-apps/#required-reading"
-						target="_blank"
-						rel="noopener noreferrer"
-						>Sideloading Guide</a
-					>
-					<br />
-
-					<a
-						href="https://sideloadly.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Sideloadly</a
-					>
-					- iOS Sideloading app (iOS 7-26+) <code>Windows</code>
-					<code>macOS</code>
-
-					<br />
-
-					<a
-						href="https://github.com/CLARATION/Impactor"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Impactor</a
-					>
-					- IOS Sideloading app (iOS 9.0+) <code>Windows</code>
-					<code>macOS</code> <code>Linux</code>
-					<br />
-
-					<a
-						href="https://github.com/opa334/TrollStore"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						TrollStore</a
-					>
-					- External App Store (iOS 14-17) /
-					<a
-						href="https://ios.cfw.guide/installing-trollstore/"
-						target="_blank"
-						rel="noopener noreferrer"
-						>Guide
-					</a>
-					<br />
-
-					<a
-						href="https://sidestore.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						SideStore</a
-					>
-					- On-device sideloading app (iOS 14+)
-					<code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://altstore.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						AltStore</a
-					>
-					- On-device sideloading app (iOS 14+) /
-					<a
-						href="https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Installation</a
-					>
-					<code>Windows</code> <code>MacOS</code>
-
-					<br />
-					<a
-						href="https://iloader.app/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						iloader</a
-					>
-					- iOS Sideloading app <code>Windows</code>
-					<code>macOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://github.com/LiveContainer/LiveContainer"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						LiveContainer</a
-					>
-					- iOS App Launcher (bypass install limit) / Install with iloader
-					<br />
-
-					<!-- ! Browsing----------------------------------------------------->
-					<h2 id="browsing">Browsing <a href="#">back to top</a></h2>
-					<p>Browsers, Search Engines, Browser Extensions</p>
-
-					<!-- ? Browsers ----------------------------------------------------->
-
-					<h3 id="email">E-mail</h3>
-
-					<a
-						href="https://tuta.com/secure-email"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Tuta Mail</a
-					>
-					- 1GB free encrypted e-mail
-					<br />
-
-					<a
-						href="https://mail.proton.me/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Proton Mail</a
-					>
-					- 1GB free encrypted e-mail /
-					<a
-						href="https://proton.me/support/more-storage-proton-drive"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Extra storage</a
-					>
-					<br />
-
-					<a
-						href="https://disroot.org/en/services/email"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Disroot</a
-					>
-					- 1GB free encrypted e-mail
-					<br />
-
-					<a
-						href="https://duckduckgo.com/email/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						DuckDuckGo Email Protection</a
-					>
-					- E-mail aliasing / Unlimited aliases
-					<br />
-
-					<a
-						href="https://simplelogin.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						SimpleLogin</a
-					>
-					- E-mail aliasing / 10 aliases
-					<br />
-
-					<h3 id="browsers">Browsers</h3>
-					<a
-						href="https://www.waterfox.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Waterfox</a
-					>
-					- Privacy-focused Firefox fork <code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://librewolf.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						LibreWolf</a
-					>
-					- Privacy-focused Firefox fork <code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://helium.computer/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Helium</a
-					>
-					- Chromium browser <code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://mullvad.net/en/browser"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Mullvad Browser</a
-					>
-					- Tor Browser fork without Tor network
-					<code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://lynx.invisible-island.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Lynx</a
-					>
-					- Text-based Browser <code>Windows</code>
-					<code>Linux</code>
-					<br />
-
-					<a
-						href="https://www.brow.sh/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Browsh</a
-					>
-					- Text-based Browser / Note: Firefox 57+ Required
-					<code>Windows</code>
-					<code>MacOS</code>
-					<code>Linux</code>
-					<br />
-
-					<!-- ? Search Engines----------------------------------------------------->
-
-					<h3 id="search-engines">
-						Search Engines <a href="#">back to top</a>
-					</h3>
-					<a
-						href="https://searx.space/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						searx.space</a
-					>
-					- SearXNG Instances
-					<br />
-
-					<a
-						href="https://duckduckgo.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						DuckDuckGo</a
-					>
-					- Bing-based
-					<br />
-
-					<a
-						href="https://www.startpage.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Startpage</a
-					>
-					- Google-based
-					<br />
-
-					<!-- ? General Extensions----------------------------------------------------->
-
-					<h3 id="general-extensions">
-						General Extensions <a href="#">back to top</a>
-					</h3>
-					<a
-						href="https://returnyoutubedislike.com/install"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Return YouTube Dislike</a
-					>
-					<br />
-
-					<a
-						href="https://sponsor.ajay.app/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						SponsorBlock</a
-					>
-					- Skip YouTube sponsor segments.
-					<br />
-
-					<a
-						href="https://vorapis.pages.dev/#/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						V3</a
-					>
-					- YouTube frontend
-					<br />
-
-					<a
-						href="https://violentmonkey.github.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Violentmonkey</a
-					>
-					/
-					<a
-						href="https://docs.scriptcat.org/en/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						ScriptCat</a
-					>
-					- Userscript managers
-					<br />
-
-					<a
-						href="https://darkreader.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Dark Reader</a
-					>
-					- Enable dark mode on every website.
-					<br />
-
-					<a
-						href="https://soitis.dev/control-panel-for-twitter"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Control Panel for Twitter</a
-					>
-					- Twitter enhancements
-					<br />
-
-					<a
-						href="https://getindie.wiki/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Indie Wiki Buddy</a
-					>
-					- Redirect Fandom wiki links to independent wikis.
-					<br />
-
-					<!-- ? Firefox Extensions----------------------------------------------------->
-
-					<h3 id="firefox-extensions">
-						Firefox Extensions <a href="#">back to top</a>
-					</h3>
-
-					<a
-						href="https://addons.mozilla.org/en-US/firefox/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Firefox Add-ons</a
-					>
-					<br />
-
-					<a
-						href="https://ublockorigin.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						uBlock Origin</a
-					>
-					- Adblocker (works best on firefox)
-					<br />
-
-					<a
-						href="https://addons.mozilla.org/en-US/firefox/addon/sidebery/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Sidebery</a
-					>
-					- Vertical tab tree and bookmarks.
-					<br />
-
-					<a
-						href="https://cpriest.github.io/SnapLinksPlus/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Snap Links Plus</a
-					>
-					- Open multiple links at the same time.
-					<br />
-
-					<a
-						href="https://www.soeren-hentzschel.at/firefox-webextensions/new-tab-override/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						New Tab Override</a
-					>
-					<br />
-
-					<a
-						href="https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Translate Web Pages</a
-					>
-					<br />
-
-					<!-- ? Chrome Extensions----------------------------------------------------->
-
-					<h3 id="chrome-extensions">
-						Chrome Extensions <a href="#">back to top</a>
-					</h3>
-					<a
-						href="https://chromewebstore.google.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Chrome Web Store</a
-					>
-					<br />
-
-					<a
-						href="https://github.com/NeverDecaf/chromium-web-store"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						chromium-web-store</a
-					>
-					- Extensions for Ungoogled Chromium
-					<br />
-
-					<a
-						href="https://github.com/dimdenGD/OldTwitter"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						OldTwitter</a
-					>
-					- Restores old Twitter layout
-					<br />
-
-					<a
-						href="https://chromewebstore.google.com/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Volume Master</a
-					>
-					- Volume booster
-					<br />
-
-					<a
-						href="https://chromewebstore.google.com/detail/simple-mass-downloader/abdkkegmcbiomijcbdaodaflgehfffed"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Simple mass downloader
-					</a>
-					- Batch download manager<br />
-
-					<a
-						href="https://chromewebstore.google.com/detail/smart-mute/apadglapdamclpaedknbefnbcajfebgh"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Smart Mute</a
-					>
-					- Tab mute manager
-					<br />
-
-					<!-- ! Miscellaneous----------------------------------------------------->
-
-					<h3 id="miscellaneous">
-						Miscellaneous Websites <a href="#">back to top</a>
-					</h3>
-					<p>Fun little websites to look at!</p>
-					<a
-						href="http://www.bio.umass.edu/biology/kunkel/cockroach.html"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						The Cockroach Home Page</a
-					>
-					- Information about different types of cockroaches.
-					<br />
-
-					<a
-						href="https://www.insectimages.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Insect Images</a
-					>
-					<br />
-
-					<!--
+
+				<br>
+
+				<h2 id="rss-tools">RSS <a href="#">back to top</a></h2>
+
+				<a href="https://validator.w3.org/feed/" target="_blank" rel="noopener noreferrer">
+					W3C Feed Validation Service</a>
+				- RSS/Atom feed validator <code>Web</code>
+				<br>
+
+				<a href="https://chaiaeran.github.io/RuSShdown/" target="_blank" rel="noopener noreferrer">
+					RuSShdown</a>
+				- RSS feed generator <code>Web</code>
+				<br>
+
+				<a href="https://topazcomics.com/one-shots/a-mini-guide-to-rss-feeds-1/" target="_blank"
+					rel="noopener noreferrer">
+					A Mini Guide To RSS Feeds</a>
+				<br>
+
+				<a href="https://wiki.melonland.net/rss_guide" target="_blank" rel="noopener noreferrer">
+					MelonLand RSS Guide</a>
+				<br>
+
+				<!-- ? RSS  Readers----------------------------------------------------->
+
+				<h3 id="rss-readers">RSS Readers</h3>
+
+				<a href="https://github.com/martinrotter/rssguard" target="_blank" rel="noopener noreferrer">
+					RSS Guard</a>
+				<code>Windows</code> <code>macOS</code> <code>Linux</code>
+				<br>
+				<a href="https://apps.kde.org/akregator/" target="_blank" rel="noopener noreferrer">
+					Akregator</a>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://github.com/spacecowboy/Feeder" target="_blank" rel="noopener noreferrer">
+					Feeder</a>
+				<code>Android</code>
+				<br>
+
+				<a href="https://nodetics.com/feedbro/" target="_blank" rel="noopener noreferrer">
+					Feedbro</a>
+				- Browser Extension
+				<br>
+
+				<a href="https://mire.meadow.cafe/" target="_blank" rel="noopener noreferrer">
+					Mire</a>
+				<code>Web</code>
+				<br>
+
+				<!-- ! Software----------------------------------------------------->
+
+				<h2 id="software">Software <a href="#">back to top</a></h2>
+
+				<a href="https://archive.org/details/software" target="_blank" rel="noopener noreferrer">
+					Internet Archive Softwares</a>
+				<br>
+
+				<a href="https://invidious.io/" target="_blank" rel="noopener noreferrer">
+					Invidious</a>
+				/
+				<a href="https://docs.invidious.io/instances/" target="_blank" rel="noopener noreferrer">
+					Instances </a>- YouTube frontend <code>Windows</code> <code>MacOS</code>
+				<code>Linux</code>
+				<br>
+				<a href="https://freetubeapp.io/" target="_blank" rel="noopener noreferrer">
+					FreeTube</a>
+				- YouTube frontend <code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://www.malwarebytes.com/" target="_blank" rel="noopener noreferrer">
+					Malwarebytes</a>
+				- Antivirus <code>Windows</code> <code>MacOS</code>
+				<code>Android/iOS</code>
+				<br>
+
+				<a href="https://calibre-ebook.com/" target="_blank" rel="noopener noreferrer">
+					Calibre
+				</a>
+				- E-book reader <code>Windows</code> <code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://bitwarden.com/" target="_blank" rel="noopener noreferrer">
+					Bitwarden</a>
+				/
+				<a href="https://keepassxc.org/" target="_blank" rel="noopener noreferrer">
+					KeePassXC</a>
+				- Open source password managers <code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener noreferrer">
+					Notepad++</a>
+				- Text editor <code>Windows</code>
+				<br>
+
+				<a href="https://winaero.com/" target="_blank" rel="noopener noreferrer">
+					Winaero</a>
+				- System tweaks. Use with caution. <code>Windows</code>
+				<br>
+
+				<a href="https://espanso.org/" target="_blank" rel="noopener noreferrer">
+					espanso</a>
+				- Text replacement tool <code>Windows</code>
+				<br>
+
+				<!-- ? IRC Clients----------------------------------------------------->
+
+				<h3 id="irc-clients">IRC Clients <a href="#">back to top</a></h3>
+
+				<a href="https://github.com/squidowl/halloy" target="_blank" rel="noopener noreferrer">
+					Halloy</a>
+				<code>macOS</code> <code>Windows</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://konversation.kde.org/" target="_blank" rel="noopener noreferrer">
+					Konversation</a>
+				<code>Linux</code> <code>Windows</code>
+				<br>
+
+				<a href="https://weechat.org/" target="_blank" rel="noopener noreferrer">
+					WeeChat</a>
+				<code>macOS</code> <code>Windows</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://irssi.org/" target="_blank" rel="noopener noreferrer">
+					Irssi</a>
+				<code>macOS</code> <code>Windows</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://goguma.im/" target="_blank" rel="noopener noreferrer">
+					Goguma</a>
+				<code>Android</code>
+				<br>
+
+				<a href="https://github.com/irccloud/android" target="_blank" rel="noopener noreferrer">
+					IRCCloud</a>
+				<code>Android</code>
+				<br>
+
+				<!-- ? Bootable USB----------------------------------------------------->
+
+				<h3 id="bootable-usb">Bootable USB <a href="#">back to top</a></h3>
+
+				<a href="https://www.ventoy.net/en/index.html" target="_blank" rel="noopener noreferrer">
+					Ventoy</a>
+				- Boot multiple ISOs from one USB drive.
+				<code>Windows</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://rufus.ie/en/" target="_blank" rel="noopener noreferrer">
+					Rufus</a>
+				- Create bootable USB drives. <code>Windows</code>
+				<br>
+
+				<a href="https://etcher.balena.io/" target="_blank" rel="noopener noreferrer">
+					balenaEtcher</a>
+				- Create bootable USB drives. <code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<!-- ? Code Editors----------------------------------------------------->
+
+				<h3 id="code-editors">Code Editors <a href="#">back to top</a></h3>
+
+				<a href="https://vscodium.com/" target="_blank" rel="noopener noreferrer">
+					VSCodium</a>
+				- Open source VSCode with telemetry disabled
+				<code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://kate-editor.org/" target="_blank" rel="noopener noreferrer">
+					Kate</a>
+				- Code Editor <code>Windows</code> <code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://neovim.io/" target="_blank" rel="noopener noreferrer">
+					Neovim</a>
+				- Code editor <code>Windows</code> <code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://www.gnu.org/software/emacs/" target="_blank" rel="noopener noreferrer">
+					GNU Emacs</a>
+				- Code editor <code>Windows</code> <code>MacOS</code>
+				<code>Linux/BSD</code> <code>Android</code>
+				<br>
+
+				<a href="https://lite-xl.com/" target="_blank" rel="noopener noreferrer">
+					Lite XL</a>
+				- Code editor <code>Windows</code> <code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://www.geany.org/" target="_blank" rel="noopener noreferrer">
+					Geany</a>
+				- Code Editor <code>Windows</code> <code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<!-- ? Abandonware----------------------------------------------------->
+
+				<h3 id="abandonware">Abandonware <a href="#">back to top</a></h3>
+
+				<a href="https://win7games.com/" target="_blank" rel="noopener noreferrer">
+					Windows 7 Games</a>
+				- Classic Windows apps
+				<br>
+
+				<a href="https://www.myabandonware.com/" target="_blank" rel="noopener noreferrer">
+					MyAbandonware</a>
+				- Abandonware games from 1965 to 2014.
+				<br>
+
+				<a href="https://abandonwaregames.net/" target="_blank" rel="noopener noreferrer">
+					AbandonwareGames</a>
+				<br>
+
+				<a href="https://collectionchamber.blogspot.com/" target="_blank" rel="noopener noreferrer">
+					The Collection Chamber</a>
+				<br>
+
+				<!-- ? Virtual Machines----------------------------------------------------->
+
+				<h3 id="virtual-machines">
+					Virtual Machines <a href="#">back to top</a>
+				</h3>
+
+				<a href="https://www.virtualbox.org/" target="_blank" rel="noopener noreferrer">
+					VirtualBox</a>
+				- Virtual Machine Software <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://www.qemu.org/" target="_blank" rel="noopener noreferrer">
+					QEMU</a>
+				- Virtual Machine Software <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://looking-glass.io/" target="_blank" rel="noopener noreferrer">
+					Looking Glass</a>
+				- Kernel-based Virtual Machine Software configured for VGA PCI
+				Pass-through
+				<code>Linux</code>
+				<br>
+
+				<a href="https://mac.getutm.app/" target="_blank" rel="noopener noreferrer">
+					UTM</a>
+				- Virtual Machine Software <code>macOS</code>
+				<br>
+
+				<a href="https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/" target="_blank"
+					rel="noopener noreferrer">
+					Hyper-V</a>
+				- Virtual Machine Software <code>Windows</code>
+				<br>
+
+				<a href="https://virt-manager.org/" target="_blank" rel="noopener noreferrer">
+					virt-manager</a>
+				- Virtual Machine Manager <code>Linux</code>
+				<br>
+
+				<!-- ? Android APKs----------------------------------------------------->
+
+				<h3 id="android-apks">Android APKs <a href="#">back to top</a></h3>
+
+				<a href="https://android.izzysoft.de/applists.php" target="_blank" rel="noopener noreferrer">
+					IzzyOnDroid</a>
+				- FOSS App list
+				<br>
+
+				<a href="https://f-droid.org/en/" target="_blank" rel="noopener noreferrer">
+					F-Droid</a>
+				- FOSS App installer <code>Android</code>
+				<br>
+
+				<a href="https://droidify.eu.org/" target="_blank" rel="noopener noreferrer">
+					Droid-ify</a>
+				- F-Droid client <code>Android</code>
+				<br>
+
+				<a href="https://morphe.software/" target="_blank" rel="noopener noreferrer">
+					Morphe</a>
+				/
+				<a href="https://morphe-patches.software/" target="_blank" rel="noopener noreferrer">
+					Patch Index</a>
+				- APK Patcher <code>Android</code>
+				<br>
+
+				<a href="https://github.com/AbdurazaaqMohammed/AntiSplit-M" target="_blank" rel="noopener noreferrer">
+					AntiSplit-M</a>
+				- Merge split APKs <code>Android</code>
+				<br>
+
+				<a href="https://github.com/rikkaapps/shizuku" target="_blank" rel="noopener noreferrer">
+					Shizuku</a>
+				- Lets apps use system API <code>Android</code>
+				<br>
+
+				<a href="https://github.com/JunkFood02/Seal" target="_blank" rel="noopener noreferrer">
+					Seal</a>
+				- Multi-platform video downloader <code>Android</code>
+				<br>
+
+				<!-- ? iOS Sideloading----------------------------------------------------->
+
+				<h3 id="ios-sideloading">
+					iOS Sideloading <a href="#">back to top</a>
+				</h3>
+				<a href="https://ios.cfw.guide/sideloading-apps/#required-reading" target="_blank"
+					rel="noopener noreferrer">Sideloading Guide</a>
+				<br>
+
+				<a href="https://sideloadly.io/" target="_blank" rel="noopener noreferrer">
+					Sideloadly</a>
+				- iOS Sideloading app (iOS 7-26+) <code>Windows</code>
+				<code>macOS</code>
+
+				<br>
+
+				<a href="https://github.com/CLARATION/Impactor" target="_blank" rel="noopener noreferrer">
+					Impactor</a>
+				- IOS Sideloading app (iOS 9.0+) <code>Windows</code>
+				<code>macOS</code> <code>Linux</code>
+				<br>
+
+				<a href="https://github.com/opa334/TrollStore" target="_blank" rel="noopener noreferrer">
+					TrollStore</a>
+				- External App Store (iOS 14-17) /
+				<a href="https://ios.cfw.guide/installing-trollstore/" target="_blank" rel="noopener noreferrer">Guide
+				</a>
+				<br>
+
+				<a href="https://sidestore.io/" target="_blank" rel="noopener noreferrer">
+					SideStore</a>
+				- On-device sideloading app (iOS 14+)
+				<code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://altstore.io/" target="_blank" rel="noopener noreferrer">
+					AltStore</a>
+				- On-device sideloading app (iOS 14+) /
+				<a href="https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows" target="_blank"
+					rel="noopener noreferrer">
+					Installation</a>
+				<code>Windows</code> <code>MacOS</code>
+
+				<br>
+				<a href="https://iloader.app/" target="_blank" rel="noopener noreferrer">
+					iloader</a>
+				- iOS Sideloading app <code>Windows</code>
+				<code>macOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://github.com/LiveContainer/LiveContainer" target="_blank" rel="noopener noreferrer">
+					LiveContainer</a>
+				- iOS App Launcher (bypass install limit) / Install with iloader
+				<br>
+
+				<!-- ! Browsing----------------------------------------------------->
+				<h2 id="browsing">Browsing <a href="#">back to top</a></h2>
+				<p>Browsers, Search Engines, Browser Extensions</p>
+
+				<!-- ? Browsers ----------------------------------------------------->
+
+				<h3 id="email">E-mail</h3>
+
+				<a href="https://tuta.com/secure-email" target="_blank" rel="noopener noreferrer">
+					Tuta Mail</a>
+				- 1GB free encrypted e-mail
+				<br>
+
+				<a href="https://mail.proton.me/" target="_blank" rel="noopener noreferrer">
+					Proton Mail</a>
+				- 1GB free encrypted e-mail /
+				<a href="https://proton.me/support/more-storage-proton-drive" target="_blank" rel="noopener noreferrer">
+					Extra storage</a>
+				<br>
+
+				<a href="https://disroot.org/en/services/email" target="_blank" rel="noopener noreferrer">
+					Disroot</a>
+				- 1GB free encrypted e-mail
+				<br>
+
+				<a href="https://duckduckgo.com/email/" target="_blank" rel="noopener noreferrer">
+					DuckDuckGo Email Protection</a>
+				- E-mail aliasing / Unlimited aliases
+				<br>
+
+				<a href="https://simplelogin.io/" target="_blank" rel="noopener noreferrer">
+					SimpleLogin</a>
+				- E-mail aliasing / 10 aliases
+				<br>
+
+				<h3 id="browsers">Browsers</h3>
+				<a href="https://www.waterfox.net/" target="_blank" rel="noopener noreferrer">
+					Waterfox</a>
+				- Privacy-focused Firefox fork <code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://librewolf.net/" target="_blank" rel="noopener noreferrer">
+					LibreWolf</a>
+				- Privacy-focused Firefox fork <code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://helium.computer/" target="_blank" rel="noopener noreferrer">
+					Helium</a>
+				- Chromium browser <code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://mullvad.net/en/browser" target="_blank" rel="noopener noreferrer">
+					Mullvad Browser</a>
+				- Tor Browser fork without Tor network
+				<code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://lynx.invisible-island.net/" target="_blank" rel="noopener noreferrer">
+					Lynx</a>
+				- Text-based Browser <code>Windows</code>
+				<code>Linux</code>
+				<br>
+
+				<a href="https://www.brow.sh/" target="_blank" rel="noopener noreferrer">
+					Browsh</a>
+				- Text-based Browser / Note: Firefox 57+ Required
+				<code>Windows</code>
+				<code>MacOS</code>
+				<code>Linux</code>
+				<br>
+
+				<!-- ? Search Engines----------------------------------------------------->
+
+				<h3 id="search-engines">
+					Search Engines <a href="#">back to top</a>
+				</h3>
+				<a href="https://searx.space/" target="_blank" rel="noopener noreferrer">
+					searx.space</a>
+				- SearXNG Instances
+				<br>
+
+				<a href="https://duckduckgo.com/" target="_blank" rel="noopener noreferrer">
+					DuckDuckGo</a>
+				- Bing-based
+				<br>
+
+				<a href="https://www.startpage.com/" target="_blank" rel="noopener noreferrer">
+					Startpage</a>
+				- Google-based
+				<br>
+
+				<!-- ? General Extensions----------------------------------------------------->
+
+				<h3 id="general-extensions">
+					General Extensions <a href="#">back to top</a>
+				</h3>
+				<a href="https://returnyoutubedislike.com/install" target="_blank" rel="noopener noreferrer">
+					Return YouTube Dislike</a>
+				<br>
+
+				<a href="https://sponsor.ajay.app/" target="_blank" rel="noopener noreferrer">
+					SponsorBlock</a>
+				- Skip YouTube sponsor segments.
+				<br>
+
+				<a href="https://vorapis.pages.dev/#/" target="_blank" rel="noopener noreferrer">
+					V3</a>
+				- YouTube frontend
+				<br>
+
+				<a href="https://violentmonkey.github.io/" target="_blank" rel="noopener noreferrer">
+					Violentmonkey</a>
+				/
+				<a href="https://docs.scriptcat.org/en/" target="_blank" rel="noopener noreferrer">
+					ScriptCat</a>
+				- Userscript managers
+				<br>
+
+				<a href="https://darkreader.org/" target="_blank" rel="noopener noreferrer">
+					Dark Reader</a>
+				- Enable dark mode on every website.
+				<br>
+
+				<a href="https://soitis.dev/control-panel-for-twitter" target="_blank" rel="noopener noreferrer">
+					Control Panel for Twitter</a>
+				- Twitter enhancements
+				<br>
+
+				<a href="https://getindie.wiki/" target="_blank" rel="noopener noreferrer">
+					Indie Wiki Buddy</a>
+				- Redirect Fandom wiki links to independent wikis.
+				<br>
+
+				<!-- ? Firefox Extensions----------------------------------------------------->
+
+				<h3 id="firefox-extensions">
+					Firefox Extensions <a href="#">back to top</a>
+				</h3>
+
+				<a href="https://addons.mozilla.org/en-US/firefox/" target="_blank" rel="noopener noreferrer">
+					Firefox Add-ons</a>
+				<br>
+
+				<a href="https://ublockorigin.com/" target="_blank" rel="noopener noreferrer">
+					uBlock Origin</a>
+				- Adblocker (works best on firefox)
+				<br>
+
+				<a href="https://addons.mozilla.org/en-US/firefox/addon/sidebery/" target="_blank" rel="noopener noreferrer">
+					Sidebery</a>
+				- Vertical tab tree and bookmarks.
+				<br>
+
+				<a href="https://cpriest.github.io/SnapLinksPlus/" target="_blank" rel="noopener noreferrer">
+					Snap Links Plus</a>
+				- Open multiple links at the same time.
+				<br>
+
+				<a href="https://www.soeren-hentzschel.at/firefox-webextensions/new-tab-override/" target="_blank"
+					rel="noopener noreferrer">
+					New Tab Override</a>
+				<br>
+
+				<a href="https://addons.mozilla.org/en-US/firefox/addon/traduzir-paginas-web/" target="_blank"
+					rel="noopener noreferrer">
+					Translate Web Pages</a>
+				<br>
+
+				<!-- ? Chrome Extensions----------------------------------------------------->
+
+				<h3 id="chrome-extensions">
+					Chrome Extensions <a href="#">back to top</a>
+				</h3>
+				<a href="https://chromewebstore.google.com/" target="_blank" rel="noopener noreferrer">
+					Chrome Web Store</a>
+				<br>
+
+				<a href="https://github.com/NeverDecaf/chromium-web-store" target="_blank" rel="noopener noreferrer">
+					chromium-web-store</a>
+				- Extensions for Ungoogled Chromium
+				<br>
+
+				<a href="https://github.com/dimdenGD/OldTwitter" target="_blank" rel="noopener noreferrer">
+					OldTwitter</a>
+				- Restores old Twitter layout
+				<br>
+
+				<a href="https://chromewebstore.google.com/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke"
+					target="_blank" rel="noopener noreferrer">
+					Volume Master</a>
+				- Volume booster
+				<br>
+
+				<a href="https://chromewebstore.google.com/detail/simple-mass-downloader/abdkkegmcbiomijcbdaodaflgehfffed"
+					target="_blank" rel="noopener noreferrer">
+					Simple mass downloader
+				</a>
+				- Batch download manager<br>
+
+				<a href="https://chromewebstore.google.com/detail/smart-mute/apadglapdamclpaedknbefnbcajfebgh" target="_blank"
+					rel="noopener noreferrer">
+					Smart Mute</a>
+				- Tab mute manager
+				<br>
+
+				<!-- ! Miscellaneous----------------------------------------------------->
+
+				<h3 id="miscellaneous">
+					Miscellaneous Websites <a href="#">back to top</a>
+				</h3>
+				<p>Fun little websites to look at!</p>
+				<a href="http://www.bio.umass.edu/biology/kunkel/cockroach.html" target="_blank" rel="noopener noreferrer">
+					The Cockroach Home Page</a>
+				- Information about different types of cockroaches.
+				<br>
+
+				<a href="https://www.insectimages.org/" target="_blank" rel="noopener noreferrer">
+					Insect Images</a>
+				<br>
+
+				<!--
           <a
             href="https://www.internationalposter.com/"
             target="_blank"
@@ -2671,1048 +1596,567 @@ LLLLLiiffLLLGGGGGjEGGLLLEDDLGLLGLLLLLLLGLLLGGLffGDKjjfKGLGLLLLLGLLLLGGLGLLGLLLLL
             International Poster Gallery</a
           >
 
-          <br />
+          <br >
 -->
 
-					<a
-						href="https://goldenrecord.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Voyager Golden Record</a
-					>
-					- Everything that was put on the Voyager Golden Record launched by
-					NASA in 1977.
-					<br />
-
-					<a
-						href="https://www.webdesignmuseum.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Web Design Museum</a
-					>
-					- Old websites, apps, and software from 1990s to mid-00s
-					<br />
-
-					<a
-						href="https://acmewidgets.neocities.org/#int"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Acme Widgets & Gadgets</a
-					>
-					<br />
-
-					<a
-						href="http://www.windows93.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						WINDOWS93</a
-					>
-
-					<b>EPILEPSY & EYESTRAIN WARNING</b>
-					<br />
-
-					<a
-						href="https://paveldogreat.github.io/WebGL-Fluid-Simulation/"
-						target="_blank"
-						rel="noopener noreferrer"
-						>WebGL Fluid Simulation</a
-					>
-					<br />
-
-					<a
-						href="https://www.storybytes.com/index.html"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Story Bytes</a
-					>
-					- Very short stories.
-					<br />
-
-					<a
-						href="http://nekorin.neko.jp/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Cat Stack</a
-					>
-					- Over 1000 pictures of cats. / Website is in Japanese
-					<br />
-
-					<a
-						href="http://macpaint.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Macpaint</a
-					>
-					- Gallery of artwork made using Macpaint.
-					<br />
-
-					<a
-						href="https://www.404pagefound.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						404PageFound</a
-					>
-					- Collection of active vintage websites.
-					<br />
-
-					<a
-						href="https://jamesfriend.com.au/pce-js/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						PCE.js</a
-					>
-					- An emulator running Mac OS System 7.
-					<br />
-
-					<a
-						href="https://skins.webamp.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Winamp Skin Museum</a
-					>
-					<br />
-
-					<a
-						href="https://archive.org/details/Atari_Dealer_Demo_1980_-"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Atari Dealer Demo</a
-					>
-					- Demonstration program for the Atari 400 and 800
-					<br />
-
-					<a
-						href="https://dollchan.net/bytebeat/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Bytebeat Composer</a
-					>
-					<br />
-
-					<a
-						href="https://onlinesequencer.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Online Sequencer</a
-					>
-					- Create music online
-					<br />
-
-					<a
-						href="https://ascii.co.uk/art"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						ASCII ART</a
-					>
-
-					<br />
-
-					<a
-						href="https://www.ascii-art-generator.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Online Ascii Art Creator</a
-					>
-
-					<br />
-
-					<a
-						href="https://16colo.rs/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						16colo.rs</a
-					>
-					- ASCII Art Archive
-					<br />
-
-					<!-- ! Web Development----------------------------------------------------->
-
-					<h2 id="webdev">Web Development <a href="#">back to top</a></h2>
-					<p>HTML & CSS Resources, Graphics, Website Hosting</p>
-
-					<a
-						href="https://www.mf2fm.com/rv/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						RV's free Javascript/DHTML effects</a
-					>
-					<br />
-
-					<a
-						href="https://scripted.neocities.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Scripted</a
-					>
-					- Code snippets / Resources
-					<br />
-
-					<a
-						href="https://baccyflap.com/res/robots/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						bot-proofing your website</a
-					>
-					<br />
-
-					<a
-						href="https://embedresponsively.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Embed Responsively</a
-					>
-					- Responsive embed generator
-					<br />
-
-					<a
-						href="https://nanogallery2.nanostudio.org/builder.html"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						visual builder</a
-					>
-					- Nanogallery2 gallery builder <code>Web</code>
-					<br />
-
-					<a
-						href="https://screenfly.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-						>Screenfly</a
-					>
-					- Test your website on different screen sizes <code>Web</code>
-					<br />
-
-					<a
-						href="https://counter.fc2.com/en/index.html"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						FC2 Counter</a
-					>
-					- Page visit analytics
-					<br />
-
-					<a
-						href="https://clap.fc2.com/en/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						FC2 Clap</a
-					>
-					- Receive claps on your website
-					<br />
-
-					<!-- ? Static Webpage Hosts ----------------------------------->
-					<h3 id="static-webpage-hosts">
-						Static Webpage Hosts <a href="#">back to top</a>
-					</h3>
-					<a href="https://surge.sh/" target="_blank" rel="noopener noreferrer">
-						Surge</a
-					>
-					- Unlimited storage / Unlimited bandwidth /
-					<span class="tooltip-container">
-						<a href="#" class="tooltip">Note</a>
-						<span class="tooltip-content"
-							>Like Neocities, the free tier doesn't include CORS support and
-							you won't be able to use many widgets that fetch from other
-							domains.</span
-						>
-					</span>
-					<br />
-
-					<a
-						href="https://pages.cloudflare.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Cloudflare Pages</a
-					>
-					- Unlimited storage (Max 25 MB per file) / Unlimited bandwidth
-					<br />
-
-					<a
-						href="https://firebase.google.com/products/hosting"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Firebase</a
-					>
-					- 10GB storage / 10GB bandwidth
-					<br />
-
-					<a
-						href="https://docs.github.com/en/pages"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Github Pages</a
-					>
-					- 1 GB storage(?) / 100GB bandwidth
-					<br />
-
-					<a
-						href="https://pages.gay/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						pages.gay</a
-					>
-					- Unknown storage / bandwidth
-					<br />
-
-					<a
-						href="https://srht.site/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						sourcehut pages</a
-					>
-					- 1GB storage / Unlimited bandwidth
-					<br />
-
-					<a
-						href="https://neocities.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Neocities</a
-					>
-					- 1GB storage / 200GB bandwidth /
-					<span class="tooltip-container">
-						<a href="#" class="tooltip">Note</a>
-						<span class="tooltip-content"
-							>Neocities free accounts don't include hotlinking support, and you
-							also won't be able to use many widgets unless they're specified to
-							be compatible with free accounts.</span
-						>
-					</span>
-					<br />
-
-					<a
-						href="https://nekoweb.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						nekoweb</a
-					>
-					- 500MB storage / Unlimited bandwith
-					<br />
-
-					<a
-						href="https://web1.0hosting.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Web 1.0 Hosting</a
-					>
-					- 100MB storage / Unlimited bandwidth /
-					<span class="tooltip-container">
-						<a href="#" class="tooltip">Note</a>
-						<span class="tooltip-content"
-							>You can increase your storage by joining their forum, IRC
-							channel, etc. They also have readily-made guestbooks and
-							blog/gallery scripts.</span
-						>
-					</span>
-					<br />
-
-					<h3 id="webpage-builders">
-						Webpage Builders <a href="#">back to top</a>
-					</h3>
-
-					<a
-						href="https://jekyllrb.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-						>Jekyll</a
-					>
-					- Blog-aware Static Site Generator
-					<br />
-
-					<a
-						href="https://docusaurus.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Docusaurus</a
-					>
-					- Static Markdown Site Generator
-					<br />
-
-					<a
-						href="https://www.11ty.dev/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Eleventy</a
-					>
-					- Static Site Generator
-					<br />
-
-					<a
-						href="https://old.net.eu.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						HamsterCMS</a
-					>
-					- Content Managment System
-					<br />
-
-					<a href="https://carrd.co/" target="_blank" rel="noopener noreferrer">
-						Carrd</a
-					>
-					- Webpage Builder
-					<br />
-
-					<a
-						href="https://straw.page/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Straw.Page</a
-					>
-					- Webpage Builder
-					<br />
-
-					<a href="https://mmm.page/" target="_blank" rel="noopener noreferrer">
-						mmm.page</a
-					>
-					- Drag & Drop Webpage Builder
-					<br />
-
-					<a
-						href="https://zonelets.net/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Zonelets</a
-					>
-					- Blogging Engine
-					<br />
-
-					<!-- ? Webrings ------------------------------------>
-
-					<h3 id="webrings">Webrings <a href="#">back to top</a></h3>
-
-					<a
-						href="https://brisray.com/web/webring-list.htm"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						A Webring List</a
-					>
-					- List of active/inactive webrings
-					<br />
-
-					<a
-						href="https://petrapixel.neocities.org/indiewebdb/webrings"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Webrings</a
-					>
-					- Webring database by petrapixel
-					<br />
-
-					<a
-						href="https://allium.house/garden/onionring/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Onionring
-					</a>
-					- The most popular webring solution
-					<br />
-
-					<a href="https://webri.ng/" target="_blank" rel="noopener noreferrer">
-						webri.ng</a
-					>
-					- Webring hosting platform
-					<br />
-
-					<a
-						href="https://lambchapel.neocities.org/resources/webstring"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						June's webstring</a
-					>
-					- JavaScript webring script
-					<br />
-
-					<a
-						href="https://petrapixel.neocities.org/coding/webringu"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						webringu</a
-					>
-					- Customizable webring script
-					<br />
-
-					<a
-						href="https://dabric.xyz/script/linkcircle/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Linkcircle</a
-					>
-					- Beginner-friendly webring script
-					<br />
-
-					<a
-						href="https://github.com/k3rs3d/ringfairy"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Ringfairy</a
-					>
-					- Static webring generator
-					<br />
-
-					<a
-						href="https://baccyflap.com/res/webring/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						a php webring</a
-					>
-					- Webring code from rmf
-					<br />
-
-					<!-- ? HTML ----------------------------------->
-					<h3 id="html">HTML <a href="#">back to top</a></h3>
-					<a
-						href="https://github.com/diegocard/awesome-html5"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Awesome HTML5</a
-					>
-					- List of HTML resources
-					<br />
-
-					<a
-						href="https://validator.w3.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						W3C Markup Validation Service</a
-					>
-					- HTML validator
-					<br />
-
-					<a
-						href="https://sadgrlonline.github.io/html-cheatsheet/ "
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						HTML Cheatsheet</a
-					>
-					<br />
-
-					<a
-						href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						MDN Web Docs HTML</a
-					>
-					- HTML learning
-					<br />
-
-					<a
-						href="https://www.w3schools.com/html/default.asp"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						W3schools HTML</a
-					>
-					- HTML learning
-					<br />
-
-					<a
-						href="https://htmlforpeople.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						HTML for People</a
-					>
-					- Pretty great tutorial for people new to HTML!
-					<br />
-
-					<a
-						href="https://markdowntohtml.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Markdown to HTML Converter</a
-					>
-					<br />
-
-					<a
-						href="https://wordhtml.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						WordHTML</a
-					>
-					- Convert text to HTML
-					<br />
-
-					<!-- ? CSS ----------------------------------->
-
-					<h3 id="css">CSS <a href="#">back to top</a></h3>
-					<a
-						href="https://jigsaw.w3.org/css-validator/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						W3C CSS Validation Service</a
-					>
-					- CSS validator
-					<br />
-
-					<a
-						href="https://docs.emmet.io/cheat-sheet/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						CSS Cheat Sheet</a
-					>
-					<br />
-
-					<a
-						href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						MDN Web Docs CSS</a
-					>
-					- CSS learning.
-					<br />
-
-					<a
-						href="https://www.w3schools.com/css/default.asp"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						W3Schools CSS</a
-					>
-					- CSS learning
-					<br />
-
-					<a
-						href="https://cssreference.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						CSS Reference</a
-					>
-					- Visual guide to CSS
-					<br />
-
-					<a
-						href="https://www.30secondsofcode.org/css/p/1/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						30 seconds of code CSS</a
-					>
-					- CSS snippets
-					<br />
-
-					<a
-						href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						CSS Flexbox Layout Guide</a
-					>
-
-					<br />
-					<a
-						href="https://css-tricks.com/complete-guide-css-grid-layout/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						CSS Grid Guide</a
-					>
-					<br />
-					<a
-						href="https://baccyflap.com/res/gifstop/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						play & pause gif animations</a
-					>
-					- Guide on how to make GIFs play/pause on click
-					<br />
-
-					<a
-						href="https://alvarotrigo.com/shadow-gradients/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						CSS Shadow Gradients</a
-					>
-					- CSS shadow gradient generator
-					<br />
-
-					<a
-						href="https://layout.bradwoods.io/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						CSS Layout Generator</a
-					>
-
-					<br />
-
-					<a
-						href="https://ianlunn.github.io/Hover/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Hover.css</a
-					>
-					- CSS hover effects
-					<br />
-
-					<a
-						href="https://github.com/jdan/98.css"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						98.css</a
-					>
-					- Windows 98 CSS Framework
-					<br />
-
-					<a
-						href="https://github.com/khang-nd/7.css"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						7.css</a
-					>
-					- Windows 7 CSS Framework
-					<br />
-
-					<a
-						href="https://sakofchit.github.io/system.css/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						system.css</a
-					>
-					- System OS CSS Framework
-					<br />
-
-					<a
-						href="https://nostalgic-css.github.io/NES.css/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						NES.css</a
-					>
-					- NES-style CSS Framework
-					<br />
-
-					<a
-						href="https://micah5.github.io/PSone.css/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						PSone.css</a
-					>
-					- Playstation 1 CSS Framework
-					<br />
-
-					<a
-						href="https://github.com/vladocar/Basic.css"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Basic.css</a
-					>
-					- CSS Framework
-					<br />
-
-					<!-- ? Fonts ----------------------------------->
-
-					<h3 id="fonts">Fonts <a href="#">back to top</a></h3>
-
-					<a
-						href="https://cse.google.com/cse?cx=82154ebab193e493d"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Fonts CSE</a
-					>
-					- Multi-site font search by FMHY
-					<br />
-
-					<a
-						href="https://int10h.org/oldschool-pc-fonts/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Oldschool PC Fonts</a
-					>
-					- Huge collection of oldschool fonts
-					<br />
-
-					<a
-						href="https://www.dafont.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						DaFont</a
-					>
-					- Free fonts
-					<br />
-
-					<a
-						href="https://fontsource.org"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						FontSource</a
-					>
-					- Open source fonts
-					<br />
-
-					<a
-						href="https://www.nerdfonts.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Nerd Fonts</a
-					>
-					- Developer fonts with tons of icons /
-					<a
-						href="https://github.com/ryanoasis/nerd-fonts/blob/master/install.sh"
-						target="_blank"
-						rel="noopener noreferrer"
-						>Install</a
-					>
-					(Linux/macOS only)
-					<br />
-
-					<a
-						href="https://github.com/subframe7536/Maple-font"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Maple Mono</a
-					>
-					- Open source monospace font
-					<br />
-
-					<!-- ? Graphics ----------------------------------->
-
-					<h3 id="graphics">Graphics <a href="#">back to top</a></h3>
-					<a
-						href="https://www.favicon.cc/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						favicon.cc</a
-					>
-					- Favicon generator
-					<br />
-
-					<a
-						href="https://blinkies.cafe/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						blinkies.cafe</a
-					>
-					- Blinkie maker
-					<br />
-
-					<a
-						href="https://stamp-studio.wasmer.app/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Stamp Studio</a
-					>
-					- Stamp Maker
-					<br />
-
-					<a
-						href="https://meoqin.neocities.org/shinybuttons"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						IMVU Button Generator</a
-					>
-					<br />
-
-					<a
-						href="http://acme.com/labelmaker/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						ACME Label Maker</a
-					>
-					<br />
-
-					<a
-						href="https://makesweet.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						MakeSweet</a
-					>
-					- GIF maker
-					<br />
-
-					<a
-						href="https://gifcities.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Gifcities</a
-					>
-					- Geocities GIF search by Internet Archive
-					<br />
-
-					<a
-						href="https://www.gifs-paradise.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						GIFs Paradise</a
-					>
-					- Large collection of GIFs
-					<br />
-
-					<a
-						href="https://www.internetbumperstickers.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Internet Bumper Stickers</a
-					>
-					<br />
-
-					<a
-						href="https://web.badges.world/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Web Badges World</a
-					>
-					- Huge collection of web badges.
-					<br />
-
-					<a
-						href="https://textures.neocities.org/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Texture Town</a
-					>
-					<br />
-
-					<a
-						href="https://paulsmith.github.io/classic-mac-patterns/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Classic Mac Patterns</a
-					>
-					- 8x8 Pixel Backgrounds
-					<br />
-
-					<a
-						href="https://www.toptal.com/designers/subtlepatterns/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Subtle Patterns</a
-					>
-					- Backgrounds
-					<br />
-
-					<a
-						href="https://www.transparenttextures.com/"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						Transparent Textures</a
-					>
-					- Backgrounds
-					<br />
-
-					<a
-						href="https://cyber.dabamos.de/88x31/index.html"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						The 88x31 GIF Collection</a
-					>
-					/ <b>Flash Warning</b>
-					<br />
-					<!-- ! Top -->
-					<br />
-					<br />
-					<a href="#">Back To Top</a>
-				</div>
+				<a href="https://goldenrecord.org/" target="_blank" rel="noopener noreferrer">
+					Voyager Golden Record</a>
+				- Everything that was put on the Voyager Golden Record launched by
+				NASA in 1977.
+				<br>
+
+				<a href="https://www.webdesignmuseum.org/" target="_blank" rel="noopener noreferrer">
+					Web Design Museum</a>
+				- Old websites, apps, and software from 1990s to mid-00s
+				<br>
+
+				<a href="https://acmewidgets.neocities.org/#int" target="_blank" rel="noopener noreferrer">
+					Acme Widgets & Gadgets</a>
+				<br>
+
+				<a href="http://www.windows93.net/" target="_blank" rel="noopener noreferrer">
+					WINDOWS93</a>
+
+				<b>EPILEPSY & EYESTRAIN WARNING</b>
+				<br>
+
+				<a href="https://paveldogreat.github.io/WebGL-Fluid-Simulation/" target="_blank" rel="noopener noreferrer">WebGL
+					Fluid Simulation</a>
+				<br>
+
+				<a href="https://www.storybytes.com/index.html" target="_blank" rel="noopener noreferrer">
+					Story Bytes</a>
+				- Very short stories.
+				<br>
+
+				<a href="http://nekorin.neko.jp/" target="_blank" rel="noopener noreferrer">
+					Cat Stack</a>
+				- Over 1000 pictures of cats. / Website is in Japanese
+				<br>
+
+				<a href="http://macpaint.org/" target="_blank" rel="noopener noreferrer">
+					Macpaint</a>
+				- Gallery of artwork made using Macpaint.
+				<br>
+
+				<a href="https://www.404pagefound.com/" target="_blank" rel="noopener noreferrer">
+					404PageFound</a>
+				- Collection of active vintage websites.
+				<br>
+
+				<a href="https://jamesfriend.com.au/pce-js/" target="_blank" rel="noopener noreferrer">
+					PCE.js</a>
+				- An emulator running Mac OS System 7.
+				<br>
+
+				<a href="https://skins.webamp.org/" target="_blank" rel="noopener noreferrer">
+					Winamp Skin Museum</a>
+				<br>
+
+				<a href="https://archive.org/details/Atari_Dealer_Demo_1980_-" target="_blank" rel="noopener noreferrer">
+					Atari Dealer Demo</a>
+				- Demonstration program for the Atari 400 and 800
+				<br>
+
+				<a href="https://dollchan.net/bytebeat/" target="_blank" rel="noopener noreferrer">
+					Bytebeat Composer</a>
+				<br>
+
+				<a href="https://onlinesequencer.net/" target="_blank" rel="noopener noreferrer">
+					Online Sequencer</a>
+				- Create music online
+				<br>
+
+				<a href="https://ascii.co.uk/art" target="_blank" rel="noopener noreferrer">
+					ASCII ART</a>
+
+				<br>
+
+				<a href="https://www.ascii-art-generator.org/" target="_blank" rel="noopener noreferrer">
+					Online Ascii Art Creator</a>
+
+				<br>
+
+				<a href="https://16colo.rs/" target="_blank" rel="noopener noreferrer">
+					16colo.rs</a>
+				- ASCII Art Archive
+				<br>
+
+				<!-- ! Web Development----------------------------------------------------->
+
+				<h2 id="webdev">Web Development <a href="#">back to top</a></h2>
+				<p>HTML & CSS Resources, Graphics, Website Hosting</p>
+
+				<a href="https://www.mf2fm.com/rv/" target="_blank" rel="noopener noreferrer">
+					RV's free Javascript/DHTML effects</a>
+				<br>
+
+				<a href="https://scripted.neocities.org/" target="_blank" rel="noopener noreferrer">
+					Scripted</a>
+				- Code snippets / Resources
+				<br>
+
+				<a href="https://baccyflap.com/res/robots/" target="_blank" rel="noopener noreferrer">
+					bot-proofing your website</a>
+				<br>
+
+				<a href="https://embedresponsively.com/" target="_blank" rel="noopener noreferrer">
+					Embed Responsively</a>
+				- Responsive embed generator
+				<br>
+
+				<a href="https://nanogallery2.nanostudio.org/builder.html" target="_blank" rel="noopener noreferrer">
+					visual builder</a>
+				- Nanogallery2 gallery builder <code>Web</code>
+				<br>
+
+				<a href="https://screenfly.org/" target="_blank" rel="noopener noreferrer">Screenfly</a>
+				- Test your website on different screen sizes <code>Web</code>
+				<br>
+
+				<a href="https://counter.fc2.com/en/index.html" target="_blank" rel="noopener noreferrer">
+					FC2 Counter</a>
+				- Page visit analytics
+				<br>
+
+				<a href="https://clap.fc2.com/en/" target="_blank" rel="noopener noreferrer">
+					FC2 Clap</a>
+				- Receive claps on your website
+				<br>
+
+				<!-- ? Static Webpage Hosts ----------------------------------->
+				<h3 id="static-webpage-hosts">
+					Static Webpage Hosts <a href="#">back to top</a>
+				</h3>
+				<a href="https://surge.sh/" target="_blank" rel="noopener noreferrer">
+					Surge</a>
+				- Unlimited storage / Unlimited bandwidth /
+				<span class="tooltip-container">
+					<a href="#" class="tooltip">Note</a>
+					<span class="tooltip-content">Like Neocities, the free tier doesn't include CORS support and
+						you won't be able to use many widgets that fetch from other
+						domains.</span>
+				</span>
+				<br>
+
+				<a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">
+					Cloudflare Pages</a>
+				- Unlimited storage (Max 25 MB per file) / Unlimited bandwidth
+				<br>
+
+				<a href="https://firebase.google.com/products/hosting" target="_blank" rel="noopener noreferrer">
+					Firebase</a>
+				- 10GB storage / 10GB bandwidth
+				<br>
+
+				<a href="https://docs.github.com/en/pages" target="_blank" rel="noopener noreferrer">
+					Github Pages</a>
+				- 1 GB storage(?) / 100GB bandwidth
+				<br>
+
+				<a href="https://pages.gay/" target="_blank" rel="noopener noreferrer">
+					pages.gay</a>
+				- Unknown storage / bandwidth
+				<br>
+
+				<a href="https://srht.site/" target="_blank" rel="noopener noreferrer">
+					sourcehut pages</a>
+				- 1GB storage / Unlimited bandwidth
+				<br>
+
+				<a href="https://neocities.org/" target="_blank" rel="noopener noreferrer">
+					Neocities</a>
+				- 1GB storage / 200GB bandwidth /
+				<span class="tooltip-container">
+					<a href="#" class="tooltip">Note</a>
+					<span class="tooltip-content">Neocities free accounts don't include hotlinking support, and you
+						also won't be able to use many widgets unless they're specified to
+						be compatible with free accounts.</span>
+				</span>
+				<br>
+
+				<a href="https://nekoweb.org/" target="_blank" rel="noopener noreferrer">
+					nekoweb</a>
+				- 500MB storage / Unlimited bandwith
+				<br>
+
+				<a href="https://web1.0hosting.net/" target="_blank" rel="noopener noreferrer">
+					Web 1.0 Hosting</a>
+				- 100MB storage / Unlimited bandwidth /
+				<span class="tooltip-container">
+					<a href="#" class="tooltip">Note</a>
+					<span class="tooltip-content">You can increase your storage by joining their forum, IRC
+						channel, etc. They also have readily-made guestbooks and
+						blog/gallery scripts.</span>
+				</span>
+				<br>
+
+				<h3 id="webpage-builders">
+					Webpage Builders <a href="#">back to top</a>
+				</h3>
+
+				<a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a>
+				- Blog-aware Static Site Generator
+				<br>
+
+				<a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer">
+					Docusaurus</a>
+				- Static Markdown Site Generator
+				<br>
+
+				<a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">
+					Eleventy</a>
+				- Static Site Generator
+				<br>
+
+				<a href="https://old.net.eu.org/" target="_blank" rel="noopener noreferrer">
+					HamsterCMS</a>
+				- Content Managment System
+				<br>
+
+				<a href="https://carrd.co/" target="_blank" rel="noopener noreferrer">
+					Carrd</a>
+				- Webpage Builder
+				<br>
+
+				<a href="https://straw.page/" target="_blank" rel="noopener noreferrer">
+					Straw.Page</a>
+				- Webpage Builder
+				<br>
+
+				<a href="https://mmm.page/" target="_blank" rel="noopener noreferrer">
+					mmm.page</a>
+				- Drag & Drop Webpage Builder
+				<br>
+
+				<a href="https://zonelets.net/" target="_blank" rel="noopener noreferrer">
+					Zonelets</a>
+				- Blogging Engine
+				<br>
+
+				<!-- ? Webrings ------------------------------------>
+
+				<h3 id="webrings">Webrings <a href="#">back to top</a></h3>
+
+				<a href="https://brisray.com/web/webring-list.htm" target="_blank" rel="noopener noreferrer">
+					A Webring List</a>
+				- List of active/inactive webrings
+				<br>
+
+				<a href="https://petrapixel.neocities.org/indiewebdb/webrings" target="_blank" rel="noopener noreferrer">
+					Webrings</a>
+				- Webring database by petrapixel
+				<br>
+
+				<a href="https://allium.house/garden/onionring/" target="_blank" rel="noopener noreferrer">
+					Onionring
+				</a>
+				- The most popular webring solution
+				<br>
+
+				<a href="https://webri.ng/" target="_blank" rel="noopener noreferrer">
+					webri.ng</a>
+				- Webring hosting platform
+				<br>
+
+				<a href="https://lambchapel.neocities.org/resources/webstring" target="_blank" rel="noopener noreferrer">
+					June's webstring</a>
+				- JavaScript webring script
+				<br>
+
+				<a href="https://petrapixel.neocities.org/coding/webringu" target="_blank" rel="noopener noreferrer">
+					webringu</a>
+				- Customizable webring script
+				<br>
+
+				<a href="https://dabric.xyz/script/linkcircle/" target="_blank" rel="noopener noreferrer">
+					Linkcircle</a>
+				- Beginner-friendly webring script
+				<br>
+
+				<a href="https://github.com/k3rs3d/ringfairy" target="_blank" rel="noopener noreferrer">
+					Ringfairy</a>
+				- Static webring generator
+				<br>
+
+				<a href="https://baccyflap.com/res/webring/" target="_blank" rel="noopener noreferrer">
+					a php webring</a>
+				- Webring code from rmf
+				<br>
+
+				<!-- ? HTML ----------------------------------->
+				<h3 id="html">HTML <a href="#">back to top</a></h3>
+				<a href="https://github.com/diegocard/awesome-html5" target="_blank" rel="noopener noreferrer">
+					Awesome HTML5</a>
+				- List of HTML resources
+				<br>
+
+				<a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">
+					W3C Markup Validation Service</a>
+				- HTML validator
+				<br>
+
+				<a href="https://sadgrlonline.github.io/html-cheatsheet/ " target="_blank" rel="noopener noreferrer">
+					HTML Cheatsheet</a>
+				<br>
+
+				<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+					MDN Web Docs HTML</a>
+				- HTML learning
+				<br>
+
+				<a href="https://www.w3schools.com/html/default.asp" target="_blank" rel="noopener noreferrer">
+					W3schools HTML</a>
+				- HTML learning
+				<br>
+
+				<a href="https://htmlforpeople.com/" target="_blank" rel="noopener noreferrer">
+					HTML for People</a>
+				- Pretty great tutorial for people new to HTML!
+				<br>
+
+				<a href="https://markdowntohtml.com/" target="_blank" rel="noopener noreferrer">
+					Markdown to HTML Converter</a>
+				<br>
+
+				<a href="https://wordhtml.com/" target="_blank" rel="noopener noreferrer">
+					WordHTML</a>
+				- Convert text to HTML
+				<br>
+
+				<!-- ? CSS ----------------------------------->
+
+				<h3 id="css">CSS <a href="#">back to top</a></h3>
+				<a href="https://jigsaw.w3.org/css-validator/" target="_blank" rel="noopener noreferrer">
+					W3C CSS Validation Service</a>
+				- CSS validator
+				<br>
+
+				<a href="https://docs.emmet.io/cheat-sheet/" target="_blank" rel="noopener noreferrer">
+					CSS Cheat Sheet</a>
+				<br>
+
+				<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
+					MDN Web Docs CSS</a>
+				- CSS learning.
+				<br>
+
+				<a href="https://www.w3schools.com/css/default.asp" target="_blank" rel="noopener noreferrer">
+					W3Schools CSS</a>
+				- CSS learning
+				<br>
+
+				<a href="https://cssreference.io/" target="_blank" rel="noopener noreferrer">
+					CSS Reference</a>
+				- Visual guide to CSS
+				<br>
+
+				<a href="https://www.30secondsofcode.org/css/p/1/" target="_blank" rel="noopener noreferrer">
+					30 seconds of code CSS</a>
+				- CSS snippets
+				<br>
+
+				<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" rel="noopener noreferrer">
+					CSS Flexbox Layout Guide</a>
+
+				<br>
+				<a href="https://css-tricks.com/complete-guide-css-grid-layout/" target="_blank" rel="noopener noreferrer">
+					CSS Grid Guide</a>
+				<br>
+				<a href="https://baccyflap.com/res/gifstop/" target="_blank" rel="noopener noreferrer">
+					play & pause gif animations</a>
+				- Guide on how to make GIFs play/pause on click
+				<br>
+
+				<a href="https://alvarotrigo.com/shadow-gradients/" target="_blank" rel="noopener noreferrer">
+					CSS Shadow Gradients</a>
+				- CSS shadow gradient generator
+				<br>
+
+				<a href="https://layout.bradwoods.io/" target="_blank" rel="noopener noreferrer">
+					CSS Layout Generator</a>
+
+				<br>
+
+				<a href="https://ianlunn.github.io/Hover/" target="_blank" rel="noopener noreferrer">
+					Hover.css</a>
+				- CSS hover effects
+				<br>
+
+				<a href="https://github.com/jdan/98.css" target="_blank" rel="noopener noreferrer">
+					98.css</a>
+				- Windows 98 CSS Framework
+				<br>
+
+				<a href="https://github.com/khang-nd/7.css" target="_blank" rel="noopener noreferrer">
+					7.css</a>
+				- Windows 7 CSS Framework
+				<br>
+
+				<a href="https://sakofchit.github.io/system.css/" target="_blank" rel="noopener noreferrer">
+					system.css</a>
+				- System OS CSS Framework
+				<br>
+
+				<a href="https://nostalgic-css.github.io/NES.css/" target="_blank" rel="noopener noreferrer">
+					NES.css</a>
+				- NES-style CSS Framework
+				<br>
+
+				<a href="https://micah5.github.io/PSone.css/" target="_blank" rel="noopener noreferrer">
+					PSone.css</a>
+				- Playstation 1 CSS Framework
+				<br>
+
+				<a href="https://github.com/vladocar/Basic.css" target="_blank" rel="noopener noreferrer">
+					Basic.css</a>
+				- CSS Framework
+				<br>
+
+				<!-- ? Fonts ----------------------------------->
+
+				<h3 id="fonts">Fonts <a href="#">back to top</a></h3>
+
+				<a href="https://cse.google.com/cse?cx=82154ebab193e493d" target="_blank" rel="noopener noreferrer">
+					Fonts CSE</a>
+				- Multi-site font search by FMHY
+				<br>
+
+				<a href="https://int10h.org/oldschool-pc-fonts/" target="_blank" rel="noopener noreferrer">
+					Oldschool PC Fonts</a>
+				- Huge collection of oldschool fonts
+				<br>
+
+				<a href="https://www.dafont.com/" target="_blank" rel="noopener noreferrer">
+					DaFont</a>
+				- Free fonts
+				<br>
+
+				<a href="https://fontsource.org" target="_blank" rel="noopener noreferrer">
+					FontSource</a>
+				- Open source fonts
+				<br>
+
+				<a href="https://www.nerdfonts.com/" target="_blank" rel="noopener noreferrer">
+					Nerd Fonts</a>
+				- Developer fonts with tons of icons /
+				<a href="https://github.com/ryanoasis/nerd-fonts/blob/master/install.sh" target="_blank"
+					rel="noopener noreferrer">Install</a>
+				(Linux/macOS only)
+				<br>
+
+				<a href="https://github.com/subframe7536/Maple-font" target="_blank" rel="noopener noreferrer">
+					Maple Mono</a>
+				- Open source monospace font
+				<br>
+
+				<!-- ? Graphics ----------------------------------->
+
+				<h3 id="graphics">Graphics <a href="#">back to top</a></h3>
+				<a href="https://www.favicon.cc/" target="_blank" rel="noopener noreferrer">
+					favicon.cc</a>
+				- Favicon generator
+				<br>
+
+				<a href="https://blinkies.cafe/" target="_blank" rel="noopener noreferrer">
+					blinkies.cafe</a>
+				- Blinkie maker
+				<br>
+
+				<a href="https://stamp-studio.wasmer.app/" target="_blank" rel="noopener noreferrer">
+					Stamp Studio</a>
+				- Stamp Maker
+				<br>
+
+				<a href="https://meoqin.neocities.org/shinybuttons" target="_blank" rel="noopener noreferrer">
+					IMVU Button Generator</a>
+				<br>
+
+				<a href="http://acme.com/labelmaker/" target="_blank" rel="noopener noreferrer">
+					ACME Label Maker</a>
+				<br>
+
+				<a href="https://makesweet.com/" target="_blank" rel="noopener noreferrer">
+					MakeSweet</a>
+				- GIF maker
+				<br>
+
+				<a href="https://gifcities.org/" target="_blank" rel="noopener noreferrer">
+					Gifcities</a>
+				- Geocities GIF search by Internet Archive
+				<br>
+
+				<a href="https://www.gifs-paradise.com/" target="_blank" rel="noopener noreferrer">
+					GIFs Paradise</a>
+				- Large collection of GIFs
+				<br>
+
+				<a href="https://www.internetbumperstickers.com/" target="_blank" rel="noopener noreferrer">
+					Internet Bumper Stickers</a>
+				<br>
+
+				<a href="https://web.badges.world/" target="_blank" rel="noopener noreferrer">
+					Web Badges World</a>
+				- Huge collection of web badges.
+				<br>
+
+				<a href="https://textures.neocities.org/" target="_blank" rel="noopener noreferrer">
+					Texture Town</a>
+				<br>
+
+				<a href="https://paulsmith.github.io/classic-mac-patterns/" target="_blank" rel="noopener noreferrer">
+					Classic Mac Patterns</a>
+				- 8x8 Pixel Backgrounds
+				<br>
+
+				<a href="https://www.toptal.com/designers/subtlepatterns/" target="_blank" rel="noopener noreferrer">
+					Subtle Patterns</a>
+				- Backgrounds
+				<br>
+
+				<a href="https://www.transparenttextures.com/" target="_blank" rel="noopener noreferrer">
+					Transparent Textures</a>
+				- Backgrounds
+				<br>
+
+				<a href="https://cyber.dabamos.de/88x31/index.html" target="_blank" rel="noopener noreferrer">
+					The 88x31 GIF Collection</a>
+				/ <b>Flash Warning</b>
+				<br>
+				<!-- ! Top -->
+				<br>
+				<br>
+				<a href="#">Back To Top</a>
 			</div>
-		</main>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/cash/8.1.0/cash.min.js"></script>
-		<script>
-			$(".tooltip").on("click", function (event) {
-				var tooltipContent = $(this).parent().children(".tooltip-content");
-				if (tooltipContent.css("display") === "none") {
-					// this gets the position of the link being clicked
-					var pos = $(this).position();
-					var left = pos.left;
-					var top = pos.top;
-					// this reveals the tooltip content and positions it
-					tooltipContent.css({
-						display: "inline-block",
-						top: top,
-						left: left,
-					});
-					event.preventDefault();
-				} else {
-					// this hides the tooltip when the link is clicked
-					tooltipContent.css("display", "none");
-					event.preventDefault();
-				}
-			});
-			// this hides the tooltip when the tooltip content is clicked
-			$("span.tooltip-content").on("click", function (event) {
-				$(this).css("display", "none");
-			});
-		</script>
-	</body>
+		</div>
+	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/cash/8.1.0/cash.min.js"></script>
+	<script>
+		$(".tooltip").on("click", function (event) {
+			var tooltipContent = $(this).parent().children(".tooltip-content");
+			if (tooltipContent.css("display") === "none") {
+				// this gets the position of the link being clicked
+				var pos = $(this).position();
+				var left = pos.left;
+				var top = pos.top;
+				// this reveals the tooltip content and positions it
+				tooltipContent.css({
+					display: "inline-block",
+					top: top,
+					left: left,
+				});
+				event.preventDefault();
+			} else {
+				// this hides the tooltip when the link is clicked
+				tooltipContent.css("display", "none");
+				event.preventDefault();
+			}
+		});
+		// this hides the tooltip when the tooltip content is clicked
+		$("span.tooltip-content").on("click", function (event) {
+			$(this).css("display", "none");
+		});
+	</script>
+</body>
+
 </html>
