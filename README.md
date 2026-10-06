@@ -1,6 +1,6 @@
 ## 7vtia
 
-Assets on https://7vtia.nekoweb.org
+Assets on https://7vtia.wedjat.city
 
 Mirrors
 
@@ -12,7 +12,7 @@ https://7vtia.w10.site
 
 - ~~Make about page appear by default without having to use js~~
 - ~~Replace some elements that only work on Nekoweb (such as the follow button)~~
-- Add uBlock filterlists to directory
+- ~~Add uBlock filterlists to directory~~ X
 - ~~Add sitemap~~
 - ~~Add atom feed~~
 - ~~Put shortform posts in dropdowns?~~
