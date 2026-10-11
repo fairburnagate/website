@@ -32,6 +32,11 @@
 
 /* Directory */
 
+::selection {
+	color: #fff;
+	background-color: rgb(122, 122, 122);
+}
+
 body {
 	line-height: 1.6em;
 	font-family: "Times New Roman", Times, serif;

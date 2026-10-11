@@ -290,6 +290,7 @@ nav {
 	padding-top: 0.5em;
 	padding-right: 3em;
 	line-height: 1.5em;
+	user-select: none;
 
 	label.tab:not(:last-of-type) {
 		margin-right: 1vw;
