@@ -265,6 +265,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 				<section id="home" class="home">
 					<div class="row-column">
 						<div class="about">
+
 							<h2>About Site</h2>
 							<button class="button" id="darkModeButton" style="display: none">
 								Dark Mode
@@ -359,6 +360,14 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								<div class="updates" aria-hidden="true">
 
 									<h4>
+										<time datetime="2026-10-12">12/10/2026</time>
+									</h4>
+									<ul>
+										<li>Testing new guestbook. Come say <label class="tab" for="guestbook"
+												style="text-decoration: dotted underline; cursor: pointer;">hi</label></li>
+									</ul>
+
+									<h4>
 										<time datetime="2026-10-04">04/10/2026</time>
 									</h4>
 									<ul>
@@ -439,7 +448,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										<li>
 											Updated directory (view changes
 											<a href="https://github.com/fairburnagate/website/commit/f4e87665f3ad8ec11600d5b3c4b1e038da58c2d9"
-												target="_blank" rel="noopener noreferrer">here</a>)
+												target="_blank" rel="noopener noreferrer">in this commit</a>)
 										</li>
 									</ul>
 
@@ -1252,7 +1261,8 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 									title="increment badge" width="88" height="31" frameborder="0"></iframe>
 
 								<a href="images/pascal.gif" target="_blank" rel="noopener noreferrer">
-									<img src="images/pascal.png" title="Scream if you love Pascal"></a>
+									<img src="images/pascal.png" title="Scream if you love Pascal"
+										alt="Pascal (Nier Automata) Button"></a>
 
 								<a href="https://wedjat.city" target="_blank" rel="noopener noreferrer">
 									<img src="images/wejdatbutton.png" alt="Hosted by wedjat.city"></a>
@@ -1407,7 +1417,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 										<img src="images/neighbours/custom/amoebabutton.png" title="amoeba" alt="amobea"></a>
 
 									<a href="https://lochi.nekoweb.org/" target="_blank">
-										<img src="images/neighbours/lochi.gif" title="lochi.jpeg" alt="lochi.jpeg"></a>
+										<img src="images/neighbours/lochi.gif" title="lochi.jpeg" alt="lochi"></a>
 
 									<a href="https://robgarage.online/" target="_blank">
 										<img src="images/neighbours/robgarage.gif" title="ROBGARAGE" alt="ROBGARAGE"></a>
@@ -1460,15 +1470,16 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 								</p>
 
 								<div class="buttons" id="me">
-									<img src="images/7vtia.png" title="7vtia.png" alt="">
-									<img src="images/7vtia2.png" title="7vtia2.png" alt="">
+									<img src="images/7vtia.png" title="7vtia.png" alt="7vtia button (Kim Kitsuragi)">
+									<img src="images/7vtia2.png" title="7vtia2.png" alt="7vtia button (John Jones)">
 								</div>
 								<details>
 									<summary>More</summary>
 									<div class="buttons" id="me">
 										<a href="https://enjitodoroki.com/" target="_blank" rel="noopener noreferrer">
 											<img src="images/daftpunk132.gif"
-												title="(daftpunk132.gif) This button was very kindly given to me by Olivier :-)"></a>
+												title="(daftpunk132.gif) This button was very kindly given to me by Olivier :-)"
+												alt="Daft Punk Button"></a>
 									</div>
 								</details>
 
@@ -1479,7 +1490,7 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 
 							<div class="photo" title="piclog">
 								<a href="http://piclog.wedjat.city/profile.php?id=3" target="_blank"><img
-										src="http://piclog.wedjat.city/latest.php?id=3"></a>
+										src="http://piclog.wedjat.city/latest.php?id=3" alt="Piclog"></a>
 							</div>
 						</div>
 					</div>
@@ -1615,15 +1626,6 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 					</div>
 				</section>
 
-				<!-- ! Interests ----------------------------------------------------->
-
-				<input class="tab" id="interests" type="radio" name="tabGroup">
-
-				<section id="interests">
-					<h2>Interests</h2>
-
-					<!-- ! Table End------------------------------------------------>
-				</section>
 				<!--!  Credits ----------------------------------------------------->
 				<input class="tab" id="credits" type="radio" name="tabGroup">
 				<section id="credits">
@@ -1653,10 +1655,18 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 
 						<p>
 							Guestbook:
-							<a href="https://atabook.org" target="_blank" rel="noopener noreferrer">
-								Atabook
-							</a>
+							<s><a href="https://atabook.org" target="_blank" rel="noopener noreferrer">
+									Atabook</a></s>
+
+							<a href="https://virtualobserver.moe/ayano/comment-widget" target="_blank"
+								rel="noopener noreferrer">Virtual Observer</a>
 						</p>
+						Guestbook Addons: <a href="https://jbc.lol/tutorials/ayano-pinning/" target="_blank"
+							rel="noopener noreferrer">Pinning</a>, <a href="https://jbc.lol/tutorials/ayano-autoreload/"
+							target="_blank" rel="noopener noreferrer">Auto Reload</a>, <a
+							href="https://jbc.lol/tutorials/ayano-markdown/" target="_blank" rel="noopener noreferrer">Markdown </a>
+						(JB), <a href="https://loveberry.nekoweb.org/resources/snippets/guide/admin/" target="_blank"
+							rel="noopener noreferrer">Admin Badge</a> (Loveberry)
 						<p>
 							Status:
 							<a href="https://status.cafe/" target="_blank" rel="noopener noreferrer">Status Cafe</a>
@@ -2185,9 +2195,19 @@ KWWKEKKKKKKWKKKKKKKEKKKKWWWKWWEttGGGGDGDWWEEEEEEEKitttGGGGDW#WKKEEEEEEEEEEEEEKEK
 				<!-- ! Guestbook ----------------------------------------------------->
 				<input class="tab" id="guestbook" type="radio" name="tabGroup">
 				<section id="guestbook">
-					<div class="guest">
+					<!-- <div class="guest">
 						<iframe src="https://agate.atabook.org"></iframe>
-					</div>
+					</div> -->
+					<h2>Guestbook</h2>
+					<p>Feel free to send a message! Markdown is supported.</p>
+					<p>Old messages can be found <a href="https://agate.atabook.org" target="_blank" rel="noopener noreferrer">in
+							my atabook.</a></p>
+					<img src="images/agate.png" alt="Iris agate">
+					<div id="c_widget"></div>
+					<script src="scripts/purify.min.js"></script>
+					<script src="scripts/showdown.min.js"></script>
+					<script src="comment-widget/comment-widget.js"></script>
+
 				</section>
 
 				<!-- ! Uses ----------------------------------------------------->
