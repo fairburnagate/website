@@ -29,9 +29,6 @@ body.dark-mode {
 	--external-links-default: var(--external-links-dark);
 	--background-default: var(--background-dark);
 	--text-default: var(--text-dark);
-	player {
-		display: none;
-	}
 }
 
 /* ! External */
@@ -307,7 +304,7 @@ nav {
 	label.tab {
 		font-size: 20px;
 		text-decoration: none;
-		color: var(--main-links);
+		color: var(--main-links-default);
 		cursor: pointer;
 	}
 
@@ -360,7 +357,7 @@ nav {
 
 	label.tab {
 		text-decoration: none;
-		color: var(--main-links);
+		color: var(--main-links-default);
 		cursor: pointer;
 	}
 	a {
