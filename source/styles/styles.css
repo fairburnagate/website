@@ -209,8 +209,6 @@ footer {
 	gap: 4px;
 	min-width: 180px;
 	max-width: 180px;
-	height: calc(39px * 7);
-	max-height: calc(100% - 42px);
 	overflow-y: scroll;
 	overflow-x: hidden;
 	margin-bottom: 10px;
@@ -218,6 +216,13 @@ footer {
 	img {
 		width: 88px;
 		height: 31px;
+	}
+	.neighbours {
+		height: calc(39px * 6);
+		max-height: calc(100% - 42px);
+		img {
+			margin-bottom: 4px;
+		}
 	}
 }
 #me {
@@ -241,7 +246,6 @@ footer {
 	margin-bottom: 0 !important;
 	padding: 0 !important;
 	column-count: 2;
-	max-height: 35px;
 }
 
 ::selection {
