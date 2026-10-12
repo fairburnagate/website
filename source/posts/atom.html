@@ -12,33 +12,40 @@
 				font-family: monospace;
 				font-size: 1.1em;
 			}
+
 			pre {
 				padding: 0 10px;
 				overflow-x: auto;
 				margin-bottom: 0;
 			}
+
 			ol {
 				font-size: 1.2em;
 				line-height: 1.5em;
 				width: 60ch;
 			}
+
 			.post {
 				width: 90vw;
 			}
+
 			.post img {
 				cursor: zoom-in;
 			}
+
 			@media screen and (max-width: 500px) {
 				.post img {
 					width: 90vw;
 				}
 			}
+
 			.grey {
 				color: rgb(85, 85, 85);
 				font-family: monospace;
 			}
 		</style>
 	</head>
+
 	<body>
 		<header>
 			<div class="button">
@@ -55,6 +62,9 @@
 				<p class="postdate">
 					Posted <time datetime="2026-09-06">September 6th, 2026</time>
 				</p>
+				<p class="postdate">
+					Revised <time datetime="2026-10-12">October 12th, 2026</time>
+				</p>
 
 				<h2>Index</h2>
 				<ol>
@@ -68,7 +78,7 @@
 				</ol>
 
 				<p>
-					Okay, we’re all done with RSS now (unless you haven’t read
+					Okay, we're all done with RSS now (unless you haven't read
 					<a href="rssfeed.html" target="_blank" rel="noopener noreferrer"
 						>my post</a
 					>
@@ -85,18 +95,35 @@
 					support relative links, and pubDates—or “updated” dates in this
 					case—are formatted differently.
 				</p>
+
 				<h2 id="okay-but-why-use-it">Okay, but why use it?</h2>
 				<p>
-					You don’t really have to. Atom vs. RSS is all a matter of personal
-					preference. I started out using RSS because it’s the first thing I saw
-					and also due to the lack of resources on how to make an Atom feed out
-					there.
+					At the end, it's a matter of personal choice, but I now think that you
+					should use Atom over RSS.
 				</p>
 				<p>
-					I personally like Atom more because it separates summaries and full
-					content, it can handle multiple languages, and it can handle relative
-					links as I’ve said before.
+					It's much much harder to make breaking changes with Atom, it includes
+					separate tags for summaries and full content, it can handle multiple
+					languages, and it can handle relative links as I've said before.
 				</p>
+
+				<p>
+					You can also include multiple
+					<a
+						href="https://en.wikipedia.org/wiki/RSS_enclosure"
+						target="_blank"
+						rel="noopener noreferrer"
+						>attachments</a
+					>
+					(called enclosures) to your Atom feed, compared to RSS' one attachment
+					limit.
+				</p>
+
+				<p>
+					The big issue is that Atom doesn't have nearly as much content about
+					it as RSS, which I hope to remedy a little bit with this post.
+				</p>
+
 				<h2 id="example-feed">Example Feed</h2>
 				<pre><code style="background-color: white; 	font-size: 1.2em;">
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
@@ -143,17 +170,17 @@
 					>
 				</p>
 				<p>
-					I’ve taken the liberty of greying out everything that you can remove
+					I've taken the liberty of greying out everything that you can remove
 					without getting your feed invalidated once again.
 				</p>
 				<p>
-					Okay, this seems a little difficult to navigate. Let’s explain
+					Okay, this seems a little difficult to navigate. Let's explain
 					everything bit by bit.
 				</p>
 				<p>
-					You’ll notice that at the way top, there’s this
+					You'll notice that at the way top, there's this
 					<code>xml:base</code> bit that links to your hypothetical website.
-					That’s what allows for you to use relative links inside of your feed.
+					That's what allows for you to use relative links inside of your feed.
 				</p>
 				<p>
 					If you're not going to use relative links, you can remove
@@ -162,14 +189,14 @@
 				<p>
 					If you look below, specifically at
 					<code>&lt;link rel="alternate" href="posts/yourpost.html"/&gt;</code>,
-					you’ll see said relative link. <br /><br />
+					you'll see said relative link. <br /><br />
 					In this example, the link will resolve to
 					<code>https://your-main-site.com/posts/yourpost.html</code>.
 				</p>
 				<p>
-					Something else you’ll notice are the <code>content</code> and
+					Something else you'll notice are the <code>content</code> and
 					<code>summary</code> tags I mentioned earlier. Both of them are
-					optional*, but if you don’t include a link to your post in your entry,
+					optional*, but if you don't include a link to your post in your entry,
 					you must add the content tag so people can still view your post.
 				</p>
 				<p style="font-size: 1em">
@@ -191,7 +218,7 @@
 						target="_blank"
 						rel="noopener noreferrer"
 						>entities</a
-					>.) This isn’t needed if you escape all of your HTML using
+					>.) This isn't needed if you escape all of your HTML using
 					<a
 						href="https://www.w3.org/TR/REC-xml/#dt-cdsection"
 						target="_blank"
@@ -200,8 +227,8 @@
 					>, like in the example.
 				</p>
 				<p>
-					I know what you’re thinking. “Saif, what the hell is that date format?
-					And what’s that thing in the id tags?” I’ll start with the dates
+					I know what you're thinking. “Saif, what the hell is that date format?
+					And what's that thing in the id tags?” I'll start with the dates
 					first.
 				</p>
 				<h2 id="dates">Dates</h2>
@@ -213,28 +240,75 @@
 						rel="noopener noreferrer"
 						>RFC 3339</a
 					>
-					format. I won’t bore you with the details. The first half is a regular
+					format. I won't bore you with the details. The first half is a regular
 					old date in the order of <code>yyyy-mm-dd</code>.
 				</p>
 				<p>
 					The second half is the time. It starts with <code>T</code> followed by
-					the 24-hour time including seconds, so if it’s 6PM it’d be something
+					the 24-hour time including seconds, so if it's 6PM it'd be something
 					like <code>T18:00:00</code>. At the end is your timezone which is
 					signified by the <code>Z</code>. The default timezone is UTC, but if
-					you’d like another timezone you can replace the <code>Z</code> with
+					you'd like another timezone you can replace the <code>Z</code> with
 					the offset (such as -05:00).
 				</p>
+
+				<p>
+					You can find your UTC offset in
+					<a
+						href="https://en.wikipedia.org/wiki/List_of_UTC_offsets"
+						target="_blank"
+						rel="noopener noreferrer"
+						>this wikipedia article.</a
+					>
+				</p>
+
 				<h2 id="ids">IDs</h2>
+
 				<p>
 					The <code>id</code> is a tag: URI, one of the many ways you can choose
-					an ID for your feed or entry. The example below is for entries
-					specifically, and is rephrased from
+					an ID for your feed or entry. But first, I'll show you another (and
+					much easier) way of making an ID: <code>urn:uuid:</code>.
+				</p>
+
+				<p>
+					With this way, you can simply generate a v4 UUID and paste it in after
+					the prefix. Here's what one looks like:
+				</p>
+
+				<p>
+					<code
+						>&lt;id>urn:uuid:baf31027-73fe-4346-a68b-e23da535e0b3&lt;/id&gt;</code
+					>
+				</p>
+
+				<p>
+					If you're comfortable using terminals, you can use
+					<code>uuid -v4</code> to generate a UUID, if not, you can use an
+					<a
+						href="https://www.uuidgenerator.net/version4"
+						target="_blank"
+						rel="noopener noreferrer"
+						>online generator*</a
+					>.
+				</p>
+				<p style="font-size: 1em">
+					*Use an adblocker! I sadly couldn't find one that is ad-free.
+				</p>
+
+				<p>
+					Unlike tag: URIs, this method can be used for both the feed and the
+					entries inside it.
+				</p>
+
+				<p>
+					Back to the tag: URI, the example below is for entries specifically,
+					and is rephrased from
 					<a
 						href="https://web.archive.org/web/20110915110202/http://diveintomark.org/archives/2004/05/28/howto-atom-id"
 						target="_blank"
 						rel="noopener noreferrer"
 						>this page</a
-					>. I’ll use this very post as my permalink URL.
+					>. I'll use this very post as my permalink URL.
 				</p>
 				<ol type="1">
 					<li>“Discard everything before the domain name.”</li>
@@ -248,20 +322,20 @@
 					<li>
 						“Immediately after the domain name, insert a comma, then the
 						year-month-day that the article was published, then a colon. Be sure
-						to use a four-digit year, two-digit month, and two-digit day. Don’t
+						to use a four-digit year, two-digit month, and two-digit day. Don't
 						forget the colon.”
 					</li>
 				</ol>
 				<p><code>7vtia.nekoweb.org**,2026-06-09:**/posts/atom.html</code></p>
 				<ol start="4" type="1">
 					<li>
-						“Add <code>tag:</code> at the beginning. (Don’t add slashes; it’s
-						just “tag:“. That’s a common mistake.)”
+						“Add <code>tag:</code> at the beginning. (Don't add slashes; it's
+						just “tag:“. That's a common mistake.)”
 					</li>
 				</ol>
 				<p><code>tag:7vtia.nekoweb.org,2026-06-09:/posts/atom.html</code></p>
 				<p>
-					The article also talks about the reason why you shouldn’t use your
+					The article also talks about the reason why you shouldn't use your
 					permalink as your ID.
 				</p>
 				<p>
@@ -269,6 +343,7 @@
 					(approximate) date I started “owning” it, and added
 					<code>tag:</code> at the beginning.
 				</p>
+
 				<h2 id="feed-readers">Feed Readers</h2>
 				<p>
 					The process for adding an Atom feed to your feed reader is the exact
@@ -292,7 +367,7 @@
 							href="https://validator.w3.org/feed/docs/atom.html"
 							target="_blank"
 							rel="noopener noreferrer"
-							>W3C’s Introduction to Atom</a
+							>W3C's Introduction to Atom</a
 						>
 					</li>
 					<li>
@@ -301,6 +376,31 @@
 							target="_blank"
 							rel="noopener noreferrer"
 							>The Atom Syndication Format</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://nullprogram.com/blog/2013/09/23/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Atom vs. RSS</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://intertwingly.net/wiki/pie/Rss20AndAtom10Compared"
+							target="_blank"
+							rel="noopener noreferrer"
+							>RSS And Atom Compared</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://web.archive.org/web/20230208005958/https://danielmiessler.com/blog/atom-rss-why-we-should-just-call-them-feeds-instead-of-rss-feeds/"
+							target="_blank"
+							rel="noopener noreferrer"
+							>Atom > RSS: Why We Should Just Call Them “Feeds” Instead of “RSS”
+							Feeds</a
 						>
 					</li>
 					<li>

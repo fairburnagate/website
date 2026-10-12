@@ -6,6 +6,13 @@
 	padding-left: 5vw;
 	line-height: 1.5em;
 }
+
+nav {
+	& a:first-of-type {
+		margin-right: 1vw !important;
+	}
+}
+
 .preview {
 	border-bottom: 1px dotted black;
 	padding-bottom: 15px;
