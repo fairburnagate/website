@@ -206,24 +206,20 @@ footer {
 	gap: 4px;
 	min-width: 180px;
 	max-width: 180px;
-	overflow-y: scroll;
-	overflow-x: hidden;
+
 	margin-bottom: 10px;
 	scrollbar-width: none;
 	img {
 		width: 88px;
 		height: 31px;
 	}
-	.neighbours {
-		height: calc(39px * 6);
-		max-height: calc(100% - 42px);
-		img {
-			margin-bottom: 4px;
-		}
-	}
 }
-#me {
-	max-height: 31px;
+
+.neighbours {
+	height: calc(39px * 6);
+	max-height: calc(100% - 42px);
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 .nobutton {
