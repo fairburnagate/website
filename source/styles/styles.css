@@ -437,7 +437,7 @@ input.tab {
 	}
 }
 
-#useslist {
+.useslist {
 	font-size: 1.2em;
 	line-height: 1.6em;
 	a {
@@ -452,7 +452,7 @@ input.tab {
 	}
 }
 
-#joined p {
+.joined p {
 	width: 90%;
 }
 
