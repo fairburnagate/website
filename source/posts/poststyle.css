@@ -5,12 +5,19 @@
 	padding-bottom: 1vw;
 	padding-left: 5vw;
 	line-height: 1.5em;
+	p {
+		width: 90vw;
+	}
 }
 
 nav {
 	& a:first-of-type {
 		margin-right: 1vw !important;
 	}
+}
+
+header .button {
+	padding-right: 1vw !important;
 }
 
 .preview {

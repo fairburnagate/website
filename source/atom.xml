@@ -5,7 +5,7 @@
 Atom feed for 7vtia
 </subtitle>
 	<id>tag:7vtia.nekoweb.org,2025-09-14:/atom.xml</id>
-	<updated>2026-10-12T16:22:30+03:00</updated>
+	<updated>2026-10-31T09:03:00+02:00</updated>
 	<author>
 		<name>Saif</name>
     <email>7vtia@tuta.io</email>
@@ -13,12 +13,270 @@ Atom feed for 7vtia
 	<link href="atom.xml" rel="self" type="application/atom+xml"/>
 
 
+<entry>
+		<id>urn:uuid:87910ecf-2634-4fb2-a13b-6c59a6e6ef9b</id>
+		<title>Various Recipes</title>
+		<updated>2026-10-31T09:03:00+02:00</updated>
+		<link rel="alternate" href="posts/post.html"/>
+		<summary>
+		They're mostly syrups, just so you know.
+</summary>
+<content type="html">
+<![CDATA[
+	<ol type="1">
+					<li>
+						<a href="#sweetened-condensed-milk">Sweetened Condensed Milk</a>
+					</li>
+					<li><a href="#brown-sugar">Brown Sugar</a></li>
+					<li><a href="#simple-syrup">Simple Syrup</a></li>
+					<li>
+						<a href="#brown-sugar-cinnamon-syrup">Brown Sugar Cinnamon Syrup</a>
+					</li>
+					<li><a href="#chocolate-syrup">Chocolate Syrup</a></li>
+					<li><a href="#pancakes">Pancakes</a></li>
+					<li><a href="#cold-brew">Cold Brew Coffee and Tea</a></li>
+				</ol>
+				<h3 id="sweetened-condensed-milk">Sweetened Condensed Milk</h3>
+				<h4 id="ingredients">Ingredients</h4>
+				<ul>
+					<li>1 cup powdered milk</li>
+					<li>2/3 cup sugar</li>
+					<li>2 tbsp melted butter</li>
+					<li>1/3 cup boiling water</li>
+				</ul>
+				<p>
+					Add all of the ingredients and mix until smooth, wait for it to cool
+					down completely and refrigerate. This should last about one week.
+				</p>
+				<p>
+					You can also make coffee creamer with this, but I haven't made a big
+					enough batch to test this yet.
+				</p>
+				<hr />
+				<h3 id="brown-sugar">Brown Sugar</h3>
+				<h4 id="ingredients-1">Ingredients</h4>
+				<ul>
+					<li>1 cup white sugar</li>
+					<li>1 tbsp molasses</li>
+				</ul>
+				<p>
+					In a bowl, add your sugar and molasses and then knead everything in
+					until you can see that there aren't any spots of white sugar left. (I
+					recommend wearing gloves for this.)
+				</p>
+				<p>
+					For every cup of white sugar, add an extra tablespoon of molasses. You
+					can add two tablespoons of molasses for each cup of sugar if you like
+					your brown sugar to be extra dark.
+				</p>
+				<p>
+					You can store this in any jar and leave it on the counter, and it'll
+					last as long as you'd like. If it dries out, you can leave an apple
+					slice or a marshmallow inside the jar for the sugar to regain
+					moisture.
+				</p>
+				<p>
+					If none of these options are available, you can use it to make simple
+					syrup as I've detailed below.
+				</p>
+				<hr />
+				<h3 id="simple-syrup">Simple Syrup</h3>
+				<h4 id="ingredients-2">Ingredients</h4>
+				<ul>
+					<li>1 cup sugar</li>
+					<li>1 cup boiling water</li>
+				</ul>
+				<p>
+					In a heat-proof container, all of your ingredients and mix until the
+					sugar is completely melted. The trick is to use equal amounts of sugar
+					and water, you can also a 2:1 ratio of sugar to water if you'd like.
+				</p>
+				<p>
+					If you'd like to make this into vanilla syrup, you can add a
+					tablespoon of vanilla extract and a pinch of salt to enhance the
+					flavour. You can also use brown sugar to make brown sugar syrup!
+				</p>
+				<p>
+					This should last in the fridge for 2 weeks (or even more!), but look
+					out for any bacterial growth just in case. Syrups made with the 2:1
+					ratio should last longer in the fridge due to there being more sugar.
+				</p>
+				<hr />
+				<h3 id="brown-sugar-cinnamon-syrup">Brown Sugar Cinnamon Syrup</h3>
+				<h4 id="ingredients-3">Ingredients</h4>
+				<ul>
+					<li>1 cup brown sugar</li>
+					<li>1 cup water</li>
+					<li>1.5 tsp cinnamon powder</li>
+					<li>1 tsp vanilla extract</li>
+					<li>a pinch of salt</li>
+				</ul>
+				<p>
+					In a pot, add your brown sugar, water, and cinnamon powder to a pot on
+					medium heat, and whisk continuously until everything comes to a boil.
+				</p>
+				<p>
+					Once the mixture begins to boil, turn down the heat, add your pinch of
+					salt, let everything simmer for 2 minutes, and then turn off the heat.
+				</p>
+				<p>
+					Once everything is cooled down, add your vanilla extract and you're
+					done! This should last 2 or more weeks in the fridge.
+				</p>
+				<hr />
+				<h3 id="chocolate-syrup">Chocolate Syrup</h3>
+				<h4 id="ingredients-4">Ingredients</h4>
+				<ul>
+					<li>1/2 cup brownsugar</li>
+					<li>1/2 cup water</li>
+					<li>1/4 cup cocoa powder</li>
+					<li>1/2 tsp vanilla extract</li>
+					<li>a pinch of salt</li>
+				</ul>
+				<p>
+					In a pot on medium-high heat, add all of your ingredients and whisk
+					continuously until everything comes to a boil.
+				</p>
+				<p>
+					Once the mixture begins to boil, turn down the heat and leave
+					everything to simmer for 2 minutes, (make sure to not let it boil
+					over!) take it off the heat, and let everything cool down.
+				</p>
+				<p>This should last 2 or more weeks in the fridge.</p>
+				<hr />
+				<h3 id="pancakes">Pancakes</h3>
+				<h4 id="ingredients-5">Ingredients</h4>
+				<ul>
+					<li>2 eggs</li>
+					<li>1 cup milk</li>
+					<li>2 tsp vanilla extract</li>
+					<li>4 tbsp ghee (or melted butter)</li>
+					<li>2 tbsp sugar</li>
+					<li>a pinch of salt</li>
+					<li>1 1/4 cup flour</li>
+					<li>1 1/2 tsp baking powder</li>
+				</ul>
+				<p>
+					<strong>Disclaimer:</strong> I like flat, chewy pancakes, so please be
+					aware of that before you try out this recipe.
+				</p>
+				<p>
+					In a large bowl, sift in your flour and baking powder, and then add
+					your sugar and a pinch of salt.
+				</p>
+				<p>
+					In a separate bowl, crack in two eggs, and lightly beat them. Then add
+					your milk and vanilla extract and mix until well-combined.
+				</p>
+				<p>
+					In a small pan, melt your butter and then add it onto your wet
+					ingredients. The extra butter left on the pan will be used for your
+					first pancake.
+				</p>
+				<p>
+					If you find your batter to be too thick, you can mix in one tablespoon
+					of milk at a time until it's the right consistency once again.
+				</p>
+				<p>
+					Pour your wet ingredients onto your dry ingredients. Whisk everything
+					until it's only <em>just</em> combined and your batter is done! Your
+					batter should be a bit lumpy while also not having any small pockets
+					of flour, which is why you should use a sifter.
+				</p>
+				<p>
+					Back to your small pan, put it on medium-low heat, and wait until the
+					pan is hot. You can see if your pan is hot by dipping a fork into the
+					batter and then seeing if the butter immediately starts sizzling once
+					you put it to the pan.
+				</p>
+				<p>
+					Pour your batter in. Once you see bubbles start to form and pop
+					everywhere on the top of your batter, you can flip the pancake.
+				</p>
+				<p>
+					Make sure to press down on all sides so your pancake is cooked fully
+					on the other side, and then transfer your pancake to a plate. Repeat
+					this until all of the batter is gone, while making sure to butter your
+					pan if you feel that it's gone dry (unless you have a non-stick pan.)
+				</p>
+				<p>
+					Don't worry about your first pancake looking weird, because that will
+					always happen.
+				</p>
+				<p>
+					Once you're done, you can put whatever you want on your pancakes. I
+					personally like to pour honey on my pancakes. Enjoy!
+				</p>
+				<hr />
+				<h3 id="cold-brew">Cold Brew</h3>
+				<p>
+					There isn't really one true recipe for making cold brew tea or coffee,
+					so think of these as… suggestions?
+				</p>
+				<h4 id="coffee">Coffee</h4>
+				<p>
+					For coffee, you need coarse water and coffee grounds. I really
+					recommend taking out a kitchen scale, because the method I use
+					requires you to weigh your coffee grounds in grams and then
+					multiplying your amount by 8, or in simpler terms, using a 1:8 ratio.
+				</p>
+				<p>
+					For example, if I have 100 grams of coffee grounds, I'll use 800
+					milliliters of water to make my cold brew. This makes cold brew
+					<strong>concentrate</strong>, which means you have to water it down
+					once you're ready to drink it.
+				</p>
+				<p>
+					However much you dilute it (and what you dilute it with) completely
+					depends on you. I usually do 3/4 cold brew and 1/4 milk for my drink.
+					See what tastes good for you and what doesn't. You can also leave it
+					undiluted…
+				</p>
+				<p>
+					To make cold brew coffee, simply mix your water and coffee grounds
+					thoroughly, and then leave it on the counter overnight in a dry place
+					that's away from the sun. Once it's done brewing, filter out the
+					coffee grounds and put your cold brew in the fridge to avoid bacterial
+					growth.
+				</p>
+				<p>
+					I recommend using a French press as it makes filtration a lot easier,
+					if you don't have one, you can use a jar or anything with a lid to
+					make your cold brew in.
+				</p>
+				<p>
+					You should try making your cold brew with limes if that's your thing.
+					I really love cold brew with limes. Or you can add some lime juice to
+					your cup.
+				</p>
+				<h4 id="tea">Tea</h4>
+				<p>
+					For tea, it's basically the same except you substitute the coffee
+					grounds for loose leaf tea or tea bags. For every tea bag (or 1
+					teaspoon of loose leaf tea) that you're going to use, add 250
+					milliliters of water. You can also use 2 tea bags (or 2 teaspoons) per
+					250 milliliters.
+				</p>
+				<p>
+					For black tea, I'd say the sweet spot is 8 hours or overnight. For
+					green tea, I leave it for 4. Like with coffee, brew it on the counter
+					while being very careful to avoid bacterial growth, and refrigerate
+					immediately after filtering your tea.
+				</p>
+				<p>
+					Thankfully, this doesn't make concentrate, so you don't have to worry
+					about diluting your drink. Try brewing your tea with fruits, also! I
+					find Earl Grey with orange slices to be really tasty.
+				</p>
+]]></content>
+	</entry>
+
  <entry>
 		<id>tag:7vtia.nekoweb.org,2026-09-29:/posts/oneyearposts.html</id>
 		<title>One Year of Posting</title>
 		<updated>2026-09-29T23:40:00+03:00</updated>
 		
-		<link rel="alternate" href="posts/post.html"/>
+		<link rel="alternate" href="posts/oneyearposts.html"/>
 		<summary>
 		I've been posting for a whole year. Isn't that nice?
 </summary>
