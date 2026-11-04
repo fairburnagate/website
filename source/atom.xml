@@ -17,7 +17,7 @@ Atom feed for 7vtia
 		<id>urn:uuid:87910ecf-2634-4fb2-a13b-6c59a6e6ef9b</id>
 		<title>Various Recipes</title>
 		<updated>2026-10-31T09:03:00+02:00</updated>
-		<link rel="alternate" href="posts/post.html"/>
+		<link rel="alternate" href="posts/2026.html#various-recipes"/>
 		<summary>
 		They're mostly syrups, just so you know.
 </summary>
@@ -276,7 +276,7 @@ Atom feed for 7vtia
 		<title>One Year of Posting</title>
 		<updated>2026-09-29T23:40:00+03:00</updated>
 		
-		<link rel="alternate" href="posts/oneyearposts.html"/>
+		<link rel="alternate" href="posts/2026.html#one-year-posting"/>
 		<summary>
 		I've been posting for a whole year. Isn't that nice?
 </summary>
@@ -318,7 +318,7 @@ Atom feed for 7vtia
    <id>tag:7vtia.nekoweb.org,2026-09-10:/posts/palettes.html</id>
    <title>Colour Palettes</title>
    <updated>2026-09-10T00:40:10+03:00</updated>
-   <link rel="alternate" href="posts/palettes.html"/>
+   <link rel="alternate" href="posts/2026.html#colour-palettes"/>
    <summary>My thoughts on a specific kind of colour palette.</summary>
    <content type="html">
    <![CDATA[
@@ -340,7 +340,7 @@ Atom feed for 7vtia
 					<a style="cursor: zoom-in" href="posts/img/palettes/grayscale.png">
 						<img
 							src="posts/img/palettes/grayscale.png"
-							width="80%"
+							width="60%"
 							alt="Screenshot of the 7vtia homepage with a greyscale filter on."
 					/></a>
 					<figcaption aria-hidden="true">
@@ -390,7 +390,7 @@ Atom feed for 7vtia
 		<id>tag:7vtia.nekoweb.org,2026-06-09:/posts/atom.html</id>
 		<title>Atom</title>
 		<updated>2026-10-12T16:22:30+03:00</updated>
-		<link rel="alternate" href="posts/atom.html"/>
+		<link rel="alternate" href="posts/2026.html#atom"/>
 		<summary>
 		In which I show you how to make a valid Atom feed.
 </summary>
@@ -760,7 +760,7 @@ Atom feed for 7vtia
 		<id>tag:7vtia.nekoweb.org,2026-09-02:/posts.html/convert</id>
 		<title>Please, Convert Your Files (properly)</title>
 		<updated>2026-09-02T22:43:00+03:00</updated>
-		<link rel="alternate" href="posts.html#convert"/>
+		<link rel="alternate" href="posts/2026.html#convert-your-files"/>
 		<summary>
 		A tragedy I've seen many times: Someone renames a .png file to a
 	.jpg file, and they think that their file was magically
@@ -792,7 +792,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-08-29:/posts/listography.html</id>
 		<title>Listography</title>
 		<updated>2026-08-29T02:57:00+03:00</updated>
-		<link rel="alternate" href="posts/listography.html"/>
+		<link rel="alternate" href="posts/2026.html#listography"/>
 		<summary>
 		Have you ever sighed wistfully to yourself and said, "Man, I sure wish I had a page that looked just like Listography"? Me neither.</summary>
 <content type="html">
@@ -805,7 +805,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-07-29:/posts/oneyear.html</id>
 		<title>One Year of 7vtia</title>
 		<updated>2026-07-29T06:11:10+03:00</updated>
-		<link rel="alternate" href="posts/oneyear.html"/>
+		<link rel="alternate" href="posts/2026.html#one-year-7vtia"/>
 		<summary>
 		Isn't that nice?
 </summary>
@@ -819,7 +819,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-05-31:/posts/rssfeed.html</id>
 		<title>RSS</title>
 		<updated>2026-05-31T18:05:40+03:00</updated>
-		<link rel="alternate" href="posts/rssfeed.html"/>
+		<link rel="alternate" href="posts/2026.html#rss-feed"/>
 		<summary>
 		 Do you like RSS feeds? Do you want to make one for your website? No? Too bad. 
 </summary>
@@ -1108,7 +1108,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-05-28:/posts.html/nothing</id>
 		<title>Nothing</title>
 		<updated>2026-05-28T18:46:40+03:00</updated>
-		<link rel="alternate" href="posts.html#nothing"/>
+		<link rel="alternate" href="posts/2026.html#nothing"/>
 		<summary>
 		Doing nothing with your free time. 
 </summary>
@@ -1123,7 +1123,7 @@ converted...</summary>
 		<title>This Page</title>
 		<updated>2026-05-26T12:05:15+03:00</updated>
 	
-		<link rel="alternate" href="posts/thispage.html"/>
+		<link rel="alternate" href="posts/2026.html#this-page"/>
 		<summary>
 		Or more specifically, the Posts page.
 </summary>
@@ -1137,7 +1137,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-03-17:/posts/tadm.html</id>
 		<title>Torrenting and Download Managers</title>
 		<updated>2026-03-17T01:59:52+03:00</updated>
-		<link rel="alternate" href="posts/tadm.html"/>
+		<link rel="alternate" href="posts/2026.html#torrenting-download"/>
 		<summary>
 		Mandated "Why you should use this thing I use" post.
 </summary>
@@ -1151,7 +1151,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-01-22:/posts/floppydisk.html</id>
 		<title>Pictures of Floppy Disks</title>
 		<updated>2026-01-22T18:02:36+02:00</updated>
-		<link rel="alternate" href="posts/floppydisk.html"/>
+		<link rel="alternate" href="posts/2026.html#floppydisks"/>
 		<summary>
 		Exactly as the title says.
 </summary>
@@ -1165,7 +1165,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-01-21:/posts/tilde.html</id>
 		<title>Tilde</title>
 		<updated>2026-01-21T17:18:41+02:00</updated>
-		<link rel="alternate" href="posts/tilde.html"/>
+		<link rel="alternate" href="posts/2026.html#tilde"/>
 		<summary>
 		I'm on tilde.club now!
 </summary>
@@ -1179,7 +1179,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2026-01-16:/posts/coldbrewtea.html</id>
 		<title>Cold Brew (Tea)</title>
 		<updated>2026-01-16T07:53:00+02:00</updated>
-		<link rel="alternate" href="posts/coldbrewtea.html"/>
+		<link rel="alternate" href="posts/2026.html#cold-brew-tea"/>
 		<summary>
 		Let's all love cold brew.
 </summary>
@@ -1193,7 +1193,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-12-05:/posts/windows11.html</id>
 		<title>Windows 11 Out of the Box</title>
 		<updated>2025-12-05T22:56:00+02:00</updated>
-		<link rel="alternate" href="posts/windows11.html"/>
+		<link rel="alternate" href="posts/2025.html#windows11-oobe"/>
 		<summary>
 		I tried out a fresh install of Windows 11 and hated it.
 </summary>
@@ -1207,7 +1207,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-12-05:/posts/mgs.html</id>
 		<title>Misogyny in Metal Gear Solid</title>
 		<updated>2025-12-05T00:41:51+02:00</updated>
-		<link rel="alternate" href="posts/mgs.html"/>
+		<link rel="alternate" href="posts/2025.html#misogyny-mgs"/>
 		<summary>
 		"When I got into Metal Gear Solid, I saw a very glaring issue, which was that the misogyny that hits you in the face in every game..."
 </summary>
@@ -1221,7 +1221,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-11-08:/posts/100questions.html</id>
 		<title>100 Webmaster Questions</title>
 		<updated>2025-11-08T09:57:16+02:00</updated>
-		<link rel="alternate" href="posts/100questions.html"/>
+		<link rel="alternate" href="posts/2025.html#100-webmaster-questions"/>
 		<summary>
 		I was bored, so I joined in on the fun.
 </summary>
@@ -1235,7 +1235,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-10-24:/posts/musictaste.html</id>
 		<title>MusicTaste</title>
 		<updated>2025-10-24T19:29:00+02:00</updated>
-		<link rel="alternate" href="posts/musictaste.html"/>
+		<link rel="alternate" href="posts/2025.html#musictaste"/>
 		<summary>
 		I made a MusicTaste account and have been on a contributing spree.
 </summary>
@@ -1249,7 +1249,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-10-14:/posts/english.html</id>
 		<title>English</title>
 		<updated>2025-10-14T16:48:00+03:00</updated>
-		<link rel="alternate" href="posts/english.html"/>
+		<link rel="alternate" href="posts/2025.html#english"/>
 		<summary>
 		A little incoherent
 </summary>
@@ -1263,7 +1263,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-10-11:/posts/homosexuality.html</id>
 		<title>Homosexuality, Religion, and Egypt</title>
 		<updated>2025-10-11T15:17:00+02:00</updated>
-		<link rel="alternate" href="posts/homosexuality.html"/>
+		<link rel="alternate" href="posts/2025.html#homosexuality-religion-egypt"/>
 		<summary>
 		As you can tell, I am quite the patriot. Warning for homophobia and religious talk.
 </summary>
@@ -1277,7 +1277,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-10-05:/posts/journaling.html</id>
 		<title>Journaling and This Website</title>
 		<updated>2025-10-05T19:38:00+02:00</updated>
-		<link rel="alternate" href="posts/journaling.html"/>
+		<link rel="alternate" href="posts/2025.html#journaling"/>
 		<summary>
 		This one is quite personal. Warning: I talk about my experiences with paranoia here.
 </summary>
@@ -1291,7 +1291,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-10-04:/posts/ai.html</id>
 		<title>AI</title>
 		<updated>2025-10-04T16:11:00+02:00</updated>
-		<link rel="alternate" href="posts/ai.html"/>
+		<link rel="alternate" href="posts/2025.html#ai"/>
 		<summary>
 		About time I posted an AI rant! I really do hate it.
 </summary>
@@ -1305,7 +1305,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-10-01:/posts/autoplay.html</id>
 		<title>Autoplay</title>
 		<updated>2025-10-01T14:07:00+02:00</updated>
-		<link rel="alternate" href="posts/autoplay.html"/>
+		<link rel="alternate" href="posts/2025.html#autoplay"/>
 		<summary>
 		Media autoplay (and why I hate it with my entire being.) Happy October!
 </summary>
@@ -1319,7 +1319,7 @@ converted...</summary>
 		<id>tag:7vtia.nekoweb.org,2025-09-29:/posts/first_post.html</id>
 		<title>First Post</title>
 		<updated>2025-09-29T20:35:00+02:00</updated>
-		<link rel="alternate" href="posts/first_post.html"/>
+		<link rel="alternate" href="posts/2025.html#first-post"/>
 		<summary>
 		Exactly what it says. I also talk about soulseek.
 </summary>
