@@ -7,6 +7,12 @@
 		<link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
 		<link rel="stylesheet" href="../styles/poststyle.css" />
 		<link rel="stylesheet" href="../styles/styles.css" />
+		<link
+			href="../styles/style-my-tooltips.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 	</head>
 	<style>
 		.gallery {
@@ -16,12 +22,10 @@
 			margin-bottom: 1rem;
 			overflow-y: scroll;
 			gap: 1rem;
-			width: 70vw;
 			min-height: 240px;
 		}
 		.gallery img {
 			max-height: 240px;
-			cursor: zoom-in;
 		}
 		figure {
 			margin: 0;
@@ -389,25 +393,25 @@
 							</summary>
 
 							<p>
-								If you look at my website, you`ll see that most of it is just
-								black text on a white background, with some grey links. It`s
-								nice, but in my opinion it`s not what makes the site
+								If you look at my website, you'll see that most of it is just
+								black text on a white background, with some grey links. It's
+								nice, but in my opinion it's not what makes the site
 								<em>great</em>.
 							</p>
 							<p>
 								What makes it great is the pops of colour. I have a greyscale
 								class in my CSS that adds a greyscale filter to the element as
-								you might`ve guessed.
+								you might've guessed.
 							</p>
 							<p>
-								But, I don`t put that on my entire website. Why? You can see for
+								But, I don't put that on my entire website. Why? You can see for
 								yourself.
 							</p>
 							<figure>
 								<a style="cursor: zoom-in" href="img/palettes/grayscale.png">
 									<img
 										src="img/palettes/grayscale.png"
-										width="60%"
+										width="80%"
 										alt="Screenshot of the 7vtia homepage with a greyscale filter on."
 								/></a>
 								<figcaption aria-hidden="true">
@@ -422,31 +426,31 @@
 							</p>
 							<p>
 								First of all, I have a rule for my website that if I add someone
-								else`s button, I`m not going to slap some filter on that sucks
+								else's button, I'm not going to slap some filter on that sucks
 								all the colour out. I want the original colours that the creator
 								chose for their button.
 							</p>
 							<p>
-								Sure, the filter disappears on hover, but why? My life isn`t in
+								Sure, the filter disappears on hover, but why? My life isn't in
 								greyscale. I like when the sea of black and white is broken by
-								some vibrant colours. I`m not looking to make my website look
-								like a doctor`s office.
+								some vibrant colours. I'm not looking to make my website look
+								like a doctor's office.
 							</p>
 							<p>
-								The bigger issue to me is that I simply don`t enjoy it that much
+								The bigger issue to me is that I simply don't enjoy it that much
 								when everything must adhere to a specific colour palette. Before
-								you say “But Saif, you exclusively draw in blue…” That`s because
-								I`m too lazy to pick out a different colour, okay?
+								you say “But Saif, you exclusively draw in blue…” That's because
+								I'm too lazy to pick out a different colour, okay?
 							</p>
 							<p>
-								Don`t get me wrong, some people execute the whole limited colour
-								palette thing extremely well. Other times, I`m begging to see
+								Don't get me wrong, some people execute the whole limited colour
+								palette thing extremely well. Other times, I'm begging to see
 								something other than pink, or green, or whatever filter is on.
 							</p>
 							<p>
 								At the end of the day, you can choose whatever colour palette
 								you want. Yellow text on a purple background, a website entirely
-								made of rainbow gradients, who the hell cares? It`s your
+								made of rainbow gradients, who the hell cares? It's your
 								website. In my case, I find pops of colour much more enjoyable
 								than your average fully-monochrome palette.
 							</p>
@@ -1722,5 +1726,13 @@
 				</div>
 			</section>
 		</main>
+		<script src="../scripts/jquery.style-my-tooltips.js"></script>
+		<script>
+			(function ($) {
+				$(document).ready(function () {
+					$("[title]").style_my_tooltips();
+				});
+			})(jQuery);
+		</script>
 	</body>
 </html>

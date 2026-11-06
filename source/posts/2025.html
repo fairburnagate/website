@@ -7,12 +7,19 @@
 		<link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
 		<link rel="stylesheet" href="../styles/poststyle.css" />
 		<link rel="stylesheet" href="../styles/styles.css" />
+			<link
+			href="../styles/style-my-tooltips.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	</head>
 		<style>
 			dd {
 				margin-bottom: 20px;
 			}
 			dl {
-				width: 60ch;
+				max-width: 60ch;
 				margin-bottom: 5px;
 			}
 		</style>
@@ -1205,5 +1212,13 @@
 				</div>
 			</section>
 		</main>
+			<script src="../scripts/jquery.style-my-tooltips.js"></script>
+		<script>
+			(function ($) {
+				$(document).ready(function () {
+					$("[title]").style_my_tooltips();
+				});
+			})(jQuery);
+		</script>
 	</body>
 </html>

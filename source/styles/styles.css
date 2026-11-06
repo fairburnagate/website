@@ -78,9 +78,9 @@ html,
 body {
 	scrollbar-width: thin;
 	font-family: "Times New Roman", Times, serif;
-
-	width: 100vw;
+	width: 98dvw;
 }
+
 body {
 	color: var(--text-default);
 	background-color: var(--background-default);
@@ -101,9 +101,16 @@ body {
 
 /* ! About */
 
-#about .row-column {
+.about .row-column {
 	padding-right: 0;
 	flex-wrap: wrap;
+}
+.about {
+	details {
+		margin-top: 20px;
+		width: 59ch;
+		margin-bottom: 20px;
+	}
 }
 .right-column {
 	display: flex;
@@ -134,11 +141,7 @@ body {
 	max-width: 180px;
 	object-fit: cover;
 }
-details {
-	margin-top: 20px;
-	width: 59ch;
-	margin-bottom: 20px;
-}
+
 .credits {
 	font-size: 1.1em;
 	a {
