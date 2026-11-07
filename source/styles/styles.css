@@ -153,6 +153,10 @@ body {
 	}
 }
 
+figure {
+	margin-left: 0;
+}
+
 .updates {
 	overflow-x: scroll;
 	overscroll-behavior: none;
