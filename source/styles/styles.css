@@ -89,10 +89,18 @@ body {
 /*! Filters*/
 .grayscale {
 	filter: grayscale(100%) contrast(1);
+	&:hover {
+		filter: none;
+		transition: 100ms ease-in;
+	}
 }
-.grayscale:hover {
-	filter: none;
-	transition: 100ms ease-in;
+
+.blur {
+	filter: blur(5px);
+	&:hover {
+		filter: none;
+		transition: 100ms ease-in;
+	}
 }
 
 .pixelate img {
@@ -422,7 +430,7 @@ input.tab {
 .fanlistingcontainer {
 	width: 300px;
 	display: flex;
-	justify-content: baseline;
+	justify-content: center;
 	flex-wrap: wrap;
 	gap: 5px;
 }

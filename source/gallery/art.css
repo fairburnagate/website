@@ -67,6 +67,14 @@ main {
 	cursor: zoom-in;
 }
 
+.blur {
+	filter: blur(5px);
+	&:hover {
+		filter: none;
+		transition: 100ms ease-in;
+	}
+}
+
 summary {
 	font-size: 1.2rem;
 	margin-bottom: 5px;
