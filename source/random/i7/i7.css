@@ -8,6 +8,11 @@
 	--terminal-text: #d6d6d6;
 }
 
+::selection {
+	color: #333;
+	background-color: whitesmoke;
+}
+
 body {
 	background-image: url("sky.jpg");
 	color: #333;
@@ -17,13 +22,18 @@ body {
 	margin: 0;
 }
 
+input.tab {
+	display: none;
+}
+
+input.tab:not(:checked) + div {
+	display: none;
+}
+
 .window1 {
 	grid-area: window1;
-	color: white;
-	font-family: "Courier New", Courier, monospace;
 }
 .window2 {
-	color: white;
 	pre {
 		font-size: 0.7em;
 	}
@@ -100,7 +110,7 @@ body {
 	flex-direction: row;
 	gap: 4px;
 	background-color: black;
-	color: white;
+	color: var(--terminal-text);
 	font-family: "Courier New", Courier, monospace;
 	width: 100dvw;
 	margin-bottom: 1em;
@@ -112,6 +122,15 @@ body {
 	span {
 		margin: 0;
 		font-size: 0.9em;
+	}
+	label {
+		cursor: pointer;
+		&:first-of-type {
+			padding-left: 0.5em;
+		}
+		&:has(input:checked) {
+			color: white;
+		}
 	}
 }
 

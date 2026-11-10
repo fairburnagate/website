@@ -9,55 +9,63 @@
 	</head>
 	<body>
 		<div class="bar">
-			<span>1 2 3 4</span>
+			<span
+				><label class="tab" for="workspace1">1 | </label>
+				<label class="tab" for="workspace2">2 | </label
+				><label class="tab" for="workspace2">3 | </label
+				><label class="tab" for="workspace2">4 </label></span
+			>
 			<span class="side"
 				>DHCP: no | VPN: no | E:down | BAT: 39% | Mon 09-11-2026 09:26:40</span
 			>
 		</div>
-		<div class="container">
-			<div class="window1">
-				<div class="window">
-					<span class="title"><p>~</p></span>
-					<div class="content">
-						<p>saif@7vtia in ~$ cat abour.txt</p>
-						<p>cat: abour.txt: No such file or directory</p>
-						<p>saif@7vtia in ~$ cat about.txt</p>
-						<p>
-							Welcome to i7wm. This is me trying to replicate the layout of the
-							i3 window manager in CSS. Or <i>a</i> layout in i3. Who knows?
-							This might be someone's configuration.
-						</p>
-						<p>
-							This is also my first time ever trying CSS grids. I hope to never
-							use them again.
-						</p>
-						<p>
-							Feel free to check out the source code
-							<a
-								href="https://github.com/fairburnagate/website/tree/master/source/random/i7"
-								target="_blank"
-								rel="noopener noreferrer"
-								>[link]</a
-							>
-							of this little page. It probably doesn't make sense. Sorry!
-						</p>
-						<p>
-							This looks fine on anything slightly wider than a phone. I mean,
-							i3 is for desktops, so... Haha..
-						</p>
-						<p>
-							saif@7vtia in ~$
-							<span class="blink">|</span>
-						</p>
+		<!-- ! Workspace 1 ----------------------------------------------------->
+		<input class="tab" id="workspace1" type="radio" name="tabGroup" checked />
+		<div>
+			<div class="container">
+				<div class="window1">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content">
+							<p>saif@7vtia in ~$ cat abour.txt</p>
+							<p>cat: abour.txt: No such file or directory</p>
+							<p>saif@7vtia in ~$ cat about.txt</p>
+							<p>
+								Welcome to i7wm. This is me trying to replicate the layout of
+								the i3 window manager in CSS. Or <i>a</i> layout in i3. Who
+								knows? This might be someone's configuration.
+							</p>
+							<p>
+								This is also my first time ever trying CSS grids. I hope to
+								never use them again.
+							</p>
+							<p>
+								Feel free to check out the source code
+								<a
+									href="https://github.com/fairburnagate/website/tree/master/source/random/i7"
+									target="_blank"
+									rel="noopener noreferrer"
+									>[link]</a
+								>
+								of this little page. It probably doesn't make sense. Sorry!
+							</p>
+							<p>
+								This looks fine on anything slightly wider than a phone. I mean,
+								i3 is for desktops, so... Haha..
+							</p>
+							<p>
+								saif@7vtia in ~$
+								<span class="blink">|</span>
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="window2">
-				<div class="window">
-					<span class="title"><p>~</p></span>
-					<div class="content">
-						<p>saif@7vtia in ~$ fastfetch</p>
-						<pre>
+				<div class="window2">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content">
+							<p>saif@7vtia in ~$ fastfetch</p>
+							<pre>
                                                      saif@7vtia
                                                      ------------- 
                                                      
@@ -78,20 +86,20 @@ XX   XXX        XX    XXXXXXXXX     X  XXX
         XXXXXXXX                               
                XXX                                              
                                 </pre
-						>
-						<p>
-							saif@7vtia in ~$
-							<span class="blink">|</span>
-						</p>
+							>
+							<p>
+								saif@7vtia in ~$
+								<span class="blink">|</span>
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="window3">
-				<div class="window">
-					<span class="title"><p>~</p></span>
-					<div class="content">
-						<p>saif@7vtia in ~$ fortune | cowsay</p>
-						<pre>
+				<div class="window3">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content">
+							<p>saif@7vtia in ~$ fortune | cowsay</p>
+							<pre>
  _________________________________________
 / O, it is excellent To have a giant's    \
 | strength; but it is tyrannous To use it |
@@ -105,39 +113,130 @@ XX   XXX        XX    XXXXXXXXX     X  XXX
             (__)\       )\/\
                 ||----w |
                 ||     ||</pre
-						>
-						<p>
-							saif@7vtia in ~$ I installed cowsay and fortune just for this
-							page.<span class="blink">|</span>
-						</p>
+							>
+							<p>
+								saif@7vtia in ~$ I installed cowsay and fortune just for this
+								page.<span class="blink">|</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="window4">
+					<div class="window">
+						<span class="title"><p>~/extra</p></span>
+						<div class="content">
+							<p>saif@7vtia in ~/extra$ cat navigation.txt</p>
+							<p>
+								<a href="../../index.html">- Home</a>
+							</p>
+							<p>
+								<a href="../../directory.html">- Directory</a>
+							</p>
+							<p>
+								<a
+									href="https://i3wm.org/"
+									target="_blank"
+									rel="noopener noreferrer"
+									>- i3's Homepage</a
+								>
+							</p>
+							<p>saif@7vtia in ~/extra$ Don't know what else to put here...</p>
+							<p>> ^C</p>
+							<p>
+								saif@7vtia in ~/extra$
+								<span class="blink">|</span>
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="window4">
-				<div class="window">
-					<span class="title"><p>~/extra</p></span>
-					<div class="content">
-						<p>saif@7vtia in ~/extra$ cat navigation.txt</p>
-						<p>
-							<a href="../../index.html">- Home</a>
-						</p>
-						<p>
-							<a href="../../directory.html">- Directory</a>
-						</p>
-						<p>
-							<a
-								href="https://i3wm.org/"
-								target="_blank"
-								rel="noopener noreferrer"
-								>- i3's Homepage</a
-							>
-						</p>
-						<p>saif@7vtia in ~/extra$ Don't know what else to put here...</p>
-						<p>> ^C</p>
-						<p>
-							saif@7vtia in ~/extra$
-							<span class="blink">|</span>
-						</p>
+		</div>
+		<!-- ! Workspace 2 ----------------------------------------------------->
+		<input class="tab" id="workspace2" type="radio" name="tabGroup" />
+		<div>
+			<div class="container">
+				<div class="window1">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content"></div>
+					</div>
+				</div>
+				<div class="window2">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content"></div>
+					</div>
+				</div>
+				<div class="window3">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content"></div>
+					</div>
+				</div>
+				<div class="window4">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ! Workspace 3 ----------------------------------------------------->
+		<input class="tab" id="workspace3" type="radio" name="tabGroup" />
+		<div>
+			<div class="container">
+				<div class="window1">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content"></div>
+					</div>
+				</div>
+				<div class="window2">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content"></div>
+					</div>
+				</div>
+				<div class="window3">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content"></div>
+					</div>
+				</div>
+				<div class="window4">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ! Workspace 4 ----------------------------------------------------->
+		<input class="tab" id="workspace4" type="radio" name="tabGroup" />
+		<div>
+			<div class="container">
+				<div class="window1">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content"></div>
+					</div>
+				</div>
+				<div class="window2">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content"></div>
+					</div>
+				</div>
+				<div class="window3">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content"></div>
+					</div>
+				</div>
+				<div class="window4">
+					<div class="window">
+						<span class="title"><p>~</p></span>
+						<div class="content"></div>
 					</div>
 				</div>
 			</div>
