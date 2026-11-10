@@ -42,6 +42,8 @@ body {
 	font-family: "Courier New", Courier, monospace;
 	width: 100%;
 	height: 100%;
+	overflow-x: scroll;
+	scroll-behavior: smooth;
 	&:hover {
 		span.title {
 			color: white;
@@ -54,6 +56,8 @@ body {
 		color: var(--terminal-text);
 	}
 	span.title {
+		position: sticky;
+		top: 0;
 		padding-top: 3px;
 		display: inline-block;
 		background-color: var(--window-border);
