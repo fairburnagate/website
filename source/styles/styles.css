@@ -145,6 +145,10 @@ body {
 	}
 }
 
+.right-box {
+	max-width: 300px;
+}
+
 .photo img {
 	max-width: 180px;
 	object-fit: cover;
@@ -484,11 +488,14 @@ input.tab {
 	gap: 7px;
 	flex-wrap: nowrap;
 	max-width: 300px;
+	&:first-of-type {
+		margin-right: 1em;
+	}
 }
 
 .listbox {
 	padding: 0.5em;
-	padding-right: 1.5em;
+	padding-right: 0em;
 	padding-left: 0;
 	line-height: 22px;
 	margin-right: 3%;
@@ -530,7 +537,8 @@ input.tab {
 @media screen and (max-width: 530px) {
 	.listboxcontainer {
 		flex-wrap: wrap;
-		width: 100%;
+		width: 75svw;
+		max-width: 75svw;
 	}
 	.row-column {
 		flex-direction: column;
@@ -538,8 +546,10 @@ input.tab {
 }
 
 @media screen and (max-width: 890px) {
-	.about {
-		width: 50%;
+	.home {
+		.about {
+			width: 50%;
+		}
 	}
 }
 
