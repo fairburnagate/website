@@ -5,13 +5,70 @@
 Atom feed for 7vtia
 </subtitle>
 	<id>tag:7vtia.nekoweb.org,2025-09-14:/atom.xml</id>
-	<updated>2026-10-31T09:03:00+02:00</updated>
+	<updated>2026-11-19T11:49:00+02:00</updated>
 	<author>
 		<name>Saif</name>
     <email>7vtia@tuta.io</email>
 	</author>
 	<link href="atom.xml" rel="self" type="application/atom+xml"/>
 
+
+<entry>
+		<id>urn:uuid:58c1f1bf-90cb-480d-b969-1d4fdb4d2085</id>
+		<title>Because...</title>
+		<updated>2026-11-19T11:49:00+02:00</updated>
+		<link rel="alternate" href="posts/2026.html#because"/>
+		<summary>
+		Why did I make a website? It's because...
+</summary>
+<content type="html">
+<![CDATA[
+<p>
+								Everyone has their own reason for making a website. I myself got
+								bored of having all of my information on several different
+								services, so I said: Why not try to pick coding back up and have
+								all of my things in the same place?
+							</p>
+							<p>
+								If you go on anyone's website in the Indie Web, they'll probably
+								also tell you why <em>they</em> made their website, and there's
+								all kinds of reasons. But there's one reason in particular I
+								want to talk about: social media.
+							</p>
+							<p>
+								9 times out of 10, I'll see someone list a reason that's along
+								the lines of "I made my website because I hate social media,"
+								which is a perfectly fine reason, if not for the fact everyone
+								I've seen that says this still uses a form of social media.
+							</p>
+							<p>
+								You despise it, sure, and yet you still use Discord, or
+								Mastodon, or one of the many other "niche" not-social-media
+								websites out there.Everyone does. It's really nothing to be
+								ashamed of.
+							</p>
+							<p>
+								I won't lie to you and say that places like Twitter, TikTok, and
+								Instagram aren't predatory—and that they don't encourage people
+								to tear each other apart just so they can see some numbers go
+								up—but I also won't lie to you and say that social media isn't a
+								great way to find and connect with other people.
+							</p>
+							<p>
+								That's why I don't enjoy no-nuance "social media bad"
+								manifestos. Why do you focus on all the negative parts of it,
+								when that's the same thing these big names <em>want</em> you to
+								do? To focus on only the bad parts of everything?
+							</p>
+							<p>
+								You don't need to have some enlightened reason to make a
+								website. Did you make your website because you wanted to learn
+								HTML one day? Great. Did you want to make a better-looking
+								website than someone else's? Sure; you can just say that! Nobody
+								is stopping you but yourself.
+							</p>
+]]></content>
+	</entry>
 
 <entry>
 		<id>urn:uuid:87910ecf-2634-4fb2-a13b-6c59a6e6ef9b</id>
